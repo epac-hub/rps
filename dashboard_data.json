@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29 18:14:17.115127",
+  "generatedAt": "2026-07-29 18:19:18.007110",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -215,7 +215,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-07-29 16:52:20",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 45,
+      "trips": 44,
       "stops": 219,
       "miles": 271.3,
       "speeding": 2,
@@ -257,7 +257,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-07-29 15:14:20",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 26,
+      "trips": 25,
       "stops": 152,
       "miles": 199.0,
       "speeding": 1,
@@ -266,60 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-07-24 14:14:06",
-      "arrival": "2026-07-24 14:14:51",
-      "duration_min": 0.8,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424655,
-      "origin_lng": -66.475378,
-      "destination_lat": 18.424438,
-      "destination_lng": -66.475476,
-      "miles": 0.03,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "route_points": [
-        [
-          18.424655,
-          -66.475378
-        ],
-        [
-          18.424438,
-          -66.475476
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-07-24 14:15:20",
-      "arrival": "2026-07-24 14:16:32",
-      "duration_min": 1.2,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.424708,
-      "origin_lng": -66.475411,
-      "destination_lat": 18.424425,
-      "destination_lng": -66.47552,
-      "miles": 0.04,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "route_points": [
-        [
-          18.424708,
-          -66.475411
-        ],
-        [
-          18.424425,
-          -66.47552
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
