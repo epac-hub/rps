@@ -336,6 +336,21 @@ main {{ padding: 18px; max-width: 1600px; margin: 0 auto; }}
 .ops-list li {{ background: white; border: 1px solid #e2edf1; border-left: 5px solid var(--teal); border-radius: 6px; padding: 9px 10px; font-size: 13px; }}
 .ops-list li.danger {{ border-left-color: var(--coral); }}
 .ops-list li.warnline {{ border-left-color: var(--yellow); }}
+.command-strip {{ display: grid; grid-template-columns: repeat(5, minmax(160px, 1fr)); gap: 12px; margin: 0 0 14px; }}
+.command-item {{ background: linear-gradient(135deg, #092433, #0d4c61); color: white; border-radius: 8px; padding: 13px 14px; border: 1px solid rgba(255,255,255,.16); box-shadow: 0 12px 30px rgba(4,35,48,.14); }}
+.command-item span {{ display: block; color: rgba(255,255,255,.72); font-size: 11px; text-transform: uppercase; font-weight: 900; margin-bottom: 5px; }}
+.command-item strong {{ display: block; font-size: 18px; line-height: 1.2; }}
+.command-item small {{ display: block; color: rgba(255,255,255,.72); margin-top: 4px; line-height: 1.25; }}
+.action-grid {{ display: grid; grid-template-columns: repeat(4, minmax(190px, 1fr)); gap: 12px; margin: 14px 0; }}
+.action-card {{ background: white; border: 1px solid var(--line); border-top: 5px solid var(--teal); border-radius: 8px; padding: 12px; box-shadow: 0 10px 28px rgba(4,35,48,.08); }}
+.action-card.high {{ border-top-color: var(--coral); }}
+.action-card.medium {{ border-top-color: var(--yellow); }}
+.action-card h3 {{ margin: 0 0 8px; font-size: 15px; }}
+.action-card p {{ margin: 0; color: var(--muted); line-height: 1.38; font-size: 13px; }}
+.route-quality {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }}
+.quality-box {{ border-radius: 8px; padding: 10px; background: #f4fbfb; border: 1px solid var(--line); }}
+.quality-box b {{ display: block; font-size: 22px; }}
+.quality-box span {{ color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; }}
 .toolbar {{ display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }}
 .toolbar h2 {{ margin: 0 auto 0 0; }}
 .toolbar button {{ border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; background: #12394f; color: white; cursor: pointer; font-weight: 800; }}
@@ -364,7 +379,7 @@ tr:hover td {{ background: #fff9e8; }}
 .vehicle-card {{ display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; background: white; cursor: pointer; }}
 .vehicle-card:hover {{ border-color: var(--teal); }}
 .small {{ color: var(--muted); font-size: 12px; }}
-@media (max-width: 1050px) {{ .metrics {{ grid-template-columns: repeat(2, 1fr); }} .layout, .charts, .ops-grid {{ grid-template-columns: 1fr; }} #map {{ height: 520px; }} }}
+@media (max-width: 1050px) {{ .metrics {{ grid-template-columns: repeat(2, 1fr); }} .layout, .charts, .ops-grid, .command-strip, .action-grid {{ grid-template-columns: 1fr; }} #map {{ height: 520px; }} }}
 @media (max-width: 620px) {{ .hero {{ padding: 22px; min-height: 82vh; }} .hero h1 {{ font-size: 38px; }} .metrics {{ grid-template-columns: 1fr; }} nav {{ align-items: stretch; }} .nav-brand {{ width: 100%; }} nav button, select, input {{ flex: 1; min-width: 120px; }} }}
 </style>
 </head>
@@ -407,6 +422,7 @@ tr:hover td {{ background: #fff9e8; }}
 </nav>
 <main id="dashboard">
   <section class="metrics" id="metrics"></section>
+  <section class="command-strip" id="commandStrip"></section>
   <div class="layout">
     <section class="panel">
       <div class="toolbar">
@@ -428,6 +444,11 @@ tr:hover td {{ background: #fff9e8; }}
     <div class="ops-card"><h3>Alertas ahora</h3><ul class="ops-list" id="alertList"></ul></div>
     <div class="ops-card"><h3>Rutas a revisar</h3><ul class="ops-list" id="routeList"></ul></div>
     <div class="ops-card"><h3>Zonas con mas paradas</h3><ul class="ops-list" id="hotspotList"></ul></div>
+  </section>
+  <section class="panel">
+    <h2>Plan de accion recomendado</h2>
+    <div class="action-grid" id="actionGrid"></div>
+    <div class="route-quality" id="routeQuality"></div>
   </section>
   <section class="charts">
     <div class="panel"><h2>Millas por vehículo</h2><canvas id="milesChart"></canvas></div>
@@ -549,6 +570,52 @@ function renderMetrics(r) {{
     ['Rutas ineficientes', inefficient, inefficient ? 'risk-high' : 'risk-low'], ['Sin señal >90m', stale, stale ? 'risk-high' : 'risk-low'],
     ['Riesgo operacional', riskClass === 'risk-high' ? 'Alto' : riskClass === 'risk-med' ? 'Medio' : 'Bajo', riskClass]
   ].map(m => `<div class="metric ${{m[2]}}"><span>${{m[0]}}</span><strong>${{m[1]}}</strong></div>`).join('');
+}}
+function latestVehicleTime(r) {{
+  const times = r.vehicles.map(v => new Date(String(v.time).replace(' ', 'T'))).filter(t => !Number.isNaN(t.getTime()));
+  return times.length ? new Date(Math.max(...times.map(t => t.getTime()))) : null;
+}}
+function routeQuality(r) {{
+  const efficient = r.trips.filter(t => t.efficiency === 'Eficiente').length;
+  const review = r.trips.filter(t => t.efficiency === 'Revisar').length;
+  const bad = r.trips.filter(t => t.efficiency === 'Ineficiente').length;
+  return {{ efficient, review, bad }};
+}}
+function topSummary(r, field) {{
+  return [...r.summary].sort((a,b) => Number(b[field] || 0) - Number(a[field] || 0))[0] || null;
+}}
+function renderCommandStrip(r) {{
+  const latest = latestVehicleTime(r);
+  const freshest = latest ? elapsedLabel(ageMinutes(latest.toISOString().replace('T', ' '))) : 'sin data';
+  const worstRoute = [...r.trips].filter(t => Number(t.efficiency_ratio || 0)).sort((a,b) => Number(b.efficiency_ratio || 0) - Number(a.efficiency_ratio || 0))[0];
+  const topStops = topSummary(r, 'stops');
+  const topSpeed = topSummary(r, 'speeding');
+  const quality = routeQuality(r);
+  document.getElementById('commandStrip').innerHTML = [
+    ['Ultima senal', latest ? latest.toLocaleString() : 'Sin data', `hace ${{freshest}}`],
+    ['Refresco', 'Cada 5 min', `generado ${{String(data.generatedAt).slice(0,16)}}`],
+    ['Ruta peor ratio', worstRoute ? `${{worstRoute.efficiency_ratio}}x` : 'N/A', worstRoute ? worstRoute.vehicle : 'Sin rutas'],
+    ['Mas paradas', topStops ? topStops.vehicle : 'N/A', topStops ? `${{topStops.stops}} paradas` : 'Sin paradas'],
+    ['Mas velocidad', topSpeed ? topSpeed.vehicle : 'N/A', topSpeed ? `${{topSpeed.speeding}} excesos` : 'Sin excesos']
+  ].map(item => `<div class="command-item"><span>${{item[0]}}</span><strong>${{item[1]}}</strong><small>${{item[2]}}</small></div>`).join('');
+  document.getElementById('routeQuality').innerHTML = [
+    ['Eficientes', quality.efficient, 'ok'],
+    ['Revisar', quality.review, 'warn'],
+    ['Ineficientes', quality.bad, 'bad']
+  ].map(item => `<div class="quality-box"><span>${{item[0]}}</span><b>${{item[1]}}</b>${{badge(item[0])}}</div>`).join('');
+}}
+function renderActionPlan(r) {{
+  const stoppedLong = r.vehicles.filter(v => Number(v.speed || 0) <= 2 && ageMinutes(v.time) > 45).sort((a,b) => ageMinutes(b.time) - ageMinutes(a.time))[0];
+  const worstRoute = [...r.trips].filter(t => t.efficiency === 'Ineficiente' || t.efficiency === 'Revisar').sort((a,b) => Number(b.efficiency_ratio || 0) - Number(a.efficiency_ratio || 0))[0];
+  const fastest = [...r.speeding].sort((a,b) => Number(b.speed || 0) - Number(a.speed || 0))[0];
+  const stale = r.vehicles.filter(v => ageMinutes(v.time) > 90).sort((a,b) => ageMinutes(b.time) - ageMinutes(a.time))[0];
+  const cards = [
+    stoppedLong ? ['high', 'Confirmar parada larga', `${{stoppedLong.vehicle}} lleva aprox. ${{elapsedLabel(ageMinutes(stoppedLong.time))}} detenido. Llamar al conductor o validar entrega/mantenimiento.`] : ['low', 'Paradas largas', 'No hay unidades detenidas por mas de 45 minutos con el filtro actual.'],
+    worstRoute ? ['medium', 'Optimizar ruta', `${{worstRoute.vehicle}} marco ratio ${{worstRoute.efficiency_ratio}}x. Comparar con Google Routes y revisar si hubo desvio, trafico o parada no planificada.`] : ['low', 'Eficiencia de rutas', 'No hay rutas marcadas como revisar/ineficiente en el filtro actual.'],
+    fastest ? ['high', 'Control de velocidad', `${{fastest.vehicle}} llego a ${{fastest.speed}} mph. Revisar conductor, tramo y recurrencia antes del proximo despacho.`] : ['low', 'Velocidad', 'No hay excesos de velocidad con el filtro actual.'],
+    stale ? ['medium', 'Verificar GPS', `${{stale.vehicle}} lleva ${{elapsedLabel(ageMinutes(stale.time))}} sin reporte reciente. Validar señal, energia del equipo o cobertura.`] : ['low', 'Senal GPS', 'Todas las unidades filtradas reportan dentro de la ventana esperada.']
+  ];
+  document.getElementById('actionGrid').innerHTML = cards.map(c => `<div class="action-card ${{c[0]}}"><h3>${{c[1]}}</h3><p>${{c[2]}}</p></div>`).join('');
 }}
 function renderMap(r) {{
   markerLayer.clearLayers(); routeLayer.clearLayers(); stopLayer.clearLayers(); speedLayer.clearLayers(); heatLayer.clearLayers();
@@ -714,7 +781,7 @@ function sortTable(field) {{
 }}
 let tableName = 'summary';
 document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {{ document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active')); btn.classList.add('active'); tableName = btn.dataset.table; sortState = {{field:null, dir:1}}; render(); }}));
-function render() {{ const r = rows(); renderMetrics(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }}
+function render() {{ const r = rows(); renderMetrics(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }}
 renderFilters(); render();
 </script>
 </body>

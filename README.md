@@ -26,6 +26,9 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 - Sortable tables with row counts.
 - Operational risk score per vehicle.
 - Stale-report KPI based on report generation time.
+- Control-room strip with latest signal, refresh cadence, worst route ratio, top stop unit, and top speeding unit.
+- Auto-generated action plan for stopped vehicles, route inefficiency, speeding, and GPS signal gaps.
+- Route quality summary separating efficient, review, and inefficient trips.
 - Browser password gate. Current access password: `melvinmelvin`.
 - Local auto-refresh scheduled every 5 minutes from the publishing machine.
 
