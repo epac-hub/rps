@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29 18:29:17.240732",
+  "generatedAt": "2026-07-29 18:34:17.829706",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-07-29 18:28:43",
-      "speed": 41.7,
+      "time": "2026-07-29 18:33:42",
+      "speed": 31.9,
       "ignition": "IGNITION ON",
-      "lat": 18.445465,
-      "lng": -66.35796,
-      "place": "Carretera Ceiba (Tertiary), Vega Baja, Puerto Rico, 00693"
+      "lat": 18.446498,
+      "lng": -66.3891,
+      "place": "Carretera Militar (Secondary, PR-2), Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -145,8 +145,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-07-29 14:30:58",
       "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "trips": 10,
-      "stops": 10,
+      "trips": 11,
+      "stops": 11,
       "miles": 0.1,
       "speeding": 3,
       "inefficient_routes": 0,
@@ -185,8 +185,8 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Moviendo",
-      "last_seen": "2026-07-29 18:28:43",
-      "current_place": "Carretera Ceiba (Tertiary), Vega Baja, Puerto Rico, 00693",
+      "last_seen": "2026-07-29 18:33:42",
+      "current_place": "Carretera Militar (Secondary, PR-2), Vega Baja, Puerto Rico, 00693",
       "trips": 30,
       "stops": 46,
       "miles": 240.5,
@@ -15729,6 +15729,41 @@
           -65.899453
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-07-29 14:19:05",
+      "arrival": "2026-07-29 14:30:58",
+      "duration_min": 11.9,
+      "origin": "Residential, Vega Baja, Puerto Rico, 00693",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.4816233,
+      "origin_lng": -66.4234633,
+      "destination_lat": 18.4827266,
+      "destination_lng": -66.4287616,
+      "miles": 0.0,
+      "straight_miles": 0.36,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "route_points": [
+        [
+          18.4816233,
+          -66.4234633
+        ],
+        [
+          18.4815983,
+          -66.42347
+        ],
+        [
+          18.4827266,
+          -66.4287616
+        ],
+        [
+          18.4827266,
+          -66.4287616
+        ]
+      ]
     }
   ],
   "stops": [
@@ -27737,6 +27772,15 @@
       "speed": 0.0,
       "lat": 18.4815983,
       "lng": -66.42347
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-07-29 14:29:02",
+      "place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.4827266,
+      "lng": -66.4287616
     }
   ],
   "speeding": [
