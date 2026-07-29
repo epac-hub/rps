@@ -22,5 +22,9 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 - Stop hotspot panel for frequent stop zones.
 - CSV export for the active table.
 - Route playback for a critical route.
+- Quick filters for moving, stopped, and risk vehicles.
+- Sortable tables with row counts.
+- Operational risk score per vehicle.
+- Stale-report KPI based on report generation time.
 
 Open `index.html` directly or serve this repository with GitHub Pages.
