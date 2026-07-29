@@ -5,7 +5,7 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 ## Contents
 
 - `index.html` - Interactive dashboard with embedded fleet data.
-- `assets/` - RPS Medical logo and healthcare fleet background image.
+- RPS Medical logo and healthcare imagery are loaded from `www.rpsmedical.com`.
 
 ## Prepared Dashboard Data
 
