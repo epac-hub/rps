@@ -1,4 +1,4 @@
-import csv
+﻿import csv
 import datetime as dt
 import html
 import json
@@ -119,14 +119,27 @@ def build_trips(start_stop, all_events):
                 straight = haversine_miles(active.get("latitude"), active.get("longitude"), row.get("latitude"), row.get("longitude"))
                 odometer_miles = max(0, ((row.get("odometer") or 0) - (active.get("odometer") or 0)) / 1609.344)
                 efficiency_ratio = round(odometer_miles / straight, 2) if straight > 0.2 and odometer_miles else None
+                potential_saved = 0
                 if efficiency_ratio is None:
                     efficiency_label = "Sin distancia suficiente"
+                    efficiency_reason = "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia."
+                    efficiency_action = "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional."
                 elif efficiency_ratio <= 1.35:
                     efficiency_label = "Eficiente"
+                    efficiency_reason = f"Recorrio {efficiency_ratio}x la distancia directa; esta dentro del umbral operacional de 1.35x."
+                    efficiency_action = "Mantener patron actual; usar como referencia para rutas similares."
                 elif efficiency_ratio <= 1.8:
                     efficiency_label = "Revisar"
+                    target_miles = straight * 1.35
+                    potential_saved = max(0, odometer_miles - target_miles)
+                    efficiency_reason = f"Recorrio {efficiency_ratio}x la distancia directa; supera el umbral eficiente de 1.35x."
+                    efficiency_action = f"Para ser eficiente debe acercarse a {target_miles:.1f} mi o menos; posible ahorro {potential_saved:.1f} mi. Revisar trafico, secuencia de entregas y desvio autorizado."
                 else:
                     efficiency_label = "Ineficiente"
+                    target_miles = straight * 1.35
+                    potential_saved = max(0, odometer_miles - target_miles)
+                    efficiency_reason = f"Recorrio {efficiency_ratio}x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado."
+                    efficiency_action = f"Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: {target_miles:.1f} mi o menos; ahorro estimado {potential_saved:.1f} mi."
                 trips.append({
                     "vehicle": row.get("alias") or active.get("alias") or serial,
                     "serial": serial,
@@ -143,6 +156,9 @@ def build_trips(start_stop, all_events):
                     "straight_miles": round(straight, 2),
                     "efficiency_ratio": efficiency_ratio,
                     "efficiency": efficiency_label,
+                    "why_inefficient": efficiency_reason,
+                    "efficient_action": efficiency_action,
+                    "potential_saved_miles": round(potential_saved, 2),
                     "route_points": route_points,
                 })
                 active = None
@@ -332,6 +348,7 @@ main {{ padding: 18px; max-width: 1600px; margin: 0 auto; }}
 .metric.risk-med {{ border-top: 5px solid var(--yellow); }}
 .metric.risk-low {{ border-top: 5px solid var(--green); }}
 .risk-explainer {{ display: grid; grid-template-columns: minmax(260px, .8fr) minmax(300px, 1.2fr); gap: 14px; margin-bottom: 14px; }}
+.route-explainer {{ display: grid; grid-template-columns: minmax(280px, .9fr) minmax(320px, 1.1fr); gap: 14px; margin-bottom: 14px; }}
 .risk-score-card {{ border-left: 6px solid var(--coral); }}
 .risk-score {{ font-size: 46px; font-weight: 950; line-height: 1; margin: 8px 0; }}
 .risk-breakdown {{ display: grid; gap: 8px; }}
@@ -339,6 +356,10 @@ main {{ padding: 18px; max-width: 1600px; margin: 0 auto; }}
 .risk-bar {{ height: 9px; border-radius: 999px; background: #e8f3f4; overflow: hidden; }}
 .risk-bar b {{ display: block; height: 100%; background: linear-gradient(90deg, var(--green), var(--yellow), var(--coral)); }}
 .fix-list {{ margin: 10px 0 0; padding-left: 18px; color: #21414c; }}
+.explain-list {{ display: grid; gap: 9px; margin: 0; padding: 0; list-style: none; }}
+.explain-list li {{ border-left: 5px solid var(--teal); background: #f6fbfc; border-radius: 7px; padding: 10px 12px; }}
+.route-detail-list {{ display: grid; gap: 9px; margin: 0; padding: 0; list-style: none; max-height: 360px; overflow: auto; }}
+.route-detail-list li {{ border: 1px solid var(--line); border-left: 5px solid var(--coral); border-radius: 7px; padding: 10px 12px; background: white; }}
 .layout {{ display: grid; grid-template-columns: minmax(360px, 1.25fr) minmax(320px, .75fr); gap: 14px; align-items: start; }}
 .panel {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; box-shadow: 0 10px 28px rgba(4,35,48,.08); }}
 .panel h2 {{ margin: 0 0 12px; font-size: 20px; }}
@@ -393,7 +414,7 @@ tr:hover td {{ background: #fff9e8; }}
 .vehicle-card {{ display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; background: white; cursor: pointer; }}
 .vehicle-card:hover {{ border-color: var(--teal); }}
 .small {{ color: var(--muted); font-size: 12px; }}
-@media (max-width: 1050px) {{ .metrics {{ grid-template-columns: repeat(2, 1fr); }} .layout, .charts, .ops-grid, .command-strip, .action-grid {{ grid-template-columns: 1fr; }} #map {{ height: 520px; }} }}
+@media (max-width: 1050px) {{ .metrics {{ grid-template-columns: repeat(2, 1fr); }} .layout, .charts, .ops-grid, .command-strip, .action-grid, .risk-explainer, .route-explainer {{ grid-template-columns: 1fr; }} #map {{ height: 520px; }} }}
 @media (max-width: 620px) {{ .hero {{ padding: 22px; min-height: 82vh; }} .hero h1 {{ font-size: 38px; }} .metrics {{ grid-template-columns: 1fr; }} nav {{ align-items: stretch; }} .nav-brand {{ width: 100%; }} nav button, select, input {{ flex: 1; min-width: 120px; }} }}
 </style>
 </head>
@@ -413,7 +434,7 @@ tr:hover td {{ background: #fff9e8; }}
   <div class="hero-inner">
     <div class="brand-lockup"><img class="hero-logo" src="assets/rps-logo-white.png" alt="RPS Medical"></div>
     <h1>Fleet Command</h1>
-    <p>Control interactivo de vehículos, paradas, excesos de velocidad y eficiencia de rutas para operaciones de salud y entregas críticas.</p>
+    <p>Control interactivo de vehÃ­culos, paradas, excesos de velocidad y eficiencia de rutas para operaciones de salud y entregas crÃ­ticas.</p>
     <div class="hero-actions">
       <button class="btn" onclick="document.getElementById('dashboard').scrollIntoView({{behavior:'smooth'}})">Abrir dashboard</button>
       <button class="btn secondary" onclick="document.getElementById('recommendations').scrollIntoView({{behavior:'smooth'}})">Ver recomendaciones</button>
@@ -422,7 +443,7 @@ tr:hover td {{ background: #fff9e8; }}
 </section>
 <nav>
   <div class="nav-brand"><img class="nav-logo" src="assets/rps-logo-white.png" alt="RPS Medical"><span>Fleet Command</span></div>
-  <select id="vehicleFilter"><option value="all">Todos los vehículos</option></select>
+  <select id="vehicleFilter"><option value="all">Todos los vehÃ­culos</option></select>
   <input id="searchBox" placeholder="Buscar lugar, placa, conductor">
   <button onclick="focusAll()">Ver todos</button>
   <button data-status="moving" onclick="setStatusFilter('moving', this)">Moviendo</button>
@@ -441,6 +462,7 @@ tr:hover td {{ background: #fff9e8; }}
   </section>
   <section class="metrics" id="metrics"></section>
   <section class="risk-explainer" id="riskExplainer"></section>
+  <section class="route-explainer" id="routeExplainer"></section>
   <section class="command-strip" id="commandStrip"></section>
   <div class="layout">
     <section class="panel" id="mapPanel">
@@ -457,7 +479,7 @@ tr:hover td {{ background: #fff9e8; }}
         <span class="pill"><span class="dot" style="background:#00a7a5"></span>Paradas frecuentes</span>
       </div>
     </section>
-    <aside class="panel" id="vehiclePanel"><h2>Vehículos localizados</h2><div id="vehicleCards"></div></aside>
+    <aside class="panel" id="vehiclePanel"><h2>VehÃ­culos localizados</h2><div id="vehicleCards"></div></aside>
   </div>
   <section class="ops-grid" id="opsPanel">
     <div class="ops-card"><h3>Alertas ahora</h3><ul class="ops-list" id="alertList"></ul></div>
@@ -470,12 +492,12 @@ tr:hover td {{ background: #fff9e8; }}
     <div class="route-quality" id="routeQuality"></div>
   </section>
   <section class="charts" id="chartsPanel">
-    <div class="panel"><h2>Millas por vehículo</h2><canvas id="milesChart"></canvas></div>
+    <div class="panel"><h2>Millas por vehÃ­culo</h2><canvas id="milesChart"></canvas></div>
     <div class="panel"><h2>Rutas ineficientes</h2><canvas id="effChart"></canvas></div>
     <div class="panel"><h2>Excesos de velocidad</h2><canvas id="speedChart"></canvas></div>
-    <div class="panel"><h2>Paradas por vehículo</h2><canvas id="stopsChart"></canvas></div>
+    <div class="panel"><h2>Paradas por vehÃ­culo</h2><canvas id="stopsChart"></canvas></div>
   </section>
-  <section class="panel" id="recommendations"><h2>Recomendaciones para mejorar operación</h2><ul class="rec-list" id="recList"></ul></section>
+  <section class="panel" id="recommendations"><h2>Recomendaciones para mejorar operaciÃ³n</h2><ul class="rec-list" id="recList"></ul></section>
   <div class="tabs">
     <button class="btn active" data-table="summary">Resumen</button>
     <button class="btn" data-table="trips">Rutas</button>
@@ -514,14 +536,14 @@ document.getElementById('authForm').addEventListener('submit', event => {{
   }}
 }});
 const data = JSON.parse(document.getElementById('fleetData').textContent);
-document.title = `RPS Fleet - ${{data.vehicles.length}} vehículos`;
+document.title = `RPS Fleet - ${{data.vehicles.length}} vehÃ­culos`;
 let selected = 'all';
 let activeLayer = 'routes';
 let statusFilter = 'all';
 let sortState = {{ field: null, dir: 1 }};
 const colors = ['#00a7a5','#38c6ff','#ff6b6b','#ffd166','#53c271','#7b61ff','#ff8a3d','#2f6f9f','#b94a48','#16a085'];
 if (typeof L === 'undefined' || typeof Chart === 'undefined') {{
-  document.getElementById('map').innerHTML = '<div style="padding:24px;font-weight:800;color:#9b1c1c">No cargaron las librerías de mapa/gráficas. Verifica conexión a internet o abre el ZIP extraído completo.</div>';
+  document.getElementById('map').innerHTML = '<div style="padding:24px;font-weight:800;color:#9b1c1c">No cargaron las librerÃ­as de mapa/grÃ¡ficas. Verifica conexiÃ³n a internet o abre el ZIP extraÃ­do completo.</div>';
   throw new Error('Leaflet or Chart.js did not load');
 }}
 const map = L.map('map', {{ scrollWheelZoom: true }}).setView([18.28, -66.45], 10);
@@ -570,14 +592,14 @@ function fleetRiskText(score) {{
 }}
 function metricInfo(label) {{
   const info = {{
-    'Vehículos': ['Total de unidades localizadas en la data actual.', 'vehiclePanel'],
+    'VehÃ­culos': ['Total de unidades localizadas en la data actual.', 'vehiclePanel'],
     'Moviendo': ['Unidades con velocidad mayor de 2 mph en su ultima lectura.', 'vehiclePanel'],
     'Detenidos': ['Unidades con velocidad de 2 mph o menos en su ultima lectura.', 'vehiclePanel'],
     'Rutas': ['Viajes completos detectados por eventos de ignicion/salida-llegada.', 'tablePanel'],
     'Millas': ['Millas recorridas en las rutas cargadas en el periodo actual.', 'chartsPanel'],
     'Excesos': ['Eventos donde la unidad supero el umbral configurado de 65 mph.', 'opsPanel'],
     'Rutas ineficientes': ['Rutas donde las millas recorridas fueron mucho mayores que la distancia directa estimada.', 'opsPanel'],
-    'Sin señal >90m': ['Unidades cuya ultima senal tiene mas de 90 minutos.', 'opsPanel'],
+    'Sin seÃ±al >90m': ['Unidades cuya ultima senal tiene mas de 90 minutos.', 'opsPanel'],
     'Riesgo operacional': ['Indice interno: excesos + rutas ineficientes + unidades sin senal + paradas largas. Click para ver como bajarlo.', 'riskExplainer']
   }};
   return info[label] || ['', 'dashboard'];
@@ -617,14 +639,14 @@ function renderMetrics(r) {{
   const risk = fleetRiskParts(r);
   const riskClass = risk.score >= 65 ? 'risk-high' : risk.score >= 30 ? 'risk-med' : 'risk-low';
   document.getElementById('metrics').innerHTML = [
-    ['Vehículos', r.vehicles.length, '', 'Ver unidades localizadas'],
+    ['VehÃ­culos', r.vehicles.length, '', 'Ver unidades localizadas'],
     ['Moviendo', moving, 'risk-low', 'Ver unidades moviendo'],
     ['Detenidos', stopped, stopped ? 'risk-med' : 'risk-low', 'Ver unidades detenidas'],
     ['Rutas', r.trips.length, '', 'Ver tabla de rutas'],
     ['Millas', miles, '', 'Ver graficas'],
     ['Excesos', speeding, speeding ? 'risk-high' : 'risk-low', 'Ver excesos'],
     ['Rutas ineficientes', inefficient, inefficient ? 'risk-high' : 'risk-low', 'Ver rutas a revisar'],
-    ['Sin señal >90m', stale, stale ? 'risk-high' : 'risk-low', 'Ver alertas'],
+    ['Sin seÃ±al >90m', stale, stale ? 'risk-high' : 'risk-low', 'Ver alertas'],
     ['Riesgo operacional', `${{fleetRiskText(risk.score)}} (${{risk.score}}/100)`, riskClass, 'Ver definicion y acciones']
   ].map(m => {{
     const [hint, target] = metricInfo(m[0]);
@@ -636,21 +658,21 @@ function renderRiskExplainer(r) {{
   const label = fleetRiskText(risk.score);
   const parts = [
     ['Excesos de velocidad', risk.speeding, Math.min(100, risk.speeding * 6), 'Bajar con alertas al conductor y coaching por unidad.'],
-    ['Rutas ineficientes', risk.inefficient, Math.min(100, risk.inefficient * 4), 'Comparar contra Google Routes y validar desvíos autorizados.'],
-    ['Rutas a revisar', risk.review, Math.min(100, risk.review * 2), 'Revisar si hubo tráfico, entregas extra o mala secuencia.'],
-    ['Sin señal >90 min', risk.stale, Math.min(100, risk.stale * 18), 'Confirmar GPS, batería, cobertura o unidad apagada.'],
+    ['Rutas ineficientes', risk.inefficient, Math.min(100, risk.inefficient * 4), 'Comparar contra Google Routes y validar desvÃ­os autorizados.'],
+    ['Rutas a revisar', risk.review, Math.min(100, risk.review * 2), 'Revisar si hubo trÃ¡fico, entregas extra o mala secuencia.'],
+    ['Sin seÃ±al >90 min', risk.stale, Math.min(100, risk.stale * 18), 'Confirmar GPS, baterÃ­a, cobertura o unidad apagada.'],
     ['Detenidos >45 min', risk.stoppedLong, Math.min(100, risk.stoppedLong * 14), 'Llamar conductor o validar entrega/mantenimiento.']
   ];
   document.getElementById('riskExplainer').innerHTML = `
     <div class="panel risk-score-card">
       <h2>Que significa Riesgo operacional</h2>
       <div class="risk-score">${{label}} <span class="small">${{risk.score}}/100</span></div>
-      <p class="small">Es un indice interno del dashboard. No viene directo de SkyTrackIt. Se calcula con eventos que pueden afectar seguridad, servicio y control: excesos, rutas ineficientes, unidades sin senal y paradas largas.</p>
+      <p class="small">Es un indice interno del dashboard. No viene directo de SkyTrackIt. Se calcula con eventos que pueden afectar seguridad, servicio y control: excesos, rutas ineficientes, unidades sin senal y paradas largas. Mientras mas eventos abiertos existan, mas alto sube.</p>
       <ul class="fix-list">
-        <li>Para bajarlo: reducir excesos de velocidad.</li>
-        <li>Resolver unidades sin senal o GPS atrasado.</li>
-        <li>Validar paradas largas y documentar motivo.</li>
-        <li>Optimizar rutas marcadas como ineficientes.</li>
+        <li><b>Velocidad:</b> bajar excesos sobre 65 mph con llamada inmediata, coaching y seguimiento por unidad.</li>
+        <li><b>GPS:</b> resolver unidades sin senal revisando equipo, bateria, cobertura o si la unidad esta apagada.</li>
+        <li><b>Paradas:</b> validar paradas mayores de 45 minutos y documentar si son entrega, almuerzo, espera o mantenimiento.</li>
+        <li><b>Rutas:</b> convertir rutas ineficientes en rutas eficientes bajando millas, reduciendo vueltas y agrupando entregas por zona.</li>
       </ul>
     </div>
     <div class="panel">
@@ -658,6 +680,43 @@ function renderRiskExplainer(r) {{
       <div class="risk-breakdown">
         ${{parts.map(p => `<div class="risk-line"><b>${{p[0]}}</b><div class="risk-bar"><b style="width:${{p[2]}}%"></b></div><span>${{p[1]}}</span></div><div class="small">${{p[3]}}</div>`).join('')}}
       </div>
+    </div>`;
+}}
+function routeCause(trip) {{
+  if (!trip || !trip.efficiency_ratio) return 'No hay distancia suficiente o falta odometro/GPS para evaluar.';
+  if (trip.efficiency === 'Eficiente') return 'La ruta esta dentro del margen operacional: no se aleja demasiado de la distancia directa.';
+  if (trip.efficiency === 'Revisar') return `La ruta recorrio ${{trip.efficiency_ratio}}x la distancia directa. Puede ser trafico, entrega adicional, desvio autorizado o mala secuencia de paradas.`;
+  return `La ruta recorrio ${{trip.efficiency_ratio}}x la distancia directa. Eso sugiere desvio largo, secuencia ineficiente, parada no planificada o ruta tomada sin optimizar.`;
+}}
+function routeFix(trip) {{
+  if (!trip || !trip.efficiency_ratio) return 'Validar que el GPS y odometro esten reportando bien antes de evaluar.';
+  const target = Number(trip.straight_miles || 0) ? (Number(trip.straight_miles) * 1.35).toFixed(1) : 'N/A';
+  const saved = Number(trip.potential_saved_miles || 0).toFixed(1);
+  if (trip.efficiency === 'Eficiente') return 'Mantener esa ruta como referencia para despachos parecidos.';
+  if (trip.efficiency === 'Revisar') return `Para hacerla eficiente: planificar cerca de ${{target}} millas o menos, validar trafico antes de salir y ordenar paradas por zona. Ahorro estimado: ${{saved}} mi.`;
+  return `Alternativa: recalcular antes del despacho, evitar regresos sobre la misma zona, agrupar entregas cercanas y comparar con Google Routes. Meta eficiente: ${{target}} millas o menos. Ahorro estimado: ${{saved}} mi.`;
+}}
+function renderRouteExplainer(r) {{
+  const badRoutes = [...r.trips]
+    .filter(t => t.efficiency === 'Ineficiente' || t.efficiency === 'Revisar')
+    .sort((a,b) => Number(b.efficiency_ratio || 0) - Number(a.efficiency_ratio || 0))
+    .slice(0, 6);
+  document.getElementById('routeExplainer').innerHTML = `
+    <div class="panel">
+      <h2>Por que una ruta sale ineficiente</h2>
+      <ul class="explain-list">
+        <li><b>Criterio actual:</b> se compara millas recorridas vs distancia directa entre salida y llegada.</li>
+        <li><b>Eficiente:</b> hasta 1.35x la distancia directa.</li>
+        <li><b>Revisar:</b> mayor de 1.35x hasta 1.80x.</li>
+        <li><b>Ineficiente:</b> mayor de 1.80x. No significa culpa automaticamente; significa que hay que revisar trafico, desvio, paradas extra o secuencia.</li>
+        <li><b>Para ser eficiente:</b> bajar millas, reducir vueltas, agrupar paradas cercanas y validar ruta con trafico antes de salir.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h2>Alternativas para las rutas marcadas</h2>
+      <ul class="route-detail-list">
+        ${{badRoutes.length ? badRoutes.map(t => `<li><b>${{t.vehicle}}</b> ${{badge(t.efficiency)}}<br><span class="small">${{t.departure}} · ${{t.miles}} mi reales vs ${{t.straight_miles}} mi directa · ratio ${{t.efficiency_ratio}}x</span><br><b>Causa:</b> ${{routeCause(t)}}<br><b>Accion:</b> ${{routeFix(t)}}</li>`).join('') : '<li>No hay rutas ineficientes con el filtro actual.</li>'}}
+      </ul>
     </div>`;
 }}
 function latestVehicleTime(r) {{
@@ -711,10 +770,10 @@ function renderActionPlan(r) {{
   const fastest = [...r.speeding].sort((a,b) => Number(b.speed || 0) - Number(a.speed || 0))[0];
   const stale = r.vehicles.filter(v => ageMinutes(v.time) > 90).sort((a,b) => ageMinutes(b.time) - ageMinutes(a.time))[0];
   const cards = [
-    stoppedLong ? ['high', 'Confirmar parada larga', `${{stoppedLong.vehicle}} lleva aprox. ${{elapsedLabel(ageMinutes(stoppedLong.time))}} detenido. Llamar al conductor o validar entrega/mantenimiento.`] : ['low', 'Paradas largas', 'No hay unidades detenidas por mas de 45 minutos con el filtro actual.'],
-    worstRoute ? ['medium', 'Optimizar ruta', `${{worstRoute.vehicle}} marco ratio ${{worstRoute.efficiency_ratio}}x. Comparar con Google Routes y revisar si hubo desvio, trafico o parada no planificada.`] : ['low', 'Eficiencia de rutas', 'No hay rutas marcadas como revisar/ineficiente en el filtro actual.'],
-    fastest ? ['high', 'Control de velocidad', `${{fastest.vehicle}} llego a ${{fastest.speed}} mph. Revisar conductor, tramo y recurrencia antes del proximo despacho.`] : ['low', 'Velocidad', 'No hay excesos de velocidad con el filtro actual.'],
-    stale ? ['medium', 'Verificar GPS', `${{stale.vehicle}} lleva ${{elapsedLabel(ageMinutes(stale.time))}} sin reporte reciente. Validar señal, energia del equipo o cobertura.`] : ['low', 'Senal GPS', 'Todas las unidades filtradas reportan dentro de la ventana esperada.']
+    stoppedLong ? ['high', 'Minimizar paradas largas', `${{stoppedLong.vehicle}} lleva aprox. ${{elapsedLabel(ageMinutes(stoppedLong.time))}} detenido. Para bajar riesgo: llamar conductor, confirmar motivo y cerrar la parada como entrega, espera, mantenimiento o fuera de servicio.`] : ['low', 'Paradas largas', 'No hay unidades detenidas por mas de 45 minutos con el filtro actual.'],
+    worstRoute ? ['medium', 'Hacer ruta eficiente', `${{worstRoute.vehicle}} marco ratio ${{worstRoute.efficiency_ratio}}x. Causa: ${{routeCause(worstRoute)}} Accion: ${{routeFix(worstRoute)}}`] : ['low', 'Eficiencia de rutas', 'No hay rutas marcadas como revisar/ineficiente en el filtro actual.'],
+    fastest ? ['high', 'Bajar riesgo de velocidad', `${{fastest.vehicle}} llego a ${{fastest.speed}} mph. Para minimizar: llamar al conductor, documentar el tramo, confirmar si fue emergencia autorizada y monitorear la proxima ruta.`] : ['low', 'Velocidad', 'No hay excesos de velocidad con el filtro actual.'],
+    stale ? ['medium', 'Recuperar senal GPS', `${{stale.vehicle}} lleva ${{elapsedLabel(ageMinutes(stale.time))}} sin reporte reciente. Para minimizar: verificar equipo, bateria, cobertura y confirmar ubicacion manualmente.`] : ['low', 'Senal GPS', 'Todas las unidades filtradas reportan dentro de la ventana esperada.']
   ];
   document.getElementById('actionGrid').innerHTML = cards.map(c => `<div class="action-card ${{c[0]}}"><h3>${{c[1]}}</h3><p>${{c[2]}}</p></div>`).join('');
 }}
@@ -724,7 +783,7 @@ function renderMap(r) {{
   r.trips.forEach((t, idx) => {{
     if (!t.route_points || t.route_points.length < 2) return;
     const color = t.efficiency === 'Ineficiente' ? '#ff6b6b' : t.efficiency === 'Revisar' ? '#ffd166' : colors[idx % colors.length];
-    const poly = L.polyline(t.route_points, {{ color, weight: 4, opacity: .72 }}).bindPopup(`<b>${{t.vehicle}}</b><br>${{t.departure}} → ${{t.arrival}}<br>${{t.miles}} mi · ${{badge(t.efficiency)}}`);
+    const poly = L.polyline(t.route_points, {{ color, weight: 4, opacity: .72 }}).bindPopup(`<b>${{t.vehicle}}</b><br>${{t.departure}} â†’ ${{t.arrival}}<br>${{t.miles}} mi Â· ${{badge(t.efficiency)}}`);
     routeLayer.addLayer(poly); t.route_points.forEach(p => bounds.push(p));
   }});
   r.vehicles.forEach(v => {{
@@ -753,7 +812,7 @@ function renderCards(r) {{
   const bySerial = Object.fromEntries(data.summary.map(s => [s.serial, s]));
   document.getElementById('vehicleCards').innerHTML = r.vehicles.map(v => {{
     const score = riskScore(bySerial[v.serial] || {{}});
-    return `<div class="vehicle-card" onclick="selectVehicle('${{v.serial}}')"><div><b>${{v.vehicle}}</b><div class="small">${{v.place || 'Sin dirección'}}<br>${{v.time}}</div></div><div>${{badge(v.speed > 2 ? 'Moviendo' : 'Detenido')}}<div class="small">${{v.speed}} mph · Riesgo ${{score}}</div></div></div>`;
+    return `<div class="vehicle-card" onclick="selectVehicle('${{v.serial}}')"><div><b>${{v.vehicle}}</b><div class="small">${{v.place || 'Sin direcciÃ³n'}}<br>${{v.time}}</div></div><div>${{badge(v.speed > 2 ? 'Moviendo' : 'Detenido')}}<div class="small">${{v.speed}} mph Â· Riesgo ${{score}}</div></div></div>`;
   }}).join('');
 }}
 function selectVehicle(serial) {{ selected = serial; document.getElementById('vehicleFilter').value = serial; render(); }}
@@ -802,10 +861,10 @@ function renderOps(r) {{
     if (mins > 90) alerts.push({{cls:'warnline', text:`${{v.vehicle}} sin reporte reciente por ${{elapsedLabel(mins)}}`}});
   }});
   r.speeding.slice(0, 5).forEach(s => alerts.push({{cls:'warnline', text:`${{s.vehicle}} exceso: ${{s.speed}} mph (+${{s.over}}) en ${{s.place}}`}}));
-  document.getElementById('alertList').innerHTML = (alerts.length ? alerts : [{{cls:'', text:'Sin alertas críticas con el filtro actual.'}}]).slice(0,8).map(a => `<li class="${{a.cls}}">${{a.text}}</li>`).join('');
+  document.getElementById('alertList').innerHTML = (alerts.length ? alerts : [{{cls:'', text:'Sin alertas crÃ­ticas con el filtro actual.'}}]).slice(0,8).map(a => `<li class="${{a.cls}}">${{a.text}}</li>`).join('');
 
   const routeRows = r.trips.filter(t => t.efficiency === 'Ineficiente' || t.efficiency === 'Revisar').sort((a,b) => Number(b.efficiency_ratio || 0) - Number(a.efficiency_ratio || 0)).slice(0, 8);
-  document.getElementById('routeList').innerHTML = (routeRows.length ? routeRows.map(t => `<li class="${{t.efficiency === 'Ineficiente' ? 'danger' : 'warnline'}}"><b>${{t.vehicle}}</b><br>${{t.departure}} - ${{t.miles}} mi vs ${{t.straight_miles}} mi directa · ${{badge(t.efficiency)}}</li>`) : ['<li>No hay rutas marcadas para revisión.</li>']).join('');
+  document.getElementById('routeList').innerHTML = (routeRows.length ? routeRows.map(t => `<li class="${{t.efficiency === 'Ineficiente' ? 'danger' : 'warnline'}}"><b>${{t.vehicle}}</b> ${{badge(t.efficiency)}}<br>${{t.departure}} - ${{t.miles}} mi vs ${{t.straight_miles}} mi directa - ratio ${{t.efficiency_ratio}}x<br><span class="small"><b>Causa:</b> ${{routeCause(t)}}<br><b>Alternativa:</b> ${{routeFix(t)}}</span></li>`) : ['<li>No hay rutas marcadas para revision.</li>']).join('');
 
   const hotRows = hotspots(r);
   document.getElementById('hotspotList').innerHTML = (hotRows.length ? hotRows.map(h => `<li><b>${{h.count}} paradas</b><br>${{h.place}}</li>`) : ['<li>No hay paradas en el filtro actual.</li>']).join('');
@@ -831,7 +890,7 @@ function downloadCurrentTable() {{
   const r = rows();
   const configs = {{
     summary: ['vehicle','plate','current_status','last_seen','current_place','trips','stops','miles','speeding','inefficient_routes'],
-    trips: ['vehicle','departure','arrival','duration_min','origin','destination','miles','straight_miles','efficiency_ratio','efficiency'],
+    trips: ['vehicle','departure','arrival','duration_min','origin','destination','miles','straight_miles','efficiency_ratio','efficiency','why_inefficient','efficient_action','potential_saved_miles'],
     stops: ['vehicle','time','place','speed'],
     speeding: ['vehicle','time','speed','over','place']
   }};
@@ -845,7 +904,7 @@ function downloadCurrentTable() {{
 function renderTable(name, r) {{
   const configs = {{
     summary: ['vehicle','plate','current_status','risk','last_seen','current_place','trips','stops','miles','speeding','inefficient_routes'],
-    trips: ['vehicle','departure','arrival','duration_min','origin','destination','miles','straight_miles','efficiency_ratio','efficiency'],
+    trips: ['vehicle','departure','arrival','duration_min','origin','destination','miles','straight_miles','efficiency_ratio','efficiency','why_inefficient','efficient_action','potential_saved_miles'],
     stops: ['vehicle','time','place','speed'],
     speeding: ['vehicle','time','speed','over','place']
   }};
@@ -853,7 +912,7 @@ function renderTable(name, r) {{
     vehicle:'Vehiculo', plate:'Tablilla', current_status:'Estado', risk:'Riesgo', last_seen:'Ultimo reporte', current_place:'Ubicacion',
     trips:'Rutas', stops:'Paradas', miles:'Millas', speeding:'Excesos', inefficient_routes:'Rutas ineficientes',
     departure:'Salida', arrival:'Llegada', duration_min:'Min', origin:'Origen', destination:'Destino', straight_miles:'Mi directa',
-    efficiency_ratio:'Ratio', efficiency:'Eficiencia', time:'Hora', place:'Lugar', speed:'Velocidad', over:'Sobre limite'
+    efficiency_ratio:'Ratio', efficiency:'Eficiencia', why_inefficient:'Por que', efficient_action:'Alternativa', potential_saved_miles:'Ahorro mi', time:'Hora', place:'Lugar', speed:'Velocidad', over:'Sobre limite'
   }};
   const titles = {{ summary:'Resumen', trips:'Rutas', stops:'Paradas', speeding:'Excesos de velocidad' }};
   const fields = configs[name];
@@ -869,7 +928,7 @@ function renderTable(name, r) {{
   }}
   document.getElementById('tableTitle').textContent = titles[name];
   document.getElementById('rowCount').textContent = `${{rowsForTable.length}} registros`;
-  document.getElementById('table').innerHTML = `<table><thead><tr>${{fields.map(f => `<th onclick="sortTable('${{f}}')">${{labels[f] || f}} ${{sortState.field === f ? (sortState.dir > 0 ? '▲' : '▼') : ''}}</th>`).join('')}}</tr></thead><tbody>${{rowsForTable.map(row => `<tr>${{fields.map(f => `<td>${{formatCell(f, row[f], row)}}</td>`).join('')}}</tr>`).join('')}}</tbody></table>`;
+  document.getElementById('table').innerHTML = `<table><thead><tr>${{fields.map(f => `<th onclick="sortTable('${{f}}')">${{labels[f] || f}} ${{sortState.field === f ? (sortState.dir > 0 ? 'â–²' : 'â–¼') : ''}}</th>`).join('')}}</tr></thead><tbody>${{rowsForTable.map(row => `<tr>${{fields.map(f => `<td>${{formatCell(f, row[f], row)}}</td>`).join('')}}</tr>`).join('')}}</tbody></table>`;
 }}
 function formatCell(field, value, row) {{
   if (field === 'efficiency' || field === 'current_status') return badge(value);
@@ -882,7 +941,7 @@ function sortTable(field) {{
 }}
 let tableName = 'summary';
 document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {{ document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active')); btn.classList.add('active'); tableName = btn.dataset.table; sortState = {{field:null, dir:1}}; render(); }}));
-function render() {{ const r = rows(); renderLastUpdated(); renderMetrics(r); renderRiskExplainer(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }}
+function render() {{ const r = rows(); renderLastUpdated(); renderMetrics(r); renderRiskExplainer(r); renderRouteExplainer(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }}
 renderFilters(); render();
 </script>
 </body>
@@ -895,3 +954,7 @@ renderFilters(); render();
 
 if __name__ == "__main__":
     main()
+
+
+
+

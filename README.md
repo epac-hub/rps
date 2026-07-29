@@ -1,4 +1,4 @@
-# RPS Medical Fleet Command
+﻿# RPS Medical Fleet Command
 
 Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 
@@ -18,7 +18,7 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 
 - Live-style operational map with route, stop, speed, and heatmap layers.
 - Alert panel for stopped vehicles, stale reports, and speed events.
-- Route review panel for inefficient or suspicious routes.
+- Route review panel explaining why each route is inefficient or needs review, plus the operational alternative to make it efficient.
 - Stop hotspot panel for frequent stop zones.
 - CSV export for the active table.
 - Route playback for a critical route.
@@ -29,8 +29,8 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 - Operational risk explanation panel with causes and actions to lower the score.
 - Stale-report KPI based on report generation time.
 - Control-room strip with latest signal, refresh cadence, worst route ratio, top stop unit, and top speeding unit.
-- Auto-generated action plan for stopped vehicles, route inefficiency, speeding, and GPS signal gaps.
-- Route quality summary separating efficient, review, and inefficient trips.
+- Auto-generated action plan for stopped vehicles, route inefficiency, speeding, and GPS signal gaps, with direct steps to reduce risk.
+- Route quality summary separating efficient, review, and inefficient trips. Route tables include cause, alternative action, and estimated miles that could be saved.
 - Browser password gate. Current access password: `melvinmelvin`.
 - Local auto-refresh scheduled every 5 minutes from the publishing machine.
 
@@ -46,3 +46,4 @@ Required user environment variables on that machine:
 - `SKYTRACKIT_PASSWORD`
 
 Each run downloads fresh SkyTrackIt data, rebuilds `index.html`, commits the updated dashboard, and pushes it to GitHub Pages.
+
