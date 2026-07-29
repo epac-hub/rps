@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29 18:04:17.302706",
+  "generatedAt": "2026-07-29 18:09:19.050615",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -159,7 +159,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-07-29 14:19:46",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 17,
+      "trips": 16,
       "stops": 91,
       "miles": 195.9,
       "speeding": 13,
@@ -201,9 +201,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-07-29 15:49:05",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 34,
+      "trips": 33,
       "stops": 339,
-      "miles": 295.2,
+      "miles": 295.1,
       "speeding": 4,
       "inefficient_routes": 15,
       "max_speed": 72.7
@@ -243,7 +243,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-07-29 16:32:33",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 19,
+      "trips": 18,
       "stops": 88,
       "miles": 418.5,
       "speeding": 2,
@@ -266,99 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "departure": "2026-07-24 14:04:44",
-      "arrival": "2026-07-24 14:05:38",
-      "duration_min": 0.9,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.424705,
-      "origin_lng": -66.475453,
-      "destination_lat": 18.424503,
-      "destination_lng": -66.475666,
-      "miles": 0.05,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "route_points": [
-        [
-          18.424705,
-          -66.475453
-        ],
-        [
-          18.424705,
-          -66.475453
-        ],
-        [
-          18.424503,
-          -66.475666
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS IRK-578 17 AM",
-      "serial": "0470009725",
-      "departure": "2026-07-24 14:05:32",
-      "arrival": "2026-07-24 14:06:18",
-      "duration_min": 0.8,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.424626,
-      "origin_lng": -66.475493,
-      "destination_lat": 18.424443,
-      "destination_lng": -66.475685,
-      "miles": 0.04,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "route_points": [
-        [
-          18.424626,
-          -66.475493
-        ],
-        [
-          18.424626,
-          -66.475493
-        ],
-        [
-          18.424443,
-          -66.475685
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-07-24 14:06:35",
-      "arrival": "2026-07-24 14:07:41",
-      "duration_min": 1.1,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.424671,
-      "origin_lng": -66.475433,
-      "destination_lat": 18.424398,
-      "destination_lng": -66.475553,
-      "miles": 0.02,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "route_points": [
-        [
-          18.424671,
-          -66.475433
-        ],
-        [
-          18.424671,
-          -66.475433
-        ],
-        [
-          18.424398,
-          -66.475553
-        ]
-      ]
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
