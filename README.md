@@ -26,5 +26,6 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 - Sortable tables with row counts.
 - Operational risk score per vehicle.
 - Stale-report KPI based on report generation time.
+- Browser password gate. Current access password: `melvinmelvin`.
 
 Open `index.html` directly or serve this repository with GitHub Pages.
