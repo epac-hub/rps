@@ -2,11 +2,16 @@
 
 Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 
-Prepared dashboard data:
+## Contents
+
+- `index.html` - Interactive dashboard with embedded fleet data.
+- `assets/` - RPS Medical logo and healthcare fleet background image.
+
+## Prepared Dashboard Data
 
 - 10 vehicles
 - 262 routes
 - 1,328 stops
 - 36 speeding events over 65 mph
 
-RPS Medical logo and healthcare imagery are loaded from `www.rpsmedical.com`.
+Open `index.html` directly or serve this repository with GitHub Pages.
