@@ -318,6 +318,10 @@ nav button.active-filter {{ background: var(--teal); border-color: var(--teal); 
 .auth-card button {{ width: 100%; border: 0; border-radius: 8px; padding: 12px; background: var(--teal); color: white; font-weight: 900; cursor: pointer; }}
 .auth-error {{ min-height: 20px; color: #9b1c1c; font-weight: 800; margin-top: 10px; }}
 main {{ padding: 18px; max-width: 1600px; margin: 0 auto; }}
+.update-banner {{ display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-bottom: 14px; padding: 13px 15px; background: linear-gradient(90deg, #ffffff, #e5fbfa); border: 1px solid var(--line); border-left: 6px solid var(--teal); border-radius: 8px; box-shadow: 0 10px 28px rgba(4,35,48,.08); }}
+.update-banner strong {{ font-size: 18px; }}
+.update-banner span {{ color: var(--muted); font-weight: 800; }}
+.update-time {{ color: var(--navy); font-weight: 900; }}
 .metrics {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 14px; }}
 .metric {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; box-shadow: 0 10px 28px rgba(4,35,48,.08); }}
 .metric span {{ color: var(--muted); font-size: 12px; text-transform: uppercase; font-weight: 800; }}
@@ -421,6 +425,10 @@ tr:hover td {{ background: #fff9e8; }}
   <button class="logout-btn" onclick="logoutDashboard()">Salir</button>
 </nav>
 <main id="dashboard">
+  <section class="update-banner">
+    <div><strong>Ultima actualizacion de datos</strong><br><span>Informacion reconstruida desde SkyTrackIt y publicada en este dashboard.</span></div>
+    <div class="update-time" id="lastUpdated"></div>
+  </section>
   <section class="metrics" id="metrics"></section>
   <section class="command-strip" id="commandStrip"></section>
   <div class="layout">
@@ -575,6 +583,13 @@ function latestVehicleTime(r) {{
   const times = r.vehicles.map(v => new Date(String(v.time).replace(' ', 'T'))).filter(t => !Number.isNaN(t.getTime()));
   return times.length ? new Date(Math.max(...times.map(t => t.getTime()))) : null;
 }}
+function generatedDate() {{
+  const parsed = new Date(String(data.generatedAt).replace(' ', 'T'));
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}}
+function formatDateTime(value) {{
+  return value ? value.toLocaleString('es-PR', {{ year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit' }}) : 'Sin timestamp disponible';
+}}
 function routeQuality(r) {{
   const efficient = r.trips.filter(t => t.efficiency === 'Eficiente').length;
   const review = r.trips.filter(t => t.efficiency === 'Revisar').length;
@@ -586,6 +601,7 @@ function topSummary(r, field) {{
 }}
 function renderCommandStrip(r) {{
   const latest = latestVehicleTime(r);
+  const generated = generatedDate();
   const freshest = latest ? elapsedLabel(ageMinutes(latest.toISOString().replace('T', ' '))) : 'sin data';
   const worstRoute = [...r.trips].filter(t => Number(t.efficiency_ratio || 0)).sort((a,b) => Number(b.efficiency_ratio || 0) - Number(a.efficiency_ratio || 0))[0];
   const topStops = topSummary(r, 'stops');
@@ -593,7 +609,7 @@ function renderCommandStrip(r) {{
   const quality = routeQuality(r);
   document.getElementById('commandStrip').innerHTML = [
     ['Ultima senal', latest ? latest.toLocaleString() : 'Sin data', `hace ${{freshest}}`],
-    ['Refresco', 'Cada 5 min', `generado ${{String(data.generatedAt).slice(0,16)}}`],
+    ['Datos actualizados', formatDateTime(generated), 'refresco cada 5 min'],
     ['Ruta peor ratio', worstRoute ? `${{worstRoute.efficiency_ratio}}x` : 'N/A', worstRoute ? worstRoute.vehicle : 'Sin rutas'],
     ['Mas paradas', topStops ? topStops.vehicle : 'N/A', topStops ? `${{topStops.stops}} paradas` : 'Sin paradas'],
     ['Mas velocidad', topSpeed ? topSpeed.vehicle : 'N/A', topSpeed ? `${{topSpeed.speeding}} excesos` : 'Sin excesos']
@@ -603,6 +619,10 @@ function renderCommandStrip(r) {{
     ['Revisar', quality.review, 'warn'],
     ['Ineficientes', quality.bad, 'bad']
   ].map(item => `<div class="quality-box"><span>${{item[0]}}</span><b>${{item[1]}}</b>${{badge(item[0])}}</div>`).join('');
+}}
+function renderLastUpdated() {{
+  const generated = generatedDate();
+  document.getElementById('lastUpdated').innerHTML = `${{formatDateTime(generated)}} <span>Actualiza cada 5 minutos</span>`;
 }}
 function renderActionPlan(r) {{
   const stoppedLong = r.vehicles.filter(v => Number(v.speed || 0) <= 2 && ageMinutes(v.time) > 45).sort((a,b) => ageMinutes(b.time) - ageMinutes(a.time))[0];
@@ -781,7 +801,7 @@ function sortTable(field) {{
 }}
 let tableName = 'summary';
 document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {{ document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active')); btn.classList.add('active'); tableName = btn.dataset.table; sortState = {{field:null, dir:1}}; render(); }}));
-function render() {{ const r = rows(); renderMetrics(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }}
+function render() {{ const r = rows(); renderLastUpdated(); renderMetrics(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }}
 renderFilters(); render();
 </script>
 </body>
