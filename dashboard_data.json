@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29 18:00:30.866883",
+  "generatedAt": "2026-07-29 18:04:17.302706",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,9 +145,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-07-29 14:30:58",
       "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "trips": 9,
+      "trips": 10,
       "stops": 9,
-      "miles": 0.0,
+      "miles": 0.1,
       "speeding": 3,
       "inefficient_routes": 0,
       "max_speed": 66.5
@@ -229,7 +229,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-07-29 15:50:45",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 38,
+      "trips": 37,
       "stops": 257,
       "miles": 277.8,
       "speeding": 0,
@@ -266,37 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-07-24 14:03:45",
-      "arrival": "2026-07-24 14:04:06",
-      "duration_min": 0.3,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424471,
-      "origin_lng": -66.475498,
-      "destination_lat": 18.424448,
-      "destination_lng": -66.475521,
-      "miles": 0.01,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "route_points": [
-        [
-          18.424471,
-          -66.475498
-        ],
-        [
-          18.424471,
-          -66.475498
-        ],
-        [
-          18.424448,
-          -66.475521
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
@@ -15649,6 +15618,89 @@
         [
           18.156496,
           -65.863046
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-07-29 12:29:13",
+      "arrival": "2026-07-29 13:59:54",
+      "duration_min": 90.7,
+      "origin": "Residential, San Juan, Puerto Rico, 00926",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.3300066,
+      "origin_lng": -66.0468133,
+      "destination_lat": 18.4816233,
+      "destination_lng": -66.4234633,
+      "miles": 0.02,
+      "straight_miles": 26.82,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "route_points": [
+        [
+          18.3300066,
+          -66.0468133
+        ],
+        [
+          18.3347916,
+          -66.05471
+        ],
+        [
+          18.3566366,
+          -66.053845
+        ],
+        [
+          18.3582916,
+          -66.0736366
+        ],
+        [
+          18.3673633,
+          -66.109195
+        ],
+        [
+          18.419045,
+          -66.098355
+        ],
+        [
+          18.4208933,
+          -66.1637183
+        ],
+        [
+          18.4126816,
+          -66.2263066
+        ],
+        [
+          18.41875,
+          -66.25502
+        ],
+        [
+          18.4237933,
+          -66.3255116
+        ],
+        [
+          18.4382583,
+          -66.3936016
+        ],
+        [
+          18.4524916,
+          -66.4200716
+        ],
+        [
+          18.4817883,
+          -66.4251866
+        ],
+        [
+          18.4816233,
+          -66.4234633
+        ],
+        [
+          18.4816233,
+          -66.4234633
+        ],
+        [
+          18.4816233,
+          -66.4234633
         ]
       ]
     },
