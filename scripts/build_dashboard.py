@@ -323,12 +323,22 @@ main {{ padding: 18px; max-width: 1600px; margin: 0 auto; }}
 .update-banner span {{ color: var(--muted); font-weight: 800; }}
 .update-time {{ color: var(--navy); font-weight: 900; }}
 .metrics {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 14px; }}
-.metric {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; box-shadow: 0 10px 28px rgba(4,35,48,.08); }}
+.metric {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; box-shadow: 0 10px 28px rgba(4,35,48,.08); cursor: pointer; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; position: relative; }}
+.metric:hover {{ transform: translateY(-2px); border-color: var(--teal); box-shadow: 0 16px 34px rgba(4,35,48,.14); }}
 .metric span {{ color: var(--muted); font-size: 12px; text-transform: uppercase; font-weight: 800; }}
 .metric strong {{ display: block; font-size: 30px; margin-top: 6px; }}
+.metric em {{ display: block; margin-top: 8px; color: var(--muted); font-size: 11px; font-style: normal; font-weight: 800; }}
 .metric.risk-high {{ border-top: 5px solid var(--coral); }}
 .metric.risk-med {{ border-top: 5px solid var(--yellow); }}
 .metric.risk-low {{ border-top: 5px solid var(--green); }}
+.risk-explainer {{ display: grid; grid-template-columns: minmax(260px, .8fr) minmax(300px, 1.2fr); gap: 14px; margin-bottom: 14px; }}
+.risk-score-card {{ border-left: 6px solid var(--coral); }}
+.risk-score {{ font-size: 46px; font-weight: 950; line-height: 1; margin: 8px 0; }}
+.risk-breakdown {{ display: grid; gap: 8px; }}
+.risk-line {{ display: grid; grid-template-columns: 150px 1fr auto; gap: 8px; align-items: center; font-size: 13px; }}
+.risk-bar {{ height: 9px; border-radius: 999px; background: #e8f3f4; overflow: hidden; }}
+.risk-bar b {{ display: block; height: 100%; background: linear-gradient(90deg, var(--green), var(--yellow), var(--coral)); }}
+.fix-list {{ margin: 10px 0 0; padding-left: 18px; color: #21414c; }}
 .layout {{ display: grid; grid-template-columns: minmax(360px, 1.25fr) minmax(320px, .75fr); gap: 14px; align-items: start; }}
 .panel {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; box-shadow: 0 10px 28px rgba(4,35,48,.08); }}
 .panel h2 {{ margin: 0 0 12px; font-size: 20px; }}
@@ -430,9 +440,10 @@ tr:hover td {{ background: #fff9e8; }}
     <div class="update-time" id="lastUpdated"></div>
   </section>
   <section class="metrics" id="metrics"></section>
+  <section class="risk-explainer" id="riskExplainer"></section>
   <section class="command-strip" id="commandStrip"></section>
   <div class="layout">
-    <section class="panel">
+    <section class="panel" id="mapPanel">
       <div class="toolbar">
         <h2>Mapa operacional</h2>
         <button onclick="animateBestRoute()">Animar ruta critica</button>
@@ -446,19 +457,19 @@ tr:hover td {{ background: #fff9e8; }}
         <span class="pill"><span class="dot" style="background:#00a7a5"></span>Paradas frecuentes</span>
       </div>
     </section>
-    <aside class="panel"><h2>Vehículos localizados</h2><div id="vehicleCards"></div></aside>
+    <aside class="panel" id="vehiclePanel"><h2>Vehículos localizados</h2><div id="vehicleCards"></div></aside>
   </div>
-  <section class="ops-grid">
+  <section class="ops-grid" id="opsPanel">
     <div class="ops-card"><h3>Alertas ahora</h3><ul class="ops-list" id="alertList"></ul></div>
     <div class="ops-card"><h3>Rutas a revisar</h3><ul class="ops-list" id="routeList"></ul></div>
     <div class="ops-card"><h3>Zonas con mas paradas</h3><ul class="ops-list" id="hotspotList"></ul></div>
   </section>
-  <section class="panel">
+  <section class="panel" id="actionPlan">
     <h2>Plan de accion recomendado</h2>
     <div class="action-grid" id="actionGrid"></div>
     <div class="route-quality" id="routeQuality"></div>
   </section>
-  <section class="charts">
+  <section class="charts" id="chartsPanel">
     <div class="panel"><h2>Millas por vehículo</h2><canvas id="milesChart"></canvas></div>
     <div class="panel"><h2>Rutas ineficientes</h2><canvas id="effChart"></canvas></div>
     <div class="panel"><h2>Excesos de velocidad</h2><canvas id="speedChart"></canvas></div>
@@ -471,7 +482,7 @@ tr:hover td {{ background: #fff9e8; }}
     <button class="btn" data-table="stops">Paradas</button>
     <button class="btn" data-table="speeding">Excesos</button>
   </div>
-  <section class="panel"><div class="table-head"><h2 id="tableTitle">Resumen</h2><span class="row-count" id="rowCount"></span></div><div class="table-wrap" id="table"></div></section>
+  <section class="panel" id="tablePanel"><div class="table-head"><h2 id="tableTitle">Resumen</h2><span class="row-count" id="rowCount"></span></div><div class="table-wrap" id="table"></div></section>
 </main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -543,6 +554,38 @@ function badge(value) {{
 function riskScore(row) {{
   return Math.min(100, Math.round(Number(row.speeding || 0) * 12 + Number(row.inefficient_routes || 0) * 8 + Number(row.stops || 0) * 0.08 + (row.current_status === 'Detenido' ? 10 : 0)));
 }}
+function fleetRiskParts(r) {{
+  const speeding = r.speeding.length;
+  const inefficient = r.trips.filter(t => t.efficiency === 'Ineficiente').length;
+  const review = r.trips.filter(t => t.efficiency === 'Revisar').length;
+  const stale = r.vehicles.filter(v => ageMinutes(v.time) > 90).length;
+  const stoppedLong = r.vehicles.filter(v => Number(v.speed || 0) <= 2 && ageMinutes(v.time) > 45).length;
+  const score = Math.min(100, Math.round(speeding * 2.4 + inefficient * 1.2 + review * .45 + stale * 7 + stoppedLong * 4));
+  return {{ speeding, inefficient, review, stale, stoppedLong, score }};
+}}
+function fleetRiskText(score) {{
+  if (score >= 65) return 'Alto';
+  if (score >= 30) return 'Medio';
+  return 'Bajo';
+}}
+function metricInfo(label) {{
+  const info = {{
+    'Vehículos': ['Total de unidades localizadas en la data actual.', 'vehiclePanel'],
+    'Moviendo': ['Unidades con velocidad mayor de 2 mph en su ultima lectura.', 'vehiclePanel'],
+    'Detenidos': ['Unidades con velocidad de 2 mph o menos en su ultima lectura.', 'vehiclePanel'],
+    'Rutas': ['Viajes completos detectados por eventos de ignicion/salida-llegada.', 'tablePanel'],
+    'Millas': ['Millas recorridas en las rutas cargadas en el periodo actual.', 'chartsPanel'],
+    'Excesos': ['Eventos donde la unidad supero el umbral configurado de 65 mph.', 'opsPanel'],
+    'Rutas ineficientes': ['Rutas donde las millas recorridas fueron mucho mayores que la distancia directa estimada.', 'opsPanel'],
+    'Sin señal >90m': ['Unidades cuya ultima senal tiene mas de 90 minutos.', 'opsPanel'],
+    'Riesgo operacional': ['Indice interno: excesos + rutas ineficientes + unidades sin senal + paradas largas. Click para ver como bajarlo.', 'riskExplainer']
+  }};
+  return info[label] || ['', 'dashboard'];
+}}
+function jumpTo(sectionId) {{
+  const el = document.getElementById(sectionId);
+  if (el) el.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+}}
 function riskLabel(score) {{
   if (score >= 65) return badge('Alto');
   if (score >= 30) return badge('Medio');
@@ -571,13 +614,51 @@ function renderMetrics(r) {{
   const speeding = r.speeding.length;
   const stale = r.vehicles.filter(v => ageMinutes(v.time) > 90).length;
   const miles = r.trips.reduce((sum, t) => sum + Number(t.miles || 0), 0).toFixed(1);
-  const riskClass = speeding || inefficient || stale ? 'risk-high' : stopped ? 'risk-med' : 'risk-low';
+  const risk = fleetRiskParts(r);
+  const riskClass = risk.score >= 65 ? 'risk-high' : risk.score >= 30 ? 'risk-med' : 'risk-low';
   document.getElementById('metrics').innerHTML = [
-    ['Vehículos', r.vehicles.length, ''], ['Moviendo', moving, 'risk-low'], ['Detenidos', stopped, stopped ? 'risk-med' : 'risk-low'],
-    ['Rutas', r.trips.length, ''], ['Millas', miles, ''], ['Excesos', speeding, speeding ? 'risk-high' : 'risk-low'],
-    ['Rutas ineficientes', inefficient, inefficient ? 'risk-high' : 'risk-low'], ['Sin señal >90m', stale, stale ? 'risk-high' : 'risk-low'],
-    ['Riesgo operacional', riskClass === 'risk-high' ? 'Alto' : riskClass === 'risk-med' ? 'Medio' : 'Bajo', riskClass]
-  ].map(m => `<div class="metric ${{m[2]}}"><span>${{m[0]}}</span><strong>${{m[1]}}</strong></div>`).join('');
+    ['Vehículos', r.vehicles.length, '', 'Ver unidades localizadas'],
+    ['Moviendo', moving, 'risk-low', 'Ver unidades moviendo'],
+    ['Detenidos', stopped, stopped ? 'risk-med' : 'risk-low', 'Ver unidades detenidas'],
+    ['Rutas', r.trips.length, '', 'Ver tabla de rutas'],
+    ['Millas', miles, '', 'Ver graficas'],
+    ['Excesos', speeding, speeding ? 'risk-high' : 'risk-low', 'Ver excesos'],
+    ['Rutas ineficientes', inefficient, inefficient ? 'risk-high' : 'risk-low', 'Ver rutas a revisar'],
+    ['Sin señal >90m', stale, stale ? 'risk-high' : 'risk-low', 'Ver alertas'],
+    ['Riesgo operacional', `${{fleetRiskText(risk.score)}} (${{risk.score}}/100)`, riskClass, 'Ver definicion y acciones']
+  ].map(m => {{
+    const [hint, target] = metricInfo(m[0]);
+    return `<div class="metric ${{m[2]}}" title="${{hint}}" onclick="jumpTo('${{target}}')"><span>${{m[0]}}</span><strong>${{m[1]}}</strong><em>${{m[3]}}</em></div>`;
+  }}).join('');
+}}
+function renderRiskExplainer(r) {{
+  const risk = fleetRiskParts(r);
+  const label = fleetRiskText(risk.score);
+  const parts = [
+    ['Excesos de velocidad', risk.speeding, Math.min(100, risk.speeding * 6), 'Bajar con alertas al conductor y coaching por unidad.'],
+    ['Rutas ineficientes', risk.inefficient, Math.min(100, risk.inefficient * 4), 'Comparar contra Google Routes y validar desvíos autorizados.'],
+    ['Rutas a revisar', risk.review, Math.min(100, risk.review * 2), 'Revisar si hubo tráfico, entregas extra o mala secuencia.'],
+    ['Sin señal >90 min', risk.stale, Math.min(100, risk.stale * 18), 'Confirmar GPS, batería, cobertura o unidad apagada.'],
+    ['Detenidos >45 min', risk.stoppedLong, Math.min(100, risk.stoppedLong * 14), 'Llamar conductor o validar entrega/mantenimiento.']
+  ];
+  document.getElementById('riskExplainer').innerHTML = `
+    <div class="panel risk-score-card">
+      <h2>Que significa Riesgo operacional</h2>
+      <div class="risk-score">${{label}} <span class="small">${{risk.score}}/100</span></div>
+      <p class="small">Es un indice interno del dashboard. No viene directo de SkyTrackIt. Se calcula con eventos que pueden afectar seguridad, servicio y control: excesos, rutas ineficientes, unidades sin senal y paradas largas.</p>
+      <ul class="fix-list">
+        <li>Para bajarlo: reducir excesos de velocidad.</li>
+        <li>Resolver unidades sin senal o GPS atrasado.</li>
+        <li>Validar paradas largas y documentar motivo.</li>
+        <li>Optimizar rutas marcadas como ineficientes.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h2>Por que salio ${{label}}</h2>
+      <div class="risk-breakdown">
+        ${{parts.map(p => `<div class="risk-line"><b>${{p[0]}}</b><div class="risk-bar"><b style="width:${{p[2]}}%"></b></div><span>${{p[1]}}</span></div><div class="small">${{p[3]}}</div>`).join('')}}
+      </div>
+    </div>`;
 }}
 function latestVehicleTime(r) {{
   const times = r.vehicles.map(v => new Date(String(v.time).replace(' ', 'T'))).filter(t => !Number.isNaN(t.getTime()));
@@ -801,7 +882,7 @@ function sortTable(field) {{
 }}
 let tableName = 'summary';
 document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => {{ document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active')); btn.classList.add('active'); tableName = btn.dataset.table; sortState = {{field:null, dir:1}}; render(); }}));
-function render() {{ const r = rows(); renderLastUpdated(); renderMetrics(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }}
+function render() {{ const r = rows(); renderLastUpdated(); renderMetrics(r); renderRiskExplainer(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }}
 renderFilters(); render();
 </script>
 </body>

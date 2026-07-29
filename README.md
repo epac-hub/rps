@@ -23,8 +23,10 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 - CSV export for the active table.
 - Route playback for a critical route.
 - Quick filters for moving, stopped, and risk vehicles.
+- Clickable KPI cards with hover explanations and links to the relevant section.
 - Sortable tables with row counts.
 - Operational risk score per vehicle.
+- Operational risk explanation panel with causes and actions to lower the score.
 - Stale-report KPI based on report generation time.
 - Control-room strip with latest signal, refresh cadence, worst route ratio, top stop unit, and top speeding unit.
 - Auto-generated action plan for stopped vehicles, route inefficiency, speeding, and GPS signal gaps.
