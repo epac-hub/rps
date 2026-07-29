@@ -10,9 +10,9 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 ## Prepared Dashboard Data
 
 - 10 vehicles
-- 262 routes
-- 1,328 stops
-- 36 speeding events over 65 mph
+- 256 routes
+- 1,332 stops
+- 38 speeding events over 65 mph
 
 ## Dashboard Features
 
@@ -27,5 +27,17 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 - Operational risk score per vehicle.
 - Stale-report KPI based on report generation time.
 - Browser password gate. Current access password: `melvinmelvin`.
+- Local auto-refresh scheduled every 5 minutes from the publishing machine.
 
 Open `index.html` directly or serve this repository with GitHub Pages.
+
+## Live Refresh
+
+`scripts/live_refresh.ps1` refreshes the dashboard every 5 minutes from the Windows machine where this repo is published.
+
+Required user environment variables on that machine:
+
+- `SKYTRACKIT_USER`
+- `SKYTRACKIT_PASSWORD`
+
+Each run downloads fresh SkyTrackIt data, rebuilds `index.html`, commits the updated dashboard, and pushes it to GitHub Pages.
