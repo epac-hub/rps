@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29 18:49:17.843553",
+  "generatedAt": "2026-07-29 18:54:22.569178",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-07-29 18:48:43",
+      "time": "2026-07-29 18:53:07",
       "speed": 0.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.426256,
-      "lng": -66.462599,
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
+      "ignition": "IGNITION OFF",
+      "lat": 18.418651,
+      "lng": -66.461996,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -185,11 +185,11 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Detenido",
-      "last_seen": "2026-07-29 18:48:43",
-      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 30,
+      "last_seen": "2026-07-29 18:53:07",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 31,
       "stops": 46,
-      "miles": 240.5,
+      "miles": 251.8,
       "speeding": 6,
       "inefficient_routes": 3,
       "max_speed": 72.6
@@ -16483,6 +16483,64 @@
         [
           18.099373,
           -65.899453
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-07-29 14:19:04",
+      "arrival": "2026-07-29 14:52:50",
+      "duration_min": 33.8,
+      "origin": "Calle 4 (Residential), Vega Alta, Puerto Rico, 00692",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.47716,
+      "origin_lng": -66.348079,
+      "destination_lat": 18.418651,
+      "destination_lng": -66.461996,
+      "miles": 11.34,
+      "straight_miles": 8.49,
+      "efficiency_ratio": 1.34,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.34x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.47707,
+          -66.34823
+        ],
+        [
+          18.47716,
+          -66.348079
+        ],
+        [
+          18.466106,
+          -66.344298
+        ],
+        [
+          18.444666,
+          -66.362323
+        ],
+        [
+          18.446653,
+          -66.391656
+        ],
+        [
+          18.44411,
+          -66.41166
+        ],
+        [
+          18.430053,
+          -66.43816
+        ],
+        [
+          18.420505,
+          -66.463151
+        ],
+        [
+          18.418651,
+          -66.461996
         ]
       ]
     },
