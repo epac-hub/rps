@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29 18:19:18.007110",
+  "generatedAt": "2026-07-29 18:24:17.566462",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-07-29 17:58:14",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.47716,
-      "lng": -66.348079,
-      "place": "Calle 4 (Residential), Vega Alta, Puerto Rico, 00692"
+      "time": "2026-07-29 18:23:42",
+      "speed": 7.9,
+      "ignition": "IGNITION ON",
+      "lat": 18.466796,
+      "lng": -66.343888,
+      "place": "PR-692 (Tertiary), Vega Alta, Puerto Rico, 00692"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -146,7 +146,7 @@
       "last_seen": "2026-07-29 14:30:58",
       "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
       "trips": 10,
-      "stops": 9,
+      "stops": 10,
       "miles": 0.1,
       "speeding": 3,
       "inefficient_routes": 0,
@@ -184,11 +184,11 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Detenido",
-      "last_seen": "2026-07-29 17:58:14",
-      "current_place": "Calle 4 (Residential), Vega Alta, Puerto Rico, 00692",
+      "current_status": "Moviendo",
+      "last_seen": "2026-07-29 18:23:42",
+      "current_place": "PR-692 (Tertiary), Vega Alta, Puerto Rico, 00692",
       "trips": 30,
-      "stops": 45,
+      "stops": 46,
       "miles": 240.5,
       "speeding": 6,
       "inefficient_routes": 3,
@@ -27719,6 +27719,24 @@
       "speed": 0.0,
       "lat": 18.4816233,
       "lng": -66.4234633
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-07-29 14:19:04",
+      "place": "Calle 2 (Residential), Vega Alta, Puerto Rico, 00692",
+      "speed": 1.6,
+      "lat": 18.47707,
+      "lng": -66.34823
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-07-29 14:22:05",
+      "place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.4815983,
+      "lng": -66.42347
     }
   ],
   "speeding": [
