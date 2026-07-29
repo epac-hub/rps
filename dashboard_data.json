@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29 17:56:20.302042",
+  "generatedAt": "2026-07-29 17:59:19.640663",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-07-29 17:53:24",
+      "time": "2026-07-29 17:58:14",
       "speed": 0.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.480611,
-      "lng": -66.344138,
-      "place": "Carretera Principal Cerro Gordo (Residential), Vega Alta, Puerto Rico, 00692"
+      "ignition": "IGNITION OFF",
+      "lat": 18.47716,
+      "lng": -66.348079,
+      "place": "Calle 4 (Residential), Vega Alta, Puerto Rico, 00692"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -185,11 +185,11 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Detenido",
-      "last_seen": "2026-07-29 17:53:24",
-      "current_place": "Carretera Principal Cerro Gordo (Residential), Vega Alta, Puerto Rico, 00692",
-      "trips": 29,
+      "last_seen": "2026-07-29 17:58:14",
+      "current_place": "Calle 4 (Residential), Vega Alta, Puerto Rico, 00692",
+      "trips": 30,
       "stops": 45,
-      "miles": 208.2,
+      "miles": 240.5,
       "speeding": 6,
       "inefficient_routes": 3,
       "max_speed": 72.6
@@ -15649,6 +15649,101 @@
         [
           18.156496,
           -65.863046
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-07-29 12:34:18",
+      "arrival": "2026-07-29 13:58:05",
+      "duration_min": 83.8,
+      "origin": "Calle Rubí (Residential), Comerio, Puerto Rico, 00782",
+      "destination": "Calle 4 (Residential), Vega Alta, Puerto Rico, 00692",
+      "origin_lat": 18.213951,
+      "origin_lng": -66.245365,
+      "destination_lat": 18.47716,
+      "destination_lng": -66.348079,
+      "miles": 32.33,
+      "straight_miles": 19.39,
+      "efficiency_ratio": 1.67,
+      "efficiency": "Revisar",
+      "route_points": [
+        [
+          18.213881,
+          -66.245308
+        ],
+        [
+          18.213951,
+          -66.245365
+        ],
+        [
+          18.209991,
+          -66.244531
+        ],
+        [
+          18.216995,
+          -66.229451
+        ],
+        [
+          18.230591,
+          -66.21433
+        ],
+        [
+          18.257848,
+          -66.206786
+        ],
+        [
+          18.287243,
+          -66.209418
+        ],
+        [
+          18.308471,
+          -66.214441
+        ],
+        [
+          18.338355,
+          -66.202304
+        ],
+        [
+          18.356491,
+          -66.217901
+        ],
+        [
+          18.367706,
+          -66.218186
+        ],
+        [
+          18.373595,
+          -66.241058
+        ],
+        [
+          18.392811,
+          -66.254483
+        ],
+        [
+          18.419978,
+          -66.267675
+        ],
+        [
+          18.422801,
+          -66.320359
+        ],
+        [
+          18.44995,
+          -66.342851
+        ],
+        [
+          18.480555,
+          -66.343858
+        ],
+        [
+          18.478871,
+          -66.349599
+        ],
+        [
+          18.47716,
+          -66.348079
         ]
       ]
     },
