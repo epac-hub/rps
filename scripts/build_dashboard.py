@@ -323,7 +323,7 @@ body {{ margin: 0; font-family: Inter, Segoe UI, Arial, sans-serif; color: var(-
   background: url('assets/healthcare-fleet-hero.png') center 48%/cover no-repeat;
   filter: saturate(1.08) contrast(1.08);
   transform: scale(1.06);
-  animation: heroDrift 22s ease-in-out infinite alternate;
+  animation: heroDrift 14s ease-in-out infinite;
 }}
 .hero::after {{
   content: "";
@@ -335,10 +335,18 @@ body {{ margin: 0; font-family: Inter, Segoe UI, Arial, sans-serif; color: var(-
     linear-gradient(115deg, rgba(0,167,165,.10), transparent 42%),
     repeating-linear-gradient(90deg, rgba(255,255,255,.025) 0 1px, transparent 1px 90px);
   pointer-events: none;
+  animation: heroGlow 8s ease-in-out infinite;
+}}
+@keyframes heroGlow {{
+  0%,100% {{ opacity:.72; transform: translate3d(-1.5%,0,0) scale(1); }}
+  50% {{ opacity:1; transform: translate3d(1.5%,-1%,0) scale(1.035); }}
 }}
 @keyframes heroDrift {{
-  from {{ transform: scale(1.06) translate3d(0,0,0); }}
-  to {{ transform: scale(1.12) translate3d(-1.2%, -1%, 0); }}
+  0% {{ transform: scale(1.08) translate3d(-1.8%, 0, 0); }}
+  25% {{ transform: scale(1.13) translate3d(1.8%, -1.2%, 0); }}
+  50% {{ transform: scale(1.16) translate3d(.4%, -2.4%, 0); }}
+  75% {{ transform: scale(1.12) translate3d(-2.2%, -.8%, 0); }}
+  100% {{ transform: scale(1.08) translate3d(-1.8%, 0, 0); }}
 }}
 .hero-shell {{
   width: min(1500px, 100%);
@@ -371,6 +379,11 @@ body {{ margin: 0; font-family: Inter, Segoe UI, Arial, sans-serif; color: var(-
   position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,.22); border-radius: 18px; padding: 20px;
   background: linear-gradient(145deg, rgba(4,33,49,.82), rgba(7,58,73,.58));
   backdrop-filter: blur(18px) saturate(1.2); box-shadow: 0 28px 80px rgba(0,0,0,.34);
+  animation: heroCardFloat 5.5s ease-in-out infinite;
+}}
+@keyframes heroCardFloat {{
+  0%,100% {{ transform: translateY(0); }}
+  50% {{ transform: translateY(-12px); }}
 }}
 .hero-command-card::before {{ content: ""; position: absolute; inset: 0; background: linear-gradient(120deg, rgba(56,198,255,.12), transparent 44%); pointer-events: none; }}
 .hero-card-brand {{
