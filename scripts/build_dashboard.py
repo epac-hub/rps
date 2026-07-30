@@ -1,4 +1,4 @@
-﻿import csv
+import csv
 import datetime as dt
 import html
 import json
@@ -434,16 +434,16 @@ tr:hover td {{ background: #fff9e8; }}
   <div class="hero-inner">
     <div class="brand-lockup"><img class="hero-logo" src="assets/rps-logo-white.png" alt="RPS Medical"></div>
     <h1>Fleet Command</h1>
-    <p>Control interactivo de vehÃ­culos, paradas, excesos de velocidad y eficiencia de rutas para operaciones de salud y entregas crÃ­ticas.</p>
+    <p>Supervisión integral de vehículos, rutas, paradas y eventos de velocidad para operaciones de salud y entregas críticas.</p>
     <div class="hero-actions">
-      <button class="btn" onclick="document.getElementById('dashboard').scrollIntoView({{behavior:'smooth'}})">Abrir dashboard</button>
+      <button class="btn" onclick="document.getElementById('dashboard').scrollIntoView({{behavior:'smooth'}})">Abrir panel</button>
       <button class="btn secondary" onclick="document.getElementById('recommendations').scrollIntoView({{behavior:'smooth'}})">Ver recomendaciones</button>
     </div>
   </div>
 </section>
 <nav>
   <div class="nav-brand"><img class="nav-logo" src="assets/rps-logo-white.png" alt="RPS Medical"><span>Fleet Command</span></div>
-  <select id="vehicleFilter"><option value="all">Todos los vehÃ­culos</option></select>
+  <select id="vehicleFilter"><option value="all">Todos los vehículos</option></select>
   <input id="searchBox" placeholder="Buscar lugar, placa, conductor">
   <button onclick="focusAll()">Ver todos</button>
   <button data-status="moving" onclick="setStatusFilter('moving', this)">Moviendo</button>
@@ -457,7 +457,7 @@ tr:hover td {{ background: #fff9e8; }}
 </nav>
 <main id="dashboard">
   <section class="update-banner">
-    <div><strong>Ultima actualizacion de datos</strong><br><span>Informacion reconstruida desde SkyTrackIt y publicada en este dashboard.</span></div>
+    <div><strong>Última actualización de datos</strong><br><span>Información reconstruida desde SkyTrackIt y publicada en este panel.</span></div>
     <div class="update-time" id="lastUpdated"></div>
   </section>
   <section class="metrics" id="metrics"></section>
@@ -468,7 +468,7 @@ tr:hover td {{ background: #fff9e8; }}
     <section class="panel" id="mapPanel">
       <div class="toolbar">
         <h2>Mapa operacional</h2>
-        <button onclick="animateBestRoute()">Animar ruta critica</button>
+        <button onclick="animateBestRoute()">Animar ruta crítica</button>
         <button onclick="downloadCurrentTable()">Exportar tabla</button>
       </div>
       <div id="map"></div>
@@ -479,15 +479,15 @@ tr:hover td {{ background: #fff9e8; }}
         <span class="pill"><span class="dot" style="background:#00a7a5"></span>Paradas frecuentes</span>
       </div>
     </section>
-    <aside class="panel" id="vehiclePanel"><h2>VehÃ­culos localizados</h2><div id="vehicleCards"></div></aside>
+    <aside class="panel" id="vehiclePanel"><h2>Vehículos localizados</h2><div id="vehicleCards"></div></aside>
   </div>
   <section class="ops-grid" id="opsPanel">
     <div class="ops-card"><h3>Alertas ahora</h3><ul class="ops-list" id="alertList"></ul></div>
     <div class="ops-card"><h3>Rutas a revisar</h3><ul class="ops-list" id="routeList"></ul></div>
-    <div class="ops-card"><h3>Zonas con mas paradas</h3><ul class="ops-list" id="hotspotList"></ul></div>
+    <div class="ops-card"><h3>Zonas con más paradas</h3><ul class="ops-list" id="hotspotList"></ul></div>
   </section>
   <section class="panel" id="actionPlan">
-    <h2>Plan de accion recomendado</h2>
+    <h2>Plan de acción recomendado</h2>
     <div class="action-grid" id="actionGrid"></div>
     <div class="route-quality" id="routeQuality"></div>
   </section>
@@ -497,7 +497,7 @@ tr:hover td {{ background: #fff9e8; }}
     <div class="panel"><h2>Excesos de velocidad</h2><canvas id="speedChart"></canvas></div>
     <div class="panel"><h2>Paradas por vehÃ­culo</h2><canvas id="stopsChart"></canvas></div>
   </section>
-  <section class="panel" id="recommendations"><h2>Recomendaciones para mejorar operaciÃ³n</h2><ul class="rec-list" id="recList"></ul></section>
+  <section class="panel" id="recommendations"><h2>Recomendaciones para mejorar la operación</h2><ul class="rec-list" id="recList"></ul></section>
   <div class="tabs">
     <button class="btn active" data-table="summary">Resumen</button>
     <button class="btn" data-table="trips">Rutas</button>
@@ -536,7 +536,7 @@ document.getElementById('authForm').addEventListener('submit', event => {{
   }}
 }});
 const data = JSON.parse(document.getElementById('fleetData').textContent);
-document.title = `RPS Fleet - ${{data.vehicles.length}} vehÃ­culos`;
+document.title = `RPS Fleet - ${{data.vehicles.length}} vehículos`;
 let selected = 'all';
 let activeLayer = 'routes';
 let statusFilter = 'all';
@@ -592,14 +592,14 @@ function fleetRiskText(score) {{
 }}
 function metricInfo(label) {{
   const info = {{
-    'VehÃ­culos': ['Total de unidades localizadas en la data actual.', 'vehiclePanel'],
+    'Vehículos': ['Total de unidades localizadas en la data actual.', 'vehiclePanel'],
     'Moviendo': ['Unidades con velocidad mayor de 2 mph en su ultima lectura.', 'vehiclePanel'],
     'Detenidos': ['Unidades con velocidad de 2 mph o menos en su ultima lectura.', 'vehiclePanel'],
     'Rutas': ['Viajes completos detectados por eventos de ignicion/salida-llegada.', 'tablePanel'],
     'Millas': ['Millas recorridas en las rutas cargadas en el periodo actual.', 'chartsPanel'],
     'Excesos': ['Eventos donde la unidad supero el umbral configurado de 65 mph.', 'opsPanel'],
     'Rutas ineficientes': ['Rutas donde las millas recorridas fueron mucho mayores que la distancia directa estimada.', 'opsPanel'],
-    'Sin seÃ±al >90m': ['Unidades cuya ultima senal tiene mas de 90 minutos.', 'opsPanel'],
+    'Sin señal >90m': ['Unidades cuya ultima senal tiene mas de 90 minutos.', 'opsPanel'],
     'Riesgo operacional': ['Indice interno: excesos + rutas ineficientes + unidades sin senal + paradas largas. Click para ver como bajarlo.', 'riskExplainer']
   }};
   return info[label] || ['', 'dashboard'];
@@ -639,14 +639,14 @@ function renderMetrics(r) {{
   const risk = fleetRiskParts(r);
   const riskClass = risk.score >= 65 ? 'risk-high' : risk.score >= 30 ? 'risk-med' : 'risk-low';
   document.getElementById('metrics').innerHTML = [
-    ['VehÃ­culos', r.vehicles.length, '', 'Ver unidades localizadas'],
+    ['Vehículos', r.vehicles.length, '', 'Ver unidades localizadas'],
     ['Moviendo', moving, 'risk-low', 'Ver unidades moviendo'],
     ['Detenidos', stopped, stopped ? 'risk-med' : 'risk-low', 'Ver unidades detenidas'],
     ['Rutas', r.trips.length, '', 'Ver tabla de rutas'],
     ['Millas', miles, '', 'Ver graficas'],
     ['Excesos', speeding, speeding ? 'risk-high' : 'risk-low', 'Ver excesos'],
     ['Rutas ineficientes', inefficient, inefficient ? 'risk-high' : 'risk-low', 'Ver rutas a revisar'],
-    ['Sin seÃ±al >90m', stale, stale ? 'risk-high' : 'risk-low', 'Ver alertas'],
+    ['Sin señal >90m', stale, stale ? 'risk-high' : 'risk-low', 'Ver alertas'],
     ['Riesgo operacional', `${{fleetRiskText(risk.score)}} (${{risk.score}}/100)`, riskClass, 'Ver definicion y acciones']
   ].map(m => {{
     const [hint, target] = metricInfo(m[0]);
@@ -660,7 +660,7 @@ function renderRiskExplainer(r) {{
     ['Excesos de velocidad', risk.speeding, Math.min(100, risk.speeding * 6), 'Bajar con alertas al conductor y coaching por unidad.'],
     ['Rutas ineficientes', risk.inefficient, Math.min(100, risk.inefficient * 4), 'Comparar contra Google Routes y validar desvÃ­os autorizados.'],
     ['Rutas a revisar', risk.review, Math.min(100, risk.review * 2), 'Revisar si hubo trÃ¡fico, entregas extra o mala secuencia.'],
-    ['Sin seÃ±al >90 min', risk.stale, Math.min(100, risk.stale * 18), 'Confirmar GPS, baterÃ­a, cobertura o unidad apagada.'],
+    ['Sin señal >90 min', risk.stale, Math.min(100, risk.stale * 18), 'Confirmar GPS, baterÃ­a, cobertura o unidad apagada.'],
     ['Detenidos >45 min', risk.stoppedLong, Math.min(100, risk.stoppedLong * 14), 'Llamar conductor o validar entrega/mantenimiento.']
   ];
   document.getElementById('riskExplainer').innerHTML = `
@@ -861,7 +861,7 @@ function renderOps(r) {{
     if (mins > 90) alerts.push({{cls:'warnline', text:`${{v.vehicle}} sin reporte reciente por ${{elapsedLabel(mins)}}`}});
   }});
   r.speeding.slice(0, 5).forEach(s => alerts.push({{cls:'warnline', text:`${{s.vehicle}} exceso: ${{s.speed}} mph (+${{s.over}}) en ${{s.place}}`}}));
-  document.getElementById('alertList').innerHTML = (alerts.length ? alerts : [{{cls:'', text:'Sin alertas crÃ­ticas con el filtro actual.'}}]).slice(0,8).map(a => `<li class="${{a.cls}}">${{a.text}}</li>`).join('');
+  document.getElementById('alertList').innerHTML = (alerts.length ? alerts : [{{cls:'', text:'Sin alertas críticas con el filtro actual.'}}]).slice(0,8).map(a => `<li class="${{a.cls}}">${{a.text}}</li>`).join('');
 
   const routeRows = r.trips.filter(t => t.efficiency === 'Ineficiente' || t.efficiency === 'Revisar').sort((a,b) => Number(b.efficiency_ratio || 0) - Number(a.efficiency_ratio || 0)).slice(0, 8);
   document.getElementById('routeList').innerHTML = (routeRows.length ? routeRows.map(t => `<li class="${{t.efficiency === 'Ineficiente' ? 'danger' : 'warnline'}}"><b>${{t.vehicle}}</b> ${{badge(t.efficiency)}}<br>${{t.departure}} - ${{t.miles}} mi vs ${{t.straight_miles}} mi directa - ratio ${{t.efficiency_ratio}}x<br><span class="small"><b>Causa:</b> ${{routeCause(t)}}<br><b>Alternativa:</b> ${{routeFix(t)}}</span></li>`) : ['<li>No hay rutas marcadas para revision.</li>']).join('');
