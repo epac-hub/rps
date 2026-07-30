@@ -21,19 +21,91 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: Inter, Segoe UI, Arial, sans-serif; color: var(--ink); background: #eef7f8; letter-spacing: 0; }
 .hero {
-  min-height: 88vh;
-  background: linear-gradient(90deg, rgba(5,28,43,.86), rgba(5,28,43,.56), rgba(5,28,43,.18)), url('assets/healthcare-fleet-hero.png') center/cover no-repeat;
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+  isolation: isolate;
   color: white;
-  display: flex;
+  display: grid;
   align-items: end;
-  padding: 34px;
+  padding: clamp(24px, 4vw, 64px);
+  background:
+    linear-gradient(90deg, rgba(3,22,35,.94) 0%, rgba(3,22,35,.77) 42%, rgba(3,22,35,.25) 73%, rgba(3,22,35,.08) 100%),
+    linear-gradient(0deg, rgba(3,22,35,.78) 0%, rgba(3,22,35,0) 48%),
+    url('assets/healthcare-fleet-hero.png') center 48%/cover no-repeat;
 }
-.hero-inner { max-width: 1060px; padding-bottom: 8vh; }
-.brand-lockup { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-bottom: 22px; }
-.hero-logo { width: min(290px, 58vw); height: auto; filter: drop-shadow(0 8px 22px rgba(0,0,0,.28)); }
-.hero h1 { font-size: clamp(36px, 6vw, 76px); line-height: 1; margin: 0 0 18px; letter-spacing: 0; max-width: 980px; }
-.hero p { font-size: 20px; max-width: 760px; line-height: 1.45; margin: 0 0 28px; }
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -4%;
+  z-index: -2;
+  background: url('assets/healthcare-fleet-hero.png') center 48%/cover no-repeat;
+  filter: saturate(1.08) contrast(1.08);
+  transform: scale(1.06);
+  animation: heroDrift 22s ease-in-out infinite alternate;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 76% 38%, rgba(56,198,255,.19), transparent 27%),
+    linear-gradient(115deg, rgba(0,167,165,.10), transparent 42%),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.025) 0 1px, transparent 1px 90px);
+  pointer-events: none;
+}
+@keyframes heroDrift {
+  from { transform: scale(1.06) translate3d(0,0,0); }
+  to { transform: scale(1.12) translate3d(-1.2%, -1%, 0); }
+}
+.hero-shell {
+  width: min(1500px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.22fr) minmax(320px, .62fr);
+  gap: clamp(24px, 5vw, 80px);
+  align-items: end;
+  padding-bottom: clamp(34px, 7vh, 82px);
+}
+.hero-inner { max-width: 900px; }
+.brand-lockup { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-bottom: 26px; }
+.hero-logo { width: min(300px, 58vw); height: auto; filter: drop-shadow(0 12px 30px rgba(0,0,0,.42)); }
+.hero-kicker {
+  display: inline-flex; align-items: center; gap: 9px; margin: 0 0 14px; padding: 7px 11px;
+  border: 1px solid rgba(255,255,255,.26); border-radius: 999px; background: rgba(3,22,35,.32);
+  backdrop-filter: blur(12px); font-size: 12px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase;
+}
+.hero-kicker::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 18px var(--cyan); }
+.hero h1 {
+  font-size: clamp(48px, 7vw, 96px); line-height: .93; margin: 0 0 22px; letter-spacing: -.045em;
+  max-width: 980px; text-shadow: 0 14px 38px rgba(0,0,0,.38);
+}
+.hero p {
+  font-size: clamp(18px, 2vw, 23px); max-width: 830px; line-height: 1.48; margin: 0 0 30px;
+  color: rgba(255,255,255,.92); text-shadow: 0 3px 20px rgba(0,0,0,.38);
+}
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-command-card {
+  position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,.22); border-radius: 18px; padding: 20px;
+  background: linear-gradient(145deg, rgba(4,33,49,.82), rgba(7,58,73,.58));
+  backdrop-filter: blur(18px) saturate(1.2); box-shadow: 0 28px 80px rgba(0,0,0,.34);
+}
+.hero-command-card::before { content: ""; position: absolute; inset: 0; background: linear-gradient(120deg, rgba(56,198,255,.12), transparent 44%); pointer-events: none; }
+.hero-card-brand {
+  position: relative; display: flex; align-items: center; justify-content: space-between; gap: 14px;
+  padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,.14);
+}
+.hero-card-brand img { width: 118px; height: auto; }
+.hero-live { display: inline-flex; align-items: center; gap: 7px; font-size: 11px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.8); }
+.hero-live i { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 16px var(--green); }
+.hero-stats { position: relative; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+.hero-stat { min-height: 104px; padding: 14px; border-radius: 12px; background: rgba(255,255,255,.075); border: 1px solid rgba(255,255,255,.11); }
+.hero-stat span { display: block; color: rgba(255,255,255,.64); font-size: 10px; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+.hero-stat strong { display: block; margin-top: 7px; font-size: 29px; line-height: 1; }
+.hero-stat small { display: block; margin-top: 7px; color: rgba(255,255,255,.68); line-height: 1.2; }
+.hero-footnote { position: relative; display: flex; align-items: center; gap: 10px; margin-top: 14px; color: rgba(255,255,255,.7); font-size: 11px; }
+.hero-footnote img { width: 62px; height: auto; opacity: .9; }
 .btn { border: 0; background: var(--teal); color: white; padding: 12px 16px; border-radius: 8px; font-weight: 800; cursor: pointer; }
 .btn.secondary { background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.42); }
 nav { position: sticky; top: 0; z-index: 900; background: rgba(9,36,51,.96); color: white; padding: 10px 18px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
@@ -133,7 +205,7 @@ tr:hover td { background: #fff9e8; }
 .vehicle-card { display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; background: white; cursor: pointer; }
 .vehicle-card:hover { border-color: var(--teal); }
 .small { color: var(--muted); font-size: 12px; }
-@media (max-width: 1050px) { .metrics { grid-template-columns: repeat(2, 1fr); } .layout, .charts, .ops-grid, .command-strip, .action-grid, .risk-explainer, .route-explainer { grid-template-columns: 1fr; } #map { height: 520px; } }
+@media (max-width: 1050px) { .hero-shell { grid-template-columns: 1fr; } .hero-command-card { max-width: 680px; } .metrics { grid-template-columns: repeat(2, 1fr); } .layout, .charts, .ops-grid, .command-strip, .action-grid, .risk-explainer, .route-explainer { grid-template-columns: 1fr; } #map { height: 520px; } }
 @media (max-width: 620px) { .hero { padding: 22px; min-height: 82vh; } .hero h1 { font-size: 38px; } .metrics { grid-template-columns: 1fr; } nav { align-items: stretch; } .nav-brand { width: 100%; } nav button, select, input { flex: 1; min-width: 120px; } }
 </style>
 </head>
@@ -150,14 +222,30 @@ tr:hover td { background: #fff9e8; }
   </form>
 </div>
 <section class="hero">
-  <div class="hero-inner">
-    <div class="brand-lockup"><img class="hero-logo" src="assets/rps-logo-white.png" alt="RPS Medical"></div>
-    <h1>Fleet Command</h1>
-    <p>Supervisión integral de vehículos, rutas, paradas y eventos de velocidad para operaciones de salud y entregas críticas.</p>
-    <div class="hero-actions">
-      <button class="btn" onclick="document.getElementById('dashboard').scrollIntoView({behavior:'smooth'})">Abrir panel</button>
-      <button class="btn secondary" onclick="document.getElementById('recommendations').scrollIntoView({behavior:'smooth'})">Ver recomendaciones</button>
+  <div class="hero-shell">
+    <div class="hero-inner">
+      <div class="brand-lockup"><img class="hero-logo" src="assets/rps-logo-white.png" alt="RPS Medical"></div>
+      <div class="hero-kicker">RPS Medical Fleet Operations</div>
+      <h1>Fleet Command</h1>
+      <p>Supervisión integral de vehículos, rutas, paradas y eventos de velocidad para operaciones de salud y entregas críticas en Puerto Rico.</p>
+      <div class="hero-actions">
+        <button class="btn" onclick="document.getElementById('dashboard').scrollIntoView({behavior:'smooth'})">Abrir panel</button>
+        <button class="btn secondary" onclick="document.getElementById('recommendations').scrollIntoView({behavior:'smooth'})">Ver recomendaciones</button>
+      </div>
     </div>
+    <aside class="hero-command-card" aria-label="Resumen operacional RPS">
+      <div class="hero-card-brand">
+        <img src="assets/rps-logo-white.png" alt="RPS Medical">
+        <span class="hero-live"><i></i> Sistema activo</span>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><span>Vehículos</span><strong id="heroVehicles">—</strong><small>unidades monitoreadas</small></div>
+        <div class="hero-stat"><span>Rutas</span><strong id="heroRoutes">—</strong><small>viajes analizados</small></div>
+        <div class="hero-stat"><span>Excesos</span><strong id="heroSpeeding">—</strong><small>eventos detectados</small></div>
+        <div class="hero-stat"><span>Actualización</span><strong>5 min</strong><small>ciclo de publicación</small></div>
+      </div>
+      <div class="hero-footnote"><img src="assets/rps-logo-white.png" alt=""><span>Operational intelligence for critical healthcare delivery.</span></div>
+    </aside>
   </div>
 </section>
 <nav>
@@ -211,10 +299,10 @@ tr:hover td { background: #fff9e8; }
     <div class="route-quality" id="routeQuality"></div>
   </section>
   <section class="charts" id="chartsPanel">
-    <div class="panel"><h2>Millas por vehÃ­culo</h2><canvas id="milesChart"></canvas></div>
+    <div class="panel"><h2>Millas por vehículo</h2><canvas id="milesChart"></canvas></div>
     <div class="panel"><h2>Rutas ineficientes</h2><canvas id="effChart"></canvas></div>
     <div class="panel"><h2>Excesos de velocidad</h2><canvas id="speedChart"></canvas></div>
-    <div class="panel"><h2>Paradas por vehÃ­culo</h2><canvas id="stopsChart"></canvas></div>
+    <div class="panel"><h2>Paradas por vehículo</h2><canvas id="stopsChart"></canvas></div>
   </section>
   <section class="panel" id="recommendations"><h2>Recomendaciones para mejorar la operación</h2><ul class="rec-list" id="recList"></ul></section>
   <div class="tabs">
@@ -262,7 +350,7 @@ let statusFilter = 'all';
 let sortState = { field: null, dir: 1 };
 const colors = ['#00a7a5','#38c6ff','#ff6b6b','#ffd166','#53c271','#7b61ff','#ff8a3d','#2f6f9f','#b94a48','#16a085'];
 if (typeof L === 'undefined' || typeof Chart === 'undefined') {
-  document.getElementById('map').innerHTML = '<div style="padding:24px;font-weight:800;color:#9b1c1c">No cargaron las librerÃ­as de mapa/grÃ¡ficas. Verifica conexiÃ³n a internet o abre el ZIP extraÃ­do completo.</div>';
+  document.getElementById('map').innerHTML = '<div style="padding:24px;font-weight:800;color:#9b1c1c">No cargaron las librerías de mapa/gráficas. Verifica conexión a internet o abre el ZIP extraído completo.</div>';
   throw new Error('Leaflet or Chart.js did not load');
 }
 const map = L.map('map', { scrollWheelZoom: true }).setView([18.28, -66.45], 10);
@@ -377,9 +465,9 @@ function renderRiskExplainer(r) {
   const label = fleetRiskText(risk.score);
   const parts = [
     ['Excesos de velocidad', risk.speeding, Math.min(100, risk.speeding * 6), 'Bajar con alertas al conductor y coaching por unidad.'],
-    ['Rutas ineficientes', risk.inefficient, Math.min(100, risk.inefficient * 4), 'Comparar contra Google Routes y validar desvÃ­os autorizados.'],
-    ['Rutas a revisar', risk.review, Math.min(100, risk.review * 2), 'Revisar si hubo trÃ¡fico, entregas extra o mala secuencia.'],
-    ['Sin señal >90 min', risk.stale, Math.min(100, risk.stale * 18), 'Confirmar GPS, baterÃ­a, cobertura o unidad apagada.'],
+    ['Rutas ineficientes', risk.inefficient, Math.min(100, risk.inefficient * 4), 'Comparar contra Google Routes y validar desvíos autorizados.'],
+    ['Rutas a revisar', risk.review, Math.min(100, risk.review * 2), 'Revisar si hubo tráfico, entregas extra o mala secuencia.'],
+    ['Sin señal >90 min', risk.stale, Math.min(100, risk.stale * 18), 'Confirmar GPS, batería, cobertura o unidad apagada.'],
     ['Detenidos >45 min', risk.stoppedLong, Math.min(100, risk.stoppedLong * 14), 'Llamar conductor o validar entrega/mantenimiento.']
   ];
   document.getElementById('riskExplainer').innerHTML = `
@@ -479,6 +567,11 @@ function renderCommandStrip(r) {
     ['Ineficientes', quality.bad, 'bad']
   ].map(item => `<div class="quality-box"><span>${item[0]}</span><b>${item[1]}</b>${badge(item[0])}</div>`).join('');
 }
+function renderHeroSnapshot(r) {
+  document.getElementById('heroVehicles').textContent = r.vehicles.length;
+  document.getElementById('heroRoutes').textContent = r.trips.length;
+  document.getElementById('heroSpeeding').textContent = r.speeding.length;
+}
 function renderLastUpdated() {
   const generated = generatedDate();
   document.getElementById('lastUpdated').innerHTML = `${formatDateTime(generated)} <span>Actualiza cada 5 minutos</span>`;
@@ -502,7 +595,7 @@ function renderMap(r) {
   r.trips.forEach((t, idx) => {
     if (!t.route_points || t.route_points.length < 2) return;
     const color = t.efficiency === 'Ineficiente' ? '#ff6b6b' : t.efficiency === 'Revisar' ? '#ffd166' : colors[idx % colors.length];
-    const poly = L.polyline(t.route_points, { color, weight: 4, opacity: .72 }).bindPopup(`<b>${t.vehicle}</b><br>${t.departure} â†’ ${t.arrival}<br>${t.miles} mi Â· ${badge(t.efficiency)}`);
+    const poly = L.polyline(t.route_points, { color, weight: 4, opacity: .72 }).bindPopup(`<b>${t.vehicle}</b><br>${t.departure} → ${t.arrival}<br>${t.miles} mi · ${badge(t.efficiency)}`);
     routeLayer.addLayer(poly); t.route_points.forEach(p => bounds.push(p));
   });
   r.vehicles.forEach(v => {
@@ -531,7 +624,7 @@ function renderCards(r) {
   const bySerial = Object.fromEntries(data.summary.map(s => [s.serial, s]));
   document.getElementById('vehicleCards').innerHTML = r.vehicles.map(v => {
     const score = riskScore(bySerial[v.serial] || {});
-    return `<div class="vehicle-card" onclick="selectVehicle('${v.serial}')"><div><b>${v.vehicle}</b><div class="small">${v.place || 'Sin direcciÃ³n'}<br>${v.time}</div></div><div>${badge(v.speed > 2 ? 'Moviendo' : 'Detenido')}<div class="small">${v.speed} mph Â· Riesgo ${score}</div></div></div>`;
+    return `<div class="vehicle-card" onclick="selectVehicle('${v.serial}')"><div><b>${v.vehicle}</b><div class="small">${v.place || 'Sin dirección'}<br>${v.time}</div></div><div>${badge(v.speed > 2 ? 'Moviendo' : 'Detenido')}<div class="small">${v.speed} mph · Riesgo ${score}</div></div></div>`;
   }).join('');
 }
 function selectVehicle(serial) { selected = serial; document.getElementById('vehicleFilter').value = serial; render(); }
@@ -647,7 +740,7 @@ function renderTable(name, r) {
   }
   document.getElementById('tableTitle').textContent = titles[name];
   document.getElementById('rowCount').textContent = `${rowsForTable.length} registros`;
-  document.getElementById('table').innerHTML = `<table><thead><tr>${fields.map(f => `<th onclick="sortTable('${f}')">${labels[f] || f} ${sortState.field === f ? (sortState.dir > 0 ? 'â–²' : 'â–¼') : ''}</th>`).join('')}</tr></thead><tbody>${rowsForTable.map(row => `<tr>${fields.map(f => `<td>${formatCell(f, row[f], row)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+  document.getElementById('table').innerHTML = `<table><thead><tr>${fields.map(f => `<th onclick="sortTable('${f}')">${labels[f] || f} ${sortState.field === f ? (sortState.dir > 0 ? '▲' : '▼') : ''}</th>`).join('')}</tr></thead><tbody>${rowsForTable.map(row => `<tr>${fields.map(f => `<td>${formatCell(f, row[f], row)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
 }
 function formatCell(field, value, row) {
   if (field === 'efficiency' || field === 'current_status') return badge(value);
@@ -660,7 +753,7 @@ function sortTable(field) {
 }
 let tableName = 'summary';
 document.querySelectorAll('.tabs button').forEach(btn => btn.addEventListener('click', () => { document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active')); btn.classList.add('active'); tableName = btn.dataset.table; sortState = {field:null, dir:1}; render(); }));
-function render() { const r = rows(); renderLastUpdated(); renderMetrics(r); renderRiskExplainer(r); renderRouteExplainer(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }
+function render() { const r = rows(); renderHeroSnapshot(r); renderLastUpdated(); renderMetrics(r); renderRiskExplainer(r); renderRouteExplainer(r); renderCommandStrip(r); renderActionPlan(r); renderMap(r); renderCards(r); renderCharts(r); renderRecs(); renderOps(r); renderTable(tableName, r); }
 renderFilters(); render();
 </script>
 </body>
