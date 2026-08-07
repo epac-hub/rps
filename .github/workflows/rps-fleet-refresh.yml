@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/rps-fleet-refresh.yml"
       - "scripts/fix_dashboard_encoding.py"
+      - "scripts/set_puerto_rico_time.py"
       - "scripts/build_dashboard.py"
       - "scripts/fetch_skytrackit.py"
   schedule:
@@ -24,7 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     env:
-      TZ: America/Puerto_Rico
       SKYTRACKIT_USER: ${{ secrets.SKYTRACKIT_USER }}
       SKYTRACKIT_PASSWORD: ${{ secrets.SKYTRACKIT_PASSWORD }}
       SKYTRACKIT_LOOKBACK_DAYS: "8"
@@ -51,6 +51,9 @@ jobs:
 
       - name: Repair encoding and navigation
         run: python scripts/fix_dashboard_encoding.py
+
+      - name: Set timestamps to Puerto Rico time
+        run: python scripts/set_puerto_rico_time.py
 
       - name: Commit and push dashboard changes
         shell: bash
