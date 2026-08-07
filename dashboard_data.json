@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07 04:52:58.916587",
+  "generatedAt": "2026-08-07 01:00:30.862157",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -173,9 +173,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-06 15:36:31",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 64,
-      "stops": 285,
-      "miles": 829.3,
+      "trips": 65,
+      "stops": 287,
+      "miles": 894.0,
       "speeding": 16,
       "inefficient_routes": 9,
       "max_speed": 71.4
@@ -266,6 +266,128 @@
     }
   ],
   "trips": [
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-07-30 00:51:33",
+      "arrival": "2026-07-30 02:21:51",
+      "duration_min": 90.3,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "origin_lat": 18.099374,
+      "origin_lng": -65.899458,
+      "destination_lat": 18.42438,
+      "destination_lng": -66.475591,
+      "miles": 64.69,
+      "straight_miles": 43.97,
+      "efficiency_ratio": 1.47,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 59.4 mi o menos; posible ahorro 5.3 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 5.33,
+      "route_points": [
+        [
+          18.099374,
+          -65.899458
+        ],
+        [
+          18.099374,
+          -65.899458
+        ],
+        [
+          18.099374,
+          -65.899458
+        ],
+        [
+          18.099374,
+          -65.899458
+        ],
+        [
+          18.100788,
+          -65.882233
+        ],
+        [
+          18.138343,
+          -65.866384
+        ],
+        [
+          18.178426,
+          -65.880788
+        ],
+        [
+          18.236313,
+          -65.924851
+        ],
+        [
+          18.245673,
+          -65.997524
+        ],
+        [
+          18.287631,
+          -66.03878
+        ],
+        [
+          18.346405,
+          -66.069585
+        ],
+        [
+          18.418843,
+          -66.070526
+        ],
+        [
+          18.42287,
+          -66.134458
+        ],
+        [
+          18.414348,
+          -66.21006
+        ],
+        [
+          18.425648,
+          -66.291343
+        ],
+        [
+          18.427711,
+          -66.35648
+        ],
+        [
+          18.427711,
+          -66.35648
+        ],
+        [
+          18.440128,
+          -66.423968
+        ],
+        [
+          18.426308,
+          -66.462504
+        ],
+        [
+          18.431321,
+          -66.475821
+        ],
+        [
+          18.431153,
+          -66.475783
+        ],
+        [
+          18.431153,
+          -66.475783
+        ],
+        [
+          18.43114,
+          -66.475586
+        ],
+        [
+          18.431251,
+          -66.475556
+        ],
+        [
+          18.42438,
+          -66.475591
+        ]
+      ]
+    },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
@@ -35574,6 +35696,24 @@
     }
   ],
   "stops": [
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-07-30 00:51:33",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099374,
+      "lng": -65.899458
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-07-30 00:51:34",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099374,
+      "lng": -65.899458
+    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
