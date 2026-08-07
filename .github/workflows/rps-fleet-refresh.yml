@@ -24,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     env:
+      TZ: America/Puerto_Rico
       SKYTRACKIT_USER: ${{ secrets.SKYTRACKIT_USER }}
       SKYTRACKIT_PASSWORD: ${{ secrets.SKYTRACKIT_PASSWORD }}
       SKYTRACKIT_LOOKBACK_DAYS: "8"
