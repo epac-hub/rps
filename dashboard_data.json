@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T13:25:49-04:00",
+  "generatedAt": "2026-08-07T14:10:51-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -31,24 +31,24 @@
       "serial": "0470009731",
       "plate": "933-089",
       "description": "OFICINADPTO PRODUCCION",
-      "time": "2026-08-07 13:24:04",
-      "speed": 2.6,
+      "time": "2026-08-07 14:09:57",
+      "speed": 66.5,
       "ignition": "IGNITION ON",
-      "lat": 18.487666,
-      "lng": -66.81205,
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659"
+      "lat": 18.447226,
+      "lng": -66.707961,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bajadero, Puerto Rico, 00616"
     },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-07 13:24:17",
-      "speed": 12.6,
+      "time": "2026-08-07 14:09:51",
+      "speed": 53.8,
       "ignition": "IGNITION ON",
-      "lat": 18.395148,
-      "lng": -66.07416,
-      "place": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927"
+      "lat": 18.330081,
+      "lng": -66.056956,
+      "place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -67,60 +67,60 @@
       "serial": "0470009744",
       "plate": "994-204",
       "description": "RAINER RAMOSENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-07 13:24:12",
-      "speed": 4.2,
-      "ignition": "IGNITION ON",
-      "lat": 18.424501,
-      "lng": -66.475463,
-      "place": "Residential, Manati, Puerto Rico, 00674"
+      "time": "2026-08-07 13:31:55",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.427051,
+      "lng": -66.483578,
+      "place": "Avenida A Sur (Tertiary, PR-6670), Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-07 13:24:36",
-      "speed": 10.8,
+      "time": "2026-08-07 14:09:39",
+      "speed": 24.5,
       "ignition": "IGNITION ON",
-      "lat": 18.388525,
-      "lng": -66.186246,
-      "place": "Urbanización Santa Elena (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00957"
+      "lat": 18.293826,
+      "lng": -66.192335,
+      "place": "Sector El Riito (Unclassified), Bayamon, Puerto Rico, 00956"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-07 13:23:45",
-      "speed": 5.8,
+      "time": "2026-08-07 14:09:57",
+      "speed": 26.3,
       "ignition": "IGNITION ON",
-      "lat": 18.389228,
-      "lng": -66.100385,
-      "place": "Avenida Roberto Clemente Walker (Secondary, PR-21), San Juan, Puerto Rico, 00921"
+      "lat": 18.409611,
+      "lng": -66.106706,
+      "place": "San Patricio Village (Retail, retail), Guaynabo, Puerto Rico, 00968"
     },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "plate": "IRK-578",
       "description": "ASTRID MARTINEZENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-07 12:33:23",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.383941,
-      "lng": -66.166151,
-      "place": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959"
+      "time": "2026-08-07 14:09:58",
+      "speed": 26.0,
+      "ignition": "IGNITION ON",
+      "lat": 18.390358,
+      "lng": -66.16025,
+      "place": "Calle Marginal (Residential), Bayamon, Puerto Rico, 00956"
     },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
       "plate": "985-742",
       "description": "EMMANUEL RIVERAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-07 13:24:28",
-      "speed": 27.4,
+      "time": "2026-08-07 14:09:22",
+      "speed": 5.6,
       "ignition": "IGNITION ON",
-      "lat": 18.246098,
-      "lng": -66.226668,
-      "place": "PR-780 (Tertiary), Comerio, Puerto Rico, 00782"
+      "lat": 18.284913,
+      "lng": -66.26043,
+      "place": "Carretera Barranquitas - Naranjito (Secondary, PR-152), Naranjito, Puerto Rico, 00719"
     }
   ],
   "summary": [
@@ -148,7 +148,7 @@
       "trips": 32,
       "stops": 18,
       "miles": 0.3,
-      "speeding": 23,
+      "speeding": 22,
       "inefficient_routes": 0,
       "max_speed": 72.7
     },
@@ -157,11 +157,11 @@
       "serial": "0470009731",
       "plate": "933-089",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-07 13:24:04",
-      "current_place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "trips": 28,
-      "stops": 158,
-      "miles": 366.1,
+      "last_seen": "2026-08-07 14:09:57",
+      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bajadero, Puerto Rico, 00616",
+      "trips": 29,
+      "stops": 161,
+      "miles": 379.2,
       "speeding": 24,
       "inefficient_routes": 6,
       "max_speed": 72.6
@@ -171,13 +171,13 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-07 13:24:17",
-      "current_place": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
-      "trips": 63,
-      "stops": 280,
-      "miles": 826.6,
+      "last_seen": "2026-08-07 14:09:51",
+      "current_place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926",
+      "trips": 64,
+      "stops": 283,
+      "miles": 827.7,
       "speeding": 13,
-      "inefficient_routes": 7,
+      "inefficient_routes": 8,
       "max_speed": 68.7
     },
     {
@@ -198,12 +198,12 @@
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "plate": "994-204",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-07 13:24:12",
-      "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 77,
-      "stops": 610,
-      "miles": 553.6,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-07 13:31:55",
+      "current_place": "Avenida A Sur (Tertiary, PR-6670), Manati, Puerto Rico, 00674",
+      "trips": 78,
+      "stops": 612,
+      "miles": 554.5,
       "speeding": 3,
       "inefficient_routes": 27,
       "max_speed": 67.6
@@ -213,11 +213,11 @@
       "serial": "0470009727",
       "plate": "994-209",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-07 13:24:36",
-      "current_place": "Urbanización Santa Elena (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00957",
-      "trips": 79,
-      "stops": 374,
-      "miles": 591.0,
+      "last_seen": "2026-08-07 14:09:39",
+      "current_place": "Sector El Riito (Unclassified), Bayamon, Puerto Rico, 00956",
+      "trips": 80,
+      "stops": 382,
+      "miles": 599.1,
       "speeding": 10,
       "inefficient_routes": 14,
       "max_speed": 72.0
@@ -227,11 +227,11 @@
       "serial": "0470009726",
       "plate": "996-332",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-07 13:23:45",
-      "current_place": "Avenida Roberto Clemente Walker (Secondary, PR-21), San Juan, Puerto Rico, 00921",
-      "trips": 77,
-      "stops": 564,
-      "miles": 478.1,
+      "last_seen": "2026-08-07 14:09:57",
+      "current_place": "San Patricio Village (Retail, retail), Guaynabo, Puerto Rico, 00968",
+      "trips": 78,
+      "stops": 583,
+      "miles": 482.1,
       "speeding": 0,
       "inefficient_routes": 27,
       "max_speed": 0
@@ -240,12 +240,12 @@
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "plate": "IRK-578",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-07 12:33:23",
-      "current_place": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
-      "trips": 45,
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-07 14:09:58",
+      "current_place": "Calle Marginal (Residential), Bayamon, Puerto Rico, 00956",
+      "trips": 46,
       "stops": 215,
-      "miles": 385.5,
+      "miles": 385.7,
       "speeding": 2,
       "inefficient_routes": 11,
       "max_speed": 71.4
@@ -255,71 +255,17 @@
       "serial": "0470009732",
       "plate": "985-742",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-07 13:24:28",
-      "current_place": "PR-780 (Tertiary), Comerio, Puerto Rico, 00782",
+      "last_seen": "2026-08-07 14:09:22",
+      "current_place": "Carretera Barranquitas - Naranjito (Secondary, PR-152), Naranjito, Puerto Rico, 00719",
       "trips": 71,
-      "stops": 461,
-      "miles": 456.1,
+      "stops": 458,
+      "miles": 462.7,
       "speeding": 0,
-      "inefficient_routes": 25,
+      "inefficient_routes": 26,
       "max_speed": 0
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-07-30 13:30:13",
-      "arrival": "2026-07-30 13:48:22",
-      "duration_min": 18.1,
-      "origin": "Service, Arecibo, Puerto Rico, 00652",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.443488,
-      "origin_lng": -66.622256,
-      "destination_lat": 18.424734,
-      "destination_lng": -66.475489,
-      "miles": 11.39,
-      "straight_miles": 9.71,
-      "efficiency_ratio": 1.17,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.17x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.443488,
-          -66.622256
-        ],
-        [
-          18.443488,
-          -66.622256
-        ],
-        [
-          18.443488,
-          -66.622256
-        ],
-        [
-          18.438825,
-          -66.581921
-        ],
-        [
-          18.44162,
-          -66.509308
-        ],
-        [
-          18.433418,
-          -66.475944
-        ],
-        [
-          18.424736,
-          -66.475489
-        ],
-        [
-          18.424734,
-          -66.475489
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
@@ -34893,45 +34839,427 @@
           -66.09672
         ]
       ]
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "departure": "2026-08-07 09:06:22",
+      "arrival": "2026-08-07 09:53:19",
+      "duration_min": 47.0,
+      "origin": "Carretera Río Abajo (Tertiary, PR-172), Comerio, Puerto Rico, 00782",
+      "destination": "Carretera Rafael \"Felo\" Vallés Morales (Tertiary, PR-811), Naranjito, Puerto Rico, 00719",
+      "origin_lat": 18.204581,
+      "origin_lng": -66.206295,
+      "destination_lat": 18.307005,
+      "destination_lng": -66.281416,
+      "miles": 17.94,
+      "straight_miles": 8.62,
+      "efficiency_ratio": 2.08,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 2.08x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 11.6 mi o menos; ahorro estimado 6.3 mi.",
+      "potential_saved_miles": 6.29,
+      "route_points": [
+        [
+          18.204581,
+          -66.206295
+        ],
+        [
+          18.204581,
+          -66.206295
+        ],
+        [
+          18.212123,
+          -66.225475
+        ],
+        [
+          18.24254,
+          -66.207578
+        ],
+        [
+          18.249761,
+          -66.227833
+        ],
+        [
+          18.254156,
+          -66.242311
+        ],
+        [
+          18.279408,
+          -66.270891
+        ],
+        [
+          18.300918,
+          -66.281099
+        ],
+        [
+          18.307005,
+          -66.281416
+        ],
+        [
+          18.307005,
+          -66.281416
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "departure": "2026-08-07 09:16:59",
+      "arrival": "2026-08-07 09:37:12",
+      "duration_min": 20.2,
+      "origin": "Urbanización Santiago Iglesias Pantín (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00921",
+      "destination": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "origin_lat": 18.38896,
+      "origin_lng": -66.09672,
+      "destination_lat": 18.355795,
+      "destination_lng": -66.101548,
+      "miles": 3.98,
+      "straight_miles": 2.31,
+      "efficiency_ratio": 1.72,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.72x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 3.1 mi o menos; posible ahorro 0.9 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.85,
+      "route_points": [
+        [
+          18.38896,
+          -66.09672
+        ],
+        [
+          18.38896,
+          -66.09672
+        ],
+        [
+          18.38896,
+          -66.09672
+        ],
+        [
+          18.389541,
+          -66.09777
+        ],
+        [
+          18.389541,
+          -66.09777
+        ],
+        [
+          18.389266,
+          -66.100395
+        ],
+        [
+          18.38926,
+          -66.100376
+        ],
+        [
+          18.38926,
+          -66.100376
+        ],
+        [
+          18.371206,
+          -66.10889
+        ],
+        [
+          18.36293,
+          -66.109098
+        ],
+        [
+          18.36293,
+          -66.109098
+        ],
+        [
+          18.361145,
+          -66.09755
+        ],
+        [
+          18.356018,
+          -66.10182
+        ],
+        [
+          18.356018,
+          -66.10182
+        ],
+        [
+          18.355803,
+          -66.101555
+        ],
+        [
+          18.355803,
+          -66.101555
+        ],
+        [
+          18.355795,
+          -66.101548
+        ],
+        [
+          18.355795,
+          -66.101548
+        ],
+        [
+          18.355795,
+          -66.101548
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-089 11 EO",
+      "serial": "0470009731",
+      "departure": "2026-08-07 09:17:59",
+      "arrival": "2026-08-07 09:45:13",
+      "duration_min": 27.2,
+      "origin": "Service, Hatillo, Puerto Rico, 00659",
+      "destination": "Calle 5 (Residential), Arecibo, Puerto Rico, 00612",
+      "origin_lat": 18.483185,
+      "origin_lng": -66.821344,
+      "destination_lat": 18.441813,
+      "destination_lng": -66.66861,
+      "miles": 13.06,
+      "straight_miles": 10.41,
+      "efficiency_ratio": 1.25,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.25x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.483185,
+          -66.821344
+        ],
+        [
+          18.483185,
+          -66.821344
+        ],
+        [
+          18.483185,
+          -66.821344
+        ],
+        [
+          18.48451,
+          -66.820213
+        ],
+        [
+          18.48803,
+          -66.794765
+        ],
+        [
+          18.453326,
+          -66.752804
+        ],
+        [
+          18.438463,
+          -66.68951
+        ],
+        [
+          18.441056,
+          -66.667554
+        ],
+        [
+          18.4418,
+          -66.668603
+        ],
+        [
+          18.441813,
+          -66.66861
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-07 09:21:58",
+      "arrival": "2026-08-07 09:50:17",
+      "duration_min": 28.3,
+      "origin": "Calle 1A (Residential), Bayamon, Puerto Rico, 00957",
+      "destination": "Residential, Bayamon, Puerto Rico, 00956",
+      "origin_lat": 18.387566,
+      "origin_lng": -66.18577,
+      "destination_lat": 18.310031,
+      "destination_lng": -66.180811,
+      "miles": 8.03,
+      "straight_miles": 5.37,
+      "efficiency_ratio": 1.5,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.5x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 7.2 mi o menos; posible ahorro 0.8 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.79,
+      "route_points": [
+        [
+          18.387566,
+          -66.18577
+        ],
+        [
+          18.387566,
+          -66.18577
+        ],
+        [
+          18.387566,
+          -66.18577
+        ],
+        [
+          18.385168,
+          -66.179511
+        ],
+        [
+          18.373471,
+          -66.179651
+        ],
+        [
+          18.349978,
+          -66.188225
+        ],
+        [
+          18.328861,
+          -66.185808
+        ],
+        [
+          18.310176,
+          -66.180728
+        ],
+        [
+          18.310176,
+          -66.180728
+        ],
+        [
+          18.310031,
+          -66.180809
+        ],
+        [
+          18.310031,
+          -66.180809
+        ],
+        [
+          18.310031,
+          -66.180811
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "departure": "2026-08-07 09:23:10",
+      "arrival": "2026-08-07 09:31:45",
+      "duration_min": 8.6,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Avenida A Sur (Tertiary, PR-6670), Manati, Puerto Rico, 00674",
+      "origin_lat": 18.4245,
+      "origin_lng": -66.475447,
+      "destination_lat": 18.427051,
+      "destination_lng": -66.483578,
+      "miles": 0.87,
+      "straight_miles": 0.56,
+      "efficiency_ratio": 1.55,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.55x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 0.8 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.11,
+      "route_points": [
+        [
+          18.4245,
+          -66.475447
+        ],
+        [
+          18.424483,
+          -66.475335
+        ],
+        [
+          18.424483,
+          -66.475335
+        ],
+        [
+          18.426903,
+          -66.482053
+        ],
+        [
+          18.426903,
+          -66.482053
+        ],
+        [
+          18.427051,
+          -66.483578
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-07 09:23:18",
+      "arrival": "2026-08-07 09:32:16",
+      "duration_min": 9.0,
+      "origin": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
+      "destination": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
+      "origin_lat": 18.394885,
+      "origin_lng": -66.073648,
+      "destination_lat": 18.397986,
+      "destination_lng": -66.071961,
+      "miles": 1.12,
+      "straight_miles": 0.24,
+      "efficiency_ratio": 4.64,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 4.64x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 0.3 mi o menos; ahorro estimado 0.8 mi.",
+      "potential_saved_miles": 0.79,
+      "route_points": [
+        [
+          18.394885,
+          -66.073648
+        ],
+        [
+          18.394885,
+          -66.073648
+        ],
+        [
+          18.398416,
+          -66.071574
+        ],
+        [
+          18.397986,
+          -66.071961
+        ],
+        [
+          18.397986,
+          -66.071961
+        ],
+        [
+          18.397986,
+          -66.071961
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "departure": "2026-08-07 09:56:27",
+      "arrival": "2026-08-07 09:57:34",
+      "duration_min": 1.1,
+      "origin": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
+      "destination": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
+      "origin_lat": 18.383941,
+      "origin_lng": -66.166151,
+      "destination_lat": 18.384785,
+      "destination_lng": -66.164248,
+      "miles": 0.2,
+      "straight_miles": 0.14,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.383941,
+          -66.166151
+        ],
+        [
+          18.383941,
+          -66.166151
+        ],
+        [
+          18.384785,
+          -66.164248
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-30 13:30:13",
-      "place": "Service, Arecibo, Puerto Rico, 00652",
-      "speed": 0.0,
-      "lat": 18.443488,
-      "lng": -66.622256
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-30 13:30:14",
-      "place": "Service, Arecibo, Puerto Rico, 00652",
-      "speed": 0.0,
-      "lat": 18.443488,
-      "lng": -66.622256
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-30 13:44:26",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.433418,
-      "lng": -66.475944
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-30 13:47:39",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424736,
-      "lng": -66.475489
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
@@ -60464,6 +60792,330 @@
       "speed": 0.3,
       "lat": 18.424483,
       "lng": -66.475335
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-07 09:28:24",
+      "place": "Avenida A Sur (Tertiary, PR-6670), Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.426903,
+      "lng": -66.482053
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-07 09:28:25",
+      "place": "Avenida A Sur (Tertiary, PR-6670), Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.426903,
+      "lng": -66.482053
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:28:54",
+      "place": "Plazoleta 169 (Retail, retail), Guaynabo, Puerto Rico, 00969",
+      "speed": 0.0,
+      "lat": 18.36293,
+      "lng": -66.109098
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:28:55",
+      "place": "Plazoleta 169 (Retail, retail), Guaynabo, Puerto Rico, 00969",
+      "speed": 0.0,
+      "lat": 18.36293,
+      "lng": -66.109098
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-07 09:31:31",
+      "place": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
+      "speed": 4.8,
+      "lat": 18.397986,
+      "lng": -66.071961
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-07 09:31:32",
+      "place": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
+      "speed": 4.8,
+      "lat": 18.397986,
+      "lng": -66.071961
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:32:15",
+      "place": "Avenida Las Cumbres (Primary, Carretera 199, PR-199), Guaynabo, Puerto Rico, 00969",
+      "speed": 0.0,
+      "lat": 18.361145,
+      "lng": -66.09755
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:34:18",
+      "place": "2C-16B Calle 2, Calle 2, Guaynabo, Puerto Rico, 00969",
+      "speed": 0.7,
+      "lat": 18.356018,
+      "lng": -66.10182
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:34:19",
+      "place": "2C-16B Calle 2, Calle 2, Guaynabo, Puerto Rico, 00969",
+      "speed": 0.7,
+      "lat": 18.356018,
+      "lng": -66.10182
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:36:16",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.355803,
+      "lng": -66.101555
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:36:17",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.355803,
+      "lng": -66.101555
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:37:11",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.355795,
+      "lng": -66.101548
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:37:12",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.355795,
+      "lng": -66.101548
+    },
+    {
+      "vehicle": "RPS 933-089 11 EO",
+      "serial": "0470009731",
+      "time": "2026-08-07 09:44:08",
+      "place": "Calle 5 (Residential), Arecibo, Puerto Rico, 00612",
+      "speed": 0.0,
+      "lat": 18.4418,
+      "lng": -66.668603
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:47:52",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.355795,
+      "lng": -66.101548
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-07 09:48:22",
+      "place": "Carretera 8829 (Tertiary, PR-8829), Bayamon, Puerto Rico, 00956",
+      "speed": 0.4,
+      "lat": 18.310176,
+      "lng": -66.180728
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-07 09:48:23",
+      "place": "Carretera 8829 (Tertiary, PR-8829), Bayamon, Puerto Rico, 00956",
+      "speed": 0.4,
+      "lat": 18.310176,
+      "lng": -66.180728
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-07 09:50:03",
+      "place": "Residential, Bayamon, Puerto Rico, 00956",
+      "speed": 0.0,
+      "lat": 18.310031,
+      "lng": -66.180809
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-07 09:50:04",
+      "place": "Residential, Bayamon, Puerto Rico, 00956",
+      "speed": 0.0,
+      "lat": 18.310031,
+      "lng": -66.180809
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-07 09:53:17",
+      "place": "Carretera Rafael \"Felo\" Vallés Morales (Tertiary, PR-811), Naranjito, Puerto Rico, 00719",
+      "speed": 0.0,
+      "lat": 18.307005,
+      "lng": -66.281416
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-07 09:54:20",
+      "place": "Residential, Bayamon, Puerto Rico, 00956",
+      "speed": 0.0,
+      "lat": 18.310031,
+      "lng": -66.180809
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-07 09:54:21",
+      "place": "Residential, Bayamon, Puerto Rico, 00956",
+      "speed": 0.0,
+      "lat": 18.310031,
+      "lng": -66.180809
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:54:39",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.355795,
+      "lng": -66.101548
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:54:40",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.355795,
+      "lng": -66.101548
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:55:33",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.1,
+      "lat": 18.35617,
+      "lng": -66.100911
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:55:34",
+      "place": "Laderas de Guaynabo (Residential, residential), Guaynabo, Puerto Rico, 00971",
+      "speed": 0.1,
+      "lat": 18.35617,
+      "lng": -66.100911
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-07 09:57:20",
+      "place": "Residential, Bayamon, Puerto Rico, 00956",
+      "speed": 0.0,
+      "lat": 18.310031,
+      "lng": -66.180809
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-07 09:57:21",
+      "place": "Residential, Bayamon, Puerto Rico, 00956",
+      "speed": 0.0,
+      "lat": 18.310031,
+      "lng": -66.180809
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:58:10",
+      "place": "Residential, Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.360856,
+      "lng": -66.097326
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 09:58:11",
+      "place": "Residential, Guaynabo, Puerto Rico, 00971",
+      "speed": 0.0,
+      "lat": 18.360856,
+      "lng": -66.097326
+    },
+    {
+      "vehicle": "RPS 933-089 11 EO",
+      "serial": "0470009731",
+      "time": "2026-08-07 10:00:06",
+      "place": "Calle 5 (Residential), Arecibo, Puerto Rico, 00612",
+      "speed": 0.0,
+      "lat": 18.441813,
+      "lng": -66.66861
+    },
+    {
+      "vehicle": "RPS 933-089 11 EO",
+      "serial": "0470009731",
+      "time": "2026-08-07 10:00:07",
+      "place": "Calle 5 (Residential), Arecibo, Puerto Rico, 00612",
+      "speed": 0.0,
+      "lat": 18.441813,
+      "lng": -66.66861
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-07 10:02:03",
+      "place": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
+      "speed": 0.0,
+      "lat": 18.397986,
+      "lng": -66.071961
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 10:06:44",
+      "place": "Parking, Guaynabo, Puerto Rico, 00968",
+      "speed": 0.0,
+      "lat": 18.403595,
+      "lng": -66.106286
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 10:07:27",
+      "place": "Parking, Guaynabo, Puerto Rico, 00968",
+      "speed": 0.0,
+      "lat": 18.403945,
+      "lng": -66.106398
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-07 10:07:28",
+      "place": "Parking, Guaynabo, Puerto Rico, 00968",
+      "speed": 0.0,
+      "lat": 18.403945,
+      "lng": -66.106398
     }
   ],
   "speeding": [
@@ -61356,16 +62008,6 @@
       "place": "Autopista Luis A. Ferré (Motorway, PR-52), Salinas, Puerto Rico, 00751",
       "lat": 18.004901,
       "lng": -66.247561
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-07-30 13:30:02",
-      "speed": 65.2,
-      "over": 0.2,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612",
-      "lat": 18.4526249,
-      "lng": -66.72972
     },
     {
       "vehicle": "RPS 1038729 - LV",
