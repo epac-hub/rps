@@ -2,7 +2,6 @@ name: Refresh RPS Fleet Dashboard
 
 on:
   schedule:
-    # GitHub's shortest supported scheduled interval is five minutes.
     - cron: "*/5 * * * *"
   workflow_dispatch:
 
@@ -41,6 +40,9 @@ jobs:
 
       - name: Rebuild dashboard
         run: python scripts/build_dashboard.py
+
+      - name: Repair encoding and navigation
+        run: python scripts/fix_dashboard_encoding.py
 
       - name: Commit and push dashboard changes
         shell: bash
