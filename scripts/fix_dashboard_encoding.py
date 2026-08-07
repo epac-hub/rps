@@ -6,17 +6,33 @@ INDEX = Path(__file__).resolve().parents[1] / "index.html"
 
 
 def repair_mojibake(text):
-    def decode_pair(match):
-        first, second = match.group(1), match.group(2)
-        codepoint = ((ord(first) - 0xC0) << 6) + (ord(second) - 0x80)
-        return chr(codepoint)
+    # Repair text that was decoded once as Latin-1 instead of UTF-8.
+    def decode_chunk(match):
+        raw = bytes(ord(char) for char in match.group(0))
+        try:
+            return raw.decode("utf-8")
+        except UnicodeDecodeError:
+            return match.group(0)
 
-    return re.sub(r"([ÃÂ])([\x80-\xFF])", decode_pair, text)
+    text = re.sub(r"(?:[ÃÂ][\x80-\xFF])+", decode_chunk, text)
+    replacements = {
+        "vehÃ\u00adculos": "vehículos",
+        "vehÃ\u00adculo": "vehículo",
+        "crÃ\u00adticas": "críticas",
+        "operaciÃ\u00b3n": "operación",
+        "seÃ\u00b1al": "señal",
+        "desvÃ\u00ados": "desvíos",
+        "trÃ\u00a1fico": "tráfico",
+        "baterÃ\u00ada": "batería",
+        "mÃ\u00a1s": "más",
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    return text
 
 
 def main():
-    text = INDEX.read_text(encoding="utf-8")
-    text = repair_mojibake(text)
+    text = repair_mojibake(INDEX.read_text(encoding="utf-8"))
     replacements = {
         '<button onclick="showLayer(\'routes\')">Rutas</button>':
             '<button onclick="showLayer(\'routes\'); jumpTo(\'mapPanel\')">Rutas</button>',
