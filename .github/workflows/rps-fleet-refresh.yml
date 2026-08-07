@@ -1,0 +1,57 @@
+name: Refresh RPS Fleet Dashboard
+
+on:
+  schedule:
+    # GitHub's shortest supported scheduled interval is five minutes.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: rps-fleet-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      SKYTRACKIT_USER: ${{ secrets.SKYTRACKIT_USER }}
+      SKYTRACKIT_PASSWORD: ${{ secrets.SKYTRACKIT_PASSWORD }}
+      SKYTRACKIT_LOOKBACK_DAYS: "8"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check requests
+
+      - name: Fetch SkyTrackIt data
+        run: python scripts/fetch_skytrackit.py
+
+      - name: Rebuild dashboard
+        run: python scripts/build_dashboard.py
+
+      - name: Commit and push dashboard changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "rps-dashboard-bot"
+          git config user.email "dashboard@rpsmedical.com"
+          git add index.html dashboard_data.json dashboard_interactivo_resumen.csv dashboard_interactivo_rutas.csv
+          if git diff --cached --quiet; then
+            echo "No dashboard changes to publish."
+            exit 0
+          fi
+          git commit -m "Refresh fleet dashboard data"
+          git push origin main
