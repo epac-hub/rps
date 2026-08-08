@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T18:42:08-04:00",
+  "generatedAt": "2026-08-08T19:05:36-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-08 17:27:51",
+      "time": "2026-08-08 18:47:00",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.099381,
-      "lng": -65.899088,
+      "lat": 18.099398,
+      "lng": -65.899456,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -171,10 +171,10 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-08-08 17:27:51",
+      "last_seen": "2026-08-08 18:47:00",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 59,
-      "stops": 252,
+      "trips": 60,
+      "stops": 258,
       "miles": 716.0,
       "speeding": 11,
       "inefficient_routes": 5,
@@ -32387,6 +32387,60 @@
           -65.899005
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-08 14:42:24",
+      "arrival": "2026-08-08 14:46:42",
+      "duration_min": 4.3,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099381,
+      "origin_lng": -65.899088,
+      "destination_lat": 18.099398,
+      "destination_lng": -65.899456,
+      "miles": 0.02,
+      "straight_miles": 0.02,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.099381,
+          -65.899088
+        ],
+        [
+          18.099381,
+          -65.899088
+        ],
+        [
+          18.099381,
+          -65.899088
+        ],
+        [
+          18.099429,
+          -65.899142
+        ],
+        [
+          18.099429,
+          -65.899142
+        ],
+        [
+          18.099398,
+          -65.899456
+        ],
+        [
+          18.099398,
+          -65.899456
+        ],
+        [
+          18.099398,
+          -65.899456
+        ]
+      ]
     }
   ],
   "stops": [
@@ -55285,6 +55339,60 @@
       "speed": 0.0,
       "lat": 18.0994,
       "lng": -65.899285
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-08 14:42:24",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099381,
+      "lng": -65.899088
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-08 14:42:25",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099381,
+      "lng": -65.899088
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-08 14:45:24",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099429,
+      "lng": -65.899142
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-08 14:45:25",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099429,
+      "lng": -65.899142
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-08 14:46:41",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.1,
+      "lat": 18.099398,
+      "lng": -65.899456
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-08 14:46:42",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.1,
+      "lat": 18.099398,
+      "lng": -65.899456
     }
   ],
   "speeding": [
