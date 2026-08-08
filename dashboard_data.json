@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T03:59:40-04:00",
+  "generatedAt": "2026-08-08T04:51:50-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -31,12 +31,12 @@
       "serial": "0470009731",
       "plate": "933-089",
       "description": "OFICINADPTO PRODUCCION",
-      "time": "2026-08-07 16:48:03",
+      "time": "2026-08-08 04:39:03",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.424423,
-      "lng": -66.475525,
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
+      "lat": 18.424656,
+      "lng": -66.475098,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 933-090 12 LR",
@@ -79,11 +79,11 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-07 16:15:18",
+      "time": "2026-08-08 04:40:39",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.424451,
-      "lng": -66.475493,
+      "lat": 18.424651,
+      "lng": -66.475391,
       "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
@@ -103,12 +103,12 @@
       "serial": "0470009725",
       "plate": "IRK-578",
       "description": "ASTRID MARTINEZENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-07 16:38:17",
+      "time": "2026-08-08 04:33:08",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.424411,
-      "lng": -66.475536,
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
+      "lat": 18.424541,
+      "lng": -66.475385,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS-985-742-18 ER",
@@ -157,11 +157,11 @@
       "serial": "0470009731",
       "plate": "933-089",
       "current_status": "Detenido",
-      "last_seen": "2026-08-07 16:48:03",
-      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "last_seen": "2026-08-08 04:39:03",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 32,
-      "stops": 169,
-      "miles": 408.9,
+      "stops": 168,
+      "miles": 384.7,
       "speeding": 24,
       "inefficient_routes": 6,
       "max_speed": 72.6
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-07 14:49:16",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 71,
-      "stops": 161,
-      "miles": 735.5,
+      "trips": 70,
+      "stops": 159,
+      "miles": 734.1,
       "speeding": 21,
       "inefficient_routes": 18,
       "max_speed": 73.1
@@ -201,9 +201,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-07 14:43:46",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 78,
-      "stops": 601,
-      "miles": 538.6,
+      "trips": 77,
+      "stops": 593,
+      "miles": 536.5,
       "speeding": 3,
       "inefficient_routes": 26,
       "max_speed": 67.6
@@ -213,13 +213,13 @@
       "serial": "0470009727",
       "plate": "994-209",
       "current_status": "Detenido",
-      "last_seen": "2026-08-07 16:15:18",
+      "last_seen": "2026-08-08 04:40:39",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 79,
-      "stops": 389,
-      "miles": 622.7,
+      "stops": 378,
+      "miles": 615.7,
       "speeding": 10,
-      "inefficient_routes": 15,
+      "inefficient_routes": 14,
       "max_speed": 72.0
     },
     {
@@ -241,11 +241,11 @@
       "serial": "0470009725",
       "plate": "IRK-578",
       "current_status": "Detenido",
-      "last_seen": "2026-08-07 16:38:17",
-      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 50,
-      "stops": 217,
-      "miles": 425.3,
+      "last_seen": "2026-08-08 04:33:08",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 51,
+      "stops": 219,
+      "miles": 425.4,
       "speeding": 3,
       "inefficient_routes": 11,
       "max_speed": 74.2
@@ -257,349 +257,15 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-07 16:26:39",
       "current_place": "Calle Urayoán (Residential), Manati, Puerto Rico, 00674",
-      "trips": 74,
-      "stops": 471,
-      "miles": 490.0,
+      "trips": 73,
+      "stops": 463,
+      "miles": 486.0,
       "speeding": 5,
-      "inefficient_routes": 29,
+      "inefficient_routes": 28,
       "max_speed": 71.3
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-07-31 04:00:22",
-      "arrival": "2026-07-31 04:05:44",
-      "duration_min": 5.4,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.418648,
-      "origin_lng": -66.461993,
-      "destination_lat": 18.424386,
-      "destination_lng": -66.475489,
-      "miles": 1.45,
-      "straight_miles": 0.97,
-      "efficiency_ratio": 1.49,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.49x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 1.3 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.14,
-      "route_points": [
-        [
-          18.418648,
-          -66.461993
-        ],
-        [
-          18.418648,
-          -66.461993
-        ],
-        [
-          18.418648,
-          -66.461993
-        ],
-        [
-          18.424388,
-          -66.475489
-        ],
-        [
-          18.424386,
-          -66.475489
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-07-31 04:23:47",
-      "arrival": "2026-07-31 04:48:36",
-      "duration_min": 24.8,
-      "origin": "Calle Tulipán (Residential), Toa Baja, Puerto Rico, 00949",
-      "destination": "Urb. Toaville (Residential, residential), Toa Baja, Puerto Rico, 00949",
-      "origin_lat": 18.426061,
-      "origin_lng": -66.232823,
-      "destination_lat": 18.443921,
-      "destination_lng": -66.243707,
-      "miles": 4.0,
-      "straight_miles": 1.43,
-      "efficiency_ratio": 2.81,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.81x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 1.9 mi o menos; ahorro estimado 2.1 mi.",
-      "potential_saved_miles": 2.07,
-      "route_points": [
-        [
-          18.426061,
-          -66.232823
-        ],
-        [
-          18.426061,
-          -66.232823
-        ],
-        [
-          18.426061,
-          -66.232823
-        ],
-        [
-          18.422946,
-          -66.234241
-        ],
-        [
-          18.442211,
-          -66.225981
-        ],
-        [
-          18.445496,
-          -66.24388
-        ],
-        [
-          18.443736,
-          -66.24355
-        ],
-        [
-          18.443708,
-          -66.243635
-        ],
-        [
-          18.443921,
-          -66.243706
-        ],
-        [
-          18.443921,
-          -66.243707
-        ],
-        [
-          18.443921,
-          -66.243707
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-07-31 04:27:32",
-      "arrival": "2026-07-31 04:46:20",
-      "duration_min": 18.8,
-      "origin": "Carretera Profesor Roberto F. Rexach Benítez (Tertiary, PR-651), Arecibo, Puerto Rico, 00612",
-      "destination": "Calle Los Delgado (Residential), Arecibo, Puerto Rico, 00612",
-      "origin_lat": 18.425698,
-      "origin_lng": -66.715296,
-      "destination_lat": 18.4624,
-      "destination_lng": -66.756278,
-      "miles": 7.03,
-      "straight_miles": 3.69,
-      "efficiency_ratio": 1.9,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.9x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 5.0 mi o menos; ahorro estimado 2.0 mi.",
-      "potential_saved_miles": 2.05,
-      "route_points": [
-        [
-          18.425698,
-          -66.715296
-        ],
-        [
-          18.425698,
-          -66.715296
-        ],
-        [
-          18.42537,
-          -66.713048
-        ],
-        [
-          18.42537,
-          -66.713048
-        ],
-        [
-          18.425421,
-          -66.713088
-        ],
-        [
-          18.425421,
-          -66.713088
-        ],
-        [
-          18.453048,
-          -66.723238
-        ],
-        [
-          18.459811,
-          -66.739895
-        ],
-        [
-          18.459811,
-          -66.739895
-        ],
-        [
-          18.464403,
-          -66.747429
-        ],
-        [
-          18.464403,
-          -66.747429
-        ],
-        [
-          18.4624,
-          -66.756278
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-07-31 04:43:46",
-      "arrival": "2026-07-31 04:56:02",
-      "duration_min": 12.3,
-      "origin": "Calle Ópalo (Residential), Vega Alta, Puerto Rico, 00692",
-      "destination": "Calle Rocío (Residential), Vega Alta, Puerto Rico, 00692",
-      "origin_lat": 18.4176,
-      "origin_lng": -66.310966,
-      "destination_lat": 18.40755,
-      "destination_lng": -66.330966,
-      "miles": 2.05,
-      "straight_miles": 1.48,
-      "efficiency_ratio": 1.38,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.38x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 2.0 mi o menos; posible ahorro 0.0 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.05,
-      "route_points": [
-        [
-          18.4176,
-          -66.310966
-        ],
-        [
-          18.413196,
-          -66.321555
-        ],
-        [
-          18.41228,
-          -66.329708
-        ],
-        [
-          18.40905,
-          -66.331568
-        ],
-        [
-          18.40905,
-          -66.331568
-        ],
-        [
-          18.407558,
-          -66.330988
-        ],
-        [
-          18.407558,
-          -66.330988
-        ],
-        [
-          18.40755,
-          -66.330966
-        ],
-        [
-          18.40755,
-          -66.330966
-        ],
-        [
-          18.40755,
-          -66.330966
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "departure": "2026-07-31 04:49:51",
-      "arrival": "2026-07-31 05:43:38",
-      "duration_min": 53.8,
-      "origin": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "destination": "Urbanización Santa Mónica (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00957",
-      "origin_lat": 18.424397,
-      "origin_lng": -66.475572,
-      "destination_lat": 18.388497,
-      "destination_lng": -66.180555,
-      "miles": 24.37,
-      "straight_miles": 19.5,
-      "efficiency_ratio": 1.25,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.25x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424397,
-          -66.475572
-        ],
-        [
-          18.424397,
-          -66.475572
-        ],
-        [
-          18.424386,
-          -66.475601
-        ],
-        [
-          18.424386,
-          -66.475601
-        ],
-        [
-          18.424386,
-          -66.475605
-        ],
-        [
-          18.424386,
-          -66.475605
-        ],
-        [
-          18.432173,
-          -66.475371
-        ],
-        [
-          18.44142,
-          -66.466466
-        ],
-        [
-          18.441583,
-          -66.407506
-        ],
-        [
-          18.431376,
-          -66.338216
-        ],
-        [
-          18.418806,
-          -66.257904
-        ],
-        [
-          18.417081,
-          -66.197386
-        ],
-        [
-          18.405968,
-          -66.195538
-        ],
-        [
-          18.405968,
-          -66.195538
-        ],
-        [
-          18.392385,
-          -66.187619
-        ],
-        [
-          18.3885,
-          -66.18056
-        ],
-        [
-          18.3885,
-          -66.18056
-        ],
-        [
-          18.388497,
-          -66.180555
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
@@ -36013,279 +35679,107 @@
           -66.4288183
         ]
       ]
-    }
-  ],
-  "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-07-31 04:00:22",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418648,
-      "lng": -66.461993
     },
     {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-07-31 04:00:23",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418648,
-      "lng": -66.461993
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:10:25",
-      "place": "Carretera Profesor Roberto F. Rexach Benítez (Tertiary, PR-651), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.42556,
-      "lng": -66.715483
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:10:26",
-      "place": "Carretera Profesor Roberto F. Rexach Benítez (Tertiary, PR-651), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.42556,
-      "lng": -66.715483
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 04:14:01",
-      "place": "Calle Esmeralda (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.417741,
-      "lng": -66.31021
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 04:14:02",
-      "place": "Calle Esmeralda (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.417741,
-      "lng": -66.31021
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 04:15:29",
-      "place": "Calle Topacio (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.418401,
-      "lng": -66.310718
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 04:17:52",
-      "place": "Calle Granate (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.1,
-      "lat": 18.41841,
-      "lng": -66.310273
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 04:17:53",
-      "place": "Calle Granate (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.1,
-      "lat": 18.41841,
-      "lng": -66.310273
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 04:20:52",
-      "place": "Calle Granate (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.418407,
-      "lng": -66.310272
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 04:20:53",
-      "place": "Calle Granate (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.418407,
-      "lng": -66.310272
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 04:23:47",
-      "place": "Calle Tulipán (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.426061,
-      "lng": -66.232823
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 04:23:48",
-      "place": "Calle Tulipán (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.426061,
-      "lng": -66.232823
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 04:27:06",
-      "place": "Calle José Julián Acosta (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.422946,
-      "lng": -66.234241
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:27:32",
-      "place": "Carretera Profesor Roberto F. Rexach Benítez (Tertiary, PR-651), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.425698,
-      "lng": -66.715296
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:29:25",
-      "place": "Carretera Profesor Roberto F. Rexach Benítez (Tertiary, PR-651), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.42537,
-      "lng": -66.713048
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:29:26",
-      "place": "Carretera Profesor Roberto F. Rexach Benítez (Tertiary, PR-651), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.42537,
-      "lng": -66.713048
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:32:25",
-      "place": "Carretera Profesor Roberto F. Rexach Benítez (Tertiary, PR-651), Arecibo, Puerto Rico, 00612",
-      "speed": 6.3,
-      "lat": 18.425421,
-      "lng": -66.713088
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:32:26",
-      "place": "Carretera Profesor Roberto F. Rexach Benítez (Tertiary, PR-651), Arecibo, Puerto Rico, 00612",
-      "speed": 6.3,
-      "lat": 18.425421,
-      "lng": -66.713088
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 04:34:31",
-      "place": "Urb. Toaville (Residential, residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.445496,
-      "lng": -66.24388
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 04:39:20",
-      "place": "Urb. Toaville (Residential, residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.3,
-      "lat": 18.443736,
-      "lng": -66.24355
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:39:47",
-      "place": "Avenida San Luis (Primary, PR-129), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.459811,
-      "lng": -66.739895
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:39:48",
-      "place": "Avenida San Luis (Primary, PR-129), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.459811,
-      "lng": -66.739895
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 04:39:57",
-      "place": "Urb. Toaville (Residential, residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.443708,
-      "lng": -66.243635
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 04:41:57",
-      "place": "Urb. Toaville (Residential, residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.443921,
-      "lng": -66.243706
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:43:59",
-      "place": "Avenida Alcalde Don Darío Goitía Montalvo (Tertiary, PR-653), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.464403,
-      "lng": -66.747429
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 04:44:00",
-      "place": "Avenida Alcalde Don Darío Goitía Montalvo (Tertiary, PR-653), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.464403,
-      "lng": -66.747429
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 04:44:57",
-      "place": "Urb. Toaville (Residential, residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.443921,
-      "lng": -66.243707
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 04:47:59",
-      "place": "Carretera Militar (Secondary, PR-2), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.413196,
-      "lng": -66.321555
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "departure": "2026-08-08 00:32:43",
+      "arrival": "2026-08-08 00:32:59",
+      "duration_min": 0.3,
+      "origin": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.424411,
+      "origin_lng": -66.475536,
+      "destination_lat": 18.424541,
+      "destination_lng": -66.475376,
+      "miles": 0.07,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424411,
+          -66.475536
+        ],
+        [
+          18.424411,
+          -66.475536
+        ],
+        [
+          18.424411,
+          -66.475536
+        ],
+        [
+          18.424541,
+          -66.475376
+        ]
+      ]
     },
     {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
-      "time": "2026-07-31 04:49:51",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424397,
-      "lng": -66.475572
+      "departure": "2026-08-08 00:38:15",
+      "arrival": "2026-08-08 00:38:53",
+      "duration_min": 0.6,
+      "origin": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.424423,
+      "origin_lng": -66.475525,
+      "destination_lat": 18.424651,
+      "destination_lng": -66.475061,
+      "miles": 0.09,
+      "straight_miles": 0.03,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424423,
+          -66.475525
+        ],
+        [
+          18.424651,
+          -66.475061
+        ]
+      ]
     },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-08 00:39:45",
+      "arrival": "2026-08-08 00:40:29",
+      "duration_min": 0.7,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.424451,
+      "origin_lng": -66.475493,
+      "destination_lat": 18.424645,
+      "destination_lng": -66.475404,
+      "miles": 0.02,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424451,
+          -66.475493
+        ],
+        [
+          18.424645,
+          -66.475404
+        ]
+      ]
+    }
+  ],
+  "stops": [
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
@@ -62160,6 +61654,24 @@
       "speed": 0.0,
       "lat": 18.4827216,
       "lng": -66.4288183
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "time": "2026-08-08 00:32:43",
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "speed": 0.1,
+      "lat": 18.424411,
+      "lng": -66.475536
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "time": "2026-08-08 00:32:44",
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "speed": 0.1,
+      "lat": 18.424411,
+      "lng": -66.475536
     }
   ],
   "speeding": [
