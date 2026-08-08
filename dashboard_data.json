@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T10:41:01-04:00",
+  "generatedAt": "2026-08-08T11:04:28-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -160,7 +160,7 @@
       "last_seen": "2026-08-08 05:59:53",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 28,
-      "stops": 126,
+      "stops": 123,
       "miles": 342.0,
       "speeding": 23,
       "inefficient_routes": 5,
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-08 06:37:43",
       "current_place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "trips": 62,
-      "stops": 149,
-      "miles": 680.2,
+      "trips": 61,
+      "stops": 148,
+      "miles": 670.4,
       "speeding": 20,
       "inefficient_routes": 15,
       "max_speed": 73.1
@@ -202,7 +202,7 @@
       "last_seen": "2026-08-08 06:15:33",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 68,
-      "stops": 501,
+      "stops": 498,
       "miles": 483.2,
       "speeding": 3,
       "inefficient_routes": 20,
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-08 05:25:11",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 73,
+      "trips": 72,
       "stops": 327,
-      "miles": 573.0,
+      "miles": 540.0,
       "speeding": 10,
       "inefficient_routes": 12,
       "max_speed": 72.0
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-08 09:49:36",
       "current_place": "Track, Manati, Puerto Rico, 00674",
       "trips": 66,
-      "stops": 401,
+      "stops": 399,
       "miles": 445.8,
       "speeding": 5,
       "inefficient_routes": 27,
@@ -266,158 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-07-31 10:50:18",
-      "arrival": "2026-07-31 11:37:35",
-      "duration_min": 47.3,
-      "origin": "Residential, Camuy, Puerto Rico, 00627",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.428881,
-      "origin_lng": -66.866519,
-      "destination_lat": 18.424705,
-      "destination_lng": -66.475426,
-      "miles": 33.01,
-      "straight_miles": 25.64,
-      "efficiency_ratio": 1.29,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.29x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.428881,
-          -66.86652
-        ],
-        [
-          18.428881,
-          -66.866519
-        ],
-        [
-          18.43476,
-          -66.848728
-        ],
-        [
-          18.472363,
-          -66.84368
-        ],
-        [
-          18.48135,
-          -66.828986
-        ],
-        [
-          18.48135,
-          -66.828986
-        ],
-        [
-          18.483193,
-          -66.82348
-        ],
-        [
-          18.488115,
-          -66.796478
-        ],
-        [
-          18.45328,
-          -66.75533
-        ],
-        [
-          18.437783,
-          -66.672995
-        ],
-        [
-          18.434405,
-          -66.592036
-        ],
-        [
-          18.446981,
-          -66.518501
-        ],
-        [
-          18.434056,
-          -66.476101
-        ],
-        [
-          18.424705,
-          -66.475426
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-07-31 10:58:01",
-      "arrival": "2026-07-31 11:36:20",
-      "duration_min": 38.3,
-      "origin": "Residential, Vega Alta, Puerto Rico, 00692",
-      "destination": "Calle Crisantemo (Residential), Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.384611,
-      "origin_lng": -66.325528,
-      "destination_lat": 18.449615,
-      "destination_lng": -66.399513,
-      "miles": 9.8,
-      "straight_miles": 6.61,
-      "efficiency_ratio": 1.48,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.48x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 8.9 mi o menos; posible ahorro 0.9 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.88,
-      "route_points": [
-        [
-          18.384611,
-          -66.325528
-        ],
-        [
-          18.384611,
-          -66.325528
-        ],
-        [
-          18.384611,
-          -66.325528
-        ],
-        [
-          18.383806,
-          -66.331163
-        ],
-        [
-          18.383808,
-          -66.331166
-        ],
-        [
-          18.383801,
-          -66.331151
-        ],
-        [
-          18.383801,
-          -66.331151
-        ],
-        [
-          18.390111,
-          -66.338505
-        ],
-        [
-          18.41269,
-          -66.332403
-        ],
-        [
-          18.433631,
-          -66.347975
-        ],
-        [
-          18.445706,
-          -66.373811
-        ],
-        [
-          18.449616,
-          -66.399514
-        ],
-        [
-          18.449615,
-          -66.399513
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
@@ -32902,87 +32750,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 10:41:27",
-      "place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.385994,
-      "lng": -66.431497
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 10:42:24",
-      "place": "Carretera Río Lajas (Secondary, PR-165), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.409196,
-      "lng": -66.260928
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 10:42:25",
-      "place": "Carretera Río Lajas (Secondary, PR-165), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.409196,
-      "lng": -66.260928
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-07-31 10:44:56",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.431081,
-      "lng": -66.475151
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-07-31 10:46:56",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.42435,
-      "lng": -66.475558
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-07-31 10:49:56",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424335,
-      "lng": -66.47556
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 10:50:27",
-      "place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.385992,
-      "lng": -66.431477
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-07-31 10:58:02",
-      "place": "Residential, Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.384611,
-      "lng": -66.325528
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 11:02:20",
-      "place": "PR-643 (Tertiary), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.381038,
-      "lng": -66.481723
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
