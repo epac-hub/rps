@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T11:04:28-04:00",
+  "generatedAt": "2026-08-08T11:40:31-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-08 08:10:11",
+      "time": "2026-08-08 11:36:50",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.099345,
-      "lng": -65.899393,
+      "lat": 18.099433,
+      "lng": -65.89937,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-08 06:37:43",
+      "time": "2026-08-08 11:26:55",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.475034,
-      "lng": -66.923088,
-      "place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678"
+      "lat": 18.412008,
+      "lng": -66.931626,
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -171,13 +171,13 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-08-08 08:10:11",
+      "last_seen": "2026-08-08 11:36:50",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 60,
-      "stops": 259,
-      "miles": 728.3,
+      "trips": 59,
+      "stops": 256,
+      "miles": 722.2,
       "speeding": 11,
-      "inefficient_routes": 6,
+      "inefficient_routes": 5,
       "max_speed": 68.7
     },
     {
@@ -185,11 +185,11 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Detenido",
-      "last_seen": "2026-08-08 06:37:43",
-      "current_place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "trips": 61,
-      "stops": 148,
-      "miles": 670.4,
+      "last_seen": "2026-08-08 11:26:55",
+      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "trips": 62,
+      "stops": 149,
+      "miles": 676.8,
       "speeding": 20,
       "inefficient_routes": 15,
       "max_speed": 73.1
@@ -201,8 +201,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-08 06:15:33",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 68,
-      "stops": 498,
+      "trips": 67,
+      "stops": 496,
       "miles": 483.2,
       "speeding": 3,
       "inefficient_routes": 20,
@@ -216,9 +216,9 @@
       "last_seen": "2026-08-08 05:25:11",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 72,
-      "stops": 327,
+      "stops": 322,
       "miles": 540.0,
-      "speeding": 10,
+      "speeding": 9,
       "inefficient_routes": 12,
       "max_speed": 72.0
     },
@@ -257,163 +257,15 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-08 09:49:36",
       "current_place": "Track, Manati, Puerto Rico, 00674",
-      "trips": 66,
-      "stops": 399,
-      "miles": 445.8,
+      "trips": 65,
+      "stops": 389,
+      "miles": 445.7,
       "speeding": 5,
       "inefficient_routes": 27,
       "max_speed": 71.3
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-07-31 11:17:01",
-      "arrival": "2026-07-31 11:17:51",
-      "duration_min": 0.8,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424685,
-      "origin_lng": -66.475435,
-      "destination_lat": 18.424445,
-      "destination_lng": -66.475458,
-      "miles": 0.04,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424685,
-          -66.475435
-        ],
-        [
-          18.424445,
-          -66.475458
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-07-31 11:24:36",
-      "arrival": "2026-07-31 11:25:59",
-      "duration_min": 1.4,
-      "origin": "Triumph Plaza (Retail, retail), Humacao, Puerto Rico, 00791",
-      "destination": "Texaco (Fuel), Calle Dr. Vidal, Humacao, Puerto Rico, 00791",
-      "origin_lat": 18.147311,
-      "origin_lng": -65.81689,
-      "destination_lat": 18.149013,
-      "destination_lng": -65.818703,
-      "miles": 0.32,
-      "straight_miles": 0.17,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.147311,
-          -65.81689
-        ],
-        [
-          18.147311,
-          -65.81689
-        ],
-        [
-          18.149013,
-          -65.818703
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-07-31 11:30:49",
-      "arrival": "2026-07-31 11:44:59",
-      "duration_min": 14.2,
-      "origin": "Texaco (Fuel), Calle Dr. Vidal, Humacao, Puerto Rico, 00791",
-      "destination": "PR-9921 (Tertiary, PR-9921;PR-921R), Las Piedras, Puerto Rico, 00771",
-      "origin_lat": 18.149015,
-      "origin_lng": -65.818703,
-      "destination_lat": 18.156475,
-      "destination_lng": -65.863055,
-      "miles": 5.79,
-      "straight_miles": 2.96,
-      "efficiency_ratio": 1.96,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.96x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 4.0 mi o menos; ahorro estimado 1.8 mi.",
-      "potential_saved_miles": 1.8,
-      "route_points": [
-        [
-          18.149015,
-          -65.818703
-        ],
-        [
-          18.159605,
-          -65.850426
-        ],
-        [
-          18.156493,
-          -65.863036
-        ],
-        [
-          18.156475,
-          -65.863053
-        ],
-        [
-          18.156475,
-          -65.863055
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-07-31 11:33:24",
-      "arrival": "2026-07-31 11:37:00",
-      "duration_min": 3.6,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424718,
-      "origin_lng": -66.475423,
-      "destination_lat": 18.424439,
-      "destination_lng": -66.475475,
-      "miles": 0.04,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424718,
-          -66.475423
-        ],
-        [
-          18.424718,
-          -66.475423
-        ],
-        [
-          18.424438,
-          -66.475476
-        ],
-        [
-          18.424438,
-          -66.475476
-        ],
-        [
-          18.424439,
-          -66.475475
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -32747,225 +32599,101 @@
           -66.47963
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-08 07:07:57",
+      "arrival": "2026-08-08 07:26:54",
+      "duration_min": 18.9,
+      "origin": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.475033,
+      "origin_lng": -66.923088,
+      "destination_lat": 18.412008,
+      "destination_lng": -66.931626,
+      "miles": 6.43,
+      "straight_miles": 4.39,
+      "efficiency_ratio": 1.47,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 5.9 mi o menos; posible ahorro 0.5 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.51,
+      "route_points": [
+        [
+          18.475033,
+          -66.923088
+        ],
+        [
+          18.475033,
+          -66.923088
+        ],
+        [
+          18.475033,
+          -66.923088
+        ],
+        [
+          18.47373,
+          -66.934676
+        ],
+        [
+          18.47373,
+          -66.934676
+        ],
+        [
+          18.456945,
+          -66.934666
+        ],
+        [
+          18.421473,
+          -66.925888
+        ],
+        [
+          18.412008,
+          -66.931626
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-08 07:35:39",
+      "arrival": "2026-08-08 07:36:41",
+      "duration_min": 1.0,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099345,
+      "origin_lng": -65.899393,
+      "destination_lat": 18.099451,
+      "destination_lng": -65.899371,
+      "miles": 0.02,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.099345,
+          -65.899393
+        ],
+        [
+          18.099345,
+          -65.899393
+        ],
+        [
+          18.099345,
+          -65.899393
+        ],
+        [
+          18.099451,
+          -65.899371
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-07-31 11:04:03",
-      "place": "Residential, Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.383808,
-      "lng": -66.331166
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 11:04:08",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.48135,
-      "lng": -66.828986
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 11:04:09",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.48135,
-      "lng": -66.828986
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 11:05:35",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.483193,
-      "lng": -66.82348
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-07-31 11:07:03",
-      "place": "Residential, Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.383801,
-      "lng": -66.331151
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-07-31 11:07:04",
-      "place": "Residential, Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.383801,
-      "lng": -66.331151
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 11:09:24",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.488115,
-      "lng": -66.796478
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:10:49",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
-      "speed": 1.3,
-      "lat": 18.441336,
-      "lng": -66.477986
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:10:50",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
-      "speed": 1.3,
-      "lat": 18.441336,
-      "lng": -66.477986
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 11:11:09",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424168,
-      "lng": -66.474728
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-07-31 11:11:10",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424168,
-      "lng": -66.474728
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-07-31 11:11:23",
-      "place": "Expreso Dionisio Casillas (Motorway, PR-60), Humacao, Puerto Rico, 00791",
-      "speed": 0.0,
-      "lat": 18.147743,
-      "lng": -65.81501
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:13:49",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.441321,
-      "lng": -66.477986
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-07-31 11:13:50",
-      "place": "Triumph Plaza (Retail, retail), Humacao, Puerto Rico, 00791",
-      "speed": 0.1,
-      "lat": 18.147311,
-      "lng": -65.816888
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:13:50",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.441321,
-      "lng": -66.477986
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-07-31 11:13:51",
-      "place": "Triumph Plaza (Retail, retail), Humacao, Puerto Rico, 00791",
-      "speed": 0.1,
-      "lat": 18.147311,
-      "lng": -65.816888
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:15:48",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.433026,
-      "lng": -66.475755
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:15:49",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.433026,
-      "lng": -66.475755
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:19:39",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424718,
-      "lng": -66.475423
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-07-31 11:24:36",
-      "place": "Triumph Plaza (Retail, retail), Humacao, Puerto Rico, 00791",
-      "speed": 0.0,
-      "lat": 18.147311,
-      "lng": -65.81689
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:33:24",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424718,
-      "lng": -66.475423
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 11:34:55",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.434056,
-      "lng": -66.476101
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:35:43",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424438,
-      "lng": -66.475476
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-07-31 11:35:44",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424438,
-      "lng": -66.475476
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -55915,6 +55643,51 @@
       "speed": 0.0,
       "lat": 18.385825,
       "lng": -66.4796
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-08 07:07:57",
+      "place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.475033,
+      "lng": -66.923088
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-08 07:07:58",
+      "place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.475033,
+      "lng": -66.923088
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-08 07:12:16",
+      "place": "Calle San José (Tertiary, PR-485), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.47373,
+      "lng": -66.934676
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-08 07:12:17",
+      "place": "Calle San José (Tertiary, PR-485), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.47373,
+      "lng": -66.934676
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-08 07:35:40",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099345,
+      "lng": -65.899393
     }
   ],
   "speeding": [
@@ -56467,16 +56240,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692",
       "lat": 18.422675,
       "lng": -66.3212216
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-07-31 11:25:58",
-      "speed": 67.6,
-      "over": 2.6,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Sabana Hoyos, Puerto Rico, 00688",
-      "lat": 18.434405,
-      "lng": -66.592036
     },
     {
       "vehicle": "RPS 994-204 20 RR",
