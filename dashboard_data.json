@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:49:03-04:00",
+  "generatedAt": "2026-08-10T06:52:34-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,24 +43,24 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-10 05:47:38",
-      "speed": 67.8,
-      "ignition": "IGNITION ON",
-      "lat": 18.420848,
-      "lng": -66.270888,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646"
+      "time": "2026-08-10 06:12:47",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.424383,
+      "lng": -66.475586,
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-08 11:26:55",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.412008,
-      "lng": -66.931626,
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
+      "time": "2026-08-10 06:51:25",
+      "speed": 35.1,
+      "ignition": "IGNITION ON",
+      "lat": 18.474156,
+      "lng": -66.867238,
+      "place": "Carretera Militar (Trunk, PR-2), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -170,12 +170,12 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-10 05:47:38",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
-      "trips": 60,
-      "stops": 263,
-      "miles": 716.0,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-10 06:12:47",
+      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "trips": 62,
+      "stops": 267,
+      "miles": 780.5,
       "speeding": 11,
       "inefficient_routes": 5,
       "max_speed": 68.7
@@ -184,11 +184,11 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-08 11:26:55",
-      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-10 06:51:25",
+      "current_place": "Carretera Militar (Trunk, PR-2), Quebradillas, Puerto Rico, 00678",
       "trips": 58,
-      "stops": 144,
+      "stops": 145,
       "miles": 669.3,
       "speeding": 20,
       "inefficient_routes": 15,
@@ -32067,6 +32067,158 @@
           -65.899456
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-10 00:44:11",
+      "arrival": "2026-08-10 02:08:26",
+      "duration_min": 84.2,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "origin_lat": 18.099398,
+      "origin_lng": -65.899455,
+      "destination_lat": 18.42946,
+      "destination_lng": -66.47477,
+      "miles": 63.89,
+      "straight_miles": 44.1,
+      "efficiency_ratio": 1.45,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.45x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 59.5 mi o menos; posible ahorro 4.4 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 4.36,
+      "route_points": [
+        [
+          18.099398,
+          -65.899455
+        ],
+        [
+          18.099398,
+          -65.899455
+        ],
+        [
+          18.099398,
+          -65.899455
+        ],
+        [
+          18.099398,
+          -65.899455
+        ],
+        [
+          18.100345,
+          -65.900051
+        ],
+        [
+          18.100345,
+          -65.900051
+        ],
+        [
+          18.107173,
+          -65.88005
+        ],
+        [
+          18.14468,
+          -65.861833
+        ],
+        [
+          18.183686,
+          -65.886303
+        ],
+        [
+          18.239641,
+          -65.931593
+        ],
+        [
+          18.245163,
+          -66.00488
+        ],
+        [
+          18.29291,
+          -66.044201
+        ],
+        [
+          18.344126,
+          -66.06887
+        ],
+        [
+          18.415988,
+          -66.070138
+        ],
+        [
+          18.422836,
+          -66.13131
+        ],
+        [
+          18.415476,
+          -66.207395
+        ],
+        [
+          18.4264,
+          -66.278438
+        ],
+        [
+          18.428038,
+          -66.350365
+        ],
+        [
+          18.440085,
+          -66.42314
+        ],
+        [
+          18.440126,
+          -66.423836
+        ],
+        [
+          18.440126,
+          -66.423836
+        ],
+        [
+          18.427813,
+          -66.452548
+        ],
+        [
+          18.42946,
+          -66.47477
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-10 02:10:00",
+      "arrival": "2026-08-10 02:12:37",
+      "duration_min": 2.6,
+      "origin": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "origin_lat": 18.42946,
+      "origin_lng": -66.47477,
+      "destination_lat": 18.424383,
+      "destination_lng": -66.475586,
+      "miles": 0.62,
+      "straight_miles": 0.35,
+      "efficiency_ratio": 1.74,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.74x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 0.5 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.14,
+      "route_points": [
+        [
+          18.42946,
+          -66.47477
+        ],
+        [
+          18.430873,
+          -66.475096
+        ],
+        [
+          18.430873,
+          -66.475096
+        ],
+        [
+          18.424383,
+          -66.475586
+        ]
+      ]
     }
   ],
   "stops": [
@@ -54983,6 +55135,51 @@
       "speed": 0.0,
       "lat": 18.100345,
       "lng": -65.900051
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-10 01:58:39",
+      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.440126,
+      "lng": -66.423836
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-10 01:58:40",
+      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.440126,
+      "lng": -66.423836
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-10 02:10:55",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.430873,
+      "lng": -66.475096
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-10 02:10:56",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.430873,
+      "lng": -66.475096
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-10 02:35:45",
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.412016,
+      "lng": -66.931623
     }
   ],
   "speeding": [
