@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:16:06-04:00",
+  "generatedAt": "2026-08-11T18:07:16-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-11 16:38:30",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.3403666,
-      "lng": -66.3120016,
-      "place": "Camino Cuba Libre (Residential), Corozal, Puerto Rico, 00783"
+      "time": "2026-08-11 18:05:11",
+      "speed": 37.3,
+      "ignition": "",
+      "lat": 18.4280916,
+      "lng": -66.3737483,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -142,15 +142,15 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-11 16:38:30",
-      "current_place": "Camino Cuba Libre (Residential), Corozal, Puerto Rico, 00783",
-      "trips": 37,
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-11 18:05:11",
+      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "trips": 38,
       "stops": 22,
       "miles": 0.3,
-      "speeding": 19,
+      "speeding": 15,
       "inefficient_routes": 0,
-      "max_speed": 72.7
+      "max_speed": 72.1
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -38951,6 +38951,44 @@
           -66.3120016
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-11 17:31:16",
+      "arrival": "2026-08-11 17:44:34",
+      "duration_min": 13.3,
+      "origin": "Camino Cuba Libre (Residential), Corozal, Puerto Rico, 00783",
+      "destination": "Roof, Carretera Militar, Dorado, Puerto Rico, 00646",
+      "origin_lat": 18.3403666,
+      "origin_lng": -66.3120016,
+      "destination_lat": 18.4102566,
+      "destination_lng": -66.3032983,
+      "miles": 0.0,
+      "straight_miles": 4.86,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.3403666,
+          -66.3120016
+        ],
+        [
+          18.3614133,
+          -66.309385
+        ],
+        [
+          18.4005349,
+          -66.3035083
+        ],
+        [
+          18.4102566,
+          -66.3032983
+        ]
+      ]
     }
   ],
   "stops": [
@@ -68640,16 +68678,6 @@
       "lng": -66.384715
     },
     {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-08-03 17:26:59",
-      "speed": 72.7,
-      "over": 7.7,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "lat": 18.4417683,
-      "lng": -66.4084666
-    },
-    {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "time": "2026-08-06 06:21:21",
@@ -68688,16 +68716,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "lat": 18.443536,
       "lng": -66.440295
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-08-03 17:22:14",
-      "speed": 72.1,
-      "over": 7.1,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692",
-      "lat": 18.4319216,
-      "lng": -66.341625
     },
     {
       "vehicle": "RPS 1038729 - LV",
@@ -69312,16 +69330,6 @@
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
-      "time": "2026-08-03 17:27:06",
-      "speed": 67.1,
-      "over": 2.1,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "lat": 18.4418433,
-      "lng": -66.4105083
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
       "time": "2026-08-04 10:43:27",
       "speed": 67.1,
       "over": 2.1,
@@ -69388,16 +69396,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "lat": 18.427683,
       "lng": -66.371485
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-08-03 17:22:25",
-      "speed": 66.5,
-      "over": 1.5,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692",
-      "lat": 18.4309933,
-      "lng": -66.3447866
     },
     {
       "vehicle": "RPS 1038729 - LV",
