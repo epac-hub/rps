@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T18:07:16-04:00",
+  "generatedAt": "2026-08-11T19:00:08-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-11 18:05:11",
-      "speed": 37.3,
-      "ignition": "",
-      "lat": 18.4280916,
-      "lng": -66.3737483,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693"
+      "time": "2026-08-11 18:22:56",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.4827433,
+      "lng": -66.428795,
+      "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -142,11 +142,11 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-11 18:05:11",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "trips": 38,
-      "stops": 22,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-11 18:22:56",
+      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "trips": 39,
+      "stops": 23,
       "miles": 0.3,
       "speeding": 15,
       "inefficient_routes": 0,
@@ -38989,6 +38989,60 @@
           -66.3032983
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-11 17:52:10",
+      "arrival": "2026-08-11 18:22:56",
+      "duration_min": 30.8,
+      "origin": "Roof, Carretera Militar, Dorado, Puerto Rico, 00646",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.4102566,
+      "origin_lng": -66.3032983,
+      "destination_lat": 18.4827433,
+      "destination_lng": -66.428795,
+      "miles": 0.01,
+      "straight_miles": 9.63,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4102566,
+          -66.3032983
+        ],
+        [
+          18.4222983,
+          -66.3118583
+        ],
+        [
+          18.4300233,
+          -66.3465866
+        ],
+        [
+          18.4388166,
+          -66.3951499
+        ],
+        [
+          18.4450099,
+          -66.4167049
+        ],
+        [
+          18.479825,
+          -66.43164
+        ],
+        [
+          18.480925,
+          -66.42939
+        ],
+        [
+          18.4827433,
+          -66.428795
+        ]
+      ]
     }
   ],
   "stops": [
@@ -68664,6 +68718,15 @@
       "speed": 0.0,
       "lat": 18.2610266,
       "lng": -66.2070733
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-08-11 18:21:28",
+      "place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.480925,
+      "lng": -66.42939
     }
   ],
   "speeding": [
