@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T00:07:03-04:00",
+  "generatedAt": "2026-08-11T01:20:47-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -173,10 +173,10 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-10 15:14:57",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 70,
-      "stops": 291,
-      "miles": 873.3,
-      "speeding": 11,
+      "trips": 69,
+      "stops": 288,
+      "miles": 808.6,
+      "speeding": 10,
       "inefficient_routes": 7,
       "max_speed": 68.7
     },
@@ -266,160 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-08-03 00:49:31",
-      "arrival": "2026-08-03 02:29:04",
-      "duration_min": 99.5,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.099348,
-      "origin_lng": -65.899366,
-      "destination_lat": 18.42437,
-      "destination_lng": -66.475568,
-      "miles": 64.7,
-      "straight_miles": 43.97,
-      "efficiency_ratio": 1.47,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 59.4 mi o menos; posible ahorro 5.3 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 5.33,
-      "route_points": [
-        [
-          18.099348,
-          -65.899366
-        ],
-        [
-          18.099348,
-          -65.899366
-        ],
-        [
-          18.099348,
-          -65.899366
-        ],
-        [
-          18.099348,
-          -65.899366
-        ],
-        [
-          18.099348,
-          -65.899366
-        ],
-        [
-          18.098268,
-          -65.891138
-        ],
-        [
-          18.119588,
-          -65.877236
-        ],
-        [
-          18.151055,
-          -65.861646
-        ],
-        [
-          18.186108,
-          -65.89048
-        ],
-        [
-          18.242296,
-          -65.936103
-        ],
-        [
-          18.24651,
-          -66.009158
-        ],
-        [
-          18.289158,
-          -66.04102
-        ],
-        [
-          18.340095,
-          -66.066784
-        ],
-        [
-          18.412216,
-          -66.070018
-        ],
-        [
-          18.422741,
-          -66.127218
-        ],
-        [
-          18.413553,
-          -66.212035
-        ],
-        [
-          18.426096,
-          -66.293405
-        ],
-        [
-          18.42841,
-          -66.375176
-        ],
-        [
-          18.440098,
-          -66.423919
-        ],
-        [
-          18.426366,
-          -66.462293
-        ],
-        [
-          18.429318,
-          -66.474736
-        ],
-        [
-          18.431398,
-          -66.475818
-        ],
-        [
-          18.431398,
-          -66.475818
-        ],
-        [
-          18.431345,
-          -66.475811
-        ],
-        [
-          18.431345,
-          -66.475811
-        ],
-        [
-          18.4312,
-          -66.475775
-        ],
-        [
-          18.4312,
-          -66.475775
-        ],
-        [
-          18.431113,
-          -66.4756
-        ],
-        [
-          18.431113,
-          -66.4756
-        ],
-        [
-          18.431141,
-          -66.475548
-        ],
-        [
-          18.431141,
-          -66.475548
-        ],
-        [
-          18.4312,
-          -66.475548
-        ],
-        [
-          18.42437,
-          -66.475568
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
@@ -38681,33 +38527,6 @@
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
-      "time": "2026-08-03 00:49:32",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099348,
-      "lng": -65.899366
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-03 00:52:31",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099348,
-      "lng": -65.899366
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-03 00:52:32",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099348,
-      "lng": -65.899366
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
       "time": "2026-08-03 02:04:26",
       "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
       "speed": 0.0,
@@ -68165,6 +67984,16 @@
       "lng": -66.726171
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-03 02:04:17",
+      "speed": 67.5,
+      "over": 2.5,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "lat": 18.441846,
+      "lng": -66.410423
+    },
+    {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "time": "2026-08-04 05:23:21",
@@ -68255,16 +68084,6 @@
       "lng": -66.371485
     },
     {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-03 01:55:34",
-      "speed": 66.5,
-      "over": 1.5,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
-      "lat": 18.426096,
-      "lng": -66.293405
-    },
-    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "time": "2026-08-03 17:22:25",
@@ -68323,16 +68142,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
       "lat": 18.444976,
       "lng": -66.515138
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-03 02:00:54",
-      "speed": 65.9,
-      "over": 0.9,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "lat": 18.42841,
-      "lng": -66.375176
     },
     {
       "vehicle": "RPS 1038729 - LV",
