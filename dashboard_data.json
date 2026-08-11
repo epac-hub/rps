@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T20:36:25-04:00",
+  "generatedAt": "2026-08-10T22:39:32-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-10 14:55:56",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.434553,
-      "lng": -66.915653,
-      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678"
+      "time": "2026-08-10 21:01:40",
+      "speed": 21.4,
+      "ignition": "IGNITION ON",
+      "lat": 18.416073,
+      "lng": -66.928511,
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-10 14:55:56",
-      "current_place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "trips": 70,
-      "stops": 176,
-      "miles": 808.8,
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-10 21:01:40",
+      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "trips": 71,
+      "stops": 180,
+      "miles": 809.7,
       "speeding": 33,
       "inefficient_routes": 18,
       "max_speed": 73.1
@@ -38633,6 +38633,48 @@
           -66.4287899
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-10 16:40:56",
+      "arrival": "2026-08-10 16:43:39",
+      "duration_min": 2.7,
+      "origin": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.434553,
+      "origin_lng": -66.915653,
+      "destination_lat": 18.422938,
+      "destination_lng": -66.910033,
+      "miles": 0.95,
+      "straight_miles": 0.88,
+      "efficiency_ratio": 1.07,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.07x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.434553,
+          -66.915653
+        ],
+        [
+          18.434553,
+          -66.915653
+        ],
+        [
+          18.434553,
+          -66.915653
+        ],
+        [
+          18.434553,
+          -66.915653
+        ],
+        [
+          18.422938,
+          -66.910033
+        ]
+      ]
     }
   ],
   "stops": [
@@ -67363,6 +67405,42 @@
       "speed": 0.0,
       "lat": 18.1460016,
       "lng": -65.8010616
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-10 16:40:55",
+      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.434553,
+      "lng": -66.915653
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-10 16:40:56",
+      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.434553,
+      "lng": -66.915653
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-10 16:41:10",
+      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.434553,
+      "lng": -66.915653
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-10 16:41:11",
+      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.0,
+      "lat": 18.434553,
+      "lng": -66.915653
     }
   ],
   "speeding": [
