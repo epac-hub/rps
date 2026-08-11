@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:24:46-04:00",
+  "generatedAt": "2026-08-11T17:16:06-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-11 16:23:09",
-      "speed": 30.4,
-      "ignition": "",
-      "lat": 18.31288,
-      "lng": -66.2665333,
-      "place": "Carretera Corozal - Naranjito (Secondary, PR-164), Naranjito, Puerto Rico, 00719"
+      "time": "2026-08-11 16:38:30",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.3403666,
+      "lng": -66.3120016,
+      "place": "Camino Cuba Libre (Residential), Corozal, Puerto Rico, 00783"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-11 16:23:01",
-      "speed": 24.5,
-      "ignition": "IGNITION ON",
-      "lat": 18.037843,
-      "lng": -65.835076,
-      "place": "Ruta Panorámica Luis Muñoz Marín / Carretera Ernesto Carasquillo (Trunk, PR-901), Yabucoa, Puerto Rico, 00767"
+      "time": "2026-08-11 17:10:09",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.09941,
+      "lng": -65.899465,
+      "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -103,12 +103,12 @@
       "serial": "0470009725",
       "plate": "IRK-578",
       "description": "ASTRID MARTINEZENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-11 16:22:13",
-      "speed": 39.4,
-      "ignition": "IGNITION ON",
-      "lat": 18.243661,
-      "lng": -66.723328,
-      "place": "Carretera Félix Ramón \"Moncho\" Estévez Datis (Trunk, PR-10), Utuado, Puerto Rico, 00641"
+      "time": "2026-08-11 17:08:14",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.424449,
+      "lng": -66.475585,
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS-985-742-18 ER",
@@ -142,9 +142,9 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-11 16:23:09",
-      "current_place": "Carretera Corozal - Naranjito (Secondary, PR-164), Naranjito, Puerto Rico, 00719",
+      "current_status": "Detenido",
+      "last_seen": "2026-08-11 16:38:30",
+      "current_place": "Camino Cuba Libre (Residential), Corozal, Puerto Rico, 00783",
       "trips": 37,
       "stops": 22,
       "miles": 0.3,
@@ -170,14 +170,14 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-11 16:23:01",
-      "current_place": "Ruta Panorámica Luis Muñoz Marín / Carretera Ernesto Carasquillo (Trunk, PR-901), Yabucoa, Puerto Rico, 00767",
-      "trips": 64,
-      "stops": 297,
-      "miles": 886.7,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-11 17:10:09",
+      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "trips": 66,
+      "stops": 309,
+      "miles": 914.0,
       "speeding": 7,
-      "inefficient_routes": 8,
+      "inefficient_routes": 9,
       "max_speed": 68.7
     },
     {
@@ -240,14 +240,14 @@
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "plate": "IRK-578",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-11 16:22:13",
-      "current_place": "Carretera Félix Ramón \"Moncho\" Estévez Datis (Trunk, PR-10), Utuado, Puerto Rico, 00641",
-      "trips": 53,
-      "stops": 275,
-      "miles": 564.2,
-      "speeding": 3,
-      "inefficient_routes": 8,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-11 17:08:14",
+      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "trips": 54,
+      "stops": 277,
+      "miles": 660.2,
+      "speeding": 4,
+      "inefficient_routes": 9,
       "max_speed": 74.2
     },
     {
@@ -266,84 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-03 16:49:32",
-      "arrival": "2026-08-03 17:40:04",
-      "duration_min": 50.5,
-      "origin": "Calle Castro Viñas (Residential), San Juan, Puerto Rico, 00911",
-      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.4480716,
-      "origin_lng": -66.0558683,
-      "destination_lat": 18.48271,
-      "destination_lng": -66.428825,
-      "miles": 0.02,
-      "straight_miles": 24.56,
-      "efficiency_ratio": 0.0,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4480716,
-          -66.0558683
-        ],
-        [
-          18.4366816,
-          -66.0728416
-        ],
-        [
-          18.419605,
-          -66.08586
-        ],
-        [
-          18.422795,
-          -66.1322383
-        ],
-        [
-          18.4176633,
-          -66.2018849
-        ],
-        [
-          18.4206166,
-          -66.2706416
-        ],
-        [
-          18.4229199,
-          -66.3216
-        ],
-        [
-          18.4319216,
-          -66.341625
-        ],
-        [
-          18.4309933,
-          -66.3447866
-        ],
-        [
-          18.4417683,
-          -66.4084666
-        ],
-        [
-          18.4418433,
-          -66.4105083
-        ],
-        [
-          18.4539933,
-          -66.4208249
-        ],
-        [
-          18.4824833,
-          -66.4297116
-        ],
-        [
-          18.48271,
-          -66.428825
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
@@ -37829,6 +37751,204 @@
       ]
     },
     {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "departure": "2026-08-11 09:57:58",
+      "arrival": "2026-08-11 13:08:03",
+      "duration_min": 190.1,
+      "origin": "Calle 3 (Residential), Juana Diaz, Puerto Rico, 00795",
+      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "origin_lat": 18.056893,
+      "origin_lng": -66.45786,
+      "destination_lat": 18.424448,
+      "destination_lng": -66.475585,
+      "miles": 95.95,
+      "straight_miles": 25.42,
+      "efficiency_ratio": 3.77,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 3.77x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 34.3 mi o menos; ahorro estimado 61.6 mi.",
+      "potential_saved_miles": 61.63,
+      "route_points": [
+        [
+          18.056893,
+          -66.45786
+        ],
+        [
+          18.056893,
+          -66.45786
+        ],
+        [
+          18.056893,
+          -66.45786
+        ],
+        [
+          18.043353,
+          -66.45865
+        ],
+        [
+          18.049851,
+          -66.488786
+        ],
+        [
+          18.052318,
+          -66.504035
+        ],
+        [
+          18.067535,
+          -66.500388
+        ],
+        [
+          18.091475,
+          -66.51048
+        ],
+        [
+          18.125251,
+          -66.489896
+        ],
+        [
+          18.126011,
+          -66.489675
+        ],
+        [
+          18.127311,
+          -66.490195
+        ],
+        [
+          18.142643,
+          -66.47471
+        ],
+        [
+          18.156155,
+          -66.469444
+        ],
+        [
+          18.153935,
+          -66.467231
+        ],
+        [
+          18.153935,
+          -66.467231
+        ],
+        [
+          18.153932,
+          -66.467236
+        ],
+        [
+          18.153932,
+          -66.467236
+        ],
+        [
+          18.156571,
+          -66.472548
+        ],
+        [
+          18.163863,
+          -66.478061
+        ],
+        [
+          18.13899,
+          -66.476413
+        ],
+        [
+          18.125771,
+          -66.489688
+        ],
+        [
+          18.09448,
+          -66.511511
+        ],
+        [
+          18.05838,
+          -66.509911
+        ],
+        [
+          18.044715,
+          -66.509874
+        ],
+        [
+          18.0386,
+          -66.596956
+        ],
+        [
+          18.068223,
+          -66.627596
+        ],
+        [
+          18.113823,
+          -66.652776
+        ],
+        [
+          18.161258,
+          -66.711794
+        ],
+        [
+          18.192516,
+          -66.732515
+        ],
+        [
+          18.205903,
+          -66.729623
+        ],
+        [
+          18.207808,
+          -66.723233
+        ],
+        [
+          18.223218,
+          -66.714743
+        ],
+        [
+          18.252433,
+          -66.724461
+        ],
+        [
+          18.297648,
+          -66.709363
+        ],
+        [
+          18.332593,
+          -66.678625
+        ],
+        [
+          18.38788,
+          -66.69054
+        ],
+        [
+          18.44402,
+          -66.715676
+        ],
+        [
+          18.437495,
+          -66.660438
+        ],
+        [
+          18.435105,
+          -66.589706
+        ],
+        [
+          18.446163,
+          -66.516898
+        ],
+        [
+          18.424813,
+          -66.474898
+        ],
+        [
+          18.424441,
+          -66.475584
+        ],
+        [
+          18.424441,
+          -66.475584
+        ],
+        [
+          18.424448,
+          -66.475585
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
       "departure": "2026-08-11 10:08:05",
@@ -38371,6 +38491,100 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-11 11:40:37",
+      "arrival": "2026-08-11 12:35:48",
+      "duration_min": 55.2,
+      "origin": "Calle 1 (Residential), Patillas, Puerto Rico, 00723",
+      "destination": "Carretera Ernesto Carrasquillo (Secondary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.007213,
+      "origin_lng": -66.01125,
+      "destination_lat": 18.044538,
+      "destination_lng": -65.85504,
+      "miles": 20.07,
+      "straight_miles": 10.58,
+      "efficiency_ratio": 1.9,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 1.9x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 14.3 mi o menos; ahorro estimado 5.8 mi.",
+      "potential_saved_miles": 5.78,
+      "route_points": [
+        [
+          18.007213,
+          -66.01125
+        ],
+        [
+          18.007213,
+          -66.01125
+        ],
+        [
+          18.007213,
+          -66.01125
+        ],
+        [
+          17.99951,
+          -66.010876
+        ],
+        [
+          17.97936,
+          -65.995236
+        ],
+        [
+          17.971633,
+          -65.958813
+        ],
+        [
+          17.977093,
+          -65.915816
+        ],
+        [
+          18.002758,
+          -65.905111
+        ],
+        [
+          18.00536,
+          -65.898208
+        ],
+        [
+          18.00536,
+          -65.898208
+        ],
+        [
+          18.0121,
+          -65.870731
+        ],
+        [
+          18.024051,
+          -65.844386
+        ],
+        [
+          18.039151,
+          -65.84193
+        ],
+        [
+          18.04454,
+          -65.855018
+        ],
+        [
+          18.04454,
+          -65.855018
+        ],
+        [
+          18.044543,
+          -65.855046
+        ],
+        [
+          18.044543,
+          -65.855046
+        ],
+        [
+          18.044538,
+          -65.85504
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "departure": "2026-08-11 11:55:20",
@@ -38561,6 +38775,80 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-11 12:40:58",
+      "arrival": "2026-08-11 13:10:00",
+      "duration_min": 29.0,
+      "origin": "Carretera Ernesto Carrasquillo (Secondary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.044538,
+      "origin_lng": -65.85504,
+      "destination_lat": 18.09941,
+      "destination_lng": -65.899465,
+      "miles": 7.31,
+      "straight_miles": 4.78,
+      "efficiency_ratio": 1.53,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.53x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 6.5 mi o menos; posible ahorro 0.9 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.85,
+      "route_points": [
+        [
+          18.044538,
+          -65.85504
+        ],
+        [
+          18.044538,
+          -65.85504
+        ],
+        [
+          18.044538,
+          -65.85504
+        ],
+        [
+          18.059855,
+          -65.87544
+        ],
+        [
+          18.092033,
+          -65.875783
+        ],
+        [
+          18.100153,
+          -65.895703
+        ],
+        [
+          18.099378,
+          -65.899441
+        ],
+        [
+          18.099378,
+          -65.899441
+        ],
+        [
+          18.09939,
+          -65.899461
+        ],
+        [
+          18.09939,
+          -65.899461
+        ],
+        [
+          18.09941,
+          -65.899463
+        ],
+        [
+          18.09941,
+          -65.899463
+        ],
+        [
+          18.09941,
+          -65.899465
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-11 14:09:02",
@@ -38607,6 +38895,60 @@
         [
           18.2955866,
           -66.21024
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-11 16:01:27",
+      "arrival": "2026-08-11 16:38:30",
+      "duration_min": 37.0,
+      "origin": "Calle 1 (Residential), Naranjito, Puerto Rico, 00719",
+      "destination": "Camino Cuba Libre (Residential), Corozal, Puerto Rico, 00783",
+      "origin_lat": 18.2955866,
+      "origin_lng": -66.21024,
+      "destination_lat": 18.3403666,
+      "destination_lng": -66.3120016,
+      "miles": 0.01,
+      "straight_miles": 7.36,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.2955866,
+          -66.21024
+        ],
+        [
+          18.3044033,
+          -66.21384
+        ],
+        [
+          18.3032133,
+          -66.2299983
+        ],
+        [
+          18.2988916,
+          -66.252545
+        ],
+        [
+          18.31288,
+          -66.2665333
+        ],
+        [
+          18.3192316,
+          -66.2915249
+        ],
+        [
+          18.3376616,
+          -66.3049866
+        ],
+        [
+          18.3403666,
+          -66.3120016
         ]
       ]
     }
@@ -68133,6 +68475,60 @@
       "lng": -65.898208
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 12:28:31",
+      "place": "Carretera Ernesto Carrasquillo (Secondary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.04454,
+      "lng": -65.855018
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 12:28:32",
+      "place": "Carretera Ernesto Carrasquillo (Secondary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.04454,
+      "lng": -65.855018
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 12:31:31",
+      "place": "Carretera Ernesto Carrasquillo (Secondary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.044543,
+      "lng": -65.855046
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 12:31:32",
+      "place": "Carretera Ernesto Carrasquillo (Secondary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.044543,
+      "lng": -65.855046
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 12:40:58",
+      "place": "Carretera Ernesto Carrasquillo (Secondary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.044538,
+      "lng": -65.85504
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 12:40:59",
+      "place": "Carretera Ernesto Carrasquillo (Secondary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.044538,
+      "lng": -65.85504
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "time": "2026-08-11 12:43:53",
@@ -68140,6 +68536,78 @@
       "speed": 0.0,
       "lat": 18.3368216,
       "lng": -66.2045566
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 12:59:04",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.2,
+      "lat": 18.099378,
+      "lng": -65.899441
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 12:59:05",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.2,
+      "lat": 18.099378,
+      "lng": -65.899441
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 13:02:31",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.09939,
+      "lng": -65.899461
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 13:02:32",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.09939,
+      "lng": -65.899461
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "time": "2026-08-11 13:07:09",
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "speed": 0.1,
+      "lat": 18.424441,
+      "lng": -66.475584
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "time": "2026-08-11 13:07:10",
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "speed": 0.1,
+      "lat": 18.424441,
+      "lng": -66.475584
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 13:08:04",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.09941,
+      "lng": -65.899463
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-11 13:08:05",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.09941,
+      "lng": -65.899463
     },
     {
       "vehicle": "RPS 1038729 - LV",
@@ -69100,6 +69568,16 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
       "lat": 18.446336,
       "lng": -66.446243
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "time": "2026-08-11 12:55:00",
+      "speed": 65.5,
+      "over": 0.5,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Sabana Hoyos, Puerto Rico, 00688",
+      "lat": 18.435105,
+      "lng": -66.589706
     },
     {
       "vehicle": "RPS 933-090 12 LR",
