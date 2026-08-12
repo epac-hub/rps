@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:05:12-04:00",
+  "generatedAt": "2026-08-12T18:56:47-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-12 16:23:36",
+      "time": "2026-08-12 18:29:40",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.433711,
-      "lng": -66.914926,
-      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678"
+      "lat": 18.412015,
+      "lng": -66.931636,
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -185,13 +185,13 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Detenido",
-      "last_seen": "2026-08-12 16:23:36",
-      "current_place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "trips": 79,
+      "last_seen": "2026-08-12 18:29:40",
+      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "trips": 80,
       "stops": 225,
-      "miles": 989.2,
+      "miles": 992.9,
       "speeding": 43,
-      "inefficient_routes": 17,
+      "inefficient_routes": 18,
       "max_speed": 72.2
     },
     {
@@ -39165,6 +39165,40 @@
         [
           18.4827199,
           -66.42878
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-12 14:19:14",
+      "arrival": "2026-08-12 14:29:39",
+      "duration_min": 10.4,
+      "origin": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.433711,
+      "origin_lng": -66.914926,
+      "destination_lat": 18.412041,
+      "destination_lng": -66.931676,
+      "miles": 3.76,
+      "straight_miles": 1.86,
+      "efficiency_ratio": 2.03,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 2.03x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 2.5 mi o menos; ahorro estimado 1.3 mi.",
+      "potential_saved_miles": 1.25,
+      "route_points": [
+        [
+          18.433711,
+          -66.914926
+        ],
+        [
+          18.42454,
+          -66.925288
+        ],
+        [
+          18.412041,
+          -66.931676
         ]
       ]
     }
