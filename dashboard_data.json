@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T23:14:13-04:00",
+  "generatedAt": "2026-08-12T01:05:59-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -174,11 +174,11 @@
       "last_seen": "2026-08-11 17:10:09",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
       "trips": 66,
-      "stops": 309,
+      "stops": 304,
       "miles": 914.0,
       "speeding": 7,
       "inefficient_routes": 9,
-      "max_speed": 68.7
+      "max_speed": 67.8
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -39049,51 +39049,6 @@
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
-      "time": "2026-08-04 00:49:49",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.09939,
-      "lng": -65.899429
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-04 00:52:49",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.09939,
-      "lng": -65.899429
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-04 00:52:50",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.09939,
-      "lng": -65.899429
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-04 00:55:29",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099971,
-      "lng": -65.899776
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-04 00:55:30",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099971,
-      "lng": -65.899776
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
       "time": "2026-08-04 02:03:42",
       "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
       "speed": 0.0,
@@ -69281,16 +69236,6 @@
       "lng": -66.372898
     },
     {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-04 01:53:57",
-      "speed": 68.7,
-      "over": 3.7,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
-      "lat": 18.42573,
-      "lng": -66.276945
-    },
-    {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "time": "2026-08-10 03:19:21",
@@ -69319,6 +69264,16 @@
       "place": "Autopista Luis A. Ferré (Motorway, PR-52), Cayey, Puerto Rico, 00736",
       "lat": 18.13316,
       "lng": -66.114566
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-04 02:03:25",
+      "speed": 67.8,
+      "over": 2.8,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "lat": 18.44084,
+      "lng": -66.402773
     },
     {
       "vehicle": "RPS IRK-578 17 AM",
@@ -69501,6 +69456,16 @@
       "lng": -66.209251
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-04 01:58:00",
+      "speed": 66.2,
+      "over": 1.2,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692",
+      "lat": 18.431915,
+      "lng": -66.340118
+    },
+    {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "time": "2026-08-07 07:47:56",
@@ -69639,16 +69604,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Sabana Hoyos, Puerto Rico, 00688",
       "lat": 18.435105,
       "lng": -66.589706
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-04 01:33:11",
-      "speed": 65.4,
-      "over": 0.4,
-      "place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926",
-      "lat": 18.334393,
-      "lng": -66.061575
     },
     {
       "vehicle": "RPS 933-090 12 LR",
