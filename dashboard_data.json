@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:22:33-04:00",
+  "generatedAt": "2026-08-13T17:10:25-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,36 +19,36 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-13 16:05:00",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.3617883,
-      "lng": -66.560255,
-      "place": "Calle David López (Residential), Florida, Puerto Rico, 00650"
+      "time": "2026-08-13 17:09:02",
+      "speed": 64.6,
+      "ignition": "",
+      "lat": 18.4430883,
+      "lng": -66.5529133,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "plate": "933-089",
       "description": "OFICINADPTO PRODUCCION",
-      "time": "2026-08-13 16:20:02",
-      "speed": 14.3,
+      "time": "2026-08-13 17:08:19",
+      "speed": 42.5,
       "ignition": "IGNITION ON",
-      "lat": 18.22324,
-      "lng": -66.381443,
-      "place": "Carretera Orocovis - Barranquitas (Secondary, PR-156), Orocovis, Puerto Rico, 00720"
+      "lat": 18.404816,
+      "lng": -66.492071,
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-13 16:20:17",
-      "speed": 34.5,
-      "ignition": "IGNITION ON",
-      "lat": 18.152728,
-      "lng": -65.862128,
-      "place": "Calle Kilómetro 3.7 (Residential), Las Piedras, Puerto Rico, 00771"
+      "time": "2026-08-13 16:36:32",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.099325,
+      "lng": -65.899336,
+      "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -115,12 +115,12 @@
       "serial": "0470009732",
       "plate": "985-742",
       "description": "EMMANUEL RIVERAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-13 16:20:25",
-      "speed": 54.4,
-      "ignition": "IGNITION ON",
-      "lat": 18.425461,
-      "lng": -66.287753,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646"
+      "time": "2026-08-13 17:08:21",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.42444,
+      "lng": -66.475504,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     }
   ],
   "summary": [
@@ -142,9 +142,9 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-13 16:05:00",
-      "current_place": "Calle David López (Residential), Florida, Puerto Rico, 00650",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-13 17:09:02",
+      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617",
       "trips": 41,
       "stops": 25,
       "miles": 0.3,
@@ -157,8 +157,8 @@
       "serial": "0470009731",
       "plate": "933-089",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-13 16:20:02",
-      "current_place": "Carretera Orocovis - Barranquitas (Secondary, PR-156), Orocovis, Puerto Rico, 00720",
+      "last_seen": "2026-08-13 17:08:19",
+      "current_place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
       "trips": 28,
       "stops": 177,
       "miles": 267.3,
@@ -170,12 +170,12 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-13 16:20:17",
-      "current_place": "Calle Kilómetro 3.7 (Residential), Las Piedras, Puerto Rico, 00771",
-      "trips": 65,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-13 16:36:32",
+      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "trips": 66,
       "stops": 304,
-      "miles": 989.8,
+      "miles": 996.2,
       "speeding": 8,
       "inefficient_routes": 10,
       "max_speed": 71.5
@@ -254,12 +254,12 @@
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
       "plate": "985-742",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-13 16:20:25",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
-      "trips": 64,
-      "stops": 611,
-      "miles": 407.7,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-13 17:08:21",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 67,
+      "stops": 617,
+      "miles": 439.6,
       "speeding": 5,
       "inefficient_routes": 17,
       "max_speed": 71.3
@@ -37367,6 +37367,104 @@
       ]
     },
     {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "departure": "2026-08-13 11:42:22",
+      "arrival": "2026-08-13 12:22:43",
+      "duration_min": 40.4,
+      "origin": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912",
+      "destination": "Carretera Arcaido \"Cayito\" Concepción Báez (Tertiary, PR-694), Dorado, Puerto Rico, 00646",
+      "origin_lat": 18.44384,
+      "origin_lng": -66.062523,
+      "destination_lat": 18.42541,
+      "destination_lng": -66.298898,
+      "miles": 17.53,
+      "straight_miles": 15.55,
+      "efficiency_ratio": 1.13,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.13x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.443761,
+          -66.062541
+        ],
+        [
+          18.44384,
+          -66.062523
+        ],
+        [
+          18.443761,
+          -66.062541
+        ],
+        [
+          18.443774,
+          -66.062537
+        ],
+        [
+          18.443774,
+          -66.062537
+        ],
+        [
+          18.444165,
+          -66.062415
+        ],
+        [
+          18.444165,
+          -66.062415
+        ],
+        [
+          18.44345,
+          -66.064343
+        ],
+        [
+          18.44345,
+          -66.064343
+        ],
+        [
+          18.442428,
+          -66.065068
+        ],
+        [
+          18.442428,
+          -66.065068
+        ],
+        [
+          18.438148,
+          -66.083578
+        ],
+        [
+          18.422668,
+          -66.1289
+        ],
+        [
+          18.422231,
+          -66.153563
+        ],
+        [
+          18.419353,
+          -66.173474
+        ],
+        [
+          18.419353,
+          -66.173474
+        ],
+        [
+          18.418611,
+          -66.236988
+        ],
+        [
+          18.426365,
+          -66.278383
+        ],
+        [
+          18.42541,
+          -66.298898
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-13 11:54:32",
@@ -37401,6 +37499,102 @@
         [
           18.4294916,
           -66.48964
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-13 12:19:06",
+      "arrival": "2026-08-13 12:36:23",
+      "duration_min": 17.3,
+      "origin": "Carretera Alcalde Modesto Castro Dávila (Tertiary, PR-921), Las Piedras, Puerto Rico, 00791",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.156546,
+      "origin_lng": -65.862981,
+      "destination_lat": 18.099325,
+      "destination_lng": -65.899336,
+      "miles": 6.35,
+      "straight_miles": 4.62,
+      "efficiency_ratio": 1.38,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.38x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 6.2 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.12,
+      "route_points": [
+        [
+          18.156558,
+          -65.862965
+        ],
+        [
+          18.156546,
+          -65.862981
+        ],
+        [
+          18.129788,
+          -65.872153
+        ],
+        [
+          18.108355,
+          -65.880058
+        ],
+        [
+          18.100868,
+          -65.892986
+        ],
+        [
+          18.099325,
+          -65.899336
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "departure": "2026-08-13 12:39:24",
+      "arrival": "2026-08-13 12:56:12",
+      "duration_min": 16.8,
+      "origin": "Carretera Arcaido \"Cayito\" Concepción Báez (Tertiary, PR-694), Dorado, Puerto Rico, 00646",
+      "destination": "Service, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.42541,
+      "origin_lng": -66.298898,
+      "destination_lat": 18.445005,
+      "destination_lng": -66.4572,
+      "miles": 11.32,
+      "straight_miles": 10.46,
+      "efficiency_ratio": 1.08,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.08x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.42541,
+          -66.298898
+        ],
+        [
+          18.42541,
+          -66.298898
+        ],
+        [
+          18.42541,
+          -66.298898
+        ],
+        [
+          18.431825,
+          -66.339175
+        ],
+        [
+          18.431493,
+          -66.382295
+        ],
+        [
+          18.445788,
+          -66.453981
+        ],
+        [
+          18.445005,
+          -66.4572
         ]
       ]
     },
@@ -37487,6 +37681,56 @@
         [
           18.3378666,
           -66.883605
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "departure": "2026-08-13 12:58:36",
+      "arrival": "2026-08-13 13:08:13",
+      "duration_min": 9.6,
+      "origin": "Service, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.445005,
+      "origin_lng": -66.4572,
+      "destination_lat": 18.42444,
+      "destination_lng": -66.475504,
+      "miles": 3.03,
+      "straight_miles": 1.86,
+      "efficiency_ratio": 1.63,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.63x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 2.5 mi o menos; posible ahorro 0.5 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.51,
+      "route_points": [
+        [
+          18.445005,
+          -66.4572
+        ],
+        [
+          18.44503,
+          -66.457228
+        ],
+        [
+          18.44503,
+          -66.457228
+        ],
+        [
+          18.439745,
+          -66.478033
+        ],
+        [
+          18.42444,
+          -66.475503
+        ],
+        [
+          18.42444,
+          -66.475503
+        ],
+        [
+          18.42444,
+          -66.475504
         ]
       ]
     },
@@ -68332,6 +68576,24 @@
       "lng": -65.862965
     },
     {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 12:39:24",
+      "place": "Carretera Arcaido \"Cayito\" Concepción Báez (Tertiary, PR-694), Dorado, Puerto Rico, 00646",
+      "speed": 0.0,
+      "lat": 18.42541,
+      "lng": -66.298898
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 12:39:25",
+      "place": "Carretera Arcaido \"Cayito\" Concepción Báez (Tertiary, PR-694), Dorado, Puerto Rico, 00646",
+      "speed": 0.0,
+      "lat": 18.42541,
+      "lng": -66.298898
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "time": "2026-08-13 12:56:41",
@@ -68339,6 +68601,42 @@
       "speed": 0.0,
       "lat": 18.4293833,
       "lng": -66.4897216
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 12:58:38",
+      "place": "Service, Manati, Puerto Rico, 00674",
+      "speed": 0.6,
+      "lat": 18.44503,
+      "lng": -66.457228
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 12:58:39",
+      "place": "Service, Manati, Puerto Rico, 00674",
+      "speed": 0.6,
+      "lat": 18.44503,
+      "lng": -66.457228
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 13:07:23",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.42444,
+      "lng": -66.475503
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 13:07:24",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.42444,
+      "lng": -66.475503
     },
     {
       "vehicle": "RPS 1038729 - LV",
