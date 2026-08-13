@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T15:42:52-04:00",
+  "generatedAt": "2026-08-13T16:22:33-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,36 +19,36 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-13 15:40:31",
-      "speed": 60.3,
-      "ignition": "",
-      "lat": 18.4431216,
-      "lng": -66.565745,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617"
+      "time": "2026-08-13 16:05:00",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.3617883,
+      "lng": -66.560255,
+      "place": "Calle David López (Residential), Florida, Puerto Rico, 00650"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "plate": "933-089",
       "description": "OFICINADPTO PRODUCCION",
-      "time": "2026-08-13 15:41:01",
-      "speed": 4.1,
+      "time": "2026-08-13 16:20:02",
+      "speed": 14.3,
       "ignition": "IGNITION ON",
-      "lat": 18.078093,
-      "lng": -66.370329,
-      "place": "Calle 10 (Residential), Coamo, Puerto Rico, 00769"
+      "lat": 18.22324,
+      "lng": -66.381443,
+      "place": "Carretera Orocovis - Barranquitas (Secondary, PR-156), Orocovis, Puerto Rico, 00720"
     },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-13 15:40:45",
-      "speed": 22.7,
+      "time": "2026-08-13 16:20:17",
+      "speed": 34.5,
       "ignition": "IGNITION ON",
-      "lat": 18.248095,
-      "lng": -65.985128,
-      "place": "Expreso Cruz Ortiz Stella (Motorway, PR-30), Gurabo, Puerto Rico, 00778"
+      "lat": 18.152728,
+      "lng": -65.862128,
+      "place": "Calle Kilómetro 3.7 (Residential), Las Piedras, Puerto Rico, 00771"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -79,12 +79,12 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-13 15:41:19",
-      "speed": 63.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.444191,
-      "lng": -66.622026,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Garrochales, Puerto Rico, 00652"
+      "time": "2026-08-13 15:57:05",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.424426,
+      "lng": -66.475495,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
@@ -115,12 +115,12 @@
       "serial": "0470009732",
       "plate": "985-742",
       "description": "EMMANUEL RIVERAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-13 15:22:16",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.44384,
-      "lng": -66.062523,
-      "place": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912"
+      "time": "2026-08-13 16:20:25",
+      "speed": 54.4,
+      "ignition": "IGNITION ON",
+      "lat": 18.425461,
+      "lng": -66.287753,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646"
     }
   ],
   "summary": [
@@ -142,10 +142,10 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-13 15:40:31",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617",
-      "trips": 40,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-13 16:05:00",
+      "current_place": "Calle David López (Residential), Florida, Puerto Rico, 00650",
+      "trips": 41,
       "stops": 25,
       "miles": 0.3,
       "speeding": 9,
@@ -157,8 +157,8 @@
       "serial": "0470009731",
       "plate": "933-089",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-13 15:41:01",
-      "current_place": "Calle 10 (Residential), Coamo, Puerto Rico, 00769",
+      "last_seen": "2026-08-13 16:20:02",
+      "current_place": "Carretera Orocovis - Barranquitas (Secondary, PR-156), Orocovis, Puerto Rico, 00720",
       "trips": 28,
       "stops": 177,
       "miles": 267.3,
@@ -171,11 +171,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-13 15:40:45",
-      "current_place": "Expreso Cruz Ortiz Stella (Motorway, PR-30), Gurabo, Puerto Rico, 00778",
-      "trips": 64,
-      "stops": 294,
-      "miles": 950.7,
+      "last_seen": "2026-08-13 16:20:17",
+      "current_place": "Calle Kilómetro 3.7 (Residential), Las Piedras, Puerto Rico, 00771",
+      "trips": 65,
+      "stops": 304,
+      "miles": 989.8,
       "speeding": 8,
       "inefficient_routes": 10,
       "max_speed": 71.5
@@ -212,12 +212,12 @@
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-13 15:41:19",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Garrochales, Puerto Rico, 00652",
-      "trips": 88,
-      "stops": 601,
-      "miles": 737.6,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-13 15:57:05",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 89,
+      "stops": 603,
+      "miles": 760.8,
       "speeding": 8,
       "inefficient_routes": 25,
       "max_speed": 72.3
@@ -254,11 +254,11 @@
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
       "plate": "985-742",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-13 15:22:16",
-      "current_place": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-13 16:20:25",
+      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
       "trips": 64,
-      "stops": 599,
+      "stops": 611,
       "miles": 407.7,
       "speeding": 5,
       "inefficient_routes": 17,
@@ -36721,6 +36721,148 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-13 10:20:48",
+      "arrival": "2026-08-13 12:11:58",
+      "duration_min": 111.2,
+      "origin": "Calle Rubí (Residential), Comerio, Puerto Rico, 00782",
+      "destination": "Carretera Alcalde Modesto Castro Dávila (Tertiary, PR-921), Las Piedras, Puerto Rico, 00791",
+      "origin_lat": 18.213933,
+      "origin_lng": -66.245328,
+      "destination_lat": 18.156546,
+      "destination_lng": -65.862981,
+      "miles": 39.11,
+      "straight_miles": 25.41,
+      "efficiency_ratio": 1.54,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.54x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 34.3 mi o menos; posible ahorro 4.8 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 4.81,
+      "route_points": [
+        [
+          18.213933,
+          -66.245328
+        ],
+        [
+          18.213933,
+          -66.245328
+        ],
+        [
+          18.209863,
+          -66.240328
+        ],
+        [
+          18.21454,
+          -66.22655
+        ],
+        [
+          18.200283,
+          -66.213668
+        ],
+        [
+          18.189701,
+          -66.188863
+        ],
+        [
+          18.175665,
+          -66.173258
+        ],
+        [
+          18.170115,
+          -66.162068
+        ],
+        [
+          18.171651,
+          -66.153396
+        ],
+        [
+          18.211181,
+          -66.061353
+        ],
+        [
+          18.21523,
+          -66.050318
+        ],
+        [
+          18.21523,
+          -66.050318
+        ],
+        [
+          18.244558,
+          -66.04227
+        ],
+        [
+          18.252671,
+          -66.02566
+        ],
+        [
+          18.246198,
+          -66.008486
+        ],
+        [
+          18.246945,
+          -65.990891
+        ],
+        [
+          18.239116,
+          -65.930956
+        ],
+        [
+          18.176451,
+          -65.878786
+        ],
+        [
+          18.17672,
+          -65.872971
+        ],
+        [
+          18.17672,
+          -65.872971
+        ],
+        [
+          18.17674,
+          -65.873206
+        ],
+        [
+          18.176296,
+          -65.872455
+        ],
+        [
+          18.175701,
+          -65.871701
+        ],
+        [
+          18.175701,
+          -65.871701
+        ],
+        [
+          18.156635,
+          -65.862925
+        ],
+        [
+          18.156615,
+          -65.862921
+        ],
+        [
+          18.156615,
+          -65.862921
+        ],
+        [
+          18.156546,
+          -65.862981
+        ],
+        [
+          18.156546,
+          -65.862981
+        ],
+        [
+          18.156546,
+          -65.862981
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "departure": "2026-08-13 10:21:39",
@@ -37133,6 +37275,64 @@
       ]
     },
     {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-13 11:21:16",
+      "arrival": "2026-08-13 11:56:55",
+      "duration_min": 35.6,
+      "origin": "Sector Florentina (Residential), Arecibo, Puerto Rico, 00612",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.413183,
+      "origin_lng": -66.758505,
+      "destination_lat": 18.424424,
+      "destination_lng": -66.475495,
+      "miles": 23.22,
+      "straight_miles": 18.57,
+      "efficiency_ratio": 1.25,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.25x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.413183,
+          -66.758505
+        ],
+        [
+          18.433415,
+          -66.747651
+        ],
+        [
+          18.44105,
+          -66.71669
+        ],
+        [
+          18.437681,
+          -66.686866
+        ],
+        [
+          18.44173,
+          -66.541431
+        ],
+        [
+          18.433378,
+          -66.47589
+        ],
+        [
+          18.424448,
+          -66.475506
+        ],
+        [
+          18.424448,
+          -66.475506
+        ],
+        [
+          18.424424,
+          -66.475495
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-13 11:36:05",
@@ -37287,6 +37487,92 @@
         [
           18.3378666,
           -66.883605
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-13 14:51:29",
+      "arrival": "2026-08-13 16:05:00",
+      "duration_min": 73.5,
+      "origin": "PR-453 (Tertiary), Lares, Puerto Rico, 00685",
+      "destination": "Calle David López (Residential), Florida, Puerto Rico, 00650",
+      "origin_lat": 18.3378666,
+      "origin_lng": -66.883605,
+      "destination_lat": 18.3617883,
+      "destination_lng": -66.560255,
+      "miles": 0.02,
+      "straight_miles": 21.27,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.3378666,
+          -66.883605
+        ],
+        [
+          18.3378966,
+          -66.88365
+        ],
+        [
+          18.3209266,
+          -66.8842133
+        ],
+        [
+          18.3226233,
+          -66.8686533
+        ],
+        [
+          18.3466416,
+          -66.82925
+        ],
+        [
+          18.3658916,
+          -66.8032016
+        ],
+        [
+          18.40643,
+          -66.7753216
+        ],
+        [
+          18.44298,
+          -66.7556816
+        ],
+        [
+          18.4433716,
+          -66.7037433
+        ],
+        [
+          18.4425,
+          -66.6270283
+        ],
+        [
+          18.44033,
+          -66.561115
+        ],
+        [
+          18.4254149,
+          -66.5700016
+        ],
+        [
+          18.405635,
+          -66.5791216
+        ],
+        [
+          18.3743533,
+          -66.5633133
+        ],
+        [
+          18.3613166,
+          -66.5612466
+        ],
+        [
+          18.3617883,
+          -66.560255
         ]
       ]
     }
@@ -67821,6 +68107,132 @@
       "lng": -66.370369
     },
     {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:42:22",
+      "place": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912",
+      "speed": 0.8,
+      "lat": 18.443761,
+      "lng": -66.062541
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:42:23",
+      "place": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912",
+      "speed": 0.8,
+      "lat": 18.443761,
+      "lng": -66.062541
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:45:22",
+      "place": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912",
+      "speed": 0.0,
+      "lat": 18.443774,
+      "lng": -66.062537
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:45:23",
+      "place": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912",
+      "speed": 0.0,
+      "lat": 18.443774,
+      "lng": -66.062537
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:48:14",
+      "place": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912",
+      "speed": 0.0,
+      "lat": 18.444165,
+      "lng": -66.062415
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:48:15",
+      "place": "Calle San Mateo (Residential), San Juan, Puerto Rico, 00912",
+      "speed": 0.0,
+      "lat": 18.444165,
+      "lng": -66.062415
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:49:43",
+      "place": "Avenida José Fidalgo Díaz (Tertiary), San Juan, Puerto Rico, 00912",
+      "speed": 0.0,
+      "lat": 18.44345,
+      "lng": -66.064343
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:49:44",
+      "place": "Avenida José Fidalgo Díaz (Tertiary), San Juan, Puerto Rico, 00912",
+      "speed": 0.0,
+      "lat": 18.44345,
+      "lng": -66.064343
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:51:13",
+      "place": "Avenida José Fidalgo Díaz (Tertiary), San Juan, Puerto Rico, 00912",
+      "speed": 0.0,
+      "lat": 18.442428,
+      "lng": -66.065068
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 11:51:14",
+      "place": "Avenida José Fidalgo Díaz (Tertiary), San Juan, Puerto Rico, 00912",
+      "speed": 0.0,
+      "lat": 18.442428,
+      "lng": -66.065068
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 11:53:47",
+      "place": "Parkhurst (Neighbourhood, residential, neighbourhood), Las Piedras, Puerto Rico, 00771",
+      "speed": 0.0,
+      "lat": 18.17672,
+      "lng": -65.872971
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 11:53:48",
+      "place": "Parkhurst (Neighbourhood, residential, neighbourhood), Las Piedras, Puerto Rico, 00771",
+      "speed": 0.0,
+      "lat": 18.17672,
+      "lng": -65.872971
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-13 11:55:03",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424448,
+      "lng": -66.475506
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-13 11:55:04",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424448,
+      "lng": -66.475506
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "time": "2026-08-13 11:57:45",
@@ -67828,6 +68240,96 @@
       "speed": 0.0,
       "lat": 18.4246033,
       "lng": -66.4755066
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 12:05:05",
+      "place": "Desvío Félix López (Residential), Las Piedras, Puerto Rico, 00771",
+      "speed": 0.0,
+      "lat": 18.175701,
+      "lng": -65.871701
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 12:05:06",
+      "place": "Desvío Félix López (Residential), Las Piedras, Puerto Rico, 00771",
+      "speed": 0.0,
+      "lat": 18.175701,
+      "lng": -65.871701
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 12:08:59",
+      "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
+      "speed": 0.0,
+      "lat": 18.419353,
+      "lng": -66.173474
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-13 12:09:00",
+      "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
+      "speed": 0.0,
+      "lat": 18.419353,
+      "lng": -66.173474
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 12:11:11",
+      "place": "Carretera Alcalde Modesto Castro Dávila (Tertiary, PR-921), Las Piedras, Puerto Rico, 00791",
+      "speed": 0.0,
+      "lat": 18.156615,
+      "lng": -65.862921
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 12:11:12",
+      "place": "Carretera Alcalde Modesto Castro Dávila (Tertiary, PR-921), Las Piedras, Puerto Rico, 00791",
+      "speed": 0.0,
+      "lat": 18.156615,
+      "lng": -65.862921
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 12:11:52",
+      "place": "Carretera Alcalde Modesto Castro Dávila (Tertiary, PR-921), Las Piedras, Puerto Rico, 00791",
+      "speed": 0.1,
+      "lat": 18.156546,
+      "lng": -65.862981
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 12:11:53",
+      "place": "Carretera Alcalde Modesto Castro Dávila (Tertiary, PR-921), Las Piedras, Puerto Rico, 00791",
+      "speed": 0.1,
+      "lat": 18.156546,
+      "lng": -65.862981
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 12:19:05",
+      "place": "Carretera Alcalde Modesto Castro Dávila (Tertiary, PR-921), Las Piedras, Puerto Rico, 00791",
+      "speed": 0.4,
+      "lat": 18.156558,
+      "lng": -65.862965
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-13 12:19:06",
+      "place": "Carretera Alcalde Modesto Castro Dávila (Tertiary, PR-921), Las Piedras, Puerto Rico, 00791",
+      "speed": 0.4,
+      "lat": 18.156558,
+      "lng": -65.862965
     },
     {
       "vehicle": "RPS 1038729 - LV",
