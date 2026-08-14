@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:24:54-04:00",
+  "generatedAt": "2026-08-14T17:49:21-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,7 +145,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-14 16:25:37",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 39,
+      "trips": 38,
       "stops": 22,
       "miles": 0.2,
       "speeding": 8,
@@ -187,9 +187,9 @@
       "current_status": "Moviendo",
       "last_seen": "2026-08-14 14:09:47",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 73,
+      "trips": 70,
       "stops": 239,
-      "miles": 954.8,
+      "miles": 916.8,
       "speeding": 44,
       "inefficient_routes": 17,
       "max_speed": 72.2
@@ -266,182 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-06 17:26:57",
-      "arrival": "2026-08-06 17:34:20",
-      "duration_min": 7.4,
-      "origin": "Residencial Vista Hermosa (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00921",
-      "destination": "Residencial Vista Hermosa (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00921",
-      "origin_lat": 18.3933983,
-      "origin_lng": -66.0887033,
-      "destination_lat": 18.3920716,
-      "destination_lng": -66.090185,
-      "miles": 0.0,
-      "straight_miles": 0.13,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.3933983,
-          -66.0887033
-        ],
-        [
-          18.3915266,
-          -66.0896083
-        ],
-        [
-          18.3920716,
-          -66.090185
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-06 17:43:24",
-      "arrival": "2026-08-06 17:43:24",
-      "duration_min": 0.0,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.411748,
-      "origin_lng": -66.931479,
-      "destination_lat": 18.411748,
-      "destination_lng": -66.931476,
-      "miles": 0,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.411748,
-          -66.931479
-        ],
-        [
-          18.411748,
-          -66.931479
-        ],
-        [
-          18.411748,
-          -66.931476
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-06 17:43:25",
-      "arrival": "2026-08-06 17:43:26",
-      "duration_min": 0.0,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.411748,
-      "origin_lng": -66.931479,
-      "destination_lat": 18.411498,
-      "destination_lng": -66.930915,
-      "miles": 0.06,
-      "straight_miles": 0.04,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.411748,
-          -66.931479
-        ],
-        [
-          18.411498,
-          -66.930915
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-06 17:43:32",
-      "arrival": "2026-08-07 03:30:21",
-      "duration_min": 586.8,
-      "origin": "Calle Félix Muñiz Feliciano (Residential), Quebradillas, Puerto Rico, 00678",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.41163,
-      "origin_lng": -66.92975,
-      "destination_lat": 18.424676,
-      "destination_lng": -66.475486,
-      "miles": 37.92,
-      "straight_miles": 29.79,
-      "efficiency_ratio": 1.27,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.27x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.41163,
-          -66.92975
-        ],
-        [
-          18.411833,
-          -66.931855
-        ],
-        [
-          18.448928,
-          -66.902683
-        ],
-        [
-          18.473056,
-          -66.871795
-        ],
-        [
-          18.483306,
-          -66.823171
-        ],
-        [
-          18.480233,
-          -66.779444
-        ],
-        [
-          18.44999,
-          -66.711839
-        ],
-        [
-          18.440003,
-          -66.630196
-        ],
-        [
-          18.43434,
-          -66.59233
-        ],
-        [
-          18.43434,
-          -66.59233
-        ],
-        [
-          18.438785,
-          -66.581911
-        ],
-        [
-          18.438433,
-          -66.49961
-        ],
-        [
-          18.431353,
-          -66.475295
-        ],
-        [
-          18.424676,
-          -66.475486
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
