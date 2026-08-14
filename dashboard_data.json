@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T18:35:17-04:00",
+  "generatedAt": "2026-08-14T18:56:42-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,7 +145,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-14 16:25:37",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 37,
+      "trips": 36,
       "stops": 21,
       "miles": 0.2,
       "speeding": 6,
@@ -266,36 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-06 18:48:44",
-      "arrival": "2026-08-06 18:50:18",
-      "duration_min": 1.6,
-      "origin": "Residential, Vega Baja, Puerto Rico, 00693",
-      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.48274,
-      "origin_lng": -66.4288083,
-      "destination_lat": 18.48277,
-      "destination_lng": -66.4288266,
-      "miles": 0,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.48274,
-          -66.4288083
-        ],
-        [
-          18.48277,
-          -66.4288266
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
