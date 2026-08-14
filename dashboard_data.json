@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:49:21-04:00",
+  "generatedAt": "2026-08-14T18:04:19-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,8 +145,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-14 16:25:37",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 38,
-      "stops": 22,
+      "trips": 37,
+      "stops": 21,
       "miles": 0.2,
       "speeding": 8,
       "inefficient_routes": 0,
@@ -266,80 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-06 17:49:00",
-      "arrival": "2026-08-06 18:39:05",
-      "duration_min": 50.1,
-      "origin": "Residencial Vista Hermosa (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00921",
-      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.3920716,
-      "origin_lng": -66.090185,
-      "destination_lat": 18.48274,
-      "destination_lng": -66.4288083,
-      "miles": 0.02,
-      "straight_miles": 23.06,
-      "efficiency_ratio": 0.0,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.3920716,
-          -66.090185
-        ],
-        [
-          18.3931516,
-          -66.0901683
-        ],
-        [
-          18.4126483,
-          -66.1038333
-        ],
-        [
-          18.4227066,
-          -66.12961
-        ],
-        [
-          18.4199566,
-          -66.1915316
-        ],
-        [
-          18.4192816,
-          -66.2640599
-        ],
-        [
-          18.423955,
-          -66.3260033
-        ],
-        [
-          18.4353083,
-          -66.387715
-        ],
-        [
-          18.4416349,
-          -66.4065283
-        ],
-        [
-          18.441855,
-          -66.4110616
-        ],
-        [
-          18.4526833,
-          -66.4202116
-        ],
-        [
-          18.4825516,
-          -66.4296533
-        ],
-        [
-          18.48274,
-          -66.4288083
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
@@ -38064,15 +37990,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-08-06 17:54:19",
-      "place": "Avenida San Patricio (Tertiary), San Juan, Puerto Rico, 00921",
-      "speed": 0.0,
-      "lat": 18.3931516,
-      "lng": -66.0901683
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
