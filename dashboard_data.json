@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:46:53-04:00",
+  "generatedAt": "2026-08-15T04:03:26-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -215,8 +215,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-14 16:17:55",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 87,
-      "stops": 637,
+      "trips": 86,
+      "stops": 635,
       "miles": 707.7,
       "speeding": 8,
       "inefficient_routes": 23,
@@ -230,7 +230,7 @@
       "last_seen": "2026-08-14 15:09:58",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 66,
-      "stops": 587,
+      "stops": 585,
       "miles": 582.0,
       "speeding": 0,
       "inefficient_routes": 23,
@@ -246,7 +246,7 @@
       "trips": 31,
       "stops": 205,
       "miles": 443.4,
-      "speeding": 3,
+      "speeding": 2,
       "inefficient_routes": 2,
       "max_speed": 74.2
     },
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-14 16:28:13",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 77,
-      "stops": 721,
+      "stops": 720,
       "miles": 516.1,
       "speeding": 5,
       "inefficient_routes": 21,
@@ -266,44 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-07 03:55:44",
-      "arrival": "2026-08-07 03:59:09",
-      "duration_min": 3.4,
-      "origin": "Calle 3 (Residential), Vega Baja, Puerto Rico, 00693",
-      "destination": "Calle 3 (Residential), Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.412033,
-      "origin_lng": -66.368911,
-      "destination_lat": 18.411755,
-      "destination_lng": -66.368918,
-      "miles": 0.04,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.412066,
-          -66.368918
-        ],
-        [
-          18.412033,
-          -66.368911
-        ],
-        [
-          18.411753,
-          -66.368918
-        ],
-        [
-          18.411755,
-          -66.368918
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
@@ -37227,51 +37189,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 03:54:15",
-      "place": "Carretera Corozal - Morovis (Secondary, PR-159), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.32018,
-      "lng": -66.390835
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 03:55:44",
-      "place": "Calle 3 (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.4,
-      "lat": 18.412066,
-      "lng": -66.368918
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 03:56:16",
-      "place": "Calle I (Residential), Guaynabo, Puerto Rico, 00965",
-      "speed": 0.0,
-      "lat": 18.439126,
-      "lng": -66.11476
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 03:57:09",
-      "place": "13 Calle I, Calle I, Guaynabo, Puerto Rico, 00965",
-      "speed": 0.0,
-      "lat": 18.43801,
-      "lng": -66.114718
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 03:58:53",
-      "place": "Calle 3 (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.411753,
-      "lng": -66.368918
-    },
-    {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "time": "2026-08-07 04:02:53",
@@ -70236,16 +70153,6 @@
       "place": "Autopista Luis A. Ferré (Motorway, PR-52), Santa Isabel, Puerto Rico, 00757",
       "lat": 18.028993,
       "lng": -66.423923
-    },
-    {
-      "vehicle": "RPS IRK-578 17 AM",
-      "serial": "0470009725",
-      "time": "2026-08-07 03:46:09",
-      "speed": 65.5,
-      "over": 0.5,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "lat": 18.441366,
-      "lng": -66.414096
     },
     {
       "vehicle": "RPS 933-091 13 ME",
