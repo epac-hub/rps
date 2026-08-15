@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T05:35:55-04:00",
+  "generatedAt": "2026-08-15T05:55:36-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,11 +55,11 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-14 14:09:47",
-      "speed": 30.7,
-      "ignition": "IGNITION ON",
-      "lat": 18.417925,
-      "lng": -66.927098,
+      "time": "2026-08-15 05:44:00",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.412011,
+      "lng": -66.931658,
       "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
@@ -184,8 +184,8 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-14 14:09:47",
+      "current_status": "Detenido",
+      "last_seen": "2026-08-15 05:44:00",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
       "trips": 66,
       "stops": 227,
@@ -216,7 +216,7 @@
       "last_seen": "2026-08-15 04:24:06",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 84,
-      "stops": 619,
+      "stops": 610,
       "miles": 687.2,
       "speeding": 8,
       "inefficient_routes": 21,
@@ -229,11 +229,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 04:21:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 64,
-      "stops": 556,
-      "miles": 562.4,
+      "trips": 63,
+      "stops": 550,
+      "miles": 559.8,
       "speeding": 0,
-      "inefficient_routes": 22,
+      "inefficient_routes": 21,
       "max_speed": 0
     },
     {
@@ -243,9 +243,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 04:36:03",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 32,
+      "trips": 31,
       "stops": 195,
-      "miles": 443.4,
+      "miles": 427.8,
       "speeding": 2,
       "inefficient_routes": 2,
       "max_speed": 74.2
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-15 04:25:09",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 76,
-      "stops": 711,
+      "stops": 707,
       "miles": 507.8,
       "speeding": 5,
       "inefficient_routes": 20,
@@ -266,190 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-07 05:45:51",
-      "arrival": "2026-08-07 06:03:12",
-      "duration_min": 17.4,
-      "origin": "Parcelas Falú (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
-      "destination": "Country Club Noreste (Residential, residential), San Juan, Puerto Rico, 00924",
-      "origin_lat": 18.407353,
-      "origin_lng": -66.020032,
-      "destination_lat": 18.402791,
-      "destination_lng": -65.999113,
-      "miles": 2.66,
-      "straight_miles": 1.41,
-      "efficiency_ratio": 1.89,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.89x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 1.9 mi o menos; ahorro estimado 0.8 mi.",
-      "potential_saved_miles": 0.76,
-      "route_points": [
-        [
-          18.407353,
-          -66.020032
-        ],
-        [
-          18.407333,
-          -66.020081
-        ],
-        [
-          18.407333,
-          -66.020081
-        ],
-        [
-          18.407399,
-          -66.020055
-        ],
-        [
-          18.407399,
-          -66.020055
-        ],
-        [
-          18.412821,
-          -66.01725
-        ],
-        [
-          18.405301,
-          -66.00336
-        ],
-        [
-          18.401266,
-          -65.997895
-        ],
-        [
-          18.404215,
-          -65.9978
-        ],
-        [
-          18.404215,
-          -65.9978
-        ],
-        [
-          18.402791,
-          -65.999113
-        ],
-        [
-          18.402791,
-          -65.999113
-        ],
-        [
-          18.402791,
-          -65.999113
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS IRK-578 17 AM",
-      "serial": "0470009725",
-      "departure": "2026-08-07 05:51:27",
-      "arrival": "2026-08-07 07:18:24",
-      "duration_min": 87.0,
-      "origin": "Calle 9 (Residential), Corozal, Puerto Rico, 00783",
-      "destination": "Urbanización Santa Juanita, 6ta Sección (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00956",
-      "origin_lat": 18.330187,
-      "origin_lng": -66.295416,
-      "destination_lat": 18.364856,
-      "destination_lng": -66.164326,
-      "miles": 15.59,
-      "straight_miles": 8.92,
-      "efficiency_ratio": 1.75,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.75x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 12.0 mi o menos; posible ahorro 3.5 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 3.54,
-      "route_points": [
-        [
-          18.330187,
-          -66.295416
-        ],
-        [
-          18.330233,
-          -66.29547
-        ],
-        [
-          18.330233,
-          -66.29547
-        ],
-        [
-          18.330198,
-          -66.295441
-        ],
-        [
-          18.330298,
-          -66.295869
-        ],
-        [
-          18.322,
-          -66.296306
-        ],
-        [
-          18.312071,
-          -66.276686
-        ],
-        [
-          18.308816,
-          -66.263825
-        ],
-        [
-          18.303478,
-          -66.256065
-        ],
-        [
-          18.30857,
-          -66.218251
-        ],
-        [
-          18.336786,
-          -66.19961
-        ],
-        [
-          18.336486,
-          -66.196741
-        ],
-        [
-          18.336486,
-          -66.19673
-        ],
-        [
-          18.336485,
-          -66.196735
-        ],
-        [
-          18.336485,
-          -66.196735
-        ],
-        [
-          18.342303,
-          -66.196793
-        ],
-        [
-          18.35272,
-          -66.177535
-        ],
-        [
-          18.365088,
-          -66.166311
-        ],
-        [
-          18.364785,
-          -66.165371
-        ],
-        [
-          18.36479,
-          -66.165356
-        ],
-        [
-          18.364856,
-          -66.164325
-        ],
-        [
-          18.364856,
-          -66.164326
-        ]
-      ]
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
@@ -36276,177 +36092,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 05:36:41",
-      "place": "Carretera Corozal - Naranjito (Secondary, PR-164), Corozal, Puerto Rico, 00783",
-      "speed": 0.0,
-      "lat": 18.319185,
-      "lng": -66.29192
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 05:37:08",
-      "place": "Avenida Simón Madera (Tertiary), San Juan, Puerto Rico, 00924",
-      "speed": 0.0,
-      "lat": 18.40744,
-      "lng": -66.020165
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:37:44",
-      "place": "Carretera Militar (Secondary, PR-2), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.413443,
-      "lng": -66.319348
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:37:45",
-      "place": "Carretera Militar (Secondary, PR-2), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.413443,
-      "lng": -66.319348
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 05:37:47",
-      "place": "Parcelas Falú (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
-      "speed": 0.0,
-      "lat": 18.407355,
-      "lng": -66.020033
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 05:39:41",
-      "place": "Carretera Corozal - Naranjito (Secondary, PR-164), Corozal, Puerto Rico, 00783",
-      "speed": 0.0,
-      "lat": 18.319185,
-      "lng": -66.29192
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 05:39:42",
-      "place": "Carretera Corozal - Naranjito (Secondary, PR-164), Corozal, Puerto Rico, 00783",
-      "speed": 0.0,
-      "lat": 18.319185,
-      "lng": -66.29192
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:39:50",
-      "place": "Carretera Militar (Secondary, PR-2), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.41387,
-      "lng": -66.313531
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:39:51",
-      "place": "Carretera Militar (Secondary, PR-2), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.41387,
-      "lng": -66.313531
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:41:37",
-      "place": "Carretera Militar (Secondary, PR-2), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.413676,
-      "lng": -66.308745
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:41:38",
-      "place": "Carretera Militar (Secondary, PR-2), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.413676,
-      "lng": -66.308745
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:43:02",
-      "place": "Carretera Militar (Secondary, PR-2), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.1,
-      "lat": 18.413353,
-      "lng": -66.30806
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 05:45:41",
-      "place": "Carretera Corozal - Naranjito (Secondary, PR-164), Corozal, Puerto Rico, 00783",
-      "speed": 0.0,
-      "lat": 18.319185,
-      "lng": -66.29192
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 05:46:05",
-      "place": "Parcelas Falú (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
-      "speed": 0.1,
-      "lat": 18.407333,
-      "lng": -66.020081
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 05:46:06",
-      "place": "Parcelas Falú (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
-      "speed": 0.1,
-      "lat": 18.407333,
-      "lng": -66.020081
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 05:48:56",
-      "place": "Parcelas Falú (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
-      "speed": 0.0,
-      "lat": 18.407399,
-      "lng": -66.020055
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 05:48:57",
-      "place": "Parcelas Falú (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
-      "speed": 0.0,
-      "lat": 18.407399,
-      "lng": -66.020055
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:50:02",
-      "place": "Service, Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.425611,
-      "lng": -66.306065
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-07 05:50:03",
-      "place": "Service, Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.425611,
-      "lng": -66.306065
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
