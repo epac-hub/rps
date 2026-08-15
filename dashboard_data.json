@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T15:34:51-04:00",
+  "generatedAt": "2026-08-15T15:51:56-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,7 +145,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 05:58:12",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 37,
+      "trips": 36,
       "stops": 21,
       "miles": 0.2,
       "speeding": 6,
@@ -266,40 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-07 15:44:11",
-      "arrival": "2026-08-07 15:52:08",
-      "duration_min": 8.0,
-      "origin": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "destination": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "origin_lat": 18.42436,
-      "origin_lng": -66.475545,
-      "destination_lat": 18.4316133,
-      "destination_lng": -66.4759183,
-      "miles": 0.0,
-      "straight_miles": 0.5,
-      "efficiency_ratio": 0.0,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.42436,
-          -66.475545
-        ],
-        [
-          18.427405,
-          -66.4747299
-        ],
-        [
-          18.4316133,
-          -66.4759183
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
