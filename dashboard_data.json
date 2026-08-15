@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:35:31-04:00",
+  "generatedAt": "2026-08-15T16:55:44-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-15 06:30:30",
+      "time": "2026-08-15 16:34:46",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.099286,
-      "lng": -65.899411,
+      "lat": 18.099355,
+      "lng": -65.899038,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -146,7 +146,7 @@
       "last_seen": "2026-08-15 05:58:12",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
       "trips": 35,
-      "stops": 20,
+      "stops": 19,
       "miles": 0.2,
       "speeding": 6,
       "inefficient_routes": 0,
@@ -171,7 +171,7 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-08-15 06:30:30",
+      "last_seen": "2026-08-15 16:34:46",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
       "trips": 54,
       "stops": 278,
@@ -32277,19 +32277,27 @@
       "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
       "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
       "potential_saved_miles": 0,
-      "route_points": []
+      "route_points": [
+        [
+          18.099286,
+          -65.899411
+        ],
+        [
+          18.099286,
+          -65.899411
+        ],
+        [
+          18.099286,
+          -65.899411
+        ],
+        [
+          18.099355,
+          -65.899038
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-08-07 16:35:01",
-      "place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.4827216,
-      "lng": -66.4288183
-    },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
