@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T11:42:26-04:00",
+  "generatedAt": "2026-08-15T11:58:06-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -230,7 +230,7 @@
       "last_seen": "2026-08-15 06:06:31",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 54,
-      "stops": 453,
+      "stops": 451,
       "miles": 495.7,
       "speeding": 0,
       "inefficient_routes": 19,
@@ -258,11 +258,11 @@
       "last_seen": "2026-08-15 06:17:38",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 68,
-      "stops": 674,
+      "stops": 669,
       "miles": 390.2,
-      "speeding": 5,
+      "speeding": 0,
       "inefficient_routes": 12,
-      "max_speed": 71.3
+      "max_speed": 0
     }
   ],
   "trips": [
@@ -32617,69 +32617,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 11:41:56",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.42444,
-      "lng": -66.475458
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-07 11:41:57",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.42444,
-      "lng": -66.475458
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:41:59",
-      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.43933,
-      "lng": -66.424085
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:47:06",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.433183,
-      "lng": -66.475808
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:47:07",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.433183,
-      "lng": -66.475808
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:50:08",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424443,
-      "lng": -66.475491
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:50:09",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424443,
-      "lng": -66.475491
-    },
-    {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "time": "2026-08-07 12:00:08",
@@ -61667,16 +61604,6 @@
       "lng": -66.557938
     },
     {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:43:15",
-      "speed": 71.3,
-      "over": 6.3,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "lat": 18.442845,
-      "lng": -66.439318
-    },
-    {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "time": "2026-08-12 04:59:36",
@@ -61695,16 +61622,6 @@
       "place": "Autopista Luis A. Ferré (Motorway, PR-52), Santa Isabel, Puerto Rico, 00757",
       "lat": 18.002148,
       "lng": -66.328653
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:44:45",
-      "speed": 71.2,
-      "over": 6.2,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
-      "lat": 18.44255,
-      "lng": -66.462588
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -61775,16 +61692,6 @@
       "place": "Autopista Luis A. Ferré (Motorway, PR-52), Salinas, Puerto Rico, 00751",
       "lat": 17.987776,
       "lng": -66.295271
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:42:48",
-      "speed": 70.9,
-      "over": 5.9,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
-      "lat": 18.438818,
-      "lng": -66.432495
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -61875,26 +61782,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Sabana Hoyos, Puerto Rico, 00688",
       "lat": 18.438753,
       "lng": -66.582133
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:45:29",
-      "speed": 70.6,
-      "over": 5.6,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
-      "lat": 18.441218,
-      "lng": -66.474878
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-07 11:45:30",
-      "speed": 70.6,
-      "over": 5.6,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
-      "lat": 18.441218,
-      "lng": -66.474878
     },
     {
       "vehicle": "RPS 933-091 13 ME",
