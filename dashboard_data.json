@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:05:06-04:00",
+  "generatedAt": "2026-08-15T16:35:31-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,8 +145,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 05:58:12",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 36,
-      "stops": 21,
+      "trips": 35,
+      "stops": 20,
       "miles": 0.2,
       "speeding": 6,
       "inefficient_routes": 0,
@@ -173,8 +173,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 06:30:30",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 53,
-      "stops": 276,
+      "trips": 54,
+      "stops": 278,
       "miles": 870.6,
       "speeding": 7,
       "inefficient_routes": 8,
@@ -266,56 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-07 16:11:06",
-      "arrival": "2026-08-07 16:38:43",
-      "duration_min": 27.6,
-      "origin": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.4316133,
-      "origin_lng": -66.4759183,
-      "destination_lat": 18.4827216,
-      "destination_lng": -66.4288183,
-      "miles": 0.0,
-      "straight_miles": 4.69,
-      "efficiency_ratio": 0.0,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4316133,
-          -66.4759183
-        ],
-        [
-          18.431575,
-          -66.475905
-        ],
-        [
-          18.4345849,
-          -66.4697016
-        ],
-        [
-          18.4637783,
-          -66.471235
-        ],
-        [
-          18.4807399,
-          -66.4301116
-        ],
-        [
-          18.4827216,
-          -66.4288183
-        ],
-        [
-          18.4827216,
-          -66.4288183
-        ]
-      ]
-    },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
@@ -32307,18 +32257,30 @@
           -66.4756066
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-15 12:34:43",
+      "arrival": "2026-08-15 12:34:46",
+      "duration_min": 0.1,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099286,
+      "origin_lng": -65.899411,
+      "destination_lat": 18.099355,
+      "destination_lng": -65.899038,
+      "miles": 0.03,
+      "straight_miles": 0.02,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": []
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-08-07 16:14:08",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.431575,
-      "lng": -66.475905
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
@@ -61019,6 +60981,24 @@
       "speed": 0.0,
       "lat": 18.09935,
       "lng": -65.899325
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-15 12:34:44",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099286,
+      "lng": -65.899411
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-15 12:34:45",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099286,
+      "lng": -65.899411
     }
   ],
   "speeding": [
