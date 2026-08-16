@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T07:30:44-04:00",
+  "generatedAt": "2026-08-16T07:49:51-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -173,8 +173,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 16:34:46",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 53,
-      "stops": 276,
+      "trips": 52,
+      "stops": 275,
       "miles": 870.6,
       "speeding": 7,
       "inefficient_routes": 8,
@@ -266,44 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-08-08 07:35:39",
-      "arrival": "2026-08-08 07:36:41",
-      "duration_min": 1.0,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
-      "origin_lat": 18.099345,
-      "origin_lng": -65.899393,
-      "destination_lat": 18.099451,
-      "destination_lng": -65.899371,
-      "miles": 0.02,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.099345,
-          -65.899393
-        ],
-        [
-          18.099345,
-          -65.899393
-        ],
-        [
-          18.099345,
-          -65.899393
-        ],
-        [
-          18.099451,
-          -65.899371
-        ]
-      ]
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
@@ -31790,15 +31752,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-08 07:35:40",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099345,
-      "lng": -65.899393
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
