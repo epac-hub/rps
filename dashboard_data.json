@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T02:17:40-04:00",
+  "generatedAt": "2026-08-16T03:04:34-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 05:44:00",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 61,
-      "stops": 213,
-      "miles": 807.7,
+      "trips": 60,
+      "stops": 207,
+      "miles": 803.7,
       "speeding": 39,
       "inefficient_routes": 12,
       "max_speed": 72.2
@@ -229,8 +229,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 06:06:31",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 53,
-      "stops": 449,
+      "trips": 52,
+      "stops": 447,
       "miles": 495.7,
       "speeding": 0,
       "inefficient_routes": 19,
@@ -266,102 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-08 02:26:07",
-      "arrival": "2026-08-08 02:37:33",
-      "duration_min": 11.4,
-      "origin": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "destination": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.438225,
-      "origin_lng": -66.929441,
-      "destination_lat": 18.475034,
-      "destination_lng": -66.923088,
-      "miles": 3.99,
-      "straight_miles": 2.58,
-      "efficiency_ratio": 1.55,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.55x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 3.5 mi o menos; posible ahorro 0.5 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.51,
-      "route_points": [
-        [
-          18.438225,
-          -66.929441
-        ],
-        [
-          18.438213,
-          -66.929321
-        ],
-        [
-          18.438213,
-          -66.929321
-        ],
-        [
-          18.473896,
-          -66.936646
-        ],
-        [
-          18.473738,
-          -66.93517
-        ],
-        [
-          18.473738,
-          -66.93517
-        ],
-        [
-          18.475035,
-          -66.923091
-        ],
-        [
-          18.475035,
-          -66.923091
-        ],
-        [
-          18.475034,
-          -66.923088
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-08 02:33:47",
-      "arrival": "2026-08-08 02:34:29",
-      "duration_min": 0.7,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424527,
-      "origin_lng": -66.475436,
-      "destination_lat": 18.424435,
-      "destination_lng": -66.47548,
-      "miles": 0.01,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424546,
-          -66.475448
-        ],
-        [
-          18.424527,
-          -66.475436
-        ],
-        [
-          18.424546,
-          -66.475448
-        ],
-        [
-          18.424435,
-          -66.47548
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -31996,78 +31900,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 02:26:14",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.438213,
-      "lng": -66.929321
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 02:26:15",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.438213,
-      "lng": -66.929321
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 02:32:21",
-      "place": "Calle Félix Lamela (Tertiary, PR-485), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.473738,
-      "lng": -66.93517
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 02:32:22",
-      "place": "Calle Félix Lamela (Tertiary, PR-485), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.473738,
-      "lng": -66.93517
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-08 02:33:47",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.3,
-      "lat": 18.424546,
-      "lng": -66.475448
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-08 02:33:48",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.3,
-      "lat": 18.424546,
-      "lng": -66.475448
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 02:37:07",
-      "place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.475035,
-      "lng": -66.923091
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 02:37:08",
-      "place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.475035,
-      "lng": -66.923091
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
