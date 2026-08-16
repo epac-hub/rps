@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T01:52:01-04:00",
+  "generatedAt": "2026-08-16T02:17:40-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -159,9 +159,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-14 17:20:26",
       "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "trips": 24,
+      "trips": 23,
       "stops": 199,
-      "miles": 224.2,
+      "miles": 224.1,
       "speeding": 10,
       "inefficient_routes": 0,
       "max_speed": 71.6
@@ -187,11 +187,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 05:44:00",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 62,
-      "stops": 214,
-      "miles": 811.0,
+      "trips": 61,
+      "stops": 213,
+      "miles": 807.7,
       "speeding": 39,
-      "inefficient_routes": 13,
+      "inefficient_routes": 12,
       "max_speed": 72.2
     },
     {
@@ -201,7 +201,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-15 06:18:47",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 58,
+      "trips": 57,
       "stops": 617,
       "miles": 503.4,
       "speeding": 6,
@@ -266,104 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "departure": "2026-08-08 01:58:52",
-      "arrival": "2026-08-08 01:59:44",
-      "duration_min": 0.9,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.424656,
-      "origin_lng": -66.475098,
-      "destination_lat": 18.424468,
-      "destination_lng": -66.475579,
-      "miles": 0.06,
-      "straight_miles": 0.03,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424656,
-          -66.475098
-        ],
-        [
-          18.424468,
-          -66.475579
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-08 02:03:01",
-      "arrival": "2026-08-08 02:16:16",
-      "duration_min": 13.2,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.412055,
-      "origin_lng": -66.931576,
-      "destination_lat": 18.438226,
-      "destination_lng": -66.929433,
-      "miles": 3.3,
-      "straight_miles": 1.81,
-      "efficiency_ratio": 1.82,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.82x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 2.4 mi o menos; ahorro estimado 0.8 mi.",
-      "potential_saved_miles": 0.85,
-      "route_points": [
-        [
-          18.412055,
-          -66.931576
-        ],
-        [
-          18.411068,
-          -66.931458
-        ],
-        [
-          18.40929,
-          -66.935581
-        ],
-        [
-          18.438226,
-          -66.929433
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-08-08 02:14:30",
-      "arrival": "2026-08-08 02:15:22",
-      "duration_min": 0.9,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424535,
-      "origin_lng": -66.475511,
-      "destination_lat": 18.424435,
-      "destination_lng": -66.475441,
-      "miles": 0.03,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424535,
-          -66.475511
-        ],
-        [
-          18.424435,
-          -66.475441
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -32094,15 +31996,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 02:11:49",
-      "place": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.40929,
-      "lng": -66.935581
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
