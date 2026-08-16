@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T06:22:17-04:00",
+  "generatedAt": "2026-08-16T06:45:45-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-16 06:20:31",
-      "speed": 22.1,
-      "ignition": "IGNITION ON",
-      "lat": 18.452436,
-      "lng": -66.89358,
-      "place": "Carretera Cheo Soto (Residential), Camuy, Puerto Rico, 00627"
+      "time": "2026-08-16 06:22:41",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.450408,
+      "lng": -66.884523,
+      "place": "Residential, Camuy, Puerto Rico, 00627"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-16 06:20:31",
-      "current_place": "Carretera Cheo Soto (Residential), Camuy, Puerto Rico, 00627",
-      "trips": 61,
-      "stops": 211,
-      "miles": 807.0,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-16 06:22:41",
+      "current_place": "Residential, Camuy, Puerto Rico, 00627",
+      "trips": 62,
+      "stops": 213,
+      "miles": 811.1,
       "speeding": 39,
       "inefficient_routes": 13,
       "max_speed": 72.2
@@ -31799,6 +31799,48 @@
           -66.929443
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-16 02:13:33",
+      "arrival": "2026-08-16 02:22:31",
+      "duration_min": 9.0,
+      "origin": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
+      "destination": "Residential, Camuy, Puerto Rico, 00627",
+      "origin_lat": 18.438326,
+      "origin_lng": -66.929443,
+      "destination_lat": 18.450408,
+      "destination_lng": -66.884523,
+      "miles": 4.11,
+      "straight_miles": 3.06,
+      "efficiency_ratio": 1.34,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.34x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.438326,
+          -66.929443
+        ],
+        [
+          18.449428,
+          -66.897413
+        ],
+        [
+          18.450408,
+          -66.884523
+        ],
+        [
+          18.450408,
+          -66.884523
+        ],
+        [
+          18.450408,
+          -66.884523
+        ]
+      ]
     }
   ],
   "stops": [
@@ -60349,6 +60391,24 @@
       "speed": 0.0,
       "lat": 18.411538,
       "lng": -66.929791
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-16 02:22:29",
+      "place": "Residential, Camuy, Puerto Rico, 00627",
+      "speed": 0.0,
+      "lat": 18.450408,
+      "lng": -66.884523
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-16 02:22:30",
+      "place": "Residential, Camuy, Puerto Rico, 00627",
+      "speed": 0.0,
+      "lat": 18.450408,
+      "lng": -66.884523
     }
   ],
   "speeding": [
