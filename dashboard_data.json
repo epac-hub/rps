@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T10:21:09-04:00",
+  "generatedAt": "2026-08-16T10:44:38-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-16 06:22:41",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.450408,
-      "lng": -66.884523,
-      "place": "Residential, Camuy, Puerto Rico, 00627"
+      "time": "2026-08-16 10:35:20",
+      "speed": 21.4,
+      "ignition": "IGNITION ON",
+      "lat": 18.414808,
+      "lng": -66.930475,
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,11 +184,11 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-16 06:22:41",
-      "current_place": "Residential, Camuy, Puerto Rico, 00627",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-16 10:35:20",
+      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
       "trips": 61,
-      "stops": 209,
+      "stops": 211,
       "miles": 804.7,
       "speeding": 39,
       "inefficient_routes": 13,
@@ -60169,6 +60169,24 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "time": "2026-08-16 02:22:30",
+      "place": "Residential, Camuy, Puerto Rico, 00627",
+      "speed": 0.0,
+      "lat": 18.450408,
+      "lng": -66.884523
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-16 06:21:54",
+      "place": "Residential, Camuy, Puerto Rico, 00627",
+      "speed": 0.0,
+      "lat": 18.450408,
+      "lng": -66.884523
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-16 06:21:56",
       "place": "Residential, Camuy, Puerto Rico, 00627",
       "speed": 0.0,
       "lat": 18.450408,
