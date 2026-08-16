@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T05:56:44-04:00",
+  "generatedAt": "2026-08-16T06:22:17-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-16 05:53:29",
-      "speed": 6.0,
+      "time": "2026-08-16 06:20:31",
+      "speed": 22.1,
       "ignition": "IGNITION ON",
-      "lat": 18.411548,
-      "lng": -66.929878,
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
+      "lat": 18.452436,
+      "lng": -66.89358,
+      "place": "Carretera Cheo Soto (Residential), Camuy, Puerto Rico, 00627"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -185,13 +185,13 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-16 05:53:29",
-      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 60,
+      "last_seen": "2026-08-16 06:20:31",
+      "current_place": "Carretera Cheo Soto (Residential), Camuy, Puerto Rico, 00627",
+      "trips": 61,
       "stops": 211,
-      "miles": 803.7,
+      "miles": 807.0,
       "speeding": 39,
-      "inefficient_routes": 12,
+      "inefficient_routes": 13,
       "max_speed": 72.2
     },
     {
@@ -31751,6 +31751,52 @@
         [
           18.099355,
           -65.899038
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-16 01:45:12",
+      "arrival": "2026-08-16 02:02:29",
+      "duration_min": 17.3,
+      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "destination": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.412011,
+      "origin_lng": -66.931658,
+      "destination_lat": 18.438326,
+      "destination_lng": -66.929443,
+      "miles": 3.33,
+      "straight_miles": 1.82,
+      "efficiency_ratio": 1.82,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 1.82x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 2.5 mi o menos; ahorro estimado 0.9 mi.",
+      "potential_saved_miles": 0.86,
+      "route_points": [
+        [
+          18.412011,
+          -66.931658
+        ],
+        [
+          18.412011,
+          -66.931658
+        ],
+        [
+          18.411538,
+          -66.929791
+        ],
+        [
+          18.411538,
+          -66.929791
+        ],
+        [
+          18.415725,
+          -66.928141
+        ],
+        [
+          18.438326,
+          -66.929443
         ]
       ]
     }
