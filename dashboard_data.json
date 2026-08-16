@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T07:02:36-04:00",
+  "generatedAt": "2026-08-16T07:30:44-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-16 06:22:41",
       "current_place": "Residential, Camuy, Puerto Rico, 00627",
-      "trips": 62,
-      "stops": 213,
-      "miles": 811.1,
+      "trips": 61,
+      "stops": 209,
+      "miles": 804.7,
       "speeding": 39,
       "inefficient_routes": 13,
       "max_speed": 72.2
@@ -266,60 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-08 07:07:57",
-      "arrival": "2026-08-08 07:26:54",
-      "duration_min": 18.9,
-      "origin": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.475033,
-      "origin_lng": -66.923088,
-      "destination_lat": 18.412008,
-      "destination_lng": -66.931626,
-      "miles": 6.43,
-      "straight_miles": 4.39,
-      "efficiency_ratio": 1.47,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 5.9 mi o menos; posible ahorro 0.5 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.51,
-      "route_points": [
-        [
-          18.475033,
-          -66.923088
-        ],
-        [
-          18.475033,
-          -66.923088
-        ],
-        [
-          18.475033,
-          -66.923088
-        ],
-        [
-          18.47373,
-          -66.934676
-        ],
-        [
-          18.47373,
-          -66.934676
-        ],
-        [
-          18.456945,
-          -66.934666
-        ],
-        [
-          18.421473,
-          -66.925888
-        ],
-        [
-          18.412008,
-          -66.931626
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -31844,42 +31790,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 07:07:57",
-      "place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.475033,
-      "lng": -66.923088
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 07:07:58",
-      "place": "PR-4484 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.475033,
-      "lng": -66.923088
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 07:12:16",
-      "place": "Calle San José (Tertiary, PR-485), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.47373,
-      "lng": -66.934676
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-08 07:12:17",
-      "place": "Calle San José (Tertiary, PR-485), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.47373,
-      "lng": -66.934676
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
