@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T11:50:32-04:00",
+  "generatedAt": "2026-08-16T12:05:51-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,11 +55,11 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-16 10:35:20",
-      "speed": 21.4,
-      "ignition": "IGNITION ON",
-      "lat": 18.414808,
-      "lng": -66.930475,
+      "time": "2026-08-16 11:51:28",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.411996,
+      "lng": -66.931716,
       "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-16 10:35:20",
+      "current_status": "Detenido",
+      "last_seen": "2026-08-16 11:51:28",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 61,
-      "stops": 211,
-      "miles": 804.7,
+      "trips": 62,
+      "stops": 215,
+      "miles": 811.2,
       "speeding": 39,
       "inefficient_routes": 13,
       "max_speed": 72.2
@@ -31695,6 +31695,52 @@
           -66.884523
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-16 06:21:55",
+      "arrival": "2026-08-16 07:51:17",
+      "duration_min": 89.4,
+      "origin": "Residential, Camuy, Puerto Rico, 00627",
+      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.450408,
+      "origin_lng": -66.884523,
+      "destination_lat": 18.41141,
+      "destination_lng": -66.930986,
+      "miles": 6.55,
+      "straight_miles": 4.07,
+      "efficiency_ratio": 1.61,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.61x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 5.5 mi o menos; posible ahorro 1.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 1.06,
+      "route_points": [
+        [
+          18.450408,
+          -66.884523
+        ],
+        [
+          18.450408,
+          -66.884523
+        ],
+        [
+          18.443845,
+          -66.919591
+        ],
+        [
+          18.422045,
+          -66.925645
+        ],
+        [
+          18.41141,
+          -66.930986
+        ],
+        [
+          18.41141,
+          -66.930986
+        ]
+      ]
     }
   ],
   "stops": [
@@ -60191,6 +60237,42 @@
       "speed": 0.0,
       "lat": 18.450408,
       "lng": -66.884523
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-16 07:51:20",
+      "place": "Residential, Quebradillas, Puerto Rico, 00678",
+      "speed": 0.1,
+      "lat": 18.411483,
+      "lng": -66.931183
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-16 07:51:21",
+      "place": "Residential, Quebradillas, Puerto Rico, 00678",
+      "speed": 0.1,
+      "lat": 18.411483,
+      "lng": -66.931183
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-16 07:51:22",
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.1,
+      "lat": 18.411816,
+      "lng": -66.931401
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-16 07:51:24",
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "speed": 0.1,
+      "lat": 18.411816,
+      "lng": -66.931401
     }
   ],
   "speeding": [
