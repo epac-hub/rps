@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T05:34:41-04:00",
+  "generatedAt": "2026-08-17T06:08:32-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-17 05:33:30",
-      "speed": 57.8,
+      "time": "2026-08-17 06:07:04",
+      "speed": 35.4,
       "ignition": "IGNITION ON",
-      "lat": 18.320973,
-      "lng": -66.037504,
-      "place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926"
+      "lat": 18.43901,
+      "lng": -66.424138,
+      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -171,12 +171,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-17 05:33:30",
-      "current_place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926",
+      "last_seen": "2026-08-17 06:07:04",
+      "current_place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
       "trips": 50,
       "stops": 273,
       "miles": 870.5,
-      "speeding": 7,
+      "speeding": 9,
       "inefficient_routes": 8,
       "max_speed": 71.5
     },
@@ -60707,6 +60707,16 @@
       "lng": -66.415921
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-17 01:56:16",
+      "speed": 67.6,
+      "over": 2.6,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
+      "lat": 18.420473,
+      "lng": -66.270246
+    },
+    {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "time": "2026-08-12 04:53:33",
@@ -60815,6 +60825,16 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "lat": 18.43394,
       "lng": -66.386025
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-17 01:50:43",
+      "speed": 65.9,
+      "over": 0.9,
+      "place": "Autopista José de Diego (Motorway, PR-22), Bayamon, Puerto Rico, 00961",
+      "lat": 18.419703,
+      "lng": -66.186885
     },
     {
       "vehicle": "RPS 933-091 13 ME",
