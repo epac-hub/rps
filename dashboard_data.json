@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:46:14-04:00",
+  "generatedAt": "2026-08-17T16:04:09-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-17 15:43:44",
-      "speed": 9.3,
+      "time": "2026-08-17 16:02:13",
+      "speed": 29.8,
       "ignition": "",
-      "lat": 18.44514,
-      "lng": -66.378005,
-      "place": "Residential, Vega Baja, Puerto Rico, 00693"
+      "lat": 18.472975,
+      "lng": -66.397565,
+      "place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -79,12 +79,12 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-17 15:44:50",
-      "speed": 21.6,
-      "ignition": "IGNITION ON",
-      "lat": 18.424916,
-      "lng": -66.474873,
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674"
+      "time": "2026-08-17 15:55:41",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.424435,
+      "lng": -66.475521,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
@@ -143,9 +143,9 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-17 15:43:44",
-      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "trips": 39,
+      "last_seen": "2026-08-17 16:02:13",
+      "current_place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00693",
+      "trips": 40,
       "stops": 23,
       "miles": 0.3,
       "speeding": 12,
@@ -212,12 +212,12 @@
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-17 15:44:50",
-      "current_place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "trips": 89,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-17 15:55:41",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 91,
       "stops": 677,
-      "miles": 681.5,
+      "miles": 709.1,
       "speeding": 12,
       "inefficient_routes": 20,
       "max_speed": 72.3
@@ -37697,6 +37697,100 @@
       ]
     },
     {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-17 11:04:59",
+      "arrival": "2026-08-17 11:46:24",
+      "duration_min": 41.4,
+      "origin": "Calle 5 (Residential), Hatillo, Puerto Rico, 00659",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.476205,
+      "origin_lng": -66.827164,
+      "destination_lat": 18.424736,
+      "destination_lng": -66.475461,
+      "miles": 27.47,
+      "straight_miles": 23.32,
+      "efficiency_ratio": 1.18,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.18x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.476205,
+          -66.827164
+        ],
+        [
+          18.476205,
+          -66.827164
+        ],
+        [
+          18.481926,
+          -66.826406
+        ],
+        [
+          18.481926,
+          -66.826406
+        ],
+        [
+          18.483316,
+          -66.823286
+        ],
+        [
+          18.483316,
+          -66.823286
+        ],
+        [
+          18.48803,
+          -66.793436
+        ],
+        [
+          18.487903,
+          -66.790125
+        ],
+        [
+          18.487903,
+          -66.790125
+        ],
+        [
+          18.453258,
+          -66.756469
+        ],
+        [
+          18.43761,
+          -66.664476
+        ],
+        [
+          18.437553,
+          -66.584521
+        ],
+        [
+          18.442785,
+          -66.555068
+        ],
+        [
+          18.442785,
+          -66.555068
+        ],
+        [
+          18.436011,
+          -66.47686
+        ],
+        [
+          18.432966,
+          -66.475795
+        ],
+        [
+          18.432966,
+          -66.475795
+        ],
+        [
+          18.424736,
+          -66.475461
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "departure": "2026-08-17 11:07:08",
@@ -37853,6 +37947,36 @@
       ]
     },
     {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-17 11:53:42",
+      "arrival": "2026-08-17 11:55:31",
+      "duration_min": 1.8,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.424736,
+      "origin_lng": -66.475461,
+      "destination_lat": 18.424435,
+      "destination_lng": -66.475521,
+      "miles": 0.07,
+      "straight_miles": 0.02,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424736,
+          -66.475461
+        ],
+        [
+          18.424435,
+          -66.475521
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-17 13:16:56",
@@ -37919,6 +38043,124 @@
         [
           17.960865,
           -66.2297633
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-17 14:15:46",
+      "arrival": "2026-08-17 15:46:36",
+      "duration_min": 90.8,
+      "origin": "Calle Capitán (Residential), Salinas, Puerto Rico, 00704",
+      "destination": "McDonald's (Fast_food), Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 17.960865,
+      "origin_lng": -66.2297633,
+      "destination_lat": 18.4447516,
+      "destination_lng": -66.37839,
+      "miles": 0.04,
+      "straight_miles": 34.83,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          17.960865,
+          -66.2297633
+        ],
+        [
+          17.9709916,
+          -66.2186233
+        ],
+        [
+          18.015515,
+          -66.2439349
+        ],
+        [
+          18.0479716,
+          -66.211635
+        ],
+        [
+          18.09291,
+          -66.1972633
+        ],
+        [
+          18.113795,
+          -66.1382033
+        ],
+        [
+          18.1642416,
+          -66.087215
+        ],
+        [
+          18.2140183,
+          -66.0483866
+        ],
+        [
+          18.282145,
+          -66.034715
+        ],
+        [
+          18.3251683,
+          -66.0443816
+        ],
+        [
+          18.3330949,
+          -66.0600816
+        ],
+        [
+          18.3409666,
+          -66.0673416
+        ],
+        [
+          18.3465716,
+          -66.0696033
+        ],
+        [
+          18.3540683,
+          -66.0701716
+        ],
+        [
+          18.35774,
+          -66.0700933
+        ],
+        [
+          18.4107316,
+          -66.06993
+        ],
+        [
+          18.4184449,
+          -66.09798
+        ],
+        [
+          18.42187,
+          -66.1559133
+        ],
+        [
+          18.4129899,
+          -66.2278416
+        ],
+        [
+          18.425625,
+          -66.2868483
+        ],
+        [
+          18.4284283,
+          -66.3327816
+        ],
+        [
+          18.4456966,
+          -66.374375
+        ],
+        [
+          18.44514,
+          -66.378005
+        ],
+        [
+          18.4447516,
+          -66.37839
         ]
       ]
     }
