@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:04:09-04:00",
+  "generatedAt": "2026-08-17T16:39:26-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,24 +19,24 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-17 16:02:13",
-      "speed": 29.8,
-      "ignition": "",
-      "lat": 18.472975,
-      "lng": -66.397565,
-      "place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00693"
+      "time": "2026-08-17 16:12:32",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.4827499,
+      "lng": -66.4288199,
+      "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "plate": "933-089",
       "description": "OFICINADPTO PRODUCCION",
-      "time": "2026-08-17 09:52:01",
+      "time": "2026-08-17 16:11:55",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.424368,
-      "lng": -66.475575,
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
+      "lat": 18.424573,
+      "lng": -66.475711,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 933-090 12 LR",
@@ -142,10 +142,10 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-17 16:02:13",
-      "current_place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00693",
-      "trips": 40,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-17 16:12:32",
+      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "trips": 41,
       "stops": 23,
       "miles": 0.3,
       "speeding": 12,
@@ -157,11 +157,11 @@
       "serial": "0470009731",
       "plate": "933-089",
       "current_status": "Detenido",
-      "last_seen": "2026-08-17 09:52:01",
-      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 28,
+      "last_seen": "2026-08-17 16:11:55",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 29,
       "stops": 211,
-      "miles": 232.9,
+      "miles": 233.0,
       "speeding": 10,
       "inefficient_routes": 0,
       "max_speed": 71.6
@@ -37977,6 +37977,36 @@
       ]
     },
     {
+      "vehicle": "RPS 933-089 11 EO",
+      "serial": "0470009731",
+      "departure": "2026-08-17 12:10:50",
+      "arrival": "2026-08-17 12:11:45",
+      "duration_min": 0.9,
+      "origin": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.424368,
+      "origin_lng": -66.475575,
+      "destination_lat": 18.424591,
+      "destination_lng": -66.475714,
+      "miles": 0.03,
+      "straight_miles": 0.02,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424368,
+          -66.475575
+        ],
+        [
+          18.424591,
+          -66.475714
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-17 13:16:56",
@@ -38161,6 +38191,48 @@
         [
           18.4447516,
           -66.37839
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-17 15:52:28",
+      "arrival": "2026-08-17 16:12:32",
+      "duration_min": 20.1,
+      "origin": "McDonald's (Fast_food), Vega Baja, Puerto Rico, 00693",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.4447516,
+      "origin_lng": -66.37839,
+      "destination_lat": 18.4827499,
+      "destination_lng": -66.4288199,
+      "miles": 0.0,
+      "straight_miles": 4.22,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4447516,
+          -66.37839
+        ],
+        [
+          18.4517066,
+          -66.3857533
+        ],
+        [
+          18.4803516,
+          -66.3997716
+        ],
+        [
+          18.4818566,
+          -66.422405
+        ],
+        [
+          18.4827499,
+          -66.4288199
         ]
       ]
     }
