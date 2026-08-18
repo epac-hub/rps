@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T02:01:46-04:00",
+  "generatedAt": "2026-08-18T02:58:58-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -173,9 +173,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-17 17:20:11",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 62,
-      "stops": 302,
-      "miles": 964.5,
+      "trips": 61,
+      "stops": 300,
+      "miles": 963.9,
       "speeding": 9,
       "inefficient_routes": 9,
       "max_speed": 71.5
@@ -187,10 +187,10 @@
       "current_status": "Moviendo",
       "last_seen": "2026-08-17 15:12:43",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 71,
-      "stops": 271,
-      "miles": 870.0,
-      "speeding": 70,
+      "trips": 70,
+      "stops": 270,
+      "miles": 834.5,
+      "speeding": 71,
       "inefficient_routes": 15,
       "max_speed": 74.6
     },
@@ -266,118 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-08-10 02:10:00",
-      "arrival": "2026-08-10 02:12:37",
-      "duration_min": 2.6,
-      "origin": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.42946,
-      "origin_lng": -66.47477,
-      "destination_lat": 18.424383,
-      "destination_lng": -66.475586,
-      "miles": 0.62,
-      "straight_miles": 0.35,
-      "efficiency_ratio": 1.74,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.74x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 0.5 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.14,
-      "route_points": [
-        [
-          18.42946,
-          -66.47477
-        ],
-        [
-          18.430873,
-          -66.475096
-        ],
-        [
-          18.430873,
-          -66.475096
-        ],
-        [
-          18.424383,
-          -66.475586
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-10 02:35:43",
-      "arrival": "2026-08-10 03:27:45",
-      "duration_min": 52.0,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.412016,
-      "origin_lng": -66.931623,
-      "destination_lat": 18.424686,
-      "destination_lng": -66.475483,
-      "miles": 35.5,
-      "straight_miles": 29.91,
-      "efficiency_ratio": 1.19,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.19x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.412016,
-          -66.931623
-        ],
-        [
-          18.412016,
-          -66.931623
-        ],
-        [
-          18.412016,
-          -66.931623
-        ],
-        [
-          18.451451,
-          -66.902559
-        ],
-        [
-          18.474156,
-          -66.867238
-        ],
-        [
-          18.485001,
-          -66.818965
-        ],
-        [
-          18.465376,
-          -66.776489
-        ],
-        [
-          18.441571,
-          -66.698841
-        ],
-        [
-          18.444303,
-          -66.615835
-        ],
-        [
-          18.438753,
-          -66.582133
-        ],
-        [
-          18.443036,
-          -66.553484
-        ],
-        [
-          18.434101,
-          -66.476175
-        ],
-        [
-          18.424686,
-          -66.475483
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
@@ -38159,33 +38047,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-10 02:10:55",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.430873,
-      "lng": -66.475096
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-10 02:10:56",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.430873,
-      "lng": -66.475096
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-10 02:35:45",
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.412016,
-      "lng": -66.931623
-    },
-    {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "time": "2026-08-10 03:01:03",
@@ -74005,6 +73866,16 @@
       "place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926",
       "lat": 18.35774,
       "lng": -66.0700933
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-10 03:09:06",
+      "speed": 67.0,
+      "over": 2.0,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bajadero, Puerto Rico, 00616",
+      "lat": 18.438545,
+      "lng": -66.689618
     },
     {
       "vehicle": "RPS 933-091 13 ME",
