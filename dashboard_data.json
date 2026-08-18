@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:48:16-04:00",
+  "generatedAt": "2026-08-18T14:15:59-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-18 13:32:13",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.390445,
-      "lng": -66.172758,
-      "place": "Urbanización Extensión Villa Rica (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959"
+      "time": "2026-08-18 14:13:58",
+      "speed": 41.3,
+      "ignition": "IGNITION ON",
+      "lat": 18.417788,
+      "lng": -66.107601,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -67,23 +67,23 @@
       "serial": "0470009744",
       "plate": "994-204",
       "description": "RAINER RAMOSENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-18 13:47:06",
-      "speed": 39.6,
+      "time": "2026-08-18 14:14:40",
+      "speed": 5.7,
       "ignition": "IGNITION ON",
-      "lat": 18.364348,
-      "lng": -66.246856,
-      "place": "PR-824 (Tertiary), Toa Alta, Puerto Rico, 00953"
+      "lat": 18.35211,
+      "lng": -66.262768,
+      "place": "Calle 2 (Residential), Toa Alta, Puerto Rico, 00953"
     },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-18 13:10:01",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.405078,
-      "lng": -66.055821,
+      "time": "2026-08-18 14:13:41",
+      "speed": 14.7,
+      "ignition": "IGNITION ON",
+      "lat": 18.407058,
+      "lng": -66.054918,
       "place": "Urbanización Cabrera (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00925"
     },
     {
@@ -91,24 +91,24 @@
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-18 13:45:22",
-      "speed": 7.1,
+      "time": "2026-08-18 14:14:22",
+      "speed": 38.4,
       "ignition": "IGNITION ON",
-      "lat": 18.299771,
-      "lng": -66.594643,
-      "place": "PR-140 (Secondary), Florida, Puerto Rico, 00650"
+      "lat": 18.394108,
+      "lng": -66.580723,
+      "place": "Carretera Benito de Jesús Negrón (Secondary, PR-140), Florida, Puerto Rico, 00650"
     },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "plate": "IRK-578",
       "description": "ASTRID MARTINEZENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-18 13:27:45",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.398281,
-      "lng": -66.201571,
-      "place": "Calle Reconquista (Residential), Toa Baja, Puerto Rico, 00949"
+      "time": "2026-08-18 14:13:53",
+      "speed": 21.0,
+      "ignition": "IGNITION ON",
+      "lat": 18.427403,
+      "lng": -66.18697,
+      "place": "Avenida Principal (Tertiary, PR-866), Toa Baja, Puerto Rico, 00952"
     },
     {
       "vehicle": "RPS-985-742-18 ER",
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-18 13:32:13",
-      "current_place": "Urbanización Extensión Villa Rica (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-18 14:13:58",
+      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
       "trips": 65,
-      "stops": 314,
+      "stops": 316,
       "miles": 971.1,
       "speeding": 11,
       "inefficient_routes": 9,
@@ -199,24 +199,24 @@
       "serial": "0470009744",
       "plate": "994-204",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-18 13:47:06",
-      "current_place": "PR-824 (Tertiary), Toa Alta, Puerto Rico, 00953",
-      "trips": 60,
-      "stops": 776,
-      "miles": 589.2,
+      "last_seen": "2026-08-18 14:14:40",
+      "current_place": "Calle 2 (Residential), Toa Alta, Puerto Rico, 00953",
+      "trips": 61,
+      "stops": 778,
+      "miles": 604.1,
       "speeding": 5,
-      "inefficient_routes": 21,
+      "inefficient_routes": 22,
       "max_speed": 70.6
     },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-18 13:10:01",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-18 14:13:41",
       "current_place": "Urbanización Cabrera (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00925",
       "trips": 90,
-      "stops": 680,
+      "stops": 682,
       "miles": 567.4,
       "speeding": 8,
       "inefficient_routes": 21,
@@ -227,8 +227,8 @@
       "serial": "0470009726",
       "plate": "996-332",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-18 13:45:22",
-      "current_place": "PR-140 (Secondary), Florida, Puerto Rico, 00650",
+      "last_seen": "2026-08-18 14:14:22",
+      "current_place": "Carretera Benito de Jesús Negrón (Secondary, PR-140), Florida, Puerto Rico, 00650",
       "trips": 66,
       "stops": 552,
       "miles": 588.9,
@@ -240,9 +240,9 @@
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "plate": "IRK-578",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-18 13:27:45",
-      "current_place": "Calle Reconquista (Residential), Toa Baja, Puerto Rico, 00949",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-18 14:13:53",
+      "current_place": "Avenida Principal (Tertiary, PR-866), Toa Baja, Puerto Rico, 00952",
       "trips": 28,
       "stops": 219,
       "miles": 394.4,
@@ -36033,6 +36033,124 @@
       ]
     },
     {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "departure": "2026-08-18 08:54:26",
+      "arrival": "2026-08-18 09:54:07",
+      "duration_min": 59.7,
+      "origin": "Calle Rosa Imperial (Residential), Toa Baja, Puerto Rico, 00949",
+      "destination": "Calle 2 (Residential), Toa Alta, Puerto Rico, 00953",
+      "origin_lat": 18.412955,
+      "origin_lng": -66.202948,
+      "destination_lat": 18.352773,
+      "destination_lng": -66.261973,
+      "miles": 14.83,
+      "straight_miles": 5.68,
+      "efficiency_ratio": 2.61,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 2.61x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 7.7 mi o menos; ahorro estimado 7.2 mi.",
+      "potential_saved_miles": 7.16,
+      "route_points": [
+        [
+          18.412955,
+          -66.202948
+        ],
+        [
+          18.412883,
+          -66.201521
+        ],
+        [
+          18.412883,
+          -66.201521
+        ],
+        [
+          18.412876,
+          -66.201509
+        ],
+        [
+          18.412876,
+          -66.201509
+        ],
+        [
+          18.403235,
+          -66.2138
+        ],
+        [
+          18.403235,
+          -66.2138
+        ],
+        [
+          18.403235,
+          -66.2138
+        ],
+        [
+          18.387758,
+          -66.215503
+        ],
+        [
+          18.369363,
+          -66.216285
+        ],
+        [
+          18.35463,
+          -66.218263
+        ],
+        [
+          18.35463,
+          -66.218263
+        ],
+        [
+          18.354598,
+          -66.216735
+        ],
+        [
+          18.354598,
+          -66.216735
+        ],
+        [
+          18.366663,
+          -66.222905
+        ],
+        [
+          18.377801,
+          -66.248093
+        ],
+        [
+          18.385243,
+          -66.252968
+        ],
+        [
+          18.385243,
+          -66.252968
+        ],
+        [
+          18.38524,
+          -66.252963
+        ],
+        [
+          18.38524,
+          -66.252963
+        ],
+        [
+          18.385301,
+          -66.252915
+        ],
+        [
+          18.364348,
+          -66.246856
+        ],
+        [
+          18.351035,
+          -66.258648
+        ],
+        [
+          18.352773,
+          -66.261973
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-18 09:09:21",
@@ -69842,6 +69960,60 @@
       "speed": 0.0,
       "lat": 18.299746,
       "lng": -66.594694
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-18 09:53:49",
+      "place": "Urbanización Extensión Villa Rica (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
+      "speed": 0.0,
+      "lat": 18.390445,
+      "lng": -66.172758
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-18 09:53:50",
+      "place": "Urbanización Extensión Villa Rica (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
+      "speed": 0.0,
+      "lat": 18.390445,
+      "lng": -66.172758
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 10:06:47",
+      "place": "Urbanización Cabrera (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00925",
+      "speed": 0.0,
+      "lat": 18.405078,
+      "lng": -66.055821
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 10:06:48",
+      "place": "Urbanización Cabrera (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00925",
+      "speed": 0.0,
+      "lat": 18.405078,
+      "lng": -66.055821
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-18 10:13:33",
+      "place": "Calle 2 (Residential), Toa Alta, Puerto Rico, 00953",
+      "speed": 0.0,
+      "lat": 18.352773,
+      "lng": -66.261973
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-18 10:13:35",
+      "place": "Calle 2 (Residential), Toa Alta, Puerto Rico, 00953",
+      "speed": 0.0,
+      "lat": 18.352773,
+      "lng": -66.261973
     },
     {
       "vehicle": "RPS 1038729 - LV",
