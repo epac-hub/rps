@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T16:14:08-04:00",
+  "generatedAt": "2026-08-18T16:43:00-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -79,12 +79,12 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-18 16:13:00",
-      "speed": 62.2,
+      "time": "2026-08-18 16:41:07",
+      "speed": 12.6,
       "ignition": "IGNITION ON",
-      "lat": 18.419901,
-      "lng": -66.191946,
-      "place": "Carril Expreso PR-22 (Motorway), Toa Baja, Puerto Rico, 00949"
+      "lat": 18.431096,
+      "lng": -66.475233,
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 12:47:46",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 66,
-      "stops": 272,
-      "miles": 913.1,
+      "trips": 65,
+      "stops": 268,
+      "miles": 912.1,
       "speeding": 63,
       "inefficient_routes": 12,
       "max_speed": 74.6
@@ -213,12 +213,12 @@
       "serial": "0470009727",
       "plate": "994-209",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-18 16:13:00",
-      "current_place": "Carril Expreso PR-22 (Motorway), Toa Baja, Puerto Rico, 00949",
+      "last_seen": "2026-08-18 16:41:07",
+      "current_place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
       "trips": 93,
-      "stops": 692,
+      "stops": 696,
       "miles": 572.6,
-      "speeding": 8,
+      "speeding": 10,
       "inefficient_routes": 23,
       "max_speed": 72.3
     },
@@ -266,48 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-10 16:40:56",
-      "arrival": "2026-08-10 16:43:39",
-      "duration_min": 2.7,
-      "origin": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "destination": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.434553,
-      "origin_lng": -66.915653,
-      "destination_lat": 18.422938,
-      "destination_lng": -66.910033,
-      "miles": 0.95,
-      "straight_miles": 0.88,
-      "efficiency_ratio": 1.07,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.07x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.434553,
-          -66.915653
-        ],
-        [
-          18.434553,
-          -66.915653
-        ],
-        [
-          18.434553,
-          -66.915653
-        ],
-        [
-          18.434553,
-          -66.915653
-        ],
-        [
-          18.422938,
-          -66.910033
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -37649,42 +37607,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-10 16:40:55",
-      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.434553,
-      "lng": -66.915653
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-10 16:40:56",
-      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.434553,
-      "lng": -66.915653
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-10 16:41:10",
-      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.434553,
-      "lng": -66.915653
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-10 16:41:11",
-      "place": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.434553,
-      "lng": -66.915653
-    },
-    {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "time": "2026-08-11 00:51:56",
@@ -71687,6 +71609,42 @@
       "lng": -65.899435
     },
     {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 12:38:38",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.433321,
+      "lng": -66.475905
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 12:38:40",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.433321,
+      "lng": -66.475905
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 12:39:52",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.43118,
+      "lng": -66.475255
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 12:39:53",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.43118,
+      "lng": -66.475255
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "time": "2026-08-18 13:34:55",
@@ -71945,6 +71903,26 @@
       "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
       "lat": 18.424935,
       "lng": -66.328331
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 12:34:38",
+      "speed": 71.7,
+      "over": 6.7,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "lat": 18.442663,
+      "lng": -66.43908
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 12:34:40",
+      "speed": 71.7,
+      "over": 6.7,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "lat": 18.442663,
+      "lng": -66.43908
     },
     {
       "vehicle": "RPS 933-089 11 EO",
