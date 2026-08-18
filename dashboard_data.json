@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T15:53:58-04:00",
+  "generatedAt": "2026-08-18T16:14:08-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-18 15:52:56",
-      "speed": 23.7,
-      "ignition": "IGNITION ON",
-      "lat": 18.088281,
-      "lng": -65.876835,
-      "place": "PR-905 (Tertiary), Yabucoa, Puerto Rico, 00767"
+      "time": "2026-08-18 16:00:32",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.099385,
+      "lng": -65.899436,
+      "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -79,12 +79,12 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-18 15:52:23",
-      "speed": 13.6,
+      "time": "2026-08-18 16:13:00",
+      "speed": 62.2,
       "ignition": "IGNITION ON",
-      "lat": 18.40697,
-      "lng": -66.069778,
-      "place": "Expreso Las Américas (Motorway, PR-18), San Juan, Puerto Rico, 00921"
+      "lat": 18.419901,
+      "lng": -66.191946,
+      "place": "Carril Expreso PR-22 (Motorway), Toa Baja, Puerto Rico, 00949"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
@@ -170,12 +170,12 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-18 15:52:56",
-      "current_place": "PR-905 (Tertiary), Yabucoa, Puerto Rico, 00767",
-      "trips": 66,
-      "stops": 318,
-      "miles": 1020.6,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-18 16:00:32",
+      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "trips": 67,
+      "stops": 320,
+      "miles": 1027.5,
       "speeding": 11,
       "inefficient_routes": 9,
       "max_speed": 71.5
@@ -213,8 +213,8 @@
       "serial": "0470009727",
       "plate": "994-209",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-18 15:52:23",
-      "current_place": "Expreso Las Américas (Motorway, PR-18), San Juan, Puerto Rico, 00921",
+      "last_seen": "2026-08-18 16:13:00",
+      "current_place": "Carril Expreso PR-22 (Motorway), Toa Baja, Puerto Rico, 00949",
       "trips": 93,
       "stops": 692,
       "miles": 572.6,
@@ -37401,6 +37401,56 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-18 11:44:53",
+      "arrival": "2026-08-18 12:00:22",
+      "duration_min": 15.5,
+      "origin": "Calle Saturnino Rodríguez (Tertiary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.04654,
+      "origin_lng": -65.876686,
+      "destination_lat": 18.099381,
+      "destination_lng": -65.899436,
+      "miles": 6.9,
+      "straight_miles": 3.94,
+      "efficiency_ratio": 1.75,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.75x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 5.3 mi o menos; posible ahorro 1.6 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 1.57,
+      "route_points": [
+        [
+          18.04654,
+          -65.876686
+        ],
+        [
+          18.04654,
+          -65.876686
+        ],
+        [
+          18.065311,
+          -65.87683
+        ],
+        [
+          18.100075,
+          -65.87964
+        ],
+        [
+          18.099378,
+          -65.899435
+        ],
+        [
+          18.099378,
+          -65.899435
+        ],
+        [
+          18.099381,
+          -65.899436
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-18 12:12:34",
@@ -71617,6 +71667,24 @@
       "speed": 0.0,
       "lat": 18.400735,
       "lng": -66.067266
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-18 12:00:09",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099378,
+      "lng": -65.899435
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-18 12:00:10",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099378,
+      "lng": -65.899435
     },
     {
       "vehicle": "RPS 1038729 - LV",
