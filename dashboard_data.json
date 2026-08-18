@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T15:34:52-04:00",
+  "generatedAt": "2026-08-18T15:53:58-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-18 15:29:15",
-      "speed": 26.1,
-      "ignition": "",
-      "lat": 18.4800583,
-      "lng": -66.43136,
-      "place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00674"
+      "time": "2026-08-18 15:37:11",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.4827333,
+      "lng": -66.4288166,
+      "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-18 15:28:11",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.04654,
-      "lng": -65.876686,
-      "place": "Calle Saturnino Rodríguez (Tertiary, PR-901), Yabucoa, Puerto Rico, 00767"
+      "time": "2026-08-18 15:52:56",
+      "speed": 23.7,
+      "ignition": "IGNITION ON",
+      "lat": 18.088281,
+      "lng": -65.876835,
+      "place": "PR-905 (Tertiary), Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -79,12 +79,12 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-18 15:28:09",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.400735,
-      "lng": -66.067266,
-      "place": "Condominio Jardines Metropolitanos II (Residential, residential), San Juan, Puerto Rico, 00927"
+      "time": "2026-08-18 15:52:23",
+      "speed": 13.6,
+      "ignition": "IGNITION ON",
+      "lat": 18.40697,
+      "lng": -66.069778,
+      "place": "Expreso Las Américas (Motorway, PR-18), San Juan, Puerto Rico, 00921"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
@@ -142,12 +142,12 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-18 15:29:15",
-      "current_place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00674",
-      "trips": 44,
-      "stops": 21,
-      "miles": 0.2,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-18 15:37:11",
+      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "trips": 45,
+      "stops": 22,
+      "miles": 0.3,
       "speeding": 11,
       "inefficient_routes": 0,
       "max_speed": 72.1
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-18 15:28:11",
-      "current_place": "Calle Saturnino Rodríguez (Tertiary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-18 15:52:56",
+      "current_place": "PR-905 (Tertiary), Yabucoa, Puerto Rico, 00767",
       "trips": 66,
-      "stops": 316,
+      "stops": 318,
       "miles": 1020.6,
       "speeding": 11,
       "inefficient_routes": 9,
@@ -212,11 +212,11 @@
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-18 15:28:09",
-      "current_place": "Condominio Jardines Metropolitanos II (Residential, residential), San Juan, Puerto Rico, 00927",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-18 15:52:23",
+      "current_place": "Expreso Las Américas (Motorway, PR-18), San Juan, Puerto Rico, 00921",
       "trips": 93,
-      "stops": 690,
+      "stops": 692,
       "miles": 572.6,
       "speeding": 8,
       "inefficient_routes": 23,
@@ -37509,6 +37509,92 @@
           -66.2300549
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-18 14:15:09",
+      "arrival": "2026-08-18 15:37:11",
+      "duration_min": 82.0,
+      "origin": "Camino Los Chéveres (Tertiary, PR-826), Naranjito, Puerto Rico, 00719",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.3202166,
+      "origin_lng": -66.2300549,
+      "destination_lat": 18.4827333,
+      "destination_lng": -66.4288166,
+      "miles": 0.02,
+      "straight_miles": 17.2,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.3202166,
+          -66.2300549
+        ],
+        [
+          18.30788,
+          -66.22623
+        ],
+        [
+          18.3086416,
+          -66.2115766
+        ],
+        [
+          18.3458683,
+          -66.2068283
+        ],
+        [
+          18.3647383,
+          -66.2184816
+        ],
+        [
+          18.37277,
+          -66.2350699
+        ],
+        [
+          18.3902516,
+          -66.25017
+        ],
+        [
+          18.4054949,
+          -66.2602416
+        ],
+        [
+          18.4098516,
+          -66.2622266
+        ],
+        [
+          18.4256916,
+          -66.3014183
+        ],
+        [
+          18.4277033,
+          -66.3515183
+        ],
+        [
+          18.4369716,
+          -66.3907483
+        ],
+        [
+          18.4452049,
+          -66.4167066
+        ],
+        [
+          18.4800583,
+          -66.43136
+        ],
+        [
+          18.4827333,
+          -66.4288166
+        ],
+        [
+          18.4827333,
+          -66.4288166
+        ]
+      ]
     }
   ],
   "stops": [
@@ -71497,6 +71583,42 @@
       "lng": -66.067896
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-18 11:44:52",
+      "place": "Calle Saturnino Rodríguez (Tertiary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.04654,
+      "lng": -65.876686
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-18 11:44:54",
+      "place": "Calle Saturnino Rodríguez (Tertiary, PR-901), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.04654,
+      "lng": -65.876686
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 11:46:15",
+      "place": "Condominio Jardines Metropolitanos II (Residential, residential), San Juan, Puerto Rico, 00927",
+      "speed": 0.0,
+      "lat": 18.400735,
+      "lng": -66.067266
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 11:46:17",
+      "place": "Condominio Jardines Metropolitanos II (Residential, residential), San Juan, Puerto Rico, 00927",
+      "speed": 0.0,
+      "lat": 18.400735,
+      "lng": -66.067266
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "time": "2026-08-18 13:34:55",
@@ -71504,6 +71626,15 @@
       "speed": 0.0,
       "lat": 18.3203683,
       "lng": -66.2320116
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-08-18 15:36:04",
+      "place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.4827333,
+      "lng": -66.4288166
     }
   ],
   "speeding": [
