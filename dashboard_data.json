@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T16:43:00-04:00",
+  "generatedAt": "2026-08-18T17:02:11-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -79,12 +79,12 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-18 16:41:07",
-      "speed": 12.6,
-      "ignition": "IGNITION ON",
-      "lat": 18.431096,
-      "lng": -66.475233,
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674"
+      "time": "2026-08-18 16:43:42",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.424461,
+      "lng": -66.475493,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
@@ -212,12 +212,12 @@
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-18 16:41:07",
-      "current_place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "trips": 93,
-      "stops": 696,
-      "miles": 572.6,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-18 16:43:42",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 94,
+      "stops": 698,
+      "miles": 604.6,
       "speeding": 10,
       "inefficient_routes": 23,
       "max_speed": 72.3
@@ -37409,6 +37409,104 @@
       ]
     },
     {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-18 11:46:16",
+      "arrival": "2026-08-18 12:43:34",
+      "duration_min": 57.3,
+      "origin": "Condominio Jardines Metropolitanos II (Residential, residential), San Juan, Puerto Rico, 00927",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.400735,
+      "origin_lng": -66.067266,
+      "destination_lat": 18.424463,
+      "destination_lng": -66.475493,
+      "miles": 32.03,
+      "straight_miles": 26.81,
+      "efficiency_ratio": 1.19,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.19x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.400735,
+          -66.067266
+        ],
+        [
+          18.400735,
+          -66.067266
+        ],
+        [
+          18.401745,
+          -66.070875
+        ],
+        [
+          18.425475,
+          -66.072891
+        ],
+        [
+          18.423311,
+          -66.080465
+        ],
+        [
+          18.422783,
+          -66.134808
+        ],
+        [
+          18.414193,
+          -66.210053
+        ],
+        [
+          18.42244,
+          -66.272935
+        ],
+        [
+          18.428138,
+          -66.332488
+        ],
+        [
+          18.4302,
+          -66.379931
+        ],
+        [
+          18.442663,
+          -66.43908
+        ],
+        [
+          18.442663,
+          -66.43908
+        ],
+        [
+          18.433321,
+          -66.475905
+        ],
+        [
+          18.433321,
+          -66.475905
+        ],
+        [
+          18.43118,
+          -66.475255
+        ],
+        [
+          18.43118,
+          -66.475255
+        ],
+        [
+          18.424463,
+          -66.475493
+        ],
+        [
+          18.424463,
+          -66.475493
+        ],
+        [
+          18.424463,
+          -66.475493
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-18 12:12:34",
@@ -71643,6 +71741,24 @@
       "speed": 0.0,
       "lat": 18.43118,
       "lng": -66.475255
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 12:43:08",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424463,
+      "lng": -66.475493
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-18 12:43:10",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424463,
+      "lng": -66.475493
     },
     {
       "vehicle": "RPS 1038729 - LV",
