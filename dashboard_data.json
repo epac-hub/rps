@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T14:00:50-04:00",
+  "generatedAt": "2026-08-19T14:06:58-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,47 +43,47 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-19 13:57:52",
-      "speed": 47.4,
-      "ignition": "IGNITION ON",
-      "lat": 18.35828,
-      "lng": -66.073323,
-      "place": "Villa Esperanza (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00926"
+      "time": "2026-08-19 14:04:55",
+      "speed": 0.1,
+      "ignition": "IGNITION OFF",
+      "lat": 18.353826,
+      "lng": -66.079696,
+      "place": "Calle José Fidalgo Díaz (Residential), San Juan, Puerto Rico, 00926"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-19 13:58:11",
-      "speed": 24.7,
+      "time": "2026-08-19 14:02:11",
+      "speed": 36.8,
       "ignition": "IGNITION ON",
-      "lat": 18.34818,
-      "lng": -66.299404,
-      "place": "Carretera Toa Alta - Corozal (Secondary, PR-159), Corozal, Puerto Rico, 00783"
+      "lat": 18.354395,
+      "lng": -66.283556,
+      "place": "PR-806 (Tertiary), Corozal, PR; Toa Alta, PR; Corozal, PR, 00953, Puerto Rico"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "plate": "994-204",
       "description": "RAINER RAMOSENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-19 13:58:15",
-      "speed": 10.2,
+      "time": "2026-08-19 14:00:15",
+      "speed": 14.5,
       "ignition": "IGNITION ON",
-      "lat": 18.435106,
-      "lng": -66.392601,
-      "place": "Calle E (Residential), Vega Baja, Puerto Rico, 00693"
+      "lat": 18.435425,
+      "lng": -66.39722,
+      "place": "Calle Víctor M. Ruiz Sierra (Residential), Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-19 13:57:29",
-      "speed": 27.7,
+      "time": "2026-08-19 14:04:30",
+      "speed": 18.1,
       "ignition": "IGNITION ON",
-      "lat": 18.103978,
-      "lng": -66.049791,
+      "lat": 18.121628,
+      "lng": -66.076343,
       "place": "Bosque Estatal de Carite, Guayama, Puerto Rico, 00784"
     },
     {
@@ -91,11 +91,11 @@
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-19 13:58:32",
-      "speed": 3.4,
-      "ignition": "IGNITION ON",
-      "lat": 18.395426,
-      "lng": -66.218845,
+      "time": "2026-08-19 14:04:06",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.393608,
+      "lng": -66.21894,
       "place": "Calle 1 (Residential), Toa Baja, Puerto Rico, 00949"
     },
     {
@@ -103,11 +103,11 @@
       "serial": "0470009725",
       "plate": "IRK-578",
       "description": "ASTRID MARTINEZENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-19 13:58:15",
-      "speed": 56.8,
+      "time": "2026-08-19 14:04:54",
+      "speed": 42.4,
       "ignition": "IGNITION ON",
-      "lat": 18.427675,
-      "lng": -66.354753,
+      "lat": 18.43926,
+      "lng": -66.423085,
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693"
     },
     {
@@ -115,7 +115,7 @@
       "serial": "0470009732",
       "plate": "985-742",
       "description": "EMMANUEL RIVERAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-19 13:58:44",
+      "time": "2026-08-19 14:04:44",
       "speed": 0.0,
       "ignition": "IGNITION ON",
       "lat": 18.444938,
@@ -170,12 +170,12 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-19 13:57:52",
-      "current_place": "Villa Esperanza (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00926",
-      "trips": 71,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-19 14:04:55",
+      "current_place": "Calle José Fidalgo Díaz (Residential), San Juan, Puerto Rico, 00926",
+      "trips": 72,
       "stops": 294,
-      "miles": 906.4,
+      "miles": 914.2,
       "speeding": 15,
       "inefficient_routes": 7,
       "max_speed": 71.5
@@ -185,8 +185,8 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-19 13:58:11",
-      "current_place": "Carretera Toa Alta - Corozal (Secondary, PR-159), Corozal, Puerto Rico, 00783",
+      "last_seen": "2026-08-19 14:02:11",
+      "current_place": "PR-806 (Tertiary), Corozal, PR; Toa Alta, PR; Corozal, PR, 00953, Puerto Rico",
       "trips": 58,
       "stops": 253,
       "miles": 796.5,
@@ -199,8 +199,8 @@
       "serial": "0470009744",
       "plate": "994-204",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-19 13:58:15",
-      "current_place": "Calle E (Residential), Vega Baja, Puerto Rico, 00693",
+      "last_seen": "2026-08-19 14:00:15",
+      "current_place": "Calle Víctor M. Ruiz Sierra (Residential), Vega Baja, Puerto Rico, 00693",
       "trips": 61,
       "stops": 788,
       "miles": 549.3,
@@ -213,7 +213,7 @@
       "serial": "0470009727",
       "plate": "994-209",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-19 13:57:29",
+      "last_seen": "2026-08-19 14:04:30",
       "current_place": "Bosque Estatal de Carite, Guayama, Puerto Rico, 00784",
       "trips": 88,
       "stops": 644,
@@ -226,12 +226,12 @@
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "plate": "996-332",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-19 13:58:32",
+      "current_status": "Detenido",
+      "last_seen": "2026-08-19 14:04:06",
       "current_place": "Calle 1 (Residential), Toa Baja, Puerto Rico, 00949",
-      "trips": 73,
+      "trips": 74,
       "stops": 608,
-      "miles": 543.3,
+      "miles": 548.3,
       "speeding": 1,
       "inefficient_routes": 23,
       "max_speed": 67.5
@@ -241,7 +241,7 @@
       "serial": "0470009725",
       "plate": "IRK-578",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-19 13:58:15",
+      "last_seen": "2026-08-19 14:04:54",
       "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "trips": 31,
       "stops": 233,
@@ -255,10 +255,10 @@
       "serial": "0470009732",
       "plate": "985-742",
       "current_status": "Detenido",
-      "last_seen": "2026-08-19 13:58:44",
+      "last_seen": "2026-08-19 14:04:44",
       "current_place": "Service, Manati, Puerto Rico, 00674",
       "trips": 68,
-      "stops": 750,
+      "stops": 752,
       "miles": 451.2,
       "speeding": 0,
       "inefficient_routes": 12,
@@ -36551,6 +36551,134 @@
       ]
     },
     {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "departure": "2026-08-19 09:33:34",
+      "arrival": "2026-08-19 10:03:56",
+      "duration_min": 30.4,
+      "origin": "Calle 8 (Residential), Toa Alta, Puerto Rico, 00953",
+      "destination": "Calle 1 (Residential), Toa Baja, Puerto Rico, 00949",
+      "origin_lat": 18.3461,
+      "origin_lng": -66.219338,
+      "destination_lat": 18.393608,
+      "destination_lng": -66.218938,
+      "miles": 5.0,
+      "straight_miles": 3.28,
+      "efficiency_ratio": 1.52,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.52x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 4.4 mi o menos; posible ahorro 0.6 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.57,
+      "route_points": [
+        [
+          18.3461,
+          -66.219338
+        ],
+        [
+          18.3461,
+          -66.219338
+        ],
+        [
+          18.361278,
+          -66.219255
+        ],
+        [
+          18.365397,
+          -66.218458
+        ],
+        [
+          18.365397,
+          -66.218458
+        ],
+        [
+          18.365441,
+          -66.21835
+        ],
+        [
+          18.368113,
+          -66.216833
+        ],
+        [
+          18.368113,
+          -66.216833
+        ],
+        [
+          18.386696,
+          -66.218075
+        ],
+        [
+          18.393965,
+          -66.218981
+        ],
+        [
+          18.393608,
+          -66.218938
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-19 09:36:46",
+      "arrival": "2026-08-19 10:04:54",
+      "duration_min": 28.1,
+      "origin": "Victoria (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
+      "destination": "Calle José Fidalgo Díaz (Residential), San Juan, Puerto Rico, 00926",
+      "origin_lat": 18.394871,
+      "origin_lng": -66.017728,
+      "destination_lat": 18.353826,
+      "destination_lng": -66.079696,
+      "miles": 7.8,
+      "straight_miles": 4.96,
+      "efficiency_ratio": 1.57,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.57x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 6.7 mi o menos; posible ahorro 1.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 1.11,
+      "route_points": [
+        [
+          18.39484,
+          -66.017766
+        ],
+        [
+          18.394871,
+          -66.017728
+        ],
+        [
+          18.394686,
+          -66.035669
+        ],
+        [
+          18.388936,
+          -66.063853
+        ],
+        [
+          18.389368,
+          -66.073055
+        ],
+        [
+          18.388846,
+          -66.074631
+        ],
+        [
+          18.388846,
+          -66.074631
+        ],
+        [
+          18.356545,
+          -66.079241
+        ],
+        [
+          18.353826,
+          -66.079698
+        ],
+        [
+          18.353826,
+          -66.079696
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-19 09:45:01",
@@ -70938,6 +71066,24 @@
       "speed": 0.0,
       "lat": 18.444939,
       "lng": -66.457337
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-19 10:01:43",
+      "place": "Service, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.444938,
+      "lng": -66.457338
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-19 10:01:44",
+      "place": "Service, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.444938,
+      "lng": -66.457338
     },
     {
       "vehicle": "RPS 1038729 - LV",
