@@ -3,6 +3,7 @@ import json
 import os
 import pathlib
 import re
+import sys
 import time
 
 import requests
@@ -24,9 +25,36 @@ REPORTS = {
     "geofence": "geofence_2days",
 }
 
+# Files scripts/build_dashboard.py cannot run without. If any of these is
+# missing the job must fail here, in the fetch step, instead of surfacing as a
+# FileNotFoundError three steps later.
+REQUIRED_ENDPOINTS = {"getVehiclesByUser.json", "getVehiclesCurrentLocations.json"}
+REQUIRED_REPORTS = {
+    "all_events_2days",
+    "start_stop_2days",
+    "stop_events_2days",
+    "speed_2days",
+}
+
 
 def env(name, default=""):
     return os.environ.get(name, default).strip()
+
+
+def env_int(name, default):
+    try:
+        return int(env(name, str(default)) or default)
+    except ValueError:
+        return default
+
+
+ATTEMPTS = max(1, env_int("SKYTRACKIT_RETRIES", 3))
+BACKOFF_SECONDS = max(1, env_int("SKYTRACKIT_BACKOFF_SECONDS", 5))
+DEADLINE = time.monotonic() + max(60, env_int("SKYTRACKIT_MAX_SECONDS", 480))
+
+
+def time_left():
+    return DEADLINE - time.monotonic()
 
 
 def login():
@@ -76,6 +104,60 @@ def post_json(session, xsrf, path, body, timeout=90):
     return response.text
 
 
+def validate_payload(text):
+    """Reject anything that is not a usable SkyTrackIt JSON envelope.
+
+    A expired session returns the HTML login page with HTTP 200, which used to
+    be written to disk as a valid-looking report and then blew up downstream.
+    """
+    if not text or not text.strip():
+        raise ValueError("empty response body")
+    stripped = text.lstrip()
+    if stripped[:1] not in "{[":
+        raise ValueError(f"non-JSON response (starts with {stripped[:40]!r})")
+    obj = json.loads(text)
+    if isinstance(obj, dict) and "data" not in obj:
+        raise ValueError(f"JSON envelope without 'data' key (keys: {sorted(obj)[:6]})")
+    return obj
+
+
+def write_atomic(path, text):
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    tmp.replace(path)
+
+
+def fetch_with_retries(session, xsrf, path, body, destination, timeout, label):
+    """Return True on success. Retries transient failures within the deadline."""
+    error_marker = destination.with_suffix(".error.txt")
+    last_error = None
+    for attempt in range(1, ATTEMPTS + 1):
+        if time_left() <= 5:
+            last_error = f"time budget exhausted before attempt {attempt}"
+            break
+        try:
+            text = post_json(
+                session, xsrf, path, body,
+                timeout=min(timeout, max(15, int(time_left()))),
+            )
+            validate_payload(text)
+            write_atomic(destination, text)
+            error_marker.unlink(missing_ok=True)
+            if attempt > 1:
+                print(f"  {label}: recovered on attempt {attempt}.")
+            return True
+        except Exception as exc:  # noqa: BLE001 - reported and retried below
+            last_error = f"{type(exc).__name__}: {exc}"
+            print(f"  {label}: attempt {attempt}/{ATTEMPTS} failed - {last_error}")
+            if attempt < ATTEMPTS:
+                delay = min(BACKOFF_SECONDS * attempt, max(0, time_left() - 5))
+                if delay > 0:
+                    time.sleep(delay)
+
+    error_marker.write_text(str(last_error), encoding="utf-8")
+    return False
+
+
 def decoded_data(path):
     obj = json.loads(path.read_text(encoding="utf-8", errors="ignore"))
     data = obj.get("data", [])
@@ -87,20 +169,32 @@ def main():
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     session, xsrf = login()
 
+    failures = []
+
     for path, filename in [
         ("/getVehiclesByUser", "getVehiclesByUser.json"),
         ("/getVehiclesCurrentLocations", "getVehiclesCurrentLocations.json"),
         ("/getDomainsByUser", "getDomainsByUser.json"),
     ]:
-        text = post_json(session, xsrf, path, {}, timeout=45)
-        (RAW_DIR / filename).write_text(text, encoding="utf-8")
+        ok = fetch_with_retries(
+            session, xsrf, path, {}, RAW_DIR / filename, 45, filename,
+        )
+        if not ok and filename in REQUIRED_ENDPOINTS:
+            failures.append(filename)
+
+    if failures:
+        print(f"FATAL: required endpoint(s) unavailable: {', '.join(failures)}", file=sys.stderr)
+        return 1
 
     end = dt.datetime.now().replace(microsecond=0)
-    lookback_days = int(env("SKYTRACKIT_LOOKBACK_DAYS", "5"))
+    lookback_days = env_int("SKYTRACKIT_LOOKBACK_DAYS", 5)
     start = end - dt.timedelta(days=lookback_days)
 
     vehicles = decoded_data(RAW_DIR / "getVehiclesByUser.json")
     serials = [row["avlSerial"] for row in vehicles if row.get("avlSerial")]
+    if not serials:
+        print("FATAL: getVehiclesByUser returned no vehicles with avlSerial.", file=sys.stderr)
+        return 1
     domains = sorted({row.get("domain") for row in vehicles if row.get("domain")}) or ["rpsmedicalcorp"]
 
     body_base = {
@@ -113,18 +207,41 @@ def main():
         "max_speed": 0,
         "temperatures": {"min": 30, "max": 70},
     }
-    for report_type, filename in REPORTS.items():
+
+    # Heaviest reports first so the required ones get the time budget while
+    # there is still budget left.
+    ordered = sorted(
+        REPORTS.items(),
+        key=lambda item: item[1] not in REQUIRED_REPORTS,
+    )
+    optional_failures = []
+    for report_type, filename in ordered:
         body = dict(body_base)
         body["report_type"] = report_type
-        try:
-            text = post_json(session, xsrf, "/admin/getReport", body, timeout=120)
-            (REPORT_DIR / f"{filename}.json").write_text(text, encoding="utf-8")
-        except Exception as exc:
-            (REPORT_DIR / f"{filename}.error.txt").write_text(str(exc), encoding="utf-8")
+        ok = fetch_with_retries(
+            session, xsrf, "/admin/getReport", body,
+            REPORT_DIR / f"{filename}.json", 120, filename,
+        )
+        if not ok:
+            (optional_failures if filename not in REQUIRED_REPORTS else failures).append(filename)
         time.sleep(0.4)
 
+    if optional_failures:
+        print(f"WARNING: optional report(s) unavailable: {', '.join(optional_failures)}")
+
+    if failures:
+        print(
+            "FATAL: required report(s) unavailable after "
+            f"{ATTEMPTS} attempts: {', '.join(failures)}. "
+            "SkyTrackIt did not return the data; not rebuilding the dashboard "
+            "so the last good version stays published.",
+            file=sys.stderr,
+        )
+        return 1
+
     print(f"Fetched SkyTrackIt data for {len(serials)} vehicles over {lookback_days} days.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
