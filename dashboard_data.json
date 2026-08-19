@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T05:41:35-04:00",
+  "generatedAt": "2026-08-19T06:04:40-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-19 05:40:11",
-      "speed": 50.9,
+      "time": "2026-08-19 06:03:05",
+      "speed": 50.3,
       "ignition": "IGNITION ON",
-      "lat": 18.422813,
-      "lng": -66.14032,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Catano, Puerto Rico, 00962"
+      "lat": 18.429056,
+      "lng": -66.444523,
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -171,12 +171,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-19 05:40:11",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Catano, Puerto Rico, 00962",
+      "last_seen": "2026-08-19 06:03:05",
+      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
       "trips": 63,
       "stops": 295,
       "miles": 939.4,
-      "speeding": 11,
+      "speeding": 15,
       "inefficient_routes": 9,
       "max_speed": 71.5
     },
@@ -187,11 +187,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 12:47:46",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 61,
-      "stops": 251,
-      "miles": 841.4,
+      "trips": 60,
+      "stops": 249,
+      "miles": 839.5,
       "speeding": 63,
-      "inefficient_routes": 12,
+      "inefficient_routes": 11,
       "max_speed": 74.6
     },
     {
@@ -201,11 +201,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 15:24:33",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 62,
-      "stops": 754,
-      "miles": 578.7,
+      "trips": 61,
+      "stops": 750,
+      "miles": 574.3,
       "speeding": 5,
-      "inefficient_routes": 21,
+      "inefficient_routes": 20,
       "max_speed": 70.6
     },
     {
@@ -216,7 +216,7 @@
       "last_seen": "2026-08-18 16:43:42",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 90,
-      "stops": 653,
+      "stops": 649,
       "miles": 568.8,
       "speeding": 10,
       "inefficient_routes": 20,
@@ -229,9 +229,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 15:21:22",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 67,
-      "stops": 550,
-      "miles": 570.0,
+      "trips": 66,
+      "stops": 546,
+      "miles": 564.3,
       "speeding": 0,
       "inefficient_routes": 19,
       "max_speed": 0
@@ -244,7 +244,7 @@
       "last_seen": "2026-08-18 15:27:24",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
       "trips": 28,
-      "stops": 212,
+      "stops": 209,
       "miles": 341.2,
       "speeding": 1,
       "inefficient_routes": 5,
@@ -266,168 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-08-11 05:48:20",
-      "arrival": "2026-08-11 06:02:18",
-      "duration_min": 14.0,
-      "origin": "Calle Los Medina (Residential), Quebradillas, Puerto Rico, 00678",
-      "destination": "Residential, Camuy, Puerto Rico, 00627",
-      "origin_lat": 18.38864,
-      "origin_lng": -66.912353,
-      "destination_lat": 18.388588,
-      "destination_lng": -66.888113,
-      "miles": 4.4,
-      "straight_miles": 1.59,
-      "efficiency_ratio": 2.77,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.77x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 2.1 mi o menos; ahorro estimado 2.3 mi.",
-      "potential_saved_miles": 2.26,
-      "route_points": [
-        [
-          18.38864,
-          -66.912353
-        ],
-        [
-          18.38864,
-          -66.912353
-        ],
-        [
-          18.38864,
-          -66.912353
-        ],
-        [
-          18.404801,
-          -66.900943
-        ],
-        [
-          18.406486,
-          -66.896495
-        ],
-        [
-          18.406486,
-          -66.896495
-        ],
-        [
-          18.392858,
-          -66.892295
-        ],
-        [
-          18.388588,
-          -66.888113
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-11 05:52:38",
-      "arrival": "2026-08-11 06:10:32",
-      "duration_min": 17.9,
-      "origin": "Carretera Néstor Luis Figueroa Lugo (Tertiary, PR-512), Juana Diaz, Puerto Rico, 00795",
-      "destination": "Unclassified, Juana Diaz, Puerto Rico, 00795",
-      "origin_lat": 18.109416,
-      "origin_lng": -66.539371,
-      "destination_lat": 18.043106,
-      "destination_lng": -66.535683,
-      "miles": 5.66,
-      "straight_miles": 4.59,
-      "efficiency_ratio": 1.23,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.23x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.109416,
-          -66.539371
-        ],
-        [
-          18.070296,
-          -66.537358
-        ],
-        [
-          18.059753,
-          -66.535836
-        ],
-        [
-          18.059753,
-          -66.535836
-        ],
-        [
-          18.059747,
-          -66.535848
-        ],
-        [
-          18.059747,
-          -66.535848
-        ],
-        [
-          18.044048,
-          -66.535084
-        ],
-        [
-          18.043096,
-          -66.535651
-        ],
-        [
-          18.043096,
-          -66.535651
-        ],
-        [
-          18.043106,
-          -66.535683
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-11 05:53:18",
-      "arrival": "2026-08-11 06:09:17",
-      "duration_min": 16.0,
-      "origin": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
-      "destination": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
-      "origin_lat": 18.3972,
-      "origin_lng": -66.072908,
-      "destination_lat": 18.394233,
-      "destination_lng": -66.074018,
-      "miles": 1.83,
-      "straight_miles": 0.22,
-      "efficiency_ratio": 8.44,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 8.44x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 0.3 mi o menos; ahorro estimado 1.5 mi.",
-      "potential_saved_miles": 1.54,
-      "route_points": [
-        [
-          18.3972,
-          -66.072908
-        ],
-        [
-          18.395,
-          -66.072398
-        ],
-        [
-          18.39439,
-          -66.075381
-        ],
-        [
-          18.393358,
-          -66.07468
-        ],
-        [
-          18.393358,
-          -66.07468
-        ],
-        [
-          18.394233,
-          -66.074018
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
@@ -35649,159 +35487,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS IRK-578 17 AM",
-      "serial": "0470009725",
-      "time": "2026-08-11 05:43:02",
-      "place": "Gemelo y su rumba (Bar), Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.038183,
-      "lng": -65.839275
-    },
-    {
-      "vehicle": "RPS IRK-578 17 AM",
-      "serial": "0470009725",
-      "time": "2026-08-11 05:43:03",
-      "place": "Gemelo y su rumba (Bar), Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.038183,
-      "lng": -65.839275
-    },
-    {
-      "vehicle": "RPS IRK-578 17 AM",
-      "serial": "0470009725",
-      "time": "2026-08-11 05:46:02",
-      "place": "Ruta Panorámica Luis Muñoz Marín / Carretera Ernesto Carasquillo (Trunk, PR-901), Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.038206,
-      "lng": -65.83928
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 05:48:20",
-      "place": "Calle Los Medina (Residential), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.38864,
-      "lng": -66.912353
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 05:48:21",
-      "place": "Calle Los Medina (Residential), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.38864,
-      "lng": -66.912353
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-11 05:49:32",
-      "place": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
-      "speed": 0.9,
-      "lat": 18.397065,
-      "lng": -66.072936
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-11 05:49:33",
-      "place": "Centro Médico de Puerto Rico (Hospital), San Juan, Puerto Rico, 00927",
-      "speed": 0.9,
-      "lat": 18.397065,
-      "lng": -66.072936
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 05:54:39",
-      "place": "Carretera Miguel de Hernández Elías (Secondary, PR-119), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.406486,
-      "lng": -66.896495
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 05:54:40",
-      "place": "Carretera Miguel de Hernández Elías (Secondary, PR-119), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.406486,
-      "lng": -66.896495
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 05:57:02",
-      "place": "Carretera Naranjito - Toa Alta (Tertiary, PR-165), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.31935,
-      "lng": -66.267303
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 05:57:03",
-      "place": "Carretera Naranjito - Toa Alta (Tertiary, PR-165), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.31935,
-      "lng": -66.267303
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 06:00:32",
-      "place": "Carretera Néstor Luis Figueroa Lugo (Tertiary, PR-512), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.1,
-      "lat": 18.059753,
-      "lng": -66.535836
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 06:00:33",
-      "place": "Carretera Néstor Luis Figueroa Lugo (Tertiary, PR-512), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.1,
-      "lat": 18.059753,
-      "lng": -66.535836
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 06:01:52",
-      "place": "Residential, Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.32801,
-      "lng": -66.272471
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 06:01:53",
-      "place": "Residential, Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.32801,
-      "lng": -66.272471
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 06:03:32",
-      "place": "Carretera Néstor Luis Figueroa Lugo (Tertiary, PR-512), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.059747,
-      "lng": -66.535848
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 06:03:33",
-      "place": "Carretera Néstor Luis Figueroa Lugo (Tertiary, PR-512), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.059747,
-      "lng": -66.535848
-    },
-    {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "time": "2026-08-11 06:05:22",
@@ -68469,6 +68154,26 @@
       "lng": -66.316586
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-19 01:49:39",
+      "speed": 71.2,
+      "over": 6.2,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
+      "lat": 18.426568,
+      "lng": -66.283718
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-19 01:49:41",
+      "speed": 71.2,
+      "over": 6.2,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
+      "lat": 18.426568,
+      "lng": -66.283718
+    },
+    {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "time": "2026-08-17 10:09:34",
@@ -68547,6 +68252,26 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617",
       "lat": 18.442785,
       "lng": -66.555068
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-19 01:54:09",
+      "speed": 71.0,
+      "over": 6.0,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "lat": 18.427718,
+      "lng": -66.355946
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-19 01:54:11",
+      "speed": 71.0,
+      "over": 6.0,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "lat": 18.427718,
+      "lng": -66.355946
     },
     {
       "vehicle": "RPS 933-091 13 ME",
