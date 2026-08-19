@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T02:05:18-04:00",
+  "generatedAt": "2026-08-19T03:02:40-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -174,7 +174,7 @@
       "last_seen": "2026-08-18 16:00:32",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
       "trips": 66,
-      "stops": 314,
+      "stops": 308,
       "miles": 962.9,
       "speeding": 11,
       "inefficient_routes": 9,
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 12:47:46",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 65,
-      "stops": 268,
-      "miles": 912.1,
+      "trips": 64,
+      "stops": 266,
+      "miles": 873.9,
       "speeding": 63,
       "inefficient_routes": 12,
       "max_speed": 74.6
@@ -201,9 +201,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 15:24:33",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 64,
-      "stops": 798,
-      "miles": 628.2,
+      "trips": 63,
+      "stops": 794,
+      "miles": 593.4,
       "speeding": 5,
       "inefficient_routes": 22,
       "max_speed": 70.6
@@ -266,246 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-11 02:41:37",
-      "arrival": "2026-08-11 03:35:59",
-      "duration_min": 54.4,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.411976,
-      "origin_lng": -66.931574,
-      "destination_lat": 18.424687,
-      "destination_lng": -66.475477,
-      "miles": 38.21,
-      "straight_miles": 29.91,
-      "efficiency_ratio": 1.28,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.28x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.411976,
-          -66.931574
-        ],
-        [
-          18.437261,
-          -66.929379
-        ],
-        [
-          18.458921,
-          -66.902323
-        ],
-        [
-          18.458921,
-          -66.902323
-        ],
-        [
-          18.48515,
-          -66.818656
-        ],
-        [
-          18.48816,
-          -66.80069
-        ],
-        [
-          18.48816,
-          -66.80069
-        ],
-        [
-          18.453405,
-          -66.759446
-        ],
-        [
-          18.437703,
-          -66.667373
-        ],
-        [
-          18.434236,
-          -66.596283
-        ],
-        [
-          18.446915,
-          -66.52231
-        ],
-        [
-          18.431426,
-          -66.475268
-        ],
-        [
-          18.42469,
-          -66.475486
-        ],
-        [
-          18.42469,
-          -66.475486
-        ],
-        [
-          18.424687,
-          -66.475477
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-08-11 03:00:15",
-      "arrival": "2026-08-11 04:15:11",
-      "duration_min": 74.9,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Calle Franchesco Aviles (Track), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.424461,
-      "origin_lng": -66.475458,
-      "destination_lat": 18.455353,
-      "destination_lng": -66.936965,
-      "miles": 34.75,
-      "straight_miles": 30.33,
-      "efficiency_ratio": 1.15,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.15x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424461,
-          -66.475458
-        ],
-        [
-          18.424461,
-          -66.475458
-        ],
-        [
-          18.424461,
-          -66.475458
-        ],
-        [
-          18.424413,
-          -66.475461
-        ],
-        [
-          18.424413,
-          -66.475461
-        ],
-        [
-          18.42754,
-          -66.492535
-        ],
-        [
-          18.428491,
-          -66.495453
-        ],
-        [
-          18.428491,
-          -66.495453
-        ],
-        [
-          18.434195,
-          -66.536095
-        ],
-        [
-          18.437543,
-          -66.584905
-        ],
-        [
-          18.437876,
-          -66.665703
-        ],
-        [
-          18.45233,
-          -66.737753
-        ],
-        [
-          18.487931,
-          -66.789153
-        ],
-        [
-          18.487931,
-          -66.789153
-        ],
-        [
-          18.487931,
-          -66.789153
-        ],
-        [
-          18.488076,
-          -66.810985
-        ],
-        [
-          18.488076,
-          -66.810985
-        ],
-        [
-          18.485166,
-          -66.818785
-        ],
-        [
-          18.485166,
-          -66.818785
-        ],
-        [
-          18.475903,
-          -66.845074
-        ],
-        [
-          18.475903,
-          -66.845074
-        ],
-        [
-          18.470956,
-          -66.87778
-        ],
-        [
-          18.470956,
-          -66.87778
-        ],
-        [
-          18.460105,
-          -66.905874
-        ],
-        [
-          18.460105,
-          -66.905874
-        ],
-        [
-          18.460106,
-          -66.905876
-        ],
-        [
-          18.460106,
-          -66.905876
-        ],
-        [
-          18.460106,
-          -66.905876
-        ],
-        [
-          18.460106,
-          -66.905876
-        ],
-        [
-          18.460087,
-          -66.905869
-        ],
-        [
-          18.458845,
-          -66.91996
-        ],
-        [
-          18.458845,
-          -66.91996
-        ],
-        [
-          18.455515,
-          -66.93698
-        ],
-        [
-          18.455353,
-          -66.936965
-        ]
-      ]
-    },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
@@ -37554,114 +37314,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-11 02:15:51",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.1,
-      "lat": 18.426333,
-      "lng": -66.462513
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-11 02:15:52",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.1,
-      "lat": 18.426333,
-      "lng": -66.462513
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-11 02:22:08",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.43132,
-      "lng": -66.475825
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-11 02:22:09",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.43132,
-      "lng": -66.475825
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-11 02:34:24",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424363,
-      "lng": -66.47556
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-11 02:34:25",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424363,
-      "lng": -66.47556
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-11 02:57:18",
-      "place": "PR-482 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.458921,
-      "lng": -66.902323
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-11 02:57:19",
-      "place": "PR-482 (Tertiary), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.458921,
-      "lng": -66.902323
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 03:00:15",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424461,
-      "lng": -66.475458
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 03:00:16",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424461,
-      "lng": -66.475458
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 03:00:43",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.1,
-      "lat": 18.424413,
-      "lng": -66.475461
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 03:00:44",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.1,
-      "lat": 18.424413,
-      "lng": -66.475461
-    },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
