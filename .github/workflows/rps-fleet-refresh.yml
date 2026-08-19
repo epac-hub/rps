@@ -64,10 +64,28 @@ jobs:
           set -euo pipefail
           git config user.name "rps-dashboard-bot"
           git config user.email "dashboard@rpsmedical.com"
-          git add index.html dashboard_data.json dashboard_interactivo_resumen.csv dashboard_interactivo_rutas.csv
+          FILES="index.html dashboard_data.json dashboard_interactivo_resumen.csv dashboard_interactivo_rutas.csv"
+          git add $FILES
           if git diff --cached --quiet; then
             echo "No dashboard changes to publish."
             exit 0
           fi
           git commit -m "Refresh fleet dashboard data"
-          git push origin main
+          # main moves under us: another refresh run, or a human commit. Replay
+          # the generated files onto the new tip instead of failing the job.
+          for attempt in 1 2 3; do
+            if git push origin main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); replaying onto current origin/main."
+            git fetch origin main
+            git reset --soft FETCH_HEAD
+            git add $FILES
+            if git diff --cached --quiet; then
+              echo "Another run already published equivalent data."
+              exit 0
+            fi
+            git commit -m "Refresh fleet dashboard data"
+          done
+          echo "Could not push dashboard changes after 3 attempts." >&2
+          exit 1
