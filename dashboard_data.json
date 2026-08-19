@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T04:19:16-04:00",
+  "generatedAt": "2026-08-19T04:59:56-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-18 16:00:32",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.099385,
-      "lng": -65.899436,
-      "place": "Residential, Yabucoa, Puerto Rico, 00767"
+      "time": "2026-08-19 04:58:52",
+      "speed": 25.3,
+      "ignition": "IGNITION ON",
+      "lat": 18.12981,
+      "lng": -65.872055,
+      "place": "Carretera Profesor Gilberto Rivera Ortiz (Tertiary, PR-908), Humacao, Puerto Rico, 00791"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -159,9 +159,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 15:24:30",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 31,
-      "stops": 246,
-      "miles": 301.8,
+      "trips": 30,
+      "stops": 238,
+      "miles": 300.0,
       "speeding": 14,
       "inefficient_routes": 2,
       "max_speed": 71.6
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-18 16:00:32",
-      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-19 04:58:52",
+      "current_place": "Carretera Profesor Gilberto Rivera Ortiz (Tertiary, PR-908), Humacao, Puerto Rico, 00791",
       "trips": 65,
-      "stops": 303,
+      "stops": 305,
       "miles": 962.6,
       "speeding": 11,
       "inefficient_routes": 9,
@@ -188,7 +188,7 @@
       "last_seen": "2026-08-18 12:47:46",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
       "trips": 62,
-      "stops": 256,
+      "stops": 254,
       "miles": 844.3,
       "speeding": 63,
       "inefficient_routes": 12,
@@ -201,11 +201,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 15:24:33",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 63,
-      "stops": 774,
-      "miles": 593.4,
+      "trips": 62,
+      "stops": 762,
+      "miles": 578.7,
       "speeding": 5,
-      "inefficient_routes": 22,
+      "inefficient_routes": 21,
       "max_speed": 70.6
     },
     {
@@ -216,7 +216,7 @@
       "last_seen": "2026-08-18 16:43:42",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 91,
-      "stops": 674,
+      "stops": 660,
       "miles": 579.2,
       "speeding": 10,
       "inefficient_routes": 21,
@@ -229,11 +229,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-18 15:21:22",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 69,
-      "stops": 569,
-      "miles": 586.2,
+      "trips": 68,
+      "stops": 560,
+      "miles": 578.0,
       "speeding": 0,
-      "inefficient_routes": 21,
+      "inefficient_routes": 20,
       "max_speed": 0
     },
     {
@@ -246,7 +246,7 @@
       "trips": 28,
       "stops": 214,
       "miles": 341.2,
-      "speeding": 1,
+      "speeding": 2,
       "inefficient_routes": 5,
       "max_speed": 65.5
     },
@@ -266,288 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-08-11 04:22:13",
-      "arrival": "2026-08-11 05:20:51",
-      "duration_min": 58.6,
-      "origin": "Calle Franchesco Aviles (Track), Quebradillas, Puerto Rico, 00678",
-      "destination": "Calle Los Medina (Residential), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.455355,
-      "origin_lng": -66.93696,
-      "destination_lat": 18.388626,
-      "destination_lng": -66.912324,
-      "miles": 14.68,
-      "straight_miles": 4.89,
-      "efficiency_ratio": 3.01,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 3.01x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 6.6 mi o menos; ahorro estimado 8.1 mi.",
-      "potential_saved_miles": 8.09,
-      "route_points": [
-        [
-          18.455355,
-          -66.93696
-        ],
-        [
-          18.45561,
-          -66.936993
-        ],
-        [
-          18.45561,
-          -66.936993
-        ],
-        [
-          18.42818,
-          -66.925843
-        ],
-        [
-          18.418178,
-          -66.901181
-        ],
-        [
-          18.418178,
-          -66.901181
-        ],
-        [
-          18.413841,
-          -66.894703
-        ],
-        [
-          18.413841,
-          -66.894703
-        ],
-        [
-          18.413847,
-          -66.894701
-        ],
-        [
-          18.413847,
-          -66.894701
-        ],
-        [
-          18.413847,
-          -66.894701
-        ],
-        [
-          18.413847,
-          -66.894701
-        ],
-        [
-          18.413673,
-          -66.894625
-        ],
-        [
-          18.413673,
-          -66.894625
-        ],
-        [
-          18.386868,
-          -66.900108
-        ],
-        [
-          18.382656,
-          -66.909448
-        ],
-        [
-          18.383121,
-          -66.909253
-        ],
-        [
-          18.383121,
-          -66.909253
-        ],
-        [
-          18.366601,
-          -66.892803
-        ],
-        [
-          18.366601,
-          -66.892803
-        ],
-        [
-          18.366601,
-          -66.892803
-        ],
-        [
-          18.38895,
-          -66.91012
-        ],
-        [
-          18.388765,
-          -66.911964
-        ],
-        [
-          18.388765,
-          -66.911964
-        ],
-        [
-          18.388626,
-          -66.912324
-        ],
-        [
-          18.388626,
-          -66.912324
-        ],
-        [
-          18.388626,
-          -66.912324
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-11 04:33:23",
-      "arrival": "2026-08-11 05:09:49",
-      "duration_min": 36.4,
-      "origin": "Carretera José Joaquín Rodríguez Rodríguez (Tertiary, PR-149), Villalba, Puerto Rico, 00766",
-      "destination": "Residential, Villalba, Puerto Rico, 00766",
-      "origin_lat": 18.150918,
-      "origin_lng": -66.508418,
-      "destination_lat": 18.11972,
-      "destination_lng": -66.476426,
-      "miles": 8.15,
-      "straight_miles": 3.01,
-      "efficiency_ratio": 2.71,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.71x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 4.1 mi o menos; ahorro estimado 4.1 mi.",
-      "potential_saved_miles": 4.09,
-      "route_points": [
-        [
-          18.150918,
-          -66.508418
-        ],
-        [
-          18.144086,
-          -66.510511
-        ],
-        [
-          18.132695,
-          -66.508523
-        ],
-        [
-          18.132692,
-          -66.508523
-        ],
-        [
-          18.132692,
-          -66.508523
-        ],
-        [
-          18.13242,
-          -66.506451
-        ],
-        [
-          18.13242,
-          -66.506451
-        ],
-        [
-          18.13971,
-          -66.498496
-        ],
-        [
-          18.127336,
-          -66.490716
-        ],
-        [
-          18.120173,
-          -66.478534
-        ],
-        [
-          18.120173,
-          -66.478534
-        ],
-        [
-          18.119616,
-          -66.47671
-        ],
-        [
-          18.119616,
-          -66.47671
-        ],
-        [
-          18.11972,
-          -66.476426
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "departure": "2026-08-11 04:38:48",
-      "arrival": "2026-08-11 05:07:41",
-      "duration_min": 28.9,
-      "origin": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "destination": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424388,
-      "origin_lng": -66.475568,
-      "destination_lat": 18.43637,
-      "destination_lng": -66.46293,
-      "miles": 1.77,
-      "straight_miles": 1.17,
-      "efficiency_ratio": 1.51,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.51x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 1.6 mi o menos; posible ahorro 0.2 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.19,
-      "route_points": [
-        [
-          18.424388,
-          -66.475568
-        ],
-        [
-          18.424388,
-          -66.475568
-        ],
-        [
-          18.424388,
-          -66.475568
-        ],
-        [
-          18.424343,
-          -66.475583
-        ],
-        [
-          18.424343,
-          -66.475583
-        ],
-        [
-          18.424336,
-          -66.475573
-        ],
-        [
-          18.424336,
-          -66.475573
-        ],
-        [
-          18.424323,
-          -66.475573
-        ],
-        [
-          18.424328,
-          -66.475575
-        ],
-        [
-          18.424328,
-          -66.475575
-        ],
-        [
-          18.432766,
-          -66.464981
-        ],
-        [
-          18.43637,
-          -66.462935
-        ],
-        [
-          18.43637,
-          -66.46293
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
@@ -36465,411 +36183,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:19:31",
-      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.319885,
-      "lng": -66.406989
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:19:32",
-      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.319885,
-      "lng": -66.406989
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:22:03",
-      "place": "Carretera José Joaquín Rodríguez Rodríguez (Tertiary, PR-149), Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.147961,
-      "lng": -66.512996
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:22:04",
-      "place": "Carretera José Joaquín Rodríguez Rodríguez (Tertiary, PR-149), Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.147961,
-      "lng": -66.512996
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:23:00",
-      "place": "Calle Guingo Soler (Residential), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.45561,
-      "lng": -66.936993
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:23:01",
-      "place": "Calle Guingo Soler (Residential), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.45561,
-      "lng": -66.936993
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:23:02",
-      "place": "Calle Monte Video (Residential), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.33181,
-      "lng": -66.4
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:23:03",
-      "place": "Calle Monte Video (Residential), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.33181,
-      "lng": -66.4
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-11 04:23:05",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.441333,
-      "lng": -66.40586
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-11 04:23:06",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.441333,
-      "lng": -66.40586
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:25:02",
-      "place": "Service, Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.147973,
-      "lng": -66.513053
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:25:03",
-      "place": "Service, Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.147973,
-      "lng": -66.513053
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:35:41",
-      "place": "Carretera José Julián Grana Rodríguez (Secondary, PR-159), Corozal, PR:Morovis, PR, 00783, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.331383,
-      "lng": -66.362273
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:35:42",
-      "place": "Carretera José Julián Grana Rodríguez (Secondary, PR-159), Corozal, PR:Morovis, PR, 00783, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.331383,
-      "lng": -66.362273
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-11 04:38:48",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424388,
-      "lng": -66.475568
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-11 04:38:49",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424388,
-      "lng": -66.475568
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-11 04:41:48",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424343,
-      "lng": -66.475583
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-11 04:41:49",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424343,
-      "lng": -66.475583
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:42:36",
-      "place": "Service, Corozal, Puerto Rico, 00783",
-      "speed": 0.0,
-      "lat": 18.32407,
-      "lng": -66.342025
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:42:37",
-      "place": "Service, Corozal, Puerto Rico, 00783",
-      "speed": 0.0,
-      "lat": 18.32407,
-      "lng": -66.342025
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:43:00",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.418178,
-      "lng": -66.901181
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:43:01",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.418178,
-      "lng": -66.901181
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:43:04",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.413841,
-      "lng": -66.894703
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:43:05",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.413841,
-      "lng": -66.894703
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:43:07",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.413847,
-      "lng": -66.894701
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:43:08",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.413847,
-      "lng": -66.894701
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:43:31",
-      "place": "Carretera José Joaquín Rodríguez Rodríguez (Tertiary, PR-149), Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.132695,
-      "lng": -66.508523
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:44:29",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.413847,
-      "lng": -66.894701
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:44:30",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.413847,
-      "lng": -66.894701
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:46:30",
-      "place": "Carretera José Joaquín Rodríguez Rodríguez (Tertiary, PR-149), Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.132692,
-      "lng": -66.508523
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:46:31",
-      "place": "Carretera José Joaquín Rodríguez Rodríguez (Tertiary, PR-149), Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.132692,
-      "lng": -66.508523
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-11 04:47:48",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424336,
-      "lng": -66.475573
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-11 04:47:49",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424336,
-      "lng": -66.475573
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:49:29",
-      "place": "Carretera José Julián Grana Rodríguez (Secondary, PR-159), Corozal, PR:Morovis, PR, 00783, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.33271,
-      "lng": -66.330011
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:49:30",
-      "place": "Carretera José Julián Grana Rodríguez (Secondary, PR-159), Corozal, PR:Morovis, PR, 00783, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.33271,
-      "lng": -66.330011
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:49:41",
-      "place": "Carretera José Joaquín Rodríguez Rodríguez (Tertiary, PR-149), Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.13242,
-      "lng": -66.506451
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-11 04:49:42",
-      "place": "Carretera José Joaquín Rodríguez Rodríguez (Tertiary, PR-149), Villalba, Puerto Rico, 00766",
-      "speed": 0.0,
-      "lat": 18.13242,
-      "lng": -66.506451
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:50:22",
-      "place": "Carretera José Julián Grana Rodríguez (Secondary, PR-159), Corozal, PR:Morovis, PR, 00783, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.332773,
-      "lng": -66.329683
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:50:23",
-      "place": "Carretera José Julián Grana Rodríguez (Secondary, PR-159), Corozal, PR:Morovis, PR, 00783, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.332773,
-      "lng": -66.329683
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:52:54",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.5,
-      "lat": 18.413673,
-      "lng": -66.894625
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-11 04:52:55",
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Camuy, Puerto Rico, 00627",
-      "speed": 0.5,
-      "lat": 18.413673,
-      "lng": -66.894625
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:53:22",
-      "place": "Carretera José Julián Grana Rodríguez (Secondary, PR-159), Corozal, PR:Morovis, PR, 00783, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.332774,
-      "lng": -66.329677
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-11 04:53:23",
-      "place": "Carretera José Julián Grana Rodríguez (Secondary, PR-159), Corozal, PR:Morovis, PR, 00783, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.332774,
-      "lng": -66.329677
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-11 04:56:48",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424328,
-      "lng": -66.475575
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-11 04:56:49",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424328,
-      "lng": -66.475575
-    },
-    {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "time": "2026-08-11 05:04:06",
@@ -69727,6 +69040,24 @@
       "speed": 0.0,
       "lat": 18.4827333,
       "lng": -66.4288166
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-19 00:47:13",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099386,
+      "lng": -65.899436
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-19 00:47:15",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099386,
+      "lng": -65.899436
     }
   ],
   "speeding": [
@@ -70859,6 +70190,16 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bajadero, Puerto Rico, 00616",
       "lat": 18.43761,
       "lng": -66.664476
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "time": "2026-08-11 05:04:34",
+      "speed": 65.1,
+      "over": 0.1,
+      "place": "Expreso Cruz Ortiz Stella (Motorway, PR-30), Gurabo, Puerto Rico, 00778",
+      "lat": 18.24812,
+      "lng": -65.952915
     },
     {
       "vehicle": "RPS 933-091 13 ME",
