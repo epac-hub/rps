@@ -33,7 +33,23 @@ def iso(value):
 
 
 def load_json(path):
-    return json.loads(path.read_text(encoding="utf-8", errors="ignore"))
+    if not path.exists():
+        marker = path.with_suffix(".error.txt")
+        detail = marker.read_text(encoding="utf-8", errors="ignore").strip() if marker.exists() else ""
+        raise SystemExit(
+            f"ERROR: missing SkyTrackIt input file '{path.name}' in {path.parent}.\n"
+            "The fetch step did not produce it, so the dashboard cannot be rebuilt.\n"
+            + (f"Reported cause: {detail}\n" if detail else "")
+            + "Re-run the workflow; if it keeps failing, check SkyTrackIt "
+            "availability and the SKYTRACKIT_* secrets."
+        )
+    try:
+        return json.loads(path.read_text(encoding="utf-8", errors="ignore"))
+    except json.JSONDecodeError as exc:
+        raise SystemExit(
+            f"ERROR: '{path.name}' is not valid JSON ({exc}). "
+            "SkyTrackIt most likely returned an HTML error or login page."
+        ) from exc
 
 
 def flatten_report(filename):
@@ -258,7 +274,12 @@ def main():
             "max_speed": max([row["speed"] for row in v_speed], default=0),
         })
 
-    write_csv(DASH / "dashboard_interactivo_resumen.csv", summary, summary[0].keys())
+    if not summary:
+        raise SystemExit(
+            "ERROR: no vehicles resolved from getVehiclesCurrentLocations.json; "
+            "refusing to publish an empty dashboard."
+        )
+    write_csv(DASH / "dashboard_interactivo_resumen.csv", summary, list(summary[0].keys()))
     write_csv(DASH / "dashboard_interactivo_rutas.csv", [{k: v for k, v in row.items() if k != "route_points"} for row in trips], [k for k in trips[0].keys() if k != "route_points"] if trips else [])
 
     data = {
