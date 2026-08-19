@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T17:34:56-04:00",
+  "generatedAt": "2026-08-19T17:56:55-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,7 +145,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-19 16:32:54",
       "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "trips": 50,
+      "trips": 49,
       "stops": 19,
       "miles": 0.2,
       "speeding": 9,
@@ -266,60 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-11 17:52:10",
-      "arrival": "2026-08-11 18:22:56",
-      "duration_min": 30.8,
-      "origin": "Roof, Carretera Militar, Dorado, Puerto Rico, 00646",
-      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.4102566,
-      "origin_lng": -66.3032983,
-      "destination_lat": 18.4827433,
-      "destination_lng": -66.428795,
-      "miles": 0.01,
-      "straight_miles": 9.63,
-      "efficiency_ratio": 0.0,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4102566,
-          -66.3032983
-        ],
-        [
-          18.4222983,
-          -66.3118583
-        ],
-        [
-          18.4300233,
-          -66.3465866
-        ],
-        [
-          18.4388166,
-          -66.3951499
-        ],
-        [
-          18.4450099,
-          -66.4167049
-        ],
-        [
-          18.479825,
-          -66.43164
-        ],
-        [
-          18.480925,
-          -66.42939
-        ],
-        [
-          18.4827433,
-          -66.428795
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
