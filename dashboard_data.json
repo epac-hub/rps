@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T16:55:25-04:00",
+  "generatedAt": "2026-08-20T17:22:51-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-20 16:52:25",
-      "speed": 5.6,
-      "ignition": "",
-      "lat": 18.479515,
-      "lng": -66.4319383,
-      "place": "Carretera Luis E. Meléndez Cano (Tertiary, PR-687), Vega Baja, Puerto Rico, 00693"
+      "time": "2026-08-20 16:55:25",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.4827116,
+      "lng": -66.4288016,
+      "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-20 16:53:25",
-      "speed": 31.3,
+      "time": "2026-08-20 17:20:11",
+      "speed": 63.0,
       "ignition": "IGNITION ON",
-      "lat": 18.433083,
-      "lng": -66.134596,
-      "place": "Carretera Pastor Licenciado Rafael Torres Ortega (Primary, PR-5), Catano, Puerto Rico, 00962"
+      "lat": 18.42243,
+      "lng": -66.317081,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -142,10 +142,10 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-20 16:52:25",
-      "current_place": "Carretera Luis E. Meléndez Cano (Tertiary, PR-687), Vega Baja, Puerto Rico, 00693",
-      "trips": 47,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-20 16:55:25",
+      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "trips": 48,
       "stops": 16,
       "miles": 0.2,
       "speeding": 12,
@@ -185,8 +185,8 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-20 16:53:25",
-      "current_place": "Carretera Pastor Licenciado Rafael Torres Ortega (Primary, PR-5), Catano, Puerto Rico, 00962",
+      "last_seen": "2026-08-20 17:20:11",
+      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692",
       "trips": 66,
       "stops": 281,
       "miles": 701.0,
@@ -39013,6 +39013,84 @@
         [
           18.268235,
           -66.6994899
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-20 15:56:38",
+      "arrival": "2026-08-20 16:55:25",
+      "duration_min": 58.8,
+      "origin": "Residencial Fernando Luis García Ledesma (Neighbourhood, residential, neighbourhood), Utuado, Puerto Rico, 00641",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.268235,
+      "origin_lng": -66.6994899,
+      "destination_lat": 18.4827116,
+      "destination_lng": -66.4288016,
+      "miles": 0.03,
+      "straight_miles": 23.12,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.268235,
+          -66.6994899
+        ],
+        [
+          18.267295,
+          -66.71005
+        ],
+        [
+          18.29843,
+          -66.709935
+        ],
+        [
+          18.3244383,
+          -66.67879
+        ],
+        [
+          18.3831583,
+          -66.6875533
+        ],
+        [
+          18.4396883,
+          -66.7141666
+        ],
+        [
+          18.438775,
+          -66.655915
+        ],
+        [
+          18.4393249,
+          -66.5809233
+        ],
+        [
+          18.444365,
+          -66.53353
+        ],
+        [
+          18.4471716,
+          -66.5207216
+        ],
+        [
+          18.4450883,
+          -66.4430283
+        ],
+        [
+          18.4443383,
+          -66.4166799
+        ],
+        [
+          18.479515,
+          -66.4319383
+        ],
+        [
+          18.4827116,
+          -66.4288016
         ]
       ]
     }
