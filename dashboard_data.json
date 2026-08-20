@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T13:40:03-04:00",
+  "generatedAt": "2026-08-20T14:02:57-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-20 13:37:37",
+      "time": "2026-08-20 13:57:40",
       "speed": 16.2,
       "ignition": "",
-      "lat": 18.2732066,
-      "lng": -66.6577866,
-      "place": "PR-140 (Tertiary), Utuado, Puerto Rico, 00641"
+      "lat": 18.2215033,
+      "lng": -66.6425549,
+      "place": "Carretera Municipal (Unclassified), Utuado, Puerto Rico, 00641"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -43,31 +43,31 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-20 13:30:25",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.1136,
-      "lng": -66.157961,
-      "place": "Calle 11 (Residential), Cayey, Puerto Rico, 00736"
+      "time": "2026-08-20 14:01:03",
+      "speed": 41.2,
+      "ignition": "IGNITION ON",
+      "lat": 18.112876,
+      "lng": -66.150396,
+      "place": "Avenida Jesús Toribio Piñero (Primary, PR-1), Cayey, Puerto Rico, 00736"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-20 13:38:10",
-      "speed": 9.3,
-      "ignition": "IGNITION ON",
-      "lat": 18.383178,
-      "lng": -66.164368,
-      "place": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959"
+      "time": "2026-08-20 13:52:40",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.353333,
+      "lng": -66.172421,
+      "place": "Calle Alondra (Residential), Bayamon, Puerto Rico, 00956"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "plate": "994-204",
       "description": "RAINER RAMOSENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-20 13:35:59",
+      "time": "2026-08-20 13:59:59",
       "speed": 0.0,
       "ignition": "IGNITION ON",
       "lat": 18.331692,
@@ -91,24 +91,24 @@
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-20 13:38:00",
-      "speed": 21.4,
+      "time": "2026-08-20 14:01:31",
+      "speed": 37.2,
       "ignition": "IGNITION ON",
-      "lat": 18.291746,
-      "lng": -66.507858,
-      "place": "Carretera José Joaquín Rodríguez Rodríguez (Secondary, PR-149), Ciales, Puerto Rico, 00638"
+      "lat": 18.351855,
+      "lng": -66.466258,
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "plate": "IRK-578",
       "description": "ASTRID MARTINEZENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-20 13:31:36",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.348421,
-      "lng": -66.187288,
-      "place": "Walgreens (Pharmacy), Carretera Dr. John Will Harris, Bayamón, PR, 00957, PR"
+      "time": "2026-08-20 14:01:12",
+      "speed": 23.1,
+      "ignition": "IGNITION ON",
+      "lat": 18.295183,
+      "lng": -66.20716,
+      "place": "Carretera 816 (Tertiary, PR-816), Bayamon, Puerto Rico, 00956"
     },
     {
       "vehicle": "RPS-985-742-18 ER",
@@ -143,8 +143,8 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-20 13:37:37",
-      "current_place": "PR-140 (Tertiary), Utuado, Puerto Rico, 00641",
+      "last_seen": "2026-08-20 13:57:40",
+      "current_place": "Carretera Municipal (Unclassified), Utuado, Puerto Rico, 00641",
       "trips": 46,
       "stops": 17,
       "miles": 0.2,
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-20 13:30:25",
-      "current_place": "Calle 11 (Residential), Cayey, Puerto Rico, 00736",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-20 14:01:03",
+      "current_place": "Avenida Jesús Toribio Piñero (Primary, PR-1), Cayey, Puerto Rico, 00736",
       "trips": 75,
-      "stops": 304,
+      "stops": 306,
       "miles": 925.9,
       "speeding": 12,
       "inefficient_routes": 7,
@@ -184,14 +184,14 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-20 13:38:10",
-      "current_place": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
-      "trips": 61,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-20 13:52:40",
+      "current_place": "Calle Alondra (Residential), Bayamon, Puerto Rico, 00956",
+      "trips": 62,
       "stops": 267,
-      "miles": 682.1,
+      "miles": 686.1,
       "speeding": 47,
-      "inefficient_routes": 11,
+      "inefficient_routes": 12,
       "max_speed": 74.6
     },
     {
@@ -199,10 +199,10 @@
       "serial": "0470009744",
       "plate": "994-204",
       "current_status": "Detenido",
-      "last_seen": "2026-08-20 13:35:59",
+      "last_seen": "2026-08-20 13:59:59",
       "current_place": "Residential, Lares, Puerto Rico, 00669",
       "trips": 64,
-      "stops": 814,
+      "stops": 816,
       "miles": 546.8,
       "speeding": 6,
       "inefficient_routes": 16,
@@ -227,10 +227,10 @@
       "serial": "0470009726",
       "plate": "996-332",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-20 13:38:00",
-      "current_place": "Carretera José Joaquín Rodríguez Rodríguez (Secondary, PR-149), Ciales, Puerto Rico, 00638",
+      "last_seen": "2026-08-20 14:01:31",
+      "current_place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
       "trips": 83,
-      "stops": 704,
+      "stops": 708,
       "miles": 626.7,
       "speeding": 1,
       "inefficient_routes": 24,
@@ -240,11 +240,11 @@
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "plate": "IRK-578",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-20 13:31:36",
-      "current_place": "Walgreens (Pharmacy), Carretera Dr. John Will Harris, Bayamón, PR, 00957, PR",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-20 14:01:12",
+      "current_place": "Carretera 816 (Tertiary, PR-816), Bayamon, Puerto Rico, 00956",
       "trips": 31,
-      "stops": 215,
+      "stops": 217,
       "miles": 260.7,
       "speeding": 0,
       "inefficient_routes": 8,
@@ -37525,6 +37525,60 @@
           -66.222995
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-20 09:31:54",
+      "arrival": "2026-08-20 09:52:31",
+      "duration_min": 20.6,
+      "origin": "Calle Marginal (Residential), Bayamon, Puerto Rico, 00956",
+      "destination": "Calle Alondra (Residential), Bayamon, Puerto Rico, 00956",
+      "origin_lat": 18.383955,
+      "origin_lng": -66.166259,
+      "destination_lat": 18.353335,
+      "destination_lng": -66.172421,
+      "miles": 3.98,
+      "straight_miles": 2.15,
+      "efficiency_ratio": 1.85,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 1.85x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 2.9 mi o menos; ahorro estimado 1.1 mi.",
+      "potential_saved_miles": 1.07,
+      "route_points": [
+        [
+          18.383955,
+          -66.166259
+        ],
+        [
+          18.383955,
+          -66.166259
+        ],
+        [
+          18.383943,
+          -66.166297
+        ],
+        [
+          18.383943,
+          -66.166297
+        ],
+        [
+          18.37639,
+          -66.162653
+        ],
+        [
+          18.36132,
+          -66.176191
+        ],
+        [
+          18.353408,
+          -66.17309
+        ],
+        [
+          18.353335,
+          -66.172421
+        ]
+      ]
     }
   ],
   "stops": [
@@ -71421,6 +71475,96 @@
       "speed": 0.0,
       "lat": 18.331692,
       "lng": -66.849507
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-20 09:39:15",
+      "place": "Carretera José Joaquín Rodríguez Rodríguez (Secondary, PR-149), Ciales, Puerto Rico, 00638",
+      "speed": 0.1,
+      "lat": 18.292795,
+      "lng": -66.503119
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-20 09:39:17",
+      "place": "Carretera José Joaquín Rodríguez Rodríguez (Secondary, PR-149), Ciales, Puerto Rico, 00638",
+      "speed": 0.1,
+      "lat": 18.292795,
+      "lng": -66.503119
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "time": "2026-08-20 09:40:00",
+      "place": "Walgreens (Pharmacy), Carretera Dr. John Will Harris, Bayamón, PR, 00957, PR",
+      "speed": 0.8,
+      "lat": 18.348446,
+      "lng": -66.187299
+    },
+    {
+      "vehicle": "RPS IRK-578 17 AM",
+      "serial": "0470009725",
+      "time": "2026-08-20 09:40:02",
+      "place": "Walgreens (Pharmacy), Carretera Dr. John Will Harris, Bayamón, PR, 00957, PR",
+      "speed": 0.8,
+      "lat": 18.348446,
+      "lng": -66.187299
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-20 09:42:15",
+      "place": "Carretera José Joaquín Rodríguez Rodríguez (Secondary, PR-149), Ciales, Puerto Rico, 00638",
+      "speed": 0.0,
+      "lat": 18.292776,
+      "lng": -66.503101
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-20 09:42:17",
+      "place": "Carretera José Joaquín Rodríguez Rodríguez (Secondary, PR-149), Ciales, Puerto Rico, 00638",
+      "speed": 0.0,
+      "lat": 18.292776,
+      "lng": -66.503101
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-20 09:44:57",
+      "place": "Residential, Lares, Puerto Rico, 00669",
+      "speed": 0.0,
+      "lat": 18.331692,
+      "lng": -66.849507
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-20 09:44:59",
+      "place": "Residential, Lares, Puerto Rico, 00669",
+      "speed": 0.0,
+      "lat": 18.331692,
+      "lng": -66.849507
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-20 09:53:48",
+      "place": "Calle 11 (Residential), Cayey, Puerto Rico, 00736",
+      "speed": 0.0,
+      "lat": 18.1136,
+      "lng": -66.157961
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-20 09:53:50",
+      "place": "Calle 11 (Residential), Cayey, Puerto Rico, 00736",
+      "speed": 0.0,
+      "lat": 18.1136,
+      "lng": -66.157961
     },
     {
       "vehicle": "RPS 1038729 - LV",
