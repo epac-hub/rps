@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T16:24:47-04:00",
+  "generatedAt": "2026-08-20T16:55:25-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-20 16:22:47",
-      "speed": 54.1,
+      "time": "2026-08-20 16:52:25",
+      "speed": 5.6,
       "ignition": "",
-      "lat": 18.4396883,
-      "lng": -66.7141666,
-      "place": "Carretera Félix Ramón \"Moncho\" Estévez Datis (Trunk, PR-10), Arecibo, Puerto Rico, 00612"
+      "lat": 18.479515,
+      "lng": -66.4319383,
+      "place": "Carretera Luis E. Meléndez Cano (Tertiary, PR-687), Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-20 16:23:03",
-      "speed": 0.0,
+      "time": "2026-08-20 16:53:25",
+      "speed": 31.3,
       "ignition": "IGNITION ON",
-      "lat": 18.42416,
-      "lng": -66.111155,
-      "place": "Avenida El Caño (Trunk, Carretera 165, PR-165), Guaynabo, Puerto Rico, 00966"
+      "lat": 18.433083,
+      "lng": -66.134596,
+      "place": "Carretera Pastor Licenciado Rafael Torres Ortega (Primary, PR-5), Catano, Puerto Rico, 00962"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -143,12 +143,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-20 16:22:47",
-      "current_place": "Carretera Félix Ramón \"Moncho\" Estévez Datis (Trunk, PR-10), Arecibo, Puerto Rico, 00612",
+      "last_seen": "2026-08-20 16:52:25",
+      "current_place": "Carretera Luis E. Meléndez Cano (Tertiary, PR-687), Vega Baja, Puerto Rico, 00693",
       "trips": 47,
       "stops": 16,
       "miles": 0.2,
-      "speeding": 9,
+      "speeding": 12,
       "inefficient_routes": 0,
       "max_speed": 72.1
     },
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-20 16:23:03",
-      "current_place": "Avenida El Caño (Trunk, Carretera 165, PR-165), Guaynabo, Puerto Rico, 00966",
-      "trips": 65,
-      "stops": 277,
-      "miles": 694.1,
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-20 16:53:25",
+      "current_place": "Carretera Pastor Licenciado Rafael Torres Ortega (Primary, PR-5), Catano, Puerto Rico, 00962",
+      "trips": 66,
+      "stops": 281,
+      "miles": 701.0,
       "speeding": 47,
       "inefficient_routes": 11,
       "max_speed": 74.6
@@ -38783,6 +38783,64 @@
       ]
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-20 12:02:28",
+      "arrival": "2026-08-20 12:27:58",
+      "duration_min": 25.5,
+      "origin": "Urbanización Jardines Metropolitanos (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00927",
+      "destination": "Calle Caparra (Residential), Catano, Puerto Rico, 00962",
+      "origin_lat": 18.399968,
+      "origin_lng": -66.066265,
+      "destination_lat": 18.438105,
+      "destination_lng": -66.122645,
+      "miles": 6.89,
+      "straight_miles": 4.54,
+      "efficiency_ratio": 1.52,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.52x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 6.1 mi o menos; posible ahorro 0.8 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.76,
+      "route_points": [
+        [
+          18.399933,
+          -66.066291
+        ],
+        [
+          18.399968,
+          -66.066265
+        ],
+        [
+          18.40988,
+          -66.06989
+        ],
+        [
+          18.427943,
+          -66.075558
+        ],
+        [
+          18.417876,
+          -66.101111
+        ],
+        [
+          18.429246,
+          -66.116114
+        ],
+        [
+          18.438118,
+          -66.122614
+        ],
+        [
+          18.438118,
+          -66.122614
+        ],
+        [
+          18.438105,
+          -66.122645
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-20 12:03:48",
@@ -73539,6 +73597,42 @@
       "lng": -66.4754249
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-20 12:27:03",
+      "place": "Calle Caparra (Residential), Catano, Puerto Rico, 00962",
+      "speed": 0.0,
+      "lat": 18.438118,
+      "lng": -66.122614
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-20 12:27:05",
+      "place": "Calle Caparra (Residential), Catano, Puerto Rico, 00962",
+      "speed": 0.0,
+      "lat": 18.438118,
+      "lng": -66.122614
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-20 12:47:02",
+      "place": "Calle Caparra (Residential), Catano, Puerto Rico, 00962",
+      "speed": 0.0,
+      "lat": 18.438105,
+      "lng": -66.122645
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-20 12:47:04",
+      "place": "Calle Caparra (Residential), Catano, Puerto Rico, 00962",
+      "speed": 0.0,
+      "lat": 18.438105,
+      "lng": -66.122645
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "time": "2026-08-20 13:19:29",
@@ -73798,6 +73892,16 @@
       "place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926",
       "lat": 18.3540683,
       "lng": -66.0701716
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-08-20 16:35:47",
+      "speed": 72.1,
+      "over": 7.1,
+      "place": "Puente Juan Ramírez Vélez (Bridge), Barceloneta, Puerto Rico, 00617",
+      "lat": 18.444365,
+      "lng": -66.53353
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -74910,6 +75014,16 @@
       "lng": -66.186885
     },
     {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-08-20 16:36:31",
+      "speed": 65.9,
+      "over": 0.9,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
+      "lat": 18.4471716,
+      "lng": -66.5207216
+    },
+    {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "time": "2026-08-17 11:22:37",
@@ -75018,6 +75132,16 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bajadero, Puerto Rico, 00616",
       "lat": 18.43761,
       "lng": -66.664476
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-08-20 16:27:47",
+      "speed": 65.2,
+      "over": 0.2,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bajadero, Puerto Rico, 00616",
+      "lat": 18.438775,
+      "lng": -66.655915
     },
     {
       "vehicle": "RPS 933-089 11 EO",
