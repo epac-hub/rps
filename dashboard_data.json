@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T17:22:51-04:00",
+  "generatedAt": "2026-08-20T17:51:06-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-20 17:20:11",
-      "speed": 63.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.42243,
-      "lng": -66.317081,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692"
+      "time": "2026-08-20 17:45:07",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418556,
+      "lng": -66.462048,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-20 17:20:11",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692",
-      "trips": 66,
-      "stops": 281,
-      "miles": 701.0,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-20 17:45:07",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 67,
+      "stops": 283,
+      "miles": 726.4,
       "speeding": 47,
       "inefficient_routes": 11,
       "max_speed": 74.6
@@ -38963,6 +38963,84 @@
       ]
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-20 12:47:03",
+      "arrival": "2026-08-20 13:44:59",
+      "duration_min": 57.9,
+      "origin": "Calle Caparra (Residential), Catano, Puerto Rico, 00962",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.438105,
+      "origin_lng": -66.122645,
+      "destination_lat": 18.418556,
+      "destination_lng": -66.462048,
+      "miles": 25.42,
+      "straight_miles": 22.29,
+      "efficiency_ratio": 1.14,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.14x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.438105,
+          -66.122645
+        ],
+        [
+          18.438105,
+          -66.122645
+        ],
+        [
+          18.43798,
+          -66.12845
+        ],
+        [
+          18.422998,
+          -66.144216
+        ],
+        [
+          18.422146,
+          -66.154185
+        ],
+        [
+          18.41238,
+          -66.218498
+        ],
+        [
+          18.41858,
+          -66.255006
+        ],
+        [
+          18.423156,
+          -66.307246
+        ],
+        [
+          18.427665,
+          -66.354821
+        ],
+        [
+          18.441483,
+          -66.405466
+        ],
+        [
+          18.426368,
+          -66.461771
+        ],
+        [
+          18.418556,
+          -66.462048
+        ],
+        [
+          18.418556,
+          -66.462048
+        ],
+        [
+          18.418556,
+          -66.462048
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-20 14:36:15",
@@ -73718,6 +73796,24 @@
       "speed": 0.0,
       "lat": 18.3006366,
       "lng": -66.5919433
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-20 13:44:50",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418556,
+      "lng": -66.462048
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-20 13:44:51",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418556,
+      "lng": -66.462048
     }
   ],
   "speeding": [
