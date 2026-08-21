@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T15:40:30-04:00",
+  "generatedAt": "2026-08-21T15:57:43-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-21 13:29:12",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.42911,
-      "lng": -66.4539866,
-      "place": "Calle Monte Blanco (Residential), Manati, Puerto Rico, 00674"
+      "time": "2026-08-21 15:56:08",
+      "speed": 14.3,
+      "ignition": "",
+      "lat": 18.4288216,
+      "lng": -66.4526633,
+      "place": "Calle Monte Verde (Residential), Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -142,13 +142,13 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-21 13:29:12",
-      "current_place": "Calle Monte Blanco (Residential), Manati, Puerto Rico, 00674",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-21 15:56:08",
+      "current_place": "Calle Monte Verde (Residential), Manati, Puerto Rico, 00674",
       "trips": 50,
       "stops": 14,
       "miles": 0.2,
-      "speeding": 10,
+      "speeding": 9,
       "inefficient_routes": 0,
       "max_speed": 72.1
     },
@@ -75680,16 +75680,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "lat": 18.441418,
       "lng": -66.41477
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-08-13 15:39:31",
-      "speed": 66.5,
-      "over": 1.5,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617",
-      "lat": 18.439185,
-      "lng": -66.5810733
     },
     {
       "vehicle": "RPS 1038729 - LV",
