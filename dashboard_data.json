@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T06:53:00-04:00",
+  "generatedAt": "2026-08-21T07:16:14-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -67,36 +67,36 @@
       "serial": "0470009744",
       "plate": "994-204",
       "description": "RAINER RAMOSENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-20 15:11:39",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.42444,
-      "lng": -66.475506,
-      "place": "Residential, Manati, Puerto Rico, 00674"
+      "time": "2026-08-21 07:12:02",
+      "speed": 50.7,
+      "ignition": "IGNITION ON",
+      "lat": 18.433265,
+      "lng": -66.533198,
+      "place": "Carretera Militar (Secondary, PR-2), Barceloneta, Puerto Rico, 00617"
     },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-20 15:33:15",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.424445,
-      "lng": -66.475538,
-      "place": "Residential, Manati, Puerto Rico, 00674"
+      "time": "2026-08-21 07:14:03",
+      "speed": 5.7,
+      "ignition": "IGNITION ON",
+      "lat": 18.424333,
+      "lng": -66.475328,
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-20 14:39:14",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.424468,
-      "lng": -66.475456,
-      "place": "Residential, Manati, Puerto Rico, 00674"
+      "time": "2026-08-21 07:14:42",
+      "speed": 42.5,
+      "ignition": "IGNITION ON",
+      "lat": 18.387976,
+      "lng": -66.486623,
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS IRK-578 17 AM",
@@ -162,7 +162,7 @@
       "trips": 39,
       "stops": 265,
       "miles": 387.7,
-      "speeding": 28,
+      "speeding": 25,
       "inefficient_routes": 3,
       "max_speed": 71.7
     },
@@ -187,22 +187,22 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 17:45:07",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 64,
-      "stops": 251,
-      "miles": 654.2,
+      "trips": 63,
+      "stops": 249,
+      "miles": 652.3,
       "speeding": 46,
-      "inefficient_routes": 11,
+      "inefficient_routes": 10,
       "max_speed": 74.6
     },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "plate": "994-204",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-20 15:11:39",
-      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-21 07:12:02",
+      "current_place": "Carretera Militar (Secondary, PR-2), Barceloneta, Puerto Rico, 00617",
       "trips": 63,
-      "stops": 820,
+      "stops": 832,
       "miles": 579.4,
       "speeding": 6,
       "inefficient_routes": 16,
@@ -212,11 +212,11 @@
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-20 15:33:15",
-      "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 90,
-      "stops": 525,
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-21 07:14:03",
+      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "trips": 91,
+      "stops": 529,
       "miles": 652.1,
       "speeding": 44,
       "inefficient_routes": 15,
@@ -226,12 +226,12 @@
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "plate": "996-332",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-20 14:39:14",
-      "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 82,
-      "stops": 666,
-      "miles": 567.3,
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-21 07:14:42",
+      "current_place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "trips": 81,
+      "stops": 672,
+      "miles": 553.0,
       "speeding": 1,
       "inefficient_routes": 23,
       "max_speed": 67.5
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 57,
-      "stops": 561,
+      "stops": 547,
       "miles": 314.2,
       "speeding": 0,
       "inefficient_routes": 12,
@@ -266,142 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-13 06:53:18",
-      "arrival": "2026-08-13 07:04:05",
-      "duration_min": 10.8,
-      "origin": "Paseo Dosel (Residential), Toa Baja, Puerto Rico, 00949",
-      "destination": "Vía Playera (Residential), Toa Baja, Puerto Rico, 00949",
-      "origin_lat": 18.452405,
-      "origin_lng": -66.183745,
-      "destination_lat": 18.460215,
-      "destination_lng": -66.194543,
-      "miles": 1.94,
-      "straight_miles": 0.89,
-      "efficiency_ratio": 2.19,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.19x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 1.2 mi o menos; ahorro estimado 0.7 mi.",
-      "potential_saved_miles": 0.74,
-      "route_points": [
-        [
-          18.452405,
-          -66.183745
-        ],
-        [
-          18.452405,
-          -66.183745
-        ],
-        [
-          18.464133,
-          -66.190963
-        ],
-        [
-          18.460215,
-          -66.194543
-        ],
-        [
-          18.460215,
-          -66.194543
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-13 06:57:41",
-      "arrival": "2026-08-13 07:33:14",
-      "duration_min": 35.5,
-      "origin": "Unclassified, Patillas, Puerto Rico, 00723",
-      "destination": "Plaza Los Recreos (Commercial, commercial), Guayama, Puerto Rico, 00784",
-      "origin_lat": 18.059256,
-      "origin_lng": -66.03765,
-      "destination_lat": 17.980893,
-      "destination_lng": -66.126335,
-      "miles": 14.27,
-      "straight_miles": 7.95,
-      "efficiency_ratio": 1.79,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.79x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 10.7 mi o menos; posible ahorro 3.5 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 3.54,
-      "route_points": [
-        [
-          18.059256,
-          -66.03765
-        ],
-        [
-          18.036821,
-          -66.033156
-        ],
-        [
-          18.013575,
-          -66.028963
-        ],
-        [
-          17.98946,
-          -66.028625
-        ],
-        [
-          17.97455,
-          -66.055611
-        ],
-        [
-          17.97455,
-          -66.055611
-        ],
-        [
-          17.974541,
-          -66.058013
-        ],
-        [
-          17.974541,
-          -66.058013
-        ],
-        [
-          17.971698,
-          -66.088171
-        ],
-        [
-          17.974396,
-          -66.109235
-        ],
-        [
-          17.974396,
-          -66.109235
-        ],
-        [
-          17.975805,
-          -66.11897
-        ],
-        [
-          17.975805,
-          -66.11897
-        ],
-        [
-          17.977278,
-          -66.123345
-        ],
-        [
-          17.977278,
-          -66.123345
-        ],
-        [
-          17.980893,
-          -66.126335
-        ],
-        [
-          17.980893,
-          -66.126335
-        ],
-        [
-          17.980893,
-          -66.126335
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
@@ -37155,189 +37019,43 @@
           -66.475558
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-21 03:04:26",
+      "arrival": "2026-08-21 03:06:10",
+      "duration_min": 1.7,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.424445,
+      "origin_lng": -66.475538,
+      "destination_lat": 18.424766,
+      "destination_lng": -66.47547,
+      "miles": 0.03,
+      "straight_miles": 0.02,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424445,
+          -66.475538
+        ],
+        [
+          18.424445,
+          -66.475538
+        ],
+        [
+          18.424766,
+          -66.47547
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:52:53",
-      "place": "Carretera Aguas Buenas - Guaynabo (Tertiary, PR-173), Aguas Buenas, PR;Aguas Buenas, PR;Guaynabo, PR, 00725, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.312966,
-      "lng": -66.088766
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:52:54",
-      "place": "Carretera Aguas Buenas - Guaynabo (Tertiary, PR-173), Aguas Buenas, PR;Aguas Buenas, PR;Guaynabo, PR, 00725, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.312966,
-      "lng": -66.088766
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-13 06:53:17",
-      "place": "Paseo Dosel (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.452405,
-      "lng": -66.183745
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-13 06:53:19",
-      "place": "Paseo Dosel (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.452405,
-      "lng": -66.183745
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:54:35",
-      "place": "Carretera Aguas Buenas - Guaynabo (Tertiary, PR-173), Aguas Buenas, PR;Aguas Buenas, PR;Guaynabo, PR, 00725, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.313588,
-      "lng": -66.088501
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:54:36",
-      "place": "Carretera Aguas Buenas - Guaynabo (Tertiary, PR-173), Aguas Buenas, PR;Aguas Buenas, PR;Guaynabo, PR, 00725, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.313588,
-      "lng": -66.088501
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:57:04",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 0.0,
-      "lat": 18.317741,
-      "lng": -66.096118
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:57:05",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 0.0,
-      "lat": 18.317741,
-      "lng": -66.096118
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 07:00:04",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 0.0,
-      "lat": 18.317735,
-      "lng": -66.09611
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 07:00:05",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 0.0,
-      "lat": 18.317735,
-      "lng": -66.09611
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 07:00:25",
-      "place": "Carretera Bajadero (Tertiary, PR-656), Arecibo, Puerto Rico, 00616",
-      "speed": 0.0,
-      "lat": 18.423963,
-      "lng": -66.684376
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 07:00:26",
-      "place": "Carretera Bajadero (Tertiary, PR-656), Arecibo, Puerto Rico, 00616",
-      "speed": 0.0,
-      "lat": 18.423963,
-      "lng": -66.684376
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 07:02:55",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 0.0,
-      "lat": 18.326183,
-      "lng": -66.097899
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 07:02:56",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 0.0,
-      "lat": 18.326183,
-      "lng": -66.097899
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 07:04:09",
-      "place": "1x 115kV (Power Line, PREPA, line, 115000), Arecibo, Puerto Rico, 00616",
-      "speed": 0.1,
-      "lat": 18.423508,
-      "lng": -66.682064
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 07:04:10",
-      "place": "1x 115kV (Power Line, PREPA, line, 115000), Arecibo, Puerto Rico, 00616",
-      "speed": 0.1,
-      "lat": 18.423508,
-      "lng": -66.682064
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 07:05:55",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 0.0,
-      "lat": 18.326185,
-      "lng": -66.097901
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 07:05:56",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 0.0,
-      "lat": 18.326185,
-      "lng": -66.097901
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 07:11:55",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 1.0,
-      "lat": 18.326228,
-      "lng": -66.097911
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 07:11:56",
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Guaynabo, Puerto Rico, 00971",
-      "speed": 1.0,
-      "lat": 18.326228,
-      "lng": -66.097911
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
@@ -69728,6 +69446,240 @@
       "speed": 0.0,
       "lat": 18.424339,
       "lng": -66.475558
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 02:57:43",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424439,
+      "lng": -66.475506
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 02:57:45",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424439,
+      "lng": -66.475506
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 02:58:00",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424439,
+      "lng": -66.475506
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 02:58:02",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424439,
+      "lng": -66.475506
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 02:58:06",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424439,
+      "lng": -66.475506
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 02:58:08",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424439,
+      "lng": -66.475506
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 02:58:12",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.424483,
+      "lng": -66.47552
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 02:58:13",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.424483,
+      "lng": -66.47552
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 03:00:22",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424481,
+      "lng": -66.475526
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 03:00:23",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424481,
+      "lng": -66.475526
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 03:04:25",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424445,
+      "lng": -66.475538
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 03:04:27",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424445,
+      "lng": -66.475538
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-21 03:05:13",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424469,
+      "lng": -66.475455
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-21 03:05:15",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424469,
+      "lng": -66.475455
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 03:05:31",
+      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.432613,
+      "lng": -66.484835
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 03:05:32",
+      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.432613,
+      "lng": -66.484835
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-21 03:06:28",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424466,
+      "lng": -66.475508
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-21 03:06:30",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424466,
+      "lng": -66.475508
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 03:10:15",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424743,
+      "lng": -66.475469
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 03:10:17",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424743,
+      "lng": -66.475469
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 03:10:42",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.424541,
+      "lng": -66.475426
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 03:10:44",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.424541,
+      "lng": -66.475426
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-21 03:10:48",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.417821,
+      "lng": -66.482005
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-21 03:10:49",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.417821,
+      "lng": -66.482005
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 03:13:21",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.424371,
+      "lng": -66.475376
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 03:13:23",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.424371,
+      "lng": -66.475376
     }
   ],
   "speeding": [
@@ -71002,16 +70954,6 @@
       "lng": -66.528831
     },
     {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-13 07:02:29",
-      "speed": 66.8,
-      "over": 1.8,
-      "place": "Carril Expreso PR-22 (Motorway), Toa Baja, Puerto Rico, 00949",
-      "lat": 18.419706,
-      "lng": -66.194003
-    },
-    {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "time": "2026-08-13 09:00:03",
@@ -71142,16 +71084,6 @@
       "lng": -66.756469
     },
     {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-13 06:56:58",
-      "speed": 65.7,
-      "over": 0.7,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
-      "lat": 18.42449,
-      "lng": -66.275416
-    },
-    {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "time": "2026-08-14 07:49:55",
@@ -71250,16 +71182,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bajadero, Puerto Rico, 00616",
       "lat": 18.438775,
       "lng": -66.655915
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-13 07:44:38",
-      "speed": 65.1,
-      "over": 0.1,
-      "place": "Autopista Luis A. Ferré (Motorway, PR-52), Cayey, Puerto Rico, 00736",
-      "lat": 18.098143,
-      "lng": -66.17198
     }
   ],
   "recommendations": [
