@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T16:51:13-04:00",
+  "generatedAt": "2026-08-21T17:11:50-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,7 +145,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:12:28",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 52,
+      "trips": 51,
       "stops": 14,
       "miles": 0.2,
       "speeding": 9,
@@ -266,64 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-13 16:50:35",
-      "arrival": "2026-08-13 17:30:06",
-      "duration_min": 39.5,
-      "origin": "Calle David López (Residential), Florida, Puerto Rico, 00650",
-      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.3617733,
-      "origin_lng": -66.560255,
-      "destination_lat": 18.482725,
-      "destination_lng": -66.42883,
-      "miles": 0.01,
-      "straight_miles": 12.0,
-      "efficiency_ratio": 0.0,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.3617733,
-          -66.560255
-        ],
-        [
-          18.3804033,
-          -66.5624699
-        ],
-        [
-          18.4102683,
-          -66.57409
-        ],
-        [
-          18.4322066,
-          -66.5645216
-        ],
-        [
-          18.4414633,
-          -66.506755
-        ],
-        [
-          18.4382516,
-          -66.4307016
-        ],
-        [
-          18.4439716,
-          -66.4166666
-        ],
-        [
-          18.4805316,
-          -66.4305949
-        ],
-        [
-          18.482725,
-          -66.42883
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
