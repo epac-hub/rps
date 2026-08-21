@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T05:52:30-04:00",
+  "generatedAt": "2026-08-21T06:17:30-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-21 05:40:21",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.437546,
-      "lng": -66.046226,
-      "place": "Calle Lutz (Residential), San Juan, Puerto Rico, 00915"
+      "time": "2026-08-21 06:16:01",
+      "speed": 62.9,
+      "ignition": "IGNITION ON",
+      "lat": 18.422713,
+      "lng": -66.308813,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -160,7 +160,7 @@
       "last_seen": "2026-08-20 16:08:43",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
       "trips": 39,
-      "stops": 275,
+      "stops": 273,
       "miles": 387.7,
       "speeding": 27,
       "inefficient_routes": 3,
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-21 05:40:21",
-      "current_place": "Calle Lutz (Residential), San Juan, Puerto Rico, 00915",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-21 06:16:01",
+      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
       "trips": 74,
-      "stops": 292,
+      "stops": 294,
       "miles": 914.3,
       "speeding": 13,
       "inefficient_routes": 7,
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 17:45:07",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 65,
-      "stops": 265,
-      "miles": 663.0,
+      "trips": 64,
+      "stops": 261,
+      "miles": 654.2,
       "speeding": 46,
       "inefficient_routes": 11,
       "max_speed": 74.6
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 15:33:15",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 92,
-      "stops": 533,
-      "miles": 667.1,
+      "trips": 91,
+      "stops": 529,
+      "miles": 658.1,
       "speeding": 44,
       "inefficient_routes": 16,
       "max_speed": 75.8
@@ -229,11 +229,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 14:39:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 83,
-      "stops": 684,
-      "miles": 580.2,
+      "trips": 82,
+      "stops": 674,
+      "miles": 567.3,
       "speeding": 1,
-      "inefficient_routes": 24,
+      "inefficient_routes": 23,
       "max_speed": 67.5
     },
     {
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 58,
-      "stops": 581,
+      "stops": 573,
       "miles": 321.0,
       "speeding": 0,
       "inefficient_routes": 12,
@@ -266,280 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-13 05:58:57",
-      "arrival": "2026-08-13 06:21:19",
-      "duration_min": 22.4,
-      "origin": "Calle Felicia Aguilar (Residential), Barceloneta, Puerto Rico, 00617",
-      "destination": "Calle 9 (Residential), Arecibo, Puerto Rico, 00616",
-      "origin_lat": 18.453711,
-      "origin_lng": -66.566496,
-      "destination_lat": 18.429965,
-      "destination_lng": -66.653208,
-      "miles": 9.02,
-      "straight_miles": 5.92,
-      "efficiency_ratio": 1.52,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.52x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 8.0 mi o menos; posible ahorro 1.0 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 1.03,
-      "route_points": [
-        [
-          18.453706,
-          -66.566521
-        ],
-        [
-          18.453711,
-          -66.566496
-        ],
-        [
-          18.453706,
-          -66.566521
-        ],
-        [
-          18.458545,
-          -66.593678
-        ],
-        [
-          18.446553,
-          -66.622069
-        ],
-        [
-          18.421741,
-          -66.632008
-        ],
-        [
-          18.429965,
-          -66.653208
-        ],
-        [
-          18.429965,
-          -66.653208
-        ],
-        [
-          18.429965,
-          -66.653208
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-13 06:00:32",
-      "arrival": "2026-08-13 06:43:29",
-      "duration_min": 43.0,
-      "origin": "Q24 Calle 17, Calle 17, Bayamon, Puerto Rico, 00956",
-      "destination": "Paseo Dosel (Residential), Toa Baja, Puerto Rico, 00949",
-      "origin_lat": 18.375256,
-      "origin_lng": -66.166415,
-      "destination_lat": 18.452406,
-      "destination_lng": -66.183747,
-      "miles": 8.76,
-      "straight_miles": 5.45,
-      "efficiency_ratio": 1.61,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.61x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 7.4 mi o menos; posible ahorro 1.4 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 1.41,
-      "route_points": [
-        [
-          18.375256,
-          -66.166415
-        ],
-        [
-          18.375236,
-          -66.166386
-        ],
-        [
-          18.375236,
-          -66.166386
-        ],
-        [
-          18.375263,
-          -66.166433
-        ],
-        [
-          18.375263,
-          -66.166433
-        ],
-        [
-          18.375178,
-          -66.166336
-        ],
-        [
-          18.395446,
-          -66.153288
-        ],
-        [
-          18.405645,
-          -66.1588
-        ],
-        [
-          18.445325,
-          -66.165949
-        ],
-        [
-          18.445413,
-          -66.170321
-        ],
-        [
-          18.445413,
-          -66.170321
-        ],
-        [
-          18.452558,
-          -66.185069
-        ],
-        [
-          18.452558,
-          -66.185069
-        ],
-        [
-          18.453301,
-          -66.185811
-        ],
-        [
-          18.453301,
-          -66.185811
-        ],
-        [
-          18.453299,
-          -66.18581
-        ],
-        [
-          18.453299,
-          -66.18581
-        ],
-        [
-          18.452408,
-          -66.183751
-        ],
-        [
-          18.452408,
-          -66.183751
-        ],
-        [
-          18.452406,
-          -66.183747
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-13 06:06:52",
-      "arrival": "2026-08-13 06:45:23",
-      "duration_min": 38.5,
-      "origin": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "destination": "Unclassified, Patillas, Puerto Rico, 00723",
-      "origin_lat": 17.999054,
-      "origin_lng": -66.105364,
-      "destination_lat": 18.059255,
-      "destination_lng": -66.037651,
-      "miles": 12.94,
-      "straight_miles": 6.09,
-      "efficiency_ratio": 2.13,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.13x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 8.2 mi o menos; ahorro estimado 4.7 mi.",
-      "potential_saved_miles": 4.72,
-      "route_points": [
-        [
-          17.999054,
-          -66.105364
-        ],
-        [
-          17.999043,
-          -66.105388
-        ],
-        [
-          17.999043,
-          -66.105388
-        ],
-        [
-          17.998693,
-          -66.10352
-        ],
-        [
-          17.998693,
-          -66.10352
-        ],
-        [
-          17.984746,
-          -66.08637
-        ],
-        [
-          17.981123,
-          -66.085516
-        ],
-        [
-          17.981123,
-          -66.085516
-        ],
-        [
-          17.980786,
-          -66.085418
-        ],
-        [
-          17.980786,
-          -66.085418
-        ],
-        [
-          17.974531,
-          -66.056706
-        ],
-        [
-          17.974505,
-          -66.056076
-        ],
-        [
-          17.974505,
-          -66.056076
-        ],
-        [
-          17.994166,
-          -66.024401
-        ],
-        [
-          18.006791,
-          -66.03063
-        ],
-        [
-          18.006791,
-          -66.03063
-        ],
-        [
-          18.008991,
-          -66.030675
-        ],
-        [
-          18.008991,
-          -66.030675
-        ],
-        [
-          18.008988,
-          -66.03065
-        ],
-        [
-          18.008988,
-          -66.03065
-        ],
-        [
-          18.033003,
-          -66.035373
-        ],
-        [
-          18.059256,
-          -66.03765
-        ],
-        [
-          18.059255,
-          -66.037651
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -37563,258 +37289,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 05:51:31",
-      "place": "Palmas Industrial Park (Industrial, industrial), Catano, Puerto Rico, 00962",
-      "speed": 0.0,
-      "lat": 18.427118,
-      "lng": -66.148806
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 05:51:32",
-      "place": "Palmas Industrial Park (Industrial, industrial), Catano, Puerto Rico, 00962",
-      "speed": 0.0,
-      "lat": 18.427118,
-      "lng": -66.148806
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 05:52:20",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.0,
-      "lat": 17.999035,
-      "lng": -66.105353
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 05:52:21",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.0,
-      "lat": 17.999035,
-      "lng": -66.105353
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 05:55:14",
-      "place": "Calle Felicia Aguilar (Residential), Barceloneta, Puerto Rico, 00617",
-      "speed": 0.0,
-      "lat": 18.45371,
-      "lng": -66.566496
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 05:55:15",
-      "place": "Calle Felicia Aguilar (Residential), Barceloneta, Puerto Rico, 00617",
-      "speed": 0.0,
-      "lat": 18.45371,
-      "lng": -66.566496
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 05:58:25",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Catano, Puerto Rico, 00962",
-      "speed": 0.2,
-      "lat": 18.422585,
-      "lng": -66.138075
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 05:58:27",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Catano, Puerto Rico, 00962",
-      "speed": 0.2,
-      "lat": 18.422585,
-      "lng": -66.138075
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 05:58:57",
-      "place": "Carretera Leovigildo Figueroa Serrano / Camino Garrochales (Tertiary, PR-682), Barceloneta, Puerto Rico, 00617",
-      "speed": 0.3,
-      "lat": 18.453706,
-      "lng": -66.566521
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 05:58:58",
-      "place": "Carretera Leovigildo Figueroa Serrano / Camino Garrochales (Tertiary, PR-682), Barceloneta, Puerto Rico, 00617",
-      "speed": 0.3,
-      "lat": 18.453706,
-      "lng": -66.566521
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-13 06:00:34",
-      "place": "Calle 17 (Residential), Bayamon, Puerto Rico, 00956",
-      "speed": 0.7,
-      "lat": 18.375236,
-      "lng": -66.166386
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-13 06:00:35",
-      "place": "Calle 17 (Residential), Bayamon, Puerto Rico, 00956",
-      "speed": 0.7,
-      "lat": 18.375236,
-      "lng": -66.166386
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-13 06:03:34",
-      "place": "Q24 Calle 17, Calle 17, Bayamon, Puerto Rico, 00956",
-      "speed": 0.0,
-      "lat": 18.375263,
-      "lng": -66.166433
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-13 06:03:35",
-      "place": "Q24 Calle 17, Calle 17, Bayamon, Puerto Rico, 00956",
-      "speed": 0.0,
-      "lat": 18.375263,
-      "lng": -66.166433
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:04:39",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.2,
-      "lat": 18.422473,
-      "lng": -66.122891
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:04:40",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.2,
-      "lat": 18.422473,
-      "lng": -66.122891
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:05:48",
-      "place": "Autopista José de Diego (Motorway, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.0,
-      "lat": 18.422231,
-      "lng": -66.117416
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 06:05:50",
-      "place": "Autopista José de Diego (Motorway, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.0,
-      "lat": 18.422231,
-      "lng": -66.117416
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 06:06:56",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.3,
-      "lat": 17.999043,
-      "lng": -66.105388
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 06:06:58",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.3,
-      "lat": 17.999043,
-      "lng": -66.105388
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 06:08:03",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.0,
-      "lat": 17.998693,
-      "lng": -66.10352
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 06:08:04",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.0,
-      "lat": 17.998693,
-      "lng": -66.10352
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 06:14:17",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.0,
-      "lat": 17.981123,
-      "lng": -66.085516
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 06:14:18",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.0,
-      "lat": 17.981123,
-      "lng": -66.085516
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 06:15:26",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.0,
-      "lat": 17.980786,
-      "lng": -66.085418
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 06:15:27",
-      "place": "Carretera Caimital - Algarrobo (Tertiary, PR-748), Guayama, Puerto Rico, 00784",
-      "speed": 0.0,
-      "lat": 17.980786,
-      "lng": -66.085418
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-13 06:15:38",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424343,
-      "lng": -66.475575
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-13 06:15:39",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.424343,
-      "lng": -66.475575
-    },
-    {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "time": "2026-08-13 06:18:38",
@@ -70708,6 +70182,24 @@
       "speed": 0.0,
       "lat": 18.437546,
       "lng": -66.046226
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-21 01:53:11",
+      "place": "Calle Lutz (Residential), San Juan, Puerto Rico, 00915",
+      "speed": 0.0,
+      "lat": 18.437546,
+      "lng": -66.046226
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-21 01:53:13",
+      "place": "Calle Lutz (Residential), San Juan, Puerto Rico, 00915",
+      "speed": 0.0,
+      "lat": 18.437546,
+      "lng": -66.046226
     }
   ],
   "speeding": [
@@ -71862,16 +71354,6 @@
       "lng": -66.40324
     },
     {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-13 06:07:44",
-      "speed": 69.1,
-      "over": 4.1,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Toa Baja, Puerto Rico, 00949",
-      "lat": 18.416176,
-      "lng": -66.205015
-    },
-    {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "time": "2026-08-14 05:16:59",
@@ -72060,6 +71542,16 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "lat": 18.429165,
       "lng": -66.377518
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-21 02:14:15",
+      "speed": 66.0,
+      "over": 1.0,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
+      "lat": 18.426841,
+      "lng": -66.28102
     },
     {
       "vehicle": "RPS 933-089 11 EO",
