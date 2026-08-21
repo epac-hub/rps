@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T13:28:50-04:00",
+  "generatedAt": "2026-08-21T13:58:50-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,11 +19,11 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-21 13:26:48",
+      "time": "2026-08-21 13:29:12",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.4290216,
-      "lng": -66.4540016,
+      "lat": 18.42911,
+      "lng": -66.4539866,
       "place": "Calle Monte Blanco (Residential), Manati, Puerto Rico, 00674"
     },
     {
@@ -43,60 +43,60 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-21 13:18:19",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 17.978088,
-      "lng": -66.298483,
-      "place": "Calle Padre Walter Víctor Mastalerz (Residential), Salinas, Puerto Rico, 00751"
+      "time": "2026-08-21 13:56:30",
+      "speed": 26.5,
+      "ignition": "IGNITION ON",
+      "lat": 17.955475,
+      "lng": -66.164296,
+      "place": "Escuela José Muñoz Vázquez (School), Guayama, Puerto Rico, 00784"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-21 13:27:08",
+      "time": "2026-08-21 13:51:20",
       "speed": 0.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.409601,
-      "lng": -66.26103,
-      "place": "Avenida Édgar Martínez Salgado (Secondary, PR-693), Dorado, Puerto Rico, 00646"
+      "ignition": "IGNITION OFF",
+      "lat": 18.35496,
+      "lng": -66.267906,
+      "place": "Residential, Toa Alta, Puerto Rico, 00953"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "plate": "994-204",
       "description": "RAINER RAMOSENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-21 13:27:18",
+      "time": "2026-08-21 13:56:47",
       "speed": 0.0,
       "ignition": "IGNITION ON",
-      "lat": 18.429971,
-      "lng": -66.653171,
-      "place": "Calle 9 (Residential), Arecibo, Puerto Rico, 00616"
+      "lat": 18.430356,
+      "lng": -66.624499,
+      "place": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688"
     },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-21 13:26:25",
-      "speed": 26.8,
-      "ignition": "IGNITION ON",
-      "lat": 18.418715,
-      "lng": -66.05601,
-      "place": "Avenida Juan Ponce de León (Primary, Carretera 25, PR-1;PR-25), San Juan, Puerto Rico, 00917"
+      "time": "2026-08-21 13:43:46",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.427453,
+      "lng": -66.052606,
+      "place": "Calle Teniente Francisco Gonzalo \"Pachín\" Marín (Residential), San Juan, Puerto Rico, 00915"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-21 13:26:58",
-      "speed": 23.2,
+      "time": "2026-08-21 13:52:47",
+      "speed": 23.9,
       "ignition": "IGNITION ON",
-      "lat": 18.308396,
-      "lng": -66.319296,
-      "place": "Camino del Banco (Tertiary, PR-807), Corozal, Puerto Rico, 00783"
+      "lat": 18.300481,
+      "lng": -66.354124,
+      "place": "PR-618 (Tertiary), Corozal, Puerto Rico, 00687"
     },
     {
       "vehicle": "RPS IRK-578 17 AM",
@@ -143,9 +143,9 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "current_status": "Detenido",
-      "last_seen": "2026-08-21 13:26:48",
+      "last_seen": "2026-08-21 13:29:12",
       "current_place": "Calle Monte Blanco (Residential), Manati, Puerto Rico, 00674",
-      "trips": 50,
+      "trips": 51,
       "stops": 15,
       "miles": 0.2,
       "speeding": 10,
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-21 13:18:19",
-      "current_place": "Calle Padre Walter Víctor Mastalerz (Residential), Salinas, Puerto Rico, 00751",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-21 13:56:30",
+      "current_place": "Escuela José Muñoz Vázquez (School), Guayama, Puerto Rico, 00784",
       "trips": 79,
-      "stops": 296,
+      "stops": 298,
       "miles": 963.6,
       "speeding": 14,
       "inefficient_routes": 8,
@@ -185,11 +185,11 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Detenido",
-      "last_seen": "2026-08-21 13:27:08",
-      "current_place": "Avenida Édgar Martínez Salgado (Secondary, PR-693), Dorado, Puerto Rico, 00646",
-      "trips": 68,
+      "last_seen": "2026-08-21 13:51:20",
+      "current_place": "Residential, Toa Alta, Puerto Rico, 00953",
+      "trips": 69,
       "stops": 273,
-      "miles": 586.8,
+      "miles": 608.6,
       "speeding": 42,
       "inefficient_routes": 9,
       "max_speed": 74.6
@@ -199,11 +199,11 @@
       "serial": "0470009744",
       "plate": "994-204",
       "current_status": "Detenido",
-      "last_seen": "2026-08-21 13:27:18",
-      "current_place": "Calle 9 (Residential), Arecibo, Puerto Rico, 00616",
-      "trips": 71,
-      "stops": 896,
-      "miles": 694.1,
+      "last_seen": "2026-08-21 13:56:47",
+      "current_place": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688",
+      "trips": 72,
+      "stops": 902,
+      "miles": 696.4,
       "speeding": 6,
       "inefficient_routes": 20,
       "max_speed": 70.6
@@ -212,12 +212,12 @@
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-21 13:26:25",
-      "current_place": "Avenida Juan Ponce de León (Primary, Carretera 25, PR-1;PR-25), San Juan, Puerto Rico, 00917",
-      "trips": 92,
-      "stops": 609,
-      "miles": 659.2,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-21 13:43:46",
+      "current_place": "Calle Teniente Francisco Gonzalo \"Pachín\" Marín (Residential), San Juan, Puerto Rico, 00915",
+      "trips": 93,
+      "stops": 619,
+      "miles": 664.8,
       "speeding": 44,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -227,13 +227,13 @@
       "serial": "0470009726",
       "plate": "996-332",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-21 13:26:58",
-      "current_place": "Camino del Banco (Tertiary, PR-807), Corozal, Puerto Rico, 00783",
-      "trips": 85,
+      "last_seen": "2026-08-21 13:52:47",
+      "current_place": "PR-618 (Tertiary), Corozal, Puerto Rico, 00687",
+      "trips": 86,
       "stops": 698,
-      "miles": 540.4,
+      "miles": 547.8,
       "speeding": 1,
-      "inefficient_routes": 25,
+      "inefficient_routes": 26,
       "max_speed": 67.5
     },
     {
@@ -38223,6 +38223,88 @@
       ]
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-21 08:56:34",
+      "arrival": "2026-08-21 09:51:09",
+      "duration_min": 54.6,
+      "origin": "Post_office (United States Postal Service), Manati, Puerto Rico, 00674",
+      "destination": "Residential, Toa Alta, Puerto Rico, 00953",
+      "origin_lat": 18.432905,
+      "origin_lng": -66.484418,
+      "destination_lat": 18.35496,
+      "destination_lng": -66.267906,
+      "miles": 21.83,
+      "straight_miles": 15.18,
+      "efficiency_ratio": 1.44,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.44x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 20.5 mi o menos; posible ahorro 1.3 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 1.33,
+      "route_points": [
+        [
+          18.432905,
+          -66.484418
+        ],
+        [
+          18.432905,
+          -66.484418
+        ],
+        [
+          18.432881,
+          -66.484446
+        ],
+        [
+          18.432881,
+          -66.484446
+        ],
+        [
+          18.432413,
+          -66.477076
+        ],
+        [
+          18.444628,
+          -66.45608
+        ],
+        [
+          18.432763,
+          -66.384455
+        ],
+        [
+          18.422888,
+          -66.322316
+        ],
+        [
+          18.409471,
+          -66.26342
+        ],
+        [
+          18.391008,
+          -66.253551
+        ],
+        [
+          18.373695,
+          -66.261708
+        ],
+        [
+          18.35695,
+          -66.267264
+        ],
+        [
+          18.35567,
+          -66.269321
+        ],
+        [
+          18.35496,
+          -66.267906
+        ],
+        [
+          18.35496,
+          -66.267906
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-21 08:59:56",
@@ -38253,6 +38335,72 @@
         [
           18.4290433,
           -66.4540433
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "departure": "2026-08-21 09:02:52",
+      "arrival": "2026-08-21 09:32:09",
+      "duration_min": 29.3,
+      "origin": "Calle 7 (Residential), Corozal, Puerto Rico, 00783",
+      "destination": "PR-805 (Tertiary), Corozal, Puerto Rico, 00783",
+      "origin_lat": 18.331723,
+      "origin_lng": -66.295183,
+      "destination_lat": 18.287131,
+      "destination_lng": -66.319443,
+      "miles": 7.41,
+      "straight_miles": 3.47,
+      "efficiency_ratio": 2.14,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 2.14x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 4.7 mi o menos; ahorro estimado 2.7 mi.",
+      "potential_saved_miles": 2.73,
+      "route_points": [
+        [
+          18.331723,
+          -66.295183
+        ],
+        [
+          18.331723,
+          -66.295183
+        ],
+        [
+          18.331818,
+          -66.296051
+        ],
+        [
+          18.331818,
+          -66.296051
+        ],
+        [
+          18.331838,
+          -66.296043
+        ],
+        [
+          18.331838,
+          -66.296043
+        ],
+        [
+          18.32512,
+          -66.296111
+        ],
+        [
+          18.334655,
+          -66.314595
+        ],
+        [
+          18.321898,
+          -66.318051
+        ],
+        [
+          18.29901,
+          -66.31639
+        ],
+        [
+          18.287131,
+          -66.319443
         ]
       ]
     },
@@ -38299,6 +38447,108 @@
       ]
     },
     {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-21 09:06:32",
+      "arrival": "2026-08-21 09:43:38",
+      "duration_min": 37.1,
+      "origin": "Parcelas Hill Brothers (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
+      "destination": "Calle Teniente Francisco Gonzalo \"Pachín\" Marín (Residential), San Juan, Puerto Rico, 00915",
+      "origin_lat": 18.392751,
+      "origin_lng": -66.019047,
+      "destination_lat": 18.427453,
+      "destination_lng": -66.052606,
+      "miles": 5.57,
+      "straight_miles": 3.25,
+      "efficiency_ratio": 1.71,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.71x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 4.4 mi o menos; posible ahorro 1.2 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 1.18,
+      "route_points": [
+        [
+          18.392751,
+          -66.019047
+        ],
+        [
+          18.392751,
+          -66.019047
+        ],
+        [
+          18.39274,
+          -66.019075
+        ],
+        [
+          18.39274,
+          -66.019075
+        ],
+        [
+          18.39611,
+          -66.018879
+        ],
+        [
+          18.39688,
+          -66.017888
+        ],
+        [
+          18.39688,
+          -66.017888
+        ],
+        [
+          18.40711,
+          -66.030953
+        ],
+        [
+          18.421375,
+          -66.056515
+        ],
+        [
+          18.423665,
+          -66.050715
+        ],
+        [
+          18.423665,
+          -66.050715
+        ],
+        [
+          18.423668,
+          -66.050731
+        ],
+        [
+          18.423668,
+          -66.050731
+        ],
+        [
+          18.424941,
+          -66.050625
+        ],
+        [
+          18.424941,
+          -66.050625
+        ],
+        [
+          18.427838,
+          -66.052641
+        ],
+        [
+          18.427838,
+          -66.052641
+        ],
+        [
+          18.427451,
+          -66.052606
+        ],
+        [
+          18.427451,
+          -66.052606
+        ],
+        [
+          18.427453,
+          -66.052606
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-21 09:23:41",
@@ -38325,6 +38575,48 @@
         [
           18.4292166,
           -66.4540366
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "departure": "2026-08-21 09:26:53",
+      "arrival": "2026-08-21 09:35:25",
+      "duration_min": 8.5,
+      "origin": "Calle 9 (Residential), Arecibo, Puerto Rico, 00616",
+      "destination": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688",
+      "origin_lat": 18.429973,
+      "origin_lng": -66.6532,
+      "destination_lat": 18.423008,
+      "destination_lng": -66.629504,
+      "miles": 2.32,
+      "straight_miles": 1.63,
+      "efficiency_ratio": 1.43,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.43x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 2.2 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.12,
+      "route_points": [
+        [
+          18.429973,
+          -66.6532
+        ],
+        [
+          18.429971,
+          -66.653171
+        ],
+        [
+          18.429971,
+          -66.653171
+        ],
+        [
+          18.420726,
+          -66.641258
+        ],
+        [
+          18.423008,
+          -66.629504
         ]
       ]
     },
@@ -38453,6 +38745,36 @@
         [
           18.4290216,
           -66.4540016
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-21 13:28:42",
+      "arrival": "2026-08-21 13:29:12",
+      "duration_min": 0.5,
+      "origin": "Calle Monte Blanco (Residential), Manati, Puerto Rico, 00674",
+      "destination": "Calle Monte Blanco (Residential), Manati, Puerto Rico, 00674",
+      "origin_lat": 18.4290216,
+      "origin_lng": -66.4540016,
+      "destination_lat": 18.42911,
+      "destination_lng": -66.4539866,
+      "miles": 0.0,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4290216,
+          -66.4540016
+        ],
+        [
+          18.42911,
+          -66.4539866
         ]
       ]
     }
@@ -72369,6 +72691,168 @@
       "speed": 0.0,
       "lat": 18.429971,
       "lng": -66.653171
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:31:00",
+      "place": "Calle José Martí (Residential), San Juan, Puerto Rico, 00917",
+      "speed": 0.2,
+      "lat": 18.423665,
+      "lng": -66.050715
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:31:01",
+      "place": "Calle José Martí (Residential), San Juan, Puerto Rico, 00917",
+      "speed": 0.2,
+      "lat": 18.423665,
+      "lng": -66.050715
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-21 09:33:16",
+      "place": "Calle Padre Walter Víctor Mastalerz (Residential), Salinas, Puerto Rico, 00751",
+      "speed": 0.0,
+      "lat": 17.978098,
+      "lng": -66.298455
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-21 09:33:18",
+      "place": "Calle Padre Walter Víctor Mastalerz (Residential), Salinas, Puerto Rico, 00751",
+      "speed": 0.0,
+      "lat": 17.978098,
+      "lng": -66.298455
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:34:00",
+      "place": "Calle José Martí (Residential), San Juan, Puerto Rico, 00917",
+      "speed": 0.0,
+      "lat": 18.423668,
+      "lng": -66.050731
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:34:01",
+      "place": "Calle José Martí (Residential), San Juan, Puerto Rico, 00917",
+      "speed": 0.0,
+      "lat": 18.423668,
+      "lng": -66.050731
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:38:26",
+      "place": "Calle América (Residential), San Juan, Puerto Rico, 00917",
+      "speed": 0.3,
+      "lat": 18.424941,
+      "lng": -66.050625
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:38:27",
+      "place": "Calle América (Residential), San Juan, Puerto Rico, 00917",
+      "speed": 0.3,
+      "lat": 18.424941,
+      "lng": -66.050625
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:41:08",
+      "place": "Calle Teniente Francisco Gonzalo \"Pachín\" Marín (Residential), San Juan, Puerto Rico, 00915",
+      "speed": 0.0,
+      "lat": 18.427838,
+      "lng": -66.052641
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:41:10",
+      "place": "Calle Teniente Francisco Gonzalo \"Pachín\" Marín (Residential), San Juan, Puerto Rico, 00915",
+      "speed": 0.0,
+      "lat": 18.427838,
+      "lng": -66.052641
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 09:41:46",
+      "place": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688",
+      "speed": 0.0,
+      "lat": 18.430386,
+      "lng": -66.624501
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 09:41:47",
+      "place": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688",
+      "speed": 0.0,
+      "lat": 18.430386,
+      "lng": -66.624501
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:43:24",
+      "place": "Calle Teniente Francisco Gonzalo \"Pachín\" Marín (Residential), San Juan, Puerto Rico, 00915",
+      "speed": 0.0,
+      "lat": 18.427451,
+      "lng": -66.052606
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-21 09:43:25",
+      "place": "Calle Teniente Francisco Gonzalo \"Pachín\" Marín (Residential), San Juan, Puerto Rico, 00915",
+      "speed": 0.0,
+      "lat": 18.427451,
+      "lng": -66.052606
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 09:44:45",
+      "place": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688",
+      "speed": 0.0,
+      "lat": 18.430382,
+      "lng": -66.624502
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 09:44:47",
+      "place": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688",
+      "speed": 0.0,
+      "lat": 18.430382,
+      "lng": -66.624502
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 09:50:46",
+      "place": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688",
+      "speed": 0.0,
+      "lat": 18.430358,
+      "lng": -66.624502
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-21 09:50:47",
+      "place": "Carretera Ballajá (Tertiary, PR-663), Arecibo, Puerto Rico, 00688",
+      "speed": 0.0,
+      "lat": 18.430358,
+      "lng": -66.624502
     },
     {
       "vehicle": "RPS 1038729 - LV",
