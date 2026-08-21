@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T03:54:15-04:00",
+  "generatedAt": "2026-08-21T04:29:45-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 15:33:15",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 95,
-      "stops": 567,
-      "miles": 701.8,
+      "trips": 94,
+      "stops": 559,
+      "miles": 675.4,
       "speeding": 44,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -230,7 +230,7 @@
       "last_seen": "2026-08-20 14:39:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 83,
-      "stops": 708,
+      "stops": 704,
       "miles": 580.2,
       "speeding": 1,
       "inefficient_routes": 24,
@@ -257,8 +257,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 62,
-      "stops": 609,
+      "trips": 61,
+      "stops": 605,
       "miles": 361.2,
       "speeding": 0,
       "inefficient_routes": 13,
@@ -266,170 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-13 04:05:35",
-      "arrival": "2026-08-13 05:00:59",
-      "duration_min": 55.4,
-      "origin": "PR-641 (Tertiary), Florida, Puerto Rico, 00650",
-      "destination": "PR-641 (Tertiary), Florida, Puerto Rico, 00650",
-      "origin_lat": 18.385339,
-      "origin_lng": -66.559652,
-      "destination_lat": 18.385181,
-      "destination_lng": -66.559476,
-      "miles": 26.39,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.385339,
-          -66.559652
-        ],
-        [
-          18.385339,
-          -66.559652
-        ],
-        [
-          18.385378,
-          -66.55964
-        ],
-        [
-          18.385378,
-          -66.55964
-        ],
-        [
-          18.395341,
-          -66.580738
-        ],
-        [
-          18.430783,
-          -66.564778
-        ],
-        [
-          18.430783,
-          -66.564778
-        ],
-        [
-          18.446346,
-          -66.51711
-        ],
-        [
-          18.43305,
-          -66.475815
-        ],
-        [
-          18.43305,
-          -66.475815
-        ],
-        [
-          18.431273,
-          -66.475258
-        ],
-        [
-          18.431273,
-          -66.475258
-        ],
-        [
-          18.424348,
-          -66.475196
-        ],
-        [
-          18.424348,
-          -66.475196
-        ],
-        [
-          18.428455,
-          -66.474803
-        ],
-        [
-          18.428455,
-          -66.474803
-        ],
-        [
-          18.432351,
-          -66.475435
-        ],
-        [
-          18.432351,
-          -66.475435
-        ],
-        [
-          18.445583,
-          -66.529123
-        ],
-        [
-          18.432691,
-          -66.564513
-        ],
-        [
-          18.432691,
-          -66.564513
-        ],
-        [
-          18.431191,
-          -66.564801
-        ],
-        [
-          18.431191,
-          -66.564801
-        ],
-        [
-          18.403653,
-          -66.578635
-        ],
-        [
-          18.385181,
-          -66.559476
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-08-13 04:22:02",
-      "arrival": "2026-08-13 04:23:13",
-      "duration_min": 1.2,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424446,
-      "origin_lng": -66.475503,
-      "destination_lat": 18.424738,
-      "destination_lng": -66.475316,
-      "miles": 0.02,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424446,
-          -66.475503
-        ],
-        [
-          18.424446,
-          -66.475503
-        ],
-        [
-          18.424738,
-          -66.475308
-        ],
-        [
-          18.424738,
-          -66.475308
-        ],
-        [
-          18.424738,
-          -66.475316
-        ]
-      ]
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
@@ -38402,150 +38238,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 03:58:32",
-      "place": "PR-641 (Tertiary), Florida, Puerto Rico, 00650",
-      "speed": 0.0,
-      "lat": 18.385339,
-      "lng": -66.559652
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 03:58:33",
-      "place": "PR-641 (Tertiary), Florida, Puerto Rico, 00650",
-      "speed": 0.0,
-      "lat": 18.385339,
-      "lng": -66.559652
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 04:01:31",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.0,
-      "lat": 18.422735,
-      "lng": -66.128773
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 04:01:32",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.0,
-      "lat": 18.422735,
-      "lng": -66.128773
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 04:04:10",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.7,
-      "lat": 18.422483,
-      "lng": -66.119331
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-13 04:04:11",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.7,
-      "lat": 18.422483,
-      "lng": -66.119331
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 04:05:34",
-      "place": "PR-641 (Tertiary), Florida, Puerto Rico, 00650",
-      "speed": 0.0,
-      "lat": 18.385339,
-      "lng": -66.559652
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 04:05:35",
-      "place": "PR-641 (Tertiary), Florida, Puerto Rico, 00650",
-      "speed": 0.0,
-      "lat": 18.385339,
-      "lng": -66.559652
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 04:08:34",
-      "place": "PR-641 (Tertiary), Florida, Puerto Rico, 00650",
-      "speed": 0.0,
-      "lat": 18.385378,
-      "lng": -66.55964
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 04:08:35",
-      "place": "PR-641 (Tertiary), Florida, Puerto Rico, 00650",
-      "speed": 0.0,
-      "lat": 18.385378,
-      "lng": -66.55964
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 04:19:02",
-      "place": "Carretera Benito de Jesús Negrón (Secondary, PR-140), Barceloneta, Puerto Rico, 00617",
-      "speed": 0.0,
-      "lat": 18.430783,
-      "lng": -66.564778
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-13 04:19:03",
-      "place": "Carretera Benito de Jesús Negrón (Secondary, PR-140), Barceloneta, Puerto Rico, 00617",
-      "speed": 0.0,
-      "lat": 18.430783,
-      "lng": -66.564778
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 04:22:01",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424446,
-      "lng": -66.475503
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 04:22:02",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424446,
-      "lng": -66.475503
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 04:23:07",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424738,
-      "lng": -66.475308
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-13 04:23:08",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424738,
-      "lng": -66.475308
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
