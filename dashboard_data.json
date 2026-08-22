@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T03:56:15-04:00",
+  "generatedAt": "2026-08-22T04:25:36-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -204,7 +204,7 @@
       "trips": 74,
       "stops": 892,
       "miles": 626.8,
-      "speeding": 6,
+      "speeding": 4,
       "inefficient_routes": 19,
       "max_speed": 70.6
     },
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:10:05",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 95,
-      "stops": 615,
-      "miles": 691.9,
+      "trips": 94,
+      "stops": 607,
+      "miles": 682.2,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -229,11 +229,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 15:20:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 89,
-      "stops": 702,
-      "miles": 552.0,
+      "trips": 88,
+      "stops": 688,
+      "miles": 550.4,
       "speeding": 1,
-      "inefficient_routes": 26,
+      "inefficient_routes": 25,
       "max_speed": 67.5
     },
     {
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 46,
-      "stops": 407,
+      "stops": 403,
       "miles": 244.4,
       "speeding": 0,
       "inefficient_routes": 10,
@@ -266,174 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-14 03:55:40",
-      "arrival": "2026-08-14 04:16:54",
-      "duration_min": 21.2,
-      "origin": "Urbanización Las Colinas (Neighbourhood, residential, neighbourhood), Toa Baja, Puerto Rico, 00949",
-      "destination": "Calle Rey Alberto (Living_street), Toa Baja, Puerto Rico, 00949",
-      "origin_lat": 18.408101,
-      "origin_lng": -66.219273,
-      "destination_lat": 18.406686,
-      "destination_lng": -66.229701,
-      "miles": 1.58,
-      "straight_miles": 0.69,
-      "efficiency_ratio": 2.29,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.29x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 0.9 mi o menos; ahorro estimado 0.6 mi.",
-      "potential_saved_miles": 0.65,
-      "route_points": [
-        [
-          18.408101,
-          -66.219273
-        ],
-        [
-          18.406856,
-          -66.222539
-        ],
-        [
-          18.406856,
-          -66.222539
-        ],
-        [
-          18.406852,
-          -66.222546
-        ],
-        [
-          18.406852,
-          -66.222546
-        ],
-        [
-          18.404848,
-          -66.22302
-        ],
-        [
-          18.404848,
-          -66.22302
-        ],
-        [
-          18.406023,
-          -66.225946
-        ],
-        [
-          18.406023,
-          -66.225946
-        ],
-        [
-          18.407268,
-          -66.22794
-        ],
-        [
-          18.407268,
-          -66.22794
-        ],
-        [
-          18.407254,
-          -66.227939
-        ],
-        [
-          18.407254,
-          -66.227939
-        ],
-        [
-          18.40706,
-          -66.227971
-        ],
-        [
-          18.40706,
-          -66.227971
-        ],
-        [
-          18.406686,
-          -66.229701
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 04:11:48",
-      "arrival": "2026-08-14 04:44:42",
-      "duration_min": 32.9,
-      "origin": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "destination": "Carretera Pámpanos (Tertiary, PR-678), Vega Alta, Puerto Rico, 00692",
-      "origin_lat": 18.433391,
-      "origin_lng": -66.392443,
-      "destination_lat": 18.380732,
-      "destination_lng": -66.318979,
-      "miles": 9.66,
-      "straight_miles": 6.04,
-      "efficiency_ratio": 1.6,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.6x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 8.1 mi o menos; posible ahorro 1.5 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 1.51,
-      "route_points": [
-        [
-          18.433391,
-          -66.392443
-        ],
-        [
-          18.433391,
-          -66.392443
-        ],
-        [
-          18.433393,
-          -66.39243
-        ],
-        [
-          18.433393,
-          -66.39243
-        ],
-        [
-          18.434963,
-          -66.391298
-        ],
-        [
-          18.429445,
-          -66.34375
-        ],
-        [
-          18.419373,
-          -66.337954
-        ],
-        [
-          18.419373,
-          -66.337954
-        ],
-        [
-          18.410055,
-          -66.336086
-        ],
-        [
-          18.410055,
-          -66.336086
-        ],
-        [
-          18.406188,
-          -66.320443
-        ],
-        [
-          18.384245,
-          -66.316493
-        ],
-        [
-          18.380731,
-          -66.318979
-        ],
-        [
-          18.380731,
-          -66.318979
-        ],
-        [
-          18.380732,
-          -66.318979
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
@@ -38531,240 +38363,6 @@
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
-      "time": "2026-08-14 03:57:36",
-      "place": "Urbanización Las Colinas (Neighbourhood, residential, neighbourhood), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.406856,
-      "lng": -66.222539
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:57:37",
-      "place": "Urbanización Las Colinas (Neighbourhood, residential, neighbourhood), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.406856,
-      "lng": -66.222539
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:57:43",
-      "place": "PR-638 (Tertiary), Arecibo, Puerto Rico, 00616",
-      "speed": 0.0,
-      "lat": 18.42528,
-      "lng": -66.658739
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:57:44",
-      "place": "PR-638 (Tertiary), Arecibo, Puerto Rico, 00616",
-      "speed": 0.0,
-      "lat": 18.42528,
-      "lng": -66.658739
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:58:59",
-      "place": "PR-638 (Tertiary), Arecibo, Puerto Rico, 00616",
-      "speed": 0.0,
-      "lat": 18.425098,
-      "lng": -66.658816
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:59:00",
-      "place": "PR-638 (Tertiary), Arecibo, Puerto Rico, 00616",
-      "speed": 0.0,
-      "lat": 18.425098,
-      "lng": -66.658816
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:00:36",
-      "place": "Urbanización Las Colinas (Neighbourhood, residential, neighbourhood), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.406852,
-      "lng": -66.222546
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:00:38",
-      "place": "Urbanización Las Colinas (Neighbourhood, residential, neighbourhood), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.406852,
-      "lng": -66.222546
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:03:17",
-      "place": "Calle Colina Real (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.404848,
-      "lng": -66.22302
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:03:18",
-      "place": "Calle Colina Real (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.404848,
-      "lng": -66.22302
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:05:38",
-      "place": "Carretera Militar (Primary, PR-2), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.1,
-      "lat": 18.406023,
-      "lng": -66.225946
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:05:40",
-      "place": "Carretera Militar (Primary, PR-2), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.1,
-      "lat": 18.406023,
-      "lng": -66.225946
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 04:06:04",
-      "place": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.433431,
-      "lng": -66.392428
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 04:06:06",
-      "place": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.433431,
-      "lng": -66.392428
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 04:06:51",
-      "place": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.433391,
-      "lng": -66.392443
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 04:06:53",
-      "place": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.433391,
-      "lng": -66.392443
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:08:02",
-      "place": "Carretera Militar (Primary, PR-2), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.407268,
-      "lng": -66.22794
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:08:03",
-      "place": "Carretera Militar (Primary, PR-2), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.407268,
-      "lng": -66.22794
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:11:02",
-      "place": "Carretera Militar (Primary, PR-2), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.407254,
-      "lng": -66.227939
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:11:03",
-      "place": "Carretera Militar (Primary, PR-2), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.407254,
-      "lng": -66.227939
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 04:11:47",
-      "place": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.433391,
-      "lng": -66.392443
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 04:11:48",
-      "place": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.433391,
-      "lng": -66.392443
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:12:38",
-      "place": "Calle Rey Juan Carlos (Living_street), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.2,
-      "lat": 18.40706,
-      "lng": -66.227971
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 04:12:39",
-      "place": "Calle Rey Juan Carlos (Living_street), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.2,
-      "lat": 18.40706,
-      "lng": -66.227971
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 04:14:48",
-      "place": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.433393,
-      "lng": -66.39243
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 04:14:49",
-      "place": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.433393,
-      "lng": -66.39243
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
       "time": "2026-08-14 04:24:34",
       "place": "Calle Rey Alberto (Living_street), Toa Baja, Puerto Rico, 00949",
       "speed": 0.0,
@@ -73542,26 +73140,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bajadero, Puerto Rico, 00616",
       "lat": 18.43869,
       "lng": -66.655963
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 04:19:05",
-      "speed": 70.3,
-      "over": 5.3,
-      "place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926",
-      "lat": 18.304341,
-      "lng": -66.038871
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 04:19:06",
-      "speed": 70.3,
-      "over": 5.3,
-      "place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926",
-      "lat": 18.304341,
-      "lng": -66.038871
     },
     {
       "vehicle": "RPS 994-209 19 MD",
