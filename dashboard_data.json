@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T14:23:25-04:00",
+  "generatedAt": "2026-08-22T14:56:00-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -115,11 +115,11 @@
       "serial": "0470009732",
       "plate": "985-742",
       "description": "EMMANUEL RIVERAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-22 13:20:39",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.424683,
-      "lng": -66.47546,
+      "time": "2026-08-22 14:52:04",
+      "speed": 0.1,
+      "ignition": "IGNITION ON",
+      "lat": 18.4247,
+      "lng": -66.475498,
       "place": "Residential, Manati, Puerto Rico, 00674"
     }
   ],
@@ -255,10 +255,10 @@
       "serial": "0470009732",
       "plate": "985-742",
       "current_status": "Detenido",
-      "last_seen": "2026-08-22 13:20:39",
+      "last_seen": "2026-08-22 14:52:04",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 35,
-      "stops": 292,
+      "stops": 298,
       "miles": 157.9,
       "speeding": 0,
       "inefficient_routes": 5,
@@ -62894,6 +62894,60 @@
       "speed": 0.0,
       "lat": 18.424695,
       "lng": -66.475468
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 10:43:02",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.42475,
+      "lng": -66.475433
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 10:43:03",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.42475,
+      "lng": -66.475433
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 10:46:02",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.2,
+      "lat": 18.424725,
+      "lng": -66.475461
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 10:46:04",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.2,
+      "lat": 18.424725,
+      "lng": -66.475461
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 10:52:02",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.4247,
+      "lng": -66.475498
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 10:52:04",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.4247,
+      "lng": -66.475498
     }
   ],
   "speeding": [
