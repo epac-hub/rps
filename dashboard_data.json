@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T14:56:00-04:00",
+  "generatedAt": "2026-08-22T15:20:38-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -115,11 +115,11 @@
       "serial": "0470009732",
       "plate": "985-742",
       "description": "EMMANUEL RIVERAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-22 14:52:04",
-      "speed": 0.1,
-      "ignition": "IGNITION ON",
-      "lat": 18.4247,
-      "lng": -66.475498,
+      "time": "2026-08-22 15:11:03",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.424471,
+      "lng": -66.475456,
       "place": "Residential, Manati, Puerto Rico, 00674"
     }
   ],
@@ -145,7 +145,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:12:28",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 50,
+      "trips": 49,
       "stops": 13,
       "miles": 0.2,
       "speeding": 9,
@@ -255,10 +255,10 @@
       "serial": "0470009732",
       "plate": "985-742",
       "current_status": "Detenido",
-      "last_seen": "2026-08-22 14:52:04",
+      "last_seen": "2026-08-22 15:11:03",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 35,
-      "stops": 298,
+      "trips": 36,
+      "stops": 304,
       "miles": 157.9,
       "speeding": 0,
       "inefficient_routes": 5,
@@ -266,36 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-14 15:04:40",
-      "arrival": "2026-08-14 15:06:05",
-      "duration_min": 1.4,
-      "origin": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424385,
-      "origin_lng": -66.4754816,
-      "destination_lat": 18.4246483,
-      "destination_lng": -66.4755333,
-      "miles": 0.0,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424385,
-          -66.4754816
-        ],
-        [
-          18.4246483,
-          -66.4755333
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
@@ -34065,6 +34035,88 @@
           -66.475463
         ]
       ]
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "departure": "2026-08-22 10:42:55",
+      "arrival": "2026-08-22 11:10:53",
+      "duration_min": 28.0,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.424755,
+      "origin_lng": -66.475399,
+      "destination_lat": 18.424471,
+      "destination_lng": -66.475458,
+      "miles": 0.07,
+      "straight_miles": 0.02,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424755,
+          -66.475399
+        ],
+        [
+          18.42475,
+          -66.475433
+        ],
+        [
+          18.42475,
+          -66.475433
+        ],
+        [
+          18.424725,
+          -66.475461
+        ],
+        [
+          18.424725,
+          -66.475461
+        ],
+        [
+          18.4247,
+          -66.475498
+        ],
+        [
+          18.4247,
+          -66.475498
+        ],
+        [
+          18.424726,
+          -66.475489
+        ],
+        [
+          18.424726,
+          -66.475488
+        ],
+        [
+          18.424726,
+          -66.475488
+        ],
+        [
+          18.424731,
+          -66.475476
+        ],
+        [
+          18.424731,
+          -66.475476
+        ],
+        [
+          18.424736,
+          -66.475483
+        ],
+        [
+          18.424736,
+          -66.475483
+        ],
+        [
+          18.424471,
+          -66.475458
+        ]
+      ]
     }
   ],
   "stops": [
@@ -62948,6 +63000,60 @@
       "speed": 0.1,
       "lat": 18.4247,
       "lng": -66.475498
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 10:57:52",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.424726,
+      "lng": -66.475488
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 10:57:53",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.1,
+      "lat": 18.424726,
+      "lng": -66.475488
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 11:00:52",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424731,
+      "lng": -66.475476
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 11:00:53",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424731,
+      "lng": -66.475476
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 11:06:52",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424736,
+      "lng": -66.475483
+    },
+    {
+      "vehicle": "RPS-985-742-18 ER",
+      "serial": "0470009732",
+      "time": "2026-08-22 11:06:53",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424736,
+      "lng": -66.475483
     }
   ],
   "speeding": [
