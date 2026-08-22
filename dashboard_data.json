@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T07:44:16-04:00",
+  "generatedAt": "2026-08-22T08:00:35-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,8 +145,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:12:28",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 51,
-      "stops": 14,
+      "trips": 50,
+      "stops": 13,
       "miles": 0.2,
       "speeding": 9,
       "inefficient_routes": 0,
@@ -159,9 +159,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:08:10",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 41,
-      "stops": 244,
-      "miles": 361.6,
+      "trips": 40,
+      "stops": 236,
+      "miles": 359.8,
       "speeding": 29,
       "inefficient_routes": 3,
       "max_speed": 71.9
@@ -173,9 +173,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-22 07:17:36",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 75,
-      "stops": 276,
-      "miles": 907.5,
+      "trips": 74,
+      "stops": 272,
+      "miles": 873.8,
       "speeding": 13,
       "inefficient_routes": 8,
       "max_speed": 71.2
@@ -202,7 +202,7 @@
       "last_seen": "2026-08-21 14:53:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 71,
-      "stops": 814,
+      "stops": 812,
       "miles": 590.9,
       "speeding": 1,
       "inefficient_routes": 19,
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:10:05",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 89,
-      "stops": 567,
-      "miles": 655.3,
+      "trips": 87,
+      "stops": 563,
+      "miles": 652.8,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -229,11 +229,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 15:20:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 80,
-      "stops": 628,
-      "miles": 511.6,
+      "trips": 79,
+      "stops": 626,
+      "miles": 506.6,
       "speeding": 1,
-      "inefficient_routes": 20,
+      "inefficient_routes": 19,
       "max_speed": 67.5
     },
     {
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 40,
-      "stops": 347,
+      "stops": 343,
       "miles": 213.6,
       "speeding": 0,
       "inefficient_routes": 7,
@@ -266,442 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 07:49:47",
-      "arrival": "2026-08-14 07:50:00",
-      "duration_min": 0.2,
-      "origin": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "destination": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "origin_lat": 18.442011,
-      "origin_lng": -66.285478,
-      "destination_lat": 18.442023,
-      "destination_lng": -66.285619,
-      "miles": 0.01,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.442011,
-          -66.285478
-        ],
-        [
-          18.442011,
-          -66.285478
-        ],
-        [
-          18.442023,
-          -66.285619
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-14 07:52:30",
-      "arrival": "2026-08-14 08:08:02",
-      "duration_min": 15.5,
-      "origin": "Residential, Bayamon, Puerto Rico, 00956",
-      "destination": "Av. Ramón Luis Rivera (Av. Comerío) (Secondary, PR-167), Toa Alta, Puerto Rico, 00956",
-      "origin_lat": 18.310091,
-      "origin_lng": -66.18083,
-      "destination_lat": 18.322215,
-      "destination_lng": -66.204403,
-      "miles": 4.97,
-      "straight_miles": 1.76,
-      "efficiency_ratio": 2.83,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.83x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 2.4 mi o menos; ahorro estimado 2.6 mi.",
-      "potential_saved_miles": 2.6,
-      "route_points": [
-        [
-          18.310091,
-          -66.18083
-        ],
-        [
-          18.322778,
-          -66.17994
-        ],
-        [
-          18.339583,
-          -66.199924
-        ],
-        [
-          18.337295,
-          -66.199996
-        ],
-        [
-          18.337295,
-          -66.199996
-        ],
-        [
-          18.322216,
-          -66.204406
-        ],
-        [
-          18.322215,
-          -66.204403
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-14 07:53:22",
-      "arrival": "2026-08-14 08:16:08",
-      "duration_min": 22.8,
-      "origin": "Residential, Vega Baja, Puerto Rico, 00693",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.482725,
-      "origin_lng": -66.42883,
-      "destination_lat": 18.424385,
-      "destination_lng": -66.4754816,
-      "miles": 0.0,
-      "straight_miles": 5.06,
-      "efficiency_ratio": 0.0,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.482725,
-          -66.42883
-        ],
-        [
-          18.4827233,
-          -66.428765
-        ],
-        [
-          18.4686,
-          -66.4637633
-        ],
-        [
-          18.4422416,
-          -66.4654833
-        ],
-        [
-          18.4311533,
-          -66.4751833
-        ],
-        [
-          18.424385,
-          -66.4754816
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-08-14 07:54:23",
-      "arrival": "2026-08-14 09:48:08",
-      "duration_min": 113.8,
-      "origin": "Luis Llorens Torres (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00913",
-      "destination": "Pedro Rosario Nieves (Neighbourhood, residential, neighbourhood), Fajardo, Puerto Rico, 00738",
-      "origin_lat": 18.447808,
-      "origin_lng": -66.047643,
-      "destination_lat": 18.33348,
-      "destination_lng": -65.646241,
-      "miles": 33.68,
-      "straight_miles": 27.48,
-      "efficiency_ratio": 1.23,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.23x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.44789,
-          -66.047844
-        ],
-        [
-          18.447808,
-          -66.047643
-        ],
-        [
-          18.44789,
-          -66.047844
-        ],
-        [
-          18.452285,
-          -66.047973
-        ],
-        [
-          18.452285,
-          -66.047973
-        ],
-        [
-          18.452295,
-          -66.047978
-        ],
-        [
-          18.452295,
-          -66.047978
-        ],
-        [
-          18.45228,
-          -66.047973
-        ],
-        [
-          18.45228,
-          -66.047973
-        ],
-        [
-          18.452276,
-          -66.04797
-        ],
-        [
-          18.452285,
-          -66.047958
-        ],
-        [
-          18.452285,
-          -66.047958
-        ],
-        [
-          18.452295,
-          -66.047974
-        ],
-        [
-          18.452304,
-          -66.047966
-        ],
-        [
-          18.452305,
-          -66.047961
-        ],
-        [
-          18.452286,
-          -66.04797
-        ],
-        [
-          18.452286,
-          -66.047951
-        ],
-        [
-          18.4481,
-          -66.04774
-        ],
-        [
-          18.431991,
-          -66.012863
-        ],
-        [
-          18.380963,
-          -65.975764
-        ],
-        [
-          18.360178,
-          -65.911514
-        ],
-        [
-          18.368596,
-          -65.841011
-        ],
-        [
-          18.375131,
-          -65.808314
-        ],
-        [
-          18.374866,
-          -65.758251
-        ],
-        [
-          18.37834,
-          -65.720166
-        ],
-        [
-          18.349376,
-          -65.678626
-        ],
-        [
-          18.346091,
-          -65.673058
-        ],
-        [
-          18.346091,
-          -65.673058
-        ],
-        [
-          18.338771,
-          -65.657015
-        ],
-        [
-          18.338771,
-          -65.657015
-        ],
-        [
-          18.33348,
-          -65.646241
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "departure": "2026-08-14 07:54:56",
-      "arrival": "2026-08-14 08:02:34",
-      "duration_min": 7.6,
-      "origin": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "destination": "Guaynabo, Puerto Rico, 00971",
-      "origin_lat": 18.353156,
-      "origin_lng": -66.082335,
-      "destination_lat": 18.364561,
-      "destination_lng": -66.098373,
-      "miles": 1.84,
-      "straight_miles": 1.31,
-      "efficiency_ratio": 1.4,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.4x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 1.8 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.07,
-      "route_points": [
-        [
-          18.353156,
-          -66.082335
-        ],
-        [
-          18.353156,
-          -66.082335
-        ],
-        [
-          18.35317,
-          -66.082336
-        ],
-        [
-          18.35317,
-          -66.082336
-        ],
-        [
-          18.356255,
-          -66.083508
-        ],
-        [
-          18.356255,
-          -66.083508
-        ],
-        [
-          18.357383,
-          -66.084966
-        ],
-        [
-          18.357383,
-          -66.084966
-        ],
-        [
-          18.364561,
-          -66.098373
-        ],
-        [
-          18.364561,
-          -66.098373
-        ],
-        [
-          18.364561,
-          -66.098373
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 07:55:58",
-      "arrival": "2026-08-14 08:51:12",
-      "duration_min": 55.2,
-      "origin": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "destination": "Calle 21 (Residential), Dorado, Puerto Rico, 00646",
-      "origin_lat": 18.442023,
-      "origin_lng": -66.285619,
-      "destination_lat": 18.450106,
-      "destination_lng": -66.307183,
-      "miles": 2.49,
-      "straight_miles": 1.52,
-      "efficiency_ratio": 1.64,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.64x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 2.1 mi o menos; posible ahorro 0.4 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.44,
-      "route_points": [
-        [
-          18.442023,
-          -66.285619
-        ],
-        [
-          18.442023,
-          -66.285619
-        ],
-        [
-          18.451706,
-          -66.293645
-        ],
-        [
-          18.453173,
-          -66.292441
-        ],
-        [
-          18.453173,
-          -66.292441
-        ],
-        [
-          18.453163,
-          -66.292445
-        ],
-        [
-          18.453163,
-          -66.292445
-        ],
-        [
-          18.453155,
-          -66.292453
-        ],
-        [
-          18.453155,
-          -66.292453
-        ],
-        [
-          18.453168,
-          -66.292464
-        ],
-        [
-          18.453168,
-          -66.292463
-        ],
-        [
-          18.453168,
-          -66.292463
-        ],
-        [
-          18.453163,
-          -66.292463
-        ],
-        [
-          18.453155,
-          -66.292455
-        ],
-        [
-          18.453155,
-          -66.292451
-        ],
-        [
-          18.452301,
-          -66.293528
-        ],
-        [
-          18.450046,
-          -66.307141
-        ],
-        [
-          18.450106,
-          -66.307183
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -36052,231 +35616,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:43:44",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.48186,
-      "lng": -66.82791
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:43:45",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.48186,
-      "lng": -66.82791
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 07:45:17",
-      "place": "Carretera 8829 (Tertiary, PR-8829), Bayamon, Puerto Rico, 00956",
-      "speed": 0.9,
-      "lat": 18.310213,
-      "lng": -66.18076
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 07:45:18",
-      "place": "Carretera 8829 (Tertiary, PR-8829), Bayamon, Puerto Rico, 00956",
-      "speed": 0.9,
-      "lat": 18.310213,
-      "lng": -66.18076
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 07:49:46",
-      "place": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.442011,
-      "lng": -66.285478
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 07:49:48",
-      "place": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.442011,
-      "lng": -66.285478
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:52:43",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.481866,
-      "lng": -66.827898
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:52:45",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.481866,
-      "lng": -66.827898
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 07:54:23",
-      "place": "Luis Llorens Torres (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00913",
-      "speed": 0.0,
-      "lat": 18.44789,
-      "lng": -66.047844
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 07:54:24",
-      "place": "Luis Llorens Torres (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00913",
-      "speed": 0.0,
-      "lat": 18.44789,
-      "lng": -66.047844
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:54:55",
-      "place": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.353156,
-      "lng": -66.082335
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:54:56",
-      "place": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.353156,
-      "lng": -66.082335
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 07:55:57",
-      "place": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.442023,
-      "lng": -66.285619
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 07:55:58",
-      "place": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.442023,
-      "lng": -66.285619
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "time": "2026-08-14 07:56:24",
-      "place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.4827233,
-      "lng": -66.428765
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:56:35",
-      "place": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.35317,
-      "lng": -66.082336
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:56:36",
-      "place": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.35317,
-      "lng": -66.082336
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:57:11",
-      "place": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.356255,
-      "lng": -66.083508
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:57:12",
-      "place": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.356255,
-      "lng": -66.083508
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 07:57:40",
-      "place": "Boulevard Carlos Bernier Rodríguez (Secondary, PR-149), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.042601,
-      "lng": -66.510116
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 07:57:41",
-      "place": "Boulevard Carlos Bernier Rodríguez (Secondary, PR-149), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.042601,
-      "lng": -66.510116
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 07:57:45",
-      "place": "Parque Dr. José Celso Barbosa (Park), San Juan, Puerto Rico, 00911",
-      "speed": 0.0,
-      "lat": 18.452285,
-      "lng": -66.047973
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 07:57:46",
-      "place": "Parque Dr. José Celso Barbosa (Park), San Juan, Puerto Rico, 00911",
-      "speed": 0.0,
-      "lat": 18.452285,
-      "lng": -66.047973
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:58:21",
-      "place": "Av. Doña Felisa Rincón de Gautier (Primary, Carretera 199, PR-199), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.357383,
-      "lng": -66.084966
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:58:22",
-      "place": "Av. Doña Felisa Rincón de Gautier (Primary, Carretera 199, PR-199), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.357383,
-      "lng": -66.084966
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
