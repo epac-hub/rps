@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T03:27:35-04:00",
+  "generatedAt": "2026-08-22T03:56:15-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -190,7 +190,7 @@
       "trips": 69,
       "stops": 273,
       "miles": 588.1,
-      "speeding": 42,
+      "speeding": 41,
       "inefficient_routes": 8,
       "max_speed": 74.6
     },
@@ -202,9 +202,9 @@
       "last_seen": "2026-08-21 14:53:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 74,
-      "stops": 906,
+      "stops": 892,
       "miles": 626.8,
-      "speeding": 7,
+      "speeding": 6,
       "inefficient_routes": 19,
       "max_speed": 70.6
     },
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:10:05",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 96,
-      "stops": 627,
-      "miles": 697.8,
+      "trips": 95,
+      "stops": 615,
+      "miles": 691.9,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -230,7 +230,7 @@
       "last_seen": "2026-08-21 15:20:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 89,
-      "stops": 712,
+      "stops": 702,
       "miles": 552.0,
       "speeding": 1,
       "inefficient_routes": 26,
@@ -257,215 +257,15 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 47,
-      "stops": 419,
-      "miles": 260.5,
+      "trips": 46,
+      "stops": 407,
+      "miles": 244.4,
       "speeding": 0,
       "inefficient_routes": 10,
       "max_speed": 0
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-08-14 03:26:45",
-      "arrival": "2026-08-14 03:59:06",
-      "duration_min": 32.4,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "PR-638 (Tertiary), Arecibo, Puerto Rico, 00616",
-      "origin_lat": 18.424546,
-      "origin_lng": -66.475531,
-      "destination_lat": 18.425096,
-      "destination_lng": -66.658815,
-      "miles": 16.11,
-      "straight_miles": 12.01,
-      "efficiency_ratio": 1.34,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.34x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424546,
-          -66.475531
-        ],
-        [
-          18.424546,
-          -66.475531
-        ],
-        [
-          18.424546,
-          -66.475531
-        ],
-        [
-          18.424526,
-          -66.475451
-        ],
-        [
-          18.424526,
-          -66.475451
-        ],
-        [
-          18.430806,
-          -66.475041
-        ],
-        [
-          18.430806,
-          -66.475041
-        ],
-        [
-          18.432345,
-          -66.475476
-        ],
-        [
-          18.432345,
-          -66.475476
-        ],
-        [
-          18.447285,
-          -66.519578
-        ],
-        [
-          18.436633,
-          -66.602261
-        ],
-        [
-          18.441586,
-          -66.629585
-        ],
-        [
-          18.441586,
-          -66.629585
-        ],
-        [
-          18.435303,
-          -66.6212
-        ],
-        [
-          18.435303,
-          -66.6212
-        ],
-        [
-          18.423236,
-          -66.648813
-        ],
-        [
-          18.42528,
-          -66.658739
-        ],
-        [
-          18.42528,
-          -66.658739
-        ],
-        [
-          18.425098,
-          -66.658816
-        ],
-        [
-          18.425098,
-          -66.658816
-        ],
-        [
-          18.425096,
-          -66.658815
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 03:40:49",
-      "arrival": "2026-08-14 04:07:05",
-      "duration_min": 26.3,
-      "origin": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "destination": "Calle B (Residential), Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.436273,
-      "origin_lng": -66.463108,
-      "destination_lat": 18.433391,
-      "destination_lng": -66.392443,
-      "miles": 5.93,
-      "straight_miles": 4.64,
-      "efficiency_ratio": 1.28,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.28x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.436273,
-          -66.463108
-        ],
-        [
-          18.436273,
-          -66.463108
-        ],
-        [
-          18.436273,
-          -66.463108
-        ],
-        [
-          18.43759,
-          -66.45873
-        ],
-        [
-          18.43759,
-          -66.45873
-        ],
-        [
-          18.441743,
-          -66.426334
-        ],
-        [
-          18.441741,
-          -66.426334
-        ],
-        [
-          18.441741,
-          -66.426334
-        ],
-        [
-          18.440185,
-          -66.424226
-        ],
-        [
-          18.440185,
-          -66.424226
-        ],
-        [
-          18.431961,
-          -66.420593
-        ],
-        [
-          18.431961,
-          -66.420593
-        ],
-        [
-          18.435485,
-          -66.407665
-        ],
-        [
-          18.433431,
-          -66.392428
-        ],
-        [
-          18.433431,
-          -66.392428
-        ],
-        [
-          18.433391,
-          -66.392443
-        ],
-        [
-          18.433391,
-          -66.392443
-        ],
-        [
-          18.433391,
-          -66.392443
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
@@ -38729,438 +38529,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:26:45",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424546,
-      "lng": -66.475531
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:26:46",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424546,
-      "lng": -66.475531
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:28:57",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.422428,
-      "lng": -66.319678
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:28:58",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.422428,
-      "lng": -66.319678
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:29:48",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424526,
-      "lng": -66.475451
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:29:49",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424526,
-      "lng": -66.475451
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:32:31",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.430806,
-      "lng": -66.475041
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:32:32",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.430806,
-      "lng": -66.475041
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:32:55",
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "speed": 0.2,
-      "lat": 18.436276,
-      "lng": -66.463108
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:32:56",
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "speed": 0.2,
-      "lat": 18.436276,
-      "lng": -66.463108
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:33:16",
-      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.425606,
-      "lng": -66.329841
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:33:17",
-      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.425606,
-      "lng": -66.329841
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:34:51",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.432345,
-      "lng": -66.475476
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:34:52",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.432345,
-      "lng": -66.475476
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:40:49",
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.436273,
-      "lng": -66.463108
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:40:50",
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.436273,
-      "lng": -66.463108
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:41:44",
-      "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.419176,
-      "lng": -66.175023
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:41:45",
-      "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.419176,
-      "lng": -66.175023
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:43:43",
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.43759,
-      "lng": -66.45873
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:43:45",
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.43759,
-      "lng": -66.45873
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:46:11",
-      "place": "Carretera Militar (Primary, PR-2), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.404478,
-      "lng": -66.223141
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:46:12",
-      "place": "Carretera Militar (Primary, PR-2), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.404478,
-      "lng": -66.223141
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:46:52",
-      "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
-      "speed": 0.9,
-      "lat": 18.419635,
-      "lng": -66.171833
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:46:53",
-      "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
-      "speed": 0.9,
-      "lat": 18.419635,
-      "lng": -66.171833
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:47:07",
-      "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.420133,
-      "lng": -66.168281
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:47:08",
-      "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.420133,
-      "lng": -66.168281
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:47:55",
-      "place": "PR-683 (Tertiary), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.441586,
-      "lng": -66.629585
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:47:56",
-      "place": "PR-683 (Tertiary), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.441586,
-      "lng": -66.629585
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:48:16",
-      "place": "Calle Colina Real (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.4051,
-      "lng": -66.222885
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:48:17",
-      "place": "Calle Colina Real (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.4051,
-      "lng": -66.222885
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:49:11",
-      "place": "Calle Colina Real (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.405883,
-      "lng": -66.22282
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:49:12",
-      "place": "Calle Colina Real (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.405883,
-      "lng": -66.22282
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:49:19",
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "speed": 0.1,
-      "lat": 18.441741,
-      "lng": -66.426334
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:49:20",
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "speed": 0.1,
-      "lat": 18.441741,
-      "lng": -66.426334
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:50:30",
-      "place": "Carretera Militar (Secondary, PR-2), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.435303,
-      "lng": -66.6212
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 03:50:31",
-      "place": "Carretera Militar (Secondary, PR-2), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.435303,
-      "lng": -66.6212
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:50:37",
-      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
-      "speed": 1.1,
-      "lat": 18.440185,
-      "lng": -66.424226
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:50:39",
-      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
-      "speed": 1.1,
-      "lat": 18.440185,
-      "lng": -66.424226
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:51:08",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.1,
-      "lat": 18.42278,
-      "lng": -66.1392
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:51:09",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.1,
-      "lat": 18.42278,
-      "lng": -66.1392
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:51:43",
-      "place": "Urbanización Las Colinas (Neighbourhood, residential, neighbourhood), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.408101,
-      "lng": -66.219273
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 03:51:44",
-      "place": "Urbanización Las Colinas (Neighbourhood, residential, neighbourhood), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.408101,
-      "lng": -66.219273
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:51:58",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.0,
-      "lat": 18.422808,
-      "lng": -66.137611
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:51:59",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.0,
-      "lat": 18.422808,
-      "lng": -66.137611
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:52:43",
-      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.431961,
-      "lng": -66.420593
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 03:52:44",
-      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
-      "speed": 0.0,
-      "lat": 18.431961,
-      "lng": -66.420593
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:54:34",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.9,
-      "lat": 18.422698,
-      "lng": -66.126841
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:54:35",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Guaynabo, Puerto Rico, 00966",
-      "speed": 0.9,
-      "lat": 18.422698,
-      "lng": -66.126841
-    },
-    {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "time": "2026-08-14 03:57:36",
@@ -74236,16 +73604,6 @@
       "lng": -66.314341
     },
     {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 03:42:32",
-      "speed": 68.1,
-      "over": 3.1,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617",
-      "lat": 18.443108,
-      "lng": -66.55255
-    },
-    {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "time": "2026-08-17 01:56:16",
@@ -74444,16 +73802,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
       "lat": 18.4471716,
       "lng": -66.5207216
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 03:26:19",
-      "speed": 65.8,
-      "over": 0.8,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "lat": 18.429891,
-      "lng": -66.346351
     },
     {
       "vehicle": "RPS 994-209 19 MD",
