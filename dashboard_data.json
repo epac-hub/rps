@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T09:27:11-04:00",
+  "generatedAt": "2026-08-22T09:53:10-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -79,10 +79,10 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-22 09:24:07",
-      "speed": 0.0,
+      "time": "2026-08-22 09:51:33",
+      "speed": 0.1,
       "ignition": "IGNITION ON",
-      "lat": 18.424655,
+      "lat": 18.424683,
       "lng": -66.475381,
       "place": "Residential, Manati, Puerto Rico, 00674"
     },
@@ -174,7 +174,7 @@
       "last_seen": "2026-08-22 07:17:36",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
       "trips": 74,
-      "stops": 266,
+      "stops": 262,
       "miles": 873.8,
       "speeding": 13,
       "inefficient_routes": 8,
@@ -202,7 +202,7 @@
       "last_seen": "2026-08-21 14:53:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 69,
-      "stops": 788,
+      "stops": 786,
       "miles": 556.5,
       "speeding": 1,
       "inefficient_routes": 17,
@@ -213,11 +213,11 @@
       "serial": "0470009727",
       "plate": "994-209",
       "current_status": "Detenido",
-      "last_seen": "2026-08-22 09:24:07",
+      "last_seen": "2026-08-22 09:51:33",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 87,
-      "stops": 555,
-      "miles": 649.0,
+      "trips": 86,
+      "stops": 551,
+      "miles": 645.2,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -229,9 +229,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 15:20:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 77,
-      "stops": 608,
-      "miles": 490.1,
+      "trips": 76,
+      "stops": 606,
+      "miles": 488.9,
       "speeding": 1,
       "inefficient_routes": 17,
       "max_speed": 67.5
@@ -257,177 +257,15 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 39,
-      "stops": 331,
-      "miles": 201.6,
+      "trips": 38,
+      "stops": 325,
+      "miles": 197.3,
       "speeding": 0,
-      "inefficient_routes": 6,
+      "inefficient_routes": 5,
       "max_speed": 0
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-08-14 09:27:38",
-      "arrival": "2026-08-14 09:43:31",
-      "duration_min": 15.9,
-      "origin": "Camino Carmen Nieves (Residential), Lares, Puerto Rico, 00669",
-      "destination": "Residential, Lares, Puerto Rico, 00669",
-      "origin_lat": 18.357687,
-      "origin_lng": -66.887529,
-      "destination_lat": 18.327051,
-      "destination_lng": -66.876763,
-      "miles": 4.31,
-      "straight_miles": 2.23,
-      "efficiency_ratio": 1.93,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.93x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 3.0 mi o menos; ahorro estimado 1.3 mi.",
-      "potential_saved_miles": 1.3,
-      "route_points": [
-        [
-          18.357687,
-          -66.887529
-        ],
-        [
-          18.357687,
-          -66.887529
-        ],
-        [
-          18.340358,
-          -66.884311
-        ],
-        [
-          18.31667,
-          -66.878871
-        ],
-        [
-          18.316671,
-          -66.878871
-        ],
-        [
-          18.316671,
-          -66.878871
-        ],
-        [
-          18.327051,
-          -66.876763
-        ],
-        [
-          18.327051,
-          -66.876763
-        ],
-        [
-          18.327051,
-          -66.876763
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-14 09:36:25",
-      "arrival": "2026-08-14 09:41:48",
-      "duration_min": 5.4,
-      "origin": "Residential, Toa Alta, Puerto Rico, 00953",
-      "destination": "Carretera Naranjito - Toa Alta (Secondary, PR-165), Toa Alta, Puerto Rico, 00953",
-      "origin_lat": 18.360456,
-      "origin_lng": -66.263841,
-      "destination_lat": 18.372481,
-      "destination_lng": -66.261611,
-      "miles": 1.16,
-      "straight_miles": 0.84,
-      "efficiency_ratio": 1.37,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.37x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 1.1 mi o menos; posible ahorro 0.0 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.02,
-      "route_points": [
-        [
-          18.36048,
-          -66.263825
-        ],
-        [
-          18.360456,
-          -66.263841
-        ],
-        [
-          18.36048,
-          -66.263825
-        ],
-        [
-          18.372471,
-          -66.261615
-        ],
-        [
-          18.372481,
-          -66.261611
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 09:37:43",
-      "arrival": "2026-08-14 10:01:44",
-      "duration_min": 24.0,
-      "origin": "Quintas de Dorado (Neighbourhood, residential, neighbourhood), Dorado, Puerto Rico, 00646",
-      "destination": "Track, Vega Alta, Puerto Rico, 00692",
-      "origin_lat": 18.466045,
-      "origin_lng": -66.2779,
-      "destination_lat": 18.466378,
-      "destination_lng": -66.321748,
-      "miles": 3.85,
-      "straight_miles": 2.87,
-      "efficiency_ratio": 1.34,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.34x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.465988,
-          -66.277886
-        ],
-        [
-          18.466045,
-          -66.2779
-        ],
-        [
-          18.465988,
-          -66.277886
-        ],
-        [
-          18.465948,
-          -66.276516
-        ],
-        [
-          18.465948,
-          -66.276516
-        ],
-        [
-          18.465576,
-          -66.288933
-        ],
-        [
-          18.470041,
-          -66.321569
-        ],
-        [
-          18.469145,
-          -66.321533
-        ],
-        [
-          18.466378,
-          -66.321748
-        ],
-        [
-          18.466378,
-          -66.321748
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -34976,168 +34814,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 09:26:11",
-      "place": "Carretera Central (Tertiary, Carretera 14, PR-14), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.052388,
-      "lng": -66.509591
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 09:26:12",
-      "place": "Carretera Central (Tertiary, Carretera 14, PR-14), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.052388,
-      "lng": -66.509591
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 09:27:37",
-      "place": "Camino Carmen Nieves (Residential), Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.357687,
-      "lng": -66.887529
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 09:27:38",
-      "place": "Camino Carmen Nieves (Residential), Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.357687,
-      "lng": -66.887529
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 09:36:25",
-      "place": "Residential, Toa Alta, Puerto Rico, 00953",
-      "speed": 0.2,
-      "lat": 18.36048,
-      "lng": -66.263825
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 09:36:26",
-      "place": "Residential, Toa Alta, Puerto Rico, 00953",
-      "speed": 0.2,
-      "lat": 18.36048,
-      "lng": -66.263825
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:37:43",
-      "place": "Quintas de Dorado (Neighbourhood, residential, neighbourhood), Dorado, Puerto Rico, 00646",
-      "speed": 0.3,
-      "lat": 18.465988,
-      "lng": -66.277886
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:37:44",
-      "place": "Quintas de Dorado (Neighbourhood, residential, neighbourhood), Dorado, Puerto Rico, 00646",
-      "speed": 0.3,
-      "lat": 18.465988,
-      "lng": -66.277886
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 09:38:18",
-      "place": "PR-453 (Tertiary), Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.316671,
-      "lng": -66.878871
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 09:38:19",
-      "place": "PR-453 (Tertiary), Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.316671,
-      "lng": -66.878871
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 09:39:13",
-      "place": "Avenida Regimiento 65 de Infantería (Trunk, PR-3), Fajardo, Puerto Rico, 00738",
-      "speed": 0.0,
-      "lat": 18.346091,
-      "lng": -65.673058
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 09:39:14",
-      "place": "Avenida Regimiento 65 de Infantería (Trunk, PR-3), Fajardo, Puerto Rico, 00738",
-      "speed": 0.0,
-      "lat": 18.346091,
-      "lng": -65.673058
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:40:20",
-      "place": "Quintas de Dorado (Neighbourhood, residential, neighbourhood), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.465948,
-      "lng": -66.276516
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:40:22",
-      "place": "Quintas de Dorado (Neighbourhood, residential, neighbourhood), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.465948,
-      "lng": -66.276516
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 09:43:22",
-      "place": "Residential, Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.327051,
-      "lng": -66.876763
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 09:43:23",
-      "place": "Residential, Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.327051,
-      "lng": -66.876763
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 09:43:52",
-      "place": "Avenida General Antonio Valero de Bernabé (Secondary, Carretera 194, PR-194), Fajardo, Puerto Rico, 00738",
-      "speed": 0.0,
-      "lat": 18.338771,
-      "lng": -65.657015
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 09:43:53",
-      "place": "Avenida General Antonio Valero de Bernabé (Secondary, Carretera 194, PR-194), Fajardo, Puerto Rico, 00738",
-      "speed": 0.0,
-      "lat": 18.338771,
-      "lng": -65.657015
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
