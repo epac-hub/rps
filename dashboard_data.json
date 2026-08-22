@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T10:57:49-04:00",
+  "generatedAt": "2026-08-22T11:22:24-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -91,11 +91,11 @@
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-22 10:33:40",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.424773,
-      "lng": -66.47534,
+      "time": "2026-08-22 11:19:22",
+      "speed": 0.2,
+      "ignition": "IGNITION ON",
+      "lat": 18.425006,
+      "lng": -66.475193,
       "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
@@ -159,9 +159,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:08:10",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 37,
-      "stops": 220,
-      "miles": 348.6,
+      "trips": 36,
+      "stops": 216,
+      "miles": 324.5,
       "speeding": 29,
       "inefficient_routes": 3,
       "max_speed": 71.9
@@ -174,7 +174,7 @@
       "last_seen": "2026-08-22 07:17:36",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
       "trips": 72,
-      "stops": 256,
+      "stops": 254,
       "miles": 837.7,
       "speeding": 13,
       "inefficient_routes": 8,
@@ -202,7 +202,7 @@
       "last_seen": "2026-08-21 14:53:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 68,
-      "stops": 786,
+      "stops": 780,
       "miles": 505.7,
       "speeding": 1,
       "inefficient_routes": 16,
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-22 10:13:20",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 86,
+      "trips": 85,
       "stops": 551,
-      "miles": 640.2,
+      "miles": 627.6,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -227,10 +227,10 @@
       "serial": "0470009726",
       "plate": "996-332",
       "current_status": "Detenido",
-      "last_seen": "2026-08-22 10:33:40",
+      "last_seen": "2026-08-22 11:19:22",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 76,
-      "stops": 600,
+      "trips": 75,
+      "stops": 602,
       "miles": 467.6,
       "speeding": 1,
       "inefficient_routes": 17,
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 35,
-      "stops": 310,
+      "stops": 298,
       "miles": 157.8,
       "speeding": 0,
       "inefficient_routes": 5,
@@ -266,244 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-14 11:04:30",
-      "arrival": "2026-08-14 11:09:47",
-      "duration_min": 5.3,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.424738,
-      "origin_lng": -66.475455,
-      "destination_lat": 18.424462,
-      "destination_lng": -66.475434,
-      "miles": 0.04,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.424738,
-          -66.475455
-        ],
-        [
-          18.424738,
-          -66.475455
-        ],
-        [
-          18.424738,
-          -66.475455
-        ],
-        [
-          18.42446,
-          -66.475433
-        ],
-        [
-          18.42446,
-          -66.475433
-        ],
-        [
-          18.424462,
-          -66.475434
-        ],
-        [
-          18.424462,
-          -66.475434
-        ],
-        [
-          18.424462,
-          -66.475434
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 11:05:16",
-      "arrival": "2026-08-14 11:32:14",
-      "duration_min": 27.0,
-      "origin": "Residential, Vega Alta, Puerto Rico, 00692",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.435921,
-      "origin_lng": -66.334488,
-      "destination_lat": 18.424741,
-      "destination_lng": -66.47544,
-      "miles": 12.52,
-      "straight_miles": 9.27,
-      "efficiency_ratio": 1.35,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.35x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.435921,
-          -66.334488
-        ],
-        [
-          18.430533,
-          -66.345815
-        ],
-        [
-          18.427756,
-          -66.37202
-        ],
-        [
-          18.429178,
-          -66.377621
-        ],
-        [
-          18.433261,
-          -66.475865
-        ],
-        [
-          18.433261,
-          -66.475865
-        ],
-        [
-          18.433261,
-          -66.475865
-        ],
-        [
-          18.431601,
-          -66.475321
-        ],
-        [
-          18.431601,
-          -66.475321
-        ],
-        [
-          18.424741,
-          -66.47544
-        ],
-        [
-          18.424741,
-          -66.47544
-        ],
-        [
-          18.424741,
-          -66.47544
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "departure": "2026-08-14 11:10:11",
-      "arrival": "2026-08-14 12:31:51",
-      "duration_min": 81.7,
-      "origin": "Urbanización Santa Elena (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00957",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.38652,
-      "origin_lng": -66.191488,
-      "destination_lat": 18.424375,
-      "destination_lng": -66.475593,
-      "miles": 24.17,
-      "straight_miles": 18.81,
-      "efficiency_ratio": 1.29,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.29x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.38652,
-          -66.191488
-        ],
-        [
-          18.38652,
-          -66.191488
-        ],
-        [
-          18.386553,
-          -66.191505
-        ],
-        [
-          18.386553,
-          -66.191505
-        ],
-        [
-          18.380628,
-          -66.191528
-        ],
-        [
-          18.388988,
-          -66.197405
-        ],
-        [
-          18.389511,
-          -66.19734
-        ],
-        [
-          18.389511,
-          -66.19734
-        ],
-        [
-          18.395565,
-          -66.203161
-        ],
-        [
-          18.404185,
-          -66.20766
-        ],
-        [
-          18.403836,
-          -66.218774
-        ],
-        [
-          18.411476,
-          -66.238696
-        ],
-        [
-          18.411476,
-          -66.238696
-        ],
-        [
-          18.418736,
-          -66.255188
-        ],
-        [
-          18.419176,
-          -66.261566
-        ],
-        [
-          18.423003,
-          -66.273484
-        ],
-        [
-          18.43191,
-          -66.340553
-        ],
-        [
-          18.42838,
-          -66.375096
-        ],
-        [
-          18.445276,
-          -66.45501
-        ],
-        [
-          18.433185,
-          -66.47584
-        ],
-        [
-          18.424376,
-          -66.475591
-        ],
-        [
-          18.424376,
-          -66.475591
-        ],
-        [
-          18.424375,
-          -66.475593
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
@@ -34179,276 +33941,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 10:59:06",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.348716,
-      "lng": -66.827421
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 10:59:07",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.348716,
-      "lng": -66.827421
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 11:00:34",
-      "place": "Carretera Morovis - Orocovis (Secondary, State Route 155, PR-155), Morovis, PR:Orocovis, PR, 00687, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.270536,
-      "lng": -66.397821
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 11:00:35",
-      "place": "Carretera Morovis - Orocovis (Secondary, State Route 155, PR-155), Morovis, PR:Orocovis, PR, 00687, Puerto Rico",
-      "speed": 0.0,
-      "lat": 18.270536,
-      "lng": -66.397821
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:03:21",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.360456,
-      "lng": -66.802733
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:03:22",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.360456,
-      "lng": -66.802733
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 11:04:30",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424738,
-      "lng": -66.475455
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 11:04:31",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424738,
-      "lng": -66.475455
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:06:21",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.36046,
-      "lng": -66.802727
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:06:22",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.36046,
-      "lng": -66.802727
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 11:06:26",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.42446,
-      "lng": -66.475433
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 11:06:28",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.42446,
-      "lng": -66.475433
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 11:09:27",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424462,
-      "lng": -66.475434
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 11:09:28",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.424462,
-      "lng": -66.475434
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 11:10:10",
-      "place": "Urbanización Santa Elena (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00957",
-      "speed": 0.0,
-      "lat": 18.38652,
-      "lng": -66.191488
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 11:10:11",
-      "place": "Urbanización Santa Elena (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00957",
-      "speed": 0.0,
-      "lat": 18.38652,
-      "lng": -66.191488
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 11:12:52",
-      "place": "Carretera Morovis - Orocovis (Secondary, PR-155), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.307633,
-      "lng": -66.409311
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 11:12:53",
-      "place": "Carretera Morovis - Orocovis (Secondary, PR-155), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.307633,
-      "lng": -66.409311
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 11:13:10",
-      "place": "Urbanización Santa Elena (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00957",
-      "speed": 0.0,
-      "lat": 18.386553,
-      "lng": -66.191505
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 11:13:12",
-      "place": "Urbanización Santa Elena (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00957",
-      "speed": 0.0,
-      "lat": 18.386553,
-      "lng": -66.191505
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 11:13:17",
-      "place": "Avenida Luis M. Castro Díaz (Tertiary, PR-906), Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.089636,
-      "lng": -65.847269
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 11:13:18",
-      "place": "Avenida Luis M. Castro Díaz (Tertiary, PR-906), Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.089636,
-      "lng": -65.847269
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:15:26",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.406231,
-      "lng": -66.775436
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:15:27",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.406231,
-      "lng": -66.775436
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:16:25",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.407735,
-      "lng": -66.774481
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:16:27",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.407735,
-      "lng": -66.774481
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 11:16:59",
-      "place": "Camino Río Grande (Tertiary, PR-617), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.32201,
-      "lng": -66.411975
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 11:17:00",
-      "place": "Camino Río Grande (Tertiary, PR-617), Morovis, Puerto Rico, 00687",
-      "speed": 0.0,
-      "lat": 18.32201,
-      "lng": -66.411975
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:19:26",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.407731,
-      "lng": -66.774483
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 11:19:27",
-      "place": "Carretera Mariana Bracetti (Secondary, PR-129), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.407731,
-      "lng": -66.774483
-    },
-    {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "time": "2026-08-14 11:26:16",
@@ -63472,6 +62964,78 @@
       "speed": 0.0,
       "lat": 18.424755,
       "lng": -66.475323
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-22 07:01:18",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424745,
+      "lng": -66.475288
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-22 07:01:20",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424745,
+      "lng": -66.475288
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-22 07:04:18",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424827,
+      "lng": -66.475457
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-22 07:04:20",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.424827,
+      "lng": -66.475457
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-22 07:10:18",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.3,
+      "lat": 18.424738,
+      "lng": -66.475591
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-22 07:10:20",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.3,
+      "lat": 18.424738,
+      "lng": -66.475591
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-22 07:19:21",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.2,
+      "lat": 18.425006,
+      "lng": -66.475193
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-22 07:19:22",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.2,
+      "lat": 18.425006,
+      "lng": -66.475193
     }
   ],
   "speeding": [
