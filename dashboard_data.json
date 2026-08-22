@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T06:39:33-04:00",
+  "generatedAt": "2026-08-22T06:58:58-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -160,7 +160,7 @@
       "last_seen": "2026-08-21 16:08:10",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 41,
-      "stops": 262,
+      "stops": 254,
       "miles": 361.6,
       "speeding": 29,
       "inefficient_routes": 3,
@@ -174,7 +174,7 @@
       "last_seen": "2026-08-21 18:56:20",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
       "trips": 75,
-      "stops": 278,
+      "stops": 274,
       "miles": 914.8,
       "speeding": 13,
       "inefficient_routes": 9,
@@ -188,7 +188,7 @@
       "last_seen": "2026-08-21 15:16:55",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 66,
-      "stops": 265,
+      "stops": 261,
       "miles": 548.6,
       "speeding": 40,
       "inefficient_routes": 8,
@@ -201,9 +201,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 14:53:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 73,
-      "stops": 826,
-      "miles": 621.7,
+      "trips": 72,
+      "stops": 822,
+      "miles": 612.0,
       "speeding": 2,
       "inefficient_routes": 19,
       "max_speed": 67.1
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:10:05",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 91,
-      "stops": 577,
-      "miles": 668.2,
+      "trips": 90,
+      "stops": 575,
+      "miles": 660.0,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -229,11 +229,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 15:20:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 82,
-      "stops": 636,
-      "miles": 522.9,
+      "trips": 81,
+      "stops": 634,
+      "miles": 516.8,
       "speeding": 1,
-      "inefficient_routes": 22,
+      "inefficient_routes": 21,
       "max_speed": 67.5
     },
     {
@@ -257,263 +257,15 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 42,
-      "stops": 363,
-      "miles": 226.9,
+      "trips": 41,
+      "stops": 359,
+      "miles": 222.0,
       "speeding": 0,
-      "inefficient_routes": 9,
+      "inefficient_routes": 8,
       "max_speed": 0
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 06:40:28",
-      "arrival": "2026-08-14 07:11:35",
-      "duration_min": 31.1,
-      "origin": "Calle Amapola (Residential), Vega Alta, Puerto Rico, 00692",
-      "destination": "Calle Jazmín (Calle E) (Residential), Dorado, Puerto Rico, 00646",
-      "origin_lat": 18.359216,
-      "origin_lng": -66.368414,
-      "destination_lat": 18.403603,
-      "destination_lng": -66.300979,
-      "miles": 8.27,
-      "straight_miles": 5.38,
-      "efficiency_ratio": 1.54,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.54x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 7.3 mi o menos; posible ahorro 1.0 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 1.01,
-      "route_points": [
-        [
-          18.359216,
-          -66.368414
-        ],
-        [
-          18.359216,
-          -66.368414
-        ],
-        [
-          18.36145,
-          -66.364666
-        ],
-        [
-          18.379543,
-          -66.357738
-        ],
-        [
-          18.397148,
-          -66.344363
-        ],
-        [
-          18.412541,
-          -66.327185
-        ],
-        [
-          18.413238,
-          -66.319518
-        ],
-        [
-          18.413238,
-          -66.319518
-        ],
-        [
-          18.413868,
-          -66.313103
-        ],
-        [
-          18.413868,
-          -66.313103
-        ],
-        [
-          18.413236,
-          -66.307946
-        ],
-        [
-          18.413236,
-          -66.307946
-        ],
-        [
-          18.403603,
-          -66.300979
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-08-14 06:45:06",
-      "arrival": "2026-08-14 07:04:51",
-      "duration_min": 19.8,
-      "origin": "Plaza del Mar (Retail, retail), Hatillo, Puerto Rico, 00659",
-      "destination": "Calle E (Residential), Hatillo, Puerto Rico, 00659",
-      "origin_lat": 18.485146,
-      "origin_lng": -66.794243,
-      "destination_lat": 18.457481,
-      "destination_lng": -66.812728,
-      "miles": 4.82,
-      "straight_miles": 2.26,
-      "efficiency_ratio": 2.13,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.13x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 3.1 mi o menos; ahorro estimado 1.8 mi.",
-      "potential_saved_miles": 1.76,
-      "route_points": [
-        [
-          18.485146,
-          -66.794243
-        ],
-        [
-          18.485146,
-          -66.794243
-        ],
-        [
-          18.485146,
-          -66.794243
-        ],
-        [
-          18.485146,
-          -66.794243
-        ],
-        [
-          18.487376,
-          -66.800394
-        ],
-        [
-          18.474293,
-          -66.816596
-        ],
-        [
-          18.457071,
-          -66.812659
-        ],
-        [
-          18.457481,
-          -66.812728
-        ],
-        [
-          18.457481,
-          -66.812728
-        ],
-        [
-          18.457481,
-          -66.812728
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-14 06:53:02",
-      "arrival": "2026-08-14 07:14:32",
-      "duration_min": 21.5,
-      "origin": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
-      "destination": "Residential, Bayamon, Puerto Rico, 00956",
-      "origin_lat": 18.383983,
-      "origin_lng": -66.166223,
-      "destination_lat": 18.344748,
-      "destination_lng": -66.167223,
-      "miles": 6.07,
-      "straight_miles": 2.71,
-      "efficiency_ratio": 2.24,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.24x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 3.7 mi o menos; ahorro estimado 2.4 mi.",
-      "potential_saved_miles": 2.41,
-      "route_points": [
-        [
-          18.383983,
-          -66.166223
-        ],
-        [
-          18.383983,
-          -66.166223
-        ],
-        [
-          18.383983,
-          -66.166223
-        ],
-        [
-          18.36854,
-          -66.166426
-        ],
-        [
-          18.353788,
-          -66.183228
-        ],
-        [
-          18.352608,
-          -66.18342
-        ],
-        [
-          18.352608,
-          -66.18342
-        ],
-        [
-          18.345543,
-          -66.173696
-        ],
-        [
-          18.344748,
-          -66.167223
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-08-14 06:56:33",
-      "arrival": "2026-08-14 07:19:27",
-      "duration_min": 22.9,
-      "origin": "Calle Vista al Mar (Residential), Santa Isabel, Puerto Rico, 00757",
-      "destination": "Calle 10 (Residential), Coamo, Puerto Rico, 00769",
-      "origin_lat": 17.974928,
-      "origin_lng": -66.344038,
-      "destination_lat": 18.071908,
-      "destination_lng": -66.32297,
-      "miles": 9.71,
-      "straight_miles": 6.84,
-      "efficiency_ratio": 1.42,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.42x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 9.2 mi o menos; posible ahorro 0.5 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.48,
-      "route_points": [
-        [
-          17.974928,
-          -66.344038
-        ],
-        [
-          17.974928,
-          -66.344038
-        ],
-        [
-          17.978105,
-          -66.343716
-        ],
-        [
-          17.978105,
-          -66.343716
-        ],
-        [
-          18.011031,
-          -66.333713
-        ],
-        [
-          18.067281,
-          -66.32263
-        ],
-        [
-          18.067281,
-          -66.32263
-        ],
-        [
-          18.071908,
-          -66.32297
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -36782,258 +36534,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 06:40:27",
-      "place": "Calle Amapola (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.359216,
-      "lng": -66.368414
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 06:40:28",
-      "place": "Calle Amapola (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.359216,
-      "lng": -66.368414
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:43:21",
-      "place": "Carretera Salinas - Santa Isabel (Primary, PR-1), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.97823,
-      "lng": -66.342761
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:43:22",
-      "place": "Carretera Salinas - Santa Isabel (Primary, PR-1), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.97823,
-      "lng": -66.342761
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 06:45:05",
-      "place": "Plaza del Mar (Retail, retail), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.485146,
-      "lng": -66.794243
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 06:45:06",
-      "place": "Plaza del Mar (Retail, retail), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.485146,
-      "lng": -66.794243
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 06:45:47",
-      "place": "3 Calle Manuel F Rossy, Calle Manuel F Rossy, Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.39753,
-      "lng": -66.154695
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 06:45:48",
-      "place": "3 Calle Manuel F Rossy, Calle Manuel F Rossy, Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.39753,
-      "lng": -66.154695
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 06:48:05",
-      "place": "Plaza del Mar (Retail, retail), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.485146,
-      "lng": -66.794243
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 06:48:06",
-      "place": "Plaza del Mar (Retail, retail), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.485146,
-      "lng": -66.794243
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 06:50:10",
-      "place": "Parking, Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.397191,
-      "lng": -66.154411
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 06:50:11",
-      "place": "Parking, Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.397191,
-      "lng": -66.154411
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 06:51:00",
-      "place": "Urbanización Santa Rita (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00925",
-      "speed": 0.0,
-      "lat": 18.402698,
-      "lng": -66.053985
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 06:51:01",
-      "place": "Urbanización Santa Rita (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00925",
-      "speed": 0.0,
-      "lat": 18.402698,
-      "lng": -66.053985
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 06:53:02",
-      "place": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
-      "speed": 0.0,
-      "lat": 18.383983,
-      "lng": -66.166223
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 06:53:03",
-      "place": "Urbanización Extensión Forest Hills (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
-      "speed": 0.0,
-      "lat": 18.383983,
-      "lng": -66.166223
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 06:54:00",
-      "place": "Urbanización Santa Rita (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00925",
-      "speed": 0.0,
-      "lat": 18.402705,
-      "lng": -66.053983
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 06:54:01",
-      "place": "Urbanización Santa Rita (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00925",
-      "speed": 0.0,
-      "lat": 18.402705,
-      "lng": -66.053983
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:54:42",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415773,
-      "lng": -66.05752
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:54:43",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415773,
-      "lng": -66.05752
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:55:28",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415773,
-      "lng": -66.05752
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:55:29",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415773,
-      "lng": -66.05752
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:55:34",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415773,
-      "lng": -66.05752
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:55:35",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415773,
-      "lng": -66.05752
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:55:40",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415773,
-      "lng": -66.05752
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:55:41",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415773,
-      "lng": -66.05752
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:56:32",
-      "place": "Calle Vista al Mar (Residential), Santa Isabel, Puerto Rico, 00757",
-      "speed": 0.0,
-      "lat": 17.974928,
-      "lng": -66.344038
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:56:34",
-      "place": "Calle Vista al Mar (Residential), Santa Isabel, Puerto Rico, 00757",
-      "speed": 0.0,
-      "lat": 17.974928,
-      "lng": -66.344038
-    },
     {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
