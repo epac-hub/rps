@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T05:52:06-04:00",
+  "generatedAt": "2026-08-22T06:10:33-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -160,7 +160,7 @@
       "last_seen": "2026-08-21 16:08:10",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 41,
-      "stops": 268,
+      "stops": 262,
       "miles": 361.6,
       "speeding": 29,
       "inefficient_routes": 3,
@@ -174,7 +174,7 @@
       "last_seen": "2026-08-21 18:56:20",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
       "trips": 76,
-      "stops": 286,
+      "stops": 284,
       "miles": 924.1,
       "speeding": 13,
       "inefficient_routes": 9,
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 15:16:55",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 68,
-      "stops": 269,
-      "miles": 559.9,
+      "trips": 67,
+      "stops": 267,
+      "miles": 555.1,
       "speeding": 40,
       "inefficient_routes": 8,
       "max_speed": 74.6
@@ -202,7 +202,7 @@
       "last_seen": "2026-08-21 14:53:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 74,
-      "stops": 856,
+      "stops": 838,
       "miles": 626.8,
       "speeding": 2,
       "inefficient_routes": 19,
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:10:05",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 92,
-      "stops": 581,
-      "miles": 676.9,
+      "trips": 91,
+      "stops": 579,
+      "miles": 668.2,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -229,9 +229,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 15:20:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 84,
-      "stops": 660,
-      "miles": 534.2,
+      "trips": 83,
+      "stops": 650,
+      "miles": 529.4,
       "speeding": 1,
       "inefficient_routes": 23,
       "max_speed": 67.5
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 43,
-      "stops": 385,
+      "stops": 381,
       "miles": 234.0,
       "speeding": 0,
       "inefficient_routes": 10,
@@ -266,220 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-14 05:51:44",
-      "arrival": "2026-08-14 06:13:52",
-      "duration_min": 22.1,
-      "origin": "Calle Marginal (Residential), Bayamon, Puerto Rico, 00956",
-      "destination": "Urbanización Villas de Buena Vista (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00956",
-      "origin_lat": 18.383995,
-      "origin_lng": -66.166243,
-      "destination_lat": 18.335718,
-      "destination_lng": -66.199128,
-      "miles": 4.78,
-      "straight_miles": 3.97,
-      "efficiency_ratio": 1.2,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.2x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.383995,
-          -66.166243
-        ],
-        [
-          18.383995,
-          -66.166243
-        ],
-        [
-          18.383995,
-          -66.166243
-        ],
-        [
-          18.381495,
-          -66.169331
-        ],
-        [
-          18.361741,
-          -66.189458
-        ],
-        [
-          18.343036,
-          -66.195608
-        ],
-        [
-          18.336805,
-          -66.199291
-        ],
-        [
-          18.335718,
-          -66.199128
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 05:59:27",
-      "arrival": "2026-08-14 06:27:39",
-      "duration_min": 28.2,
-      "origin": "Calle 11 (Residential), Vega Alta, Puerto Rico, 00692",
-      "destination": "Calle Amapola (Residential), Vega Alta, Puerto Rico, 00692",
-      "origin_lat": 18.420103,
-      "origin_lng": -66.326259,
-      "destination_lat": 18.359215,
-      "destination_lng": -66.368413,
-      "miles": 8.68,
-      "straight_miles": 5.03,
-      "efficiency_ratio": 1.73,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.73x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 6.8 mi o menos; posible ahorro 1.9 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 1.89,
-      "route_points": [
-        [
-          18.420103,
-          -66.326259
-        ],
-        [
-          18.420103,
-          -66.326259
-        ],
-        [
-          18.416291,
-          -66.333063
-        ],
-        [
-          18.4095,
-          -66.338143
-        ],
-        [
-          18.389298,
-          -66.347966
-        ],
-        [
-          18.358621,
-          -66.368868
-        ],
-        [
-          18.359215,
-          -66.368413
-        ],
-        [
-          18.359215,
-          -66.368413
-        ],
-        [
-          18.359215,
-          -66.368413
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-14 05:59:29",
-      "arrival": "2026-08-14 06:23:32",
-      "duration_min": 24.1,
-      "origin": "Avenida Lagos de Plata (Residential), Toa Baja, Puerto Rico, 00949",
-      "destination": "Calle 3 (Residential), Bayamon, Puerto Rico, 00961",
-      "origin_lat": 18.451493,
-      "origin_lng": -66.192213,
-      "destination_lat": 18.415395,
-      "destination_lng": -66.173691,
-      "miles": 4.79,
-      "straight_miles": 2.77,
-      "efficiency_ratio": 1.73,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.73x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 3.7 mi o menos; posible ahorro 1.0 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 1.05,
-      "route_points": [
-        [
-          18.451435,
-          -66.192286
-        ],
-        [
-          18.451493,
-          -66.192213
-        ],
-        [
-          18.451435,
-          -66.192286
-        ],
-        [
-          18.437565,
-          -66.178931
-        ],
-        [
-          18.437565,
-          -66.178931
-        ],
-        [
-          18.437451,
-          -66.17304
-        ],
-        [
-          18.437451,
-          -66.17304
-        ],
-        [
-          18.430356,
-          -66.165708
-        ],
-        [
-          18.430356,
-          -66.165708
-        ],
-        [
-          18.426743,
-          -66.165161
-        ],
-        [
-          18.426743,
-          -66.165161
-        ],
-        [
-          18.416076,
-          -66.162478
-        ],
-        [
-          18.416076,
-          -66.162478
-        ],
-        [
-          18.415108,
-          -66.170978
-        ],
-        [
-          18.415108,
-          -66.170978
-        ],
-        [
-          18.415108,
-          -66.170976
-        ],
-        [
-          18.415108,
-          -66.170976
-        ],
-        [
-          18.415395,
-          -66.173693
-        ],
-        [
-          18.415395,
-          -66.173693
-        ],
-        [
-          18.415395,
-          -66.173691
-        ]
-      ]
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
@@ -37354,402 +37140,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:51:18",
-      "place": "Calle Villasol (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.963923,
-      "lng": -66.288946
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:51:19",
-      "place": "Calle Villasol (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.963923,
-      "lng": -66.288946
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 05:51:44",
-      "place": "Calle Marginal (Residential), Bayamon, Puerto Rico, 00956",
-      "speed": 0.0,
-      "lat": 18.383995,
-      "lng": -66.166243
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 05:51:45",
-      "place": "Calle Marginal (Residential), Bayamon, Puerto Rico, 00956",
-      "speed": 0.0,
-      "lat": 18.383995,
-      "lng": -66.166243
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 05:53:32",
-      "place": "Avenida San Luis (Primary, PR-129), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.465211,
-      "lng": -66.73497
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 05:53:33",
-      "place": "Avenida San Luis (Primary, PR-129), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.465211,
-      "lng": -66.73497
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:53:53",
-      "place": "Calle Villasol (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.964031,
-      "lng": -66.289575
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:53:54",
-      "place": "Calle Villasol (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.964031,
-      "lng": -66.289575
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 05:54:00",
-      "place": "Avenida Lagos de Plata (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.449666,
-      "lng": -66.18997
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 05:54:01",
-      "place": "Avenida Lagos de Plata (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.449666,
-      "lng": -66.18997
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 05:54:09",
-      "place": "Calle Santa Marta (Residential), Catano, Puerto Rico, 00962",
-      "speed": 0.1,
-      "lat": 18.435685,
-      "lng": -66.152726
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-14 05:54:10",
-      "place": "Calle Santa Marta (Residential), Catano, Puerto Rico, 00962",
-      "speed": 0.1,
-      "lat": 18.435685,
-      "lng": -66.152726
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:54:45",
-      "place": "Calle C (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.963503,
-      "lng": -66.289905
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:54:46",
-      "place": "Calle C (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.963503,
-      "lng": -66.289905
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 05:55:52",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415721,
-      "lng": -66.057676
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 05:55:53",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.0,
-      "lat": 18.415721,
-      "lng": -66.057676
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 05:56:29",
-      "place": "Avenida Lagos de Plata (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.451493,
-      "lng": -66.192213
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 05:56:30",
-      "place": "Avenida Lagos de Plata (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.451493,
-      "lng": -66.192213
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:56:48",
-      "place": "Calle D (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.1,
-      "lat": 17.964045,
-      "lng": -66.291974
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:56:49",
-      "place": "Calle D (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.1,
-      "lat": 17.964045,
-      "lng": -66.291974
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 05:56:52",
-      "place": "University Gardens (Residential, residential), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.468325,
-      "lng": -66.744211
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 05:56:53",
-      "place": "University Gardens (Residential, residential), Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.468325,
-      "lng": -66.744211
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 05:59:26",
-      "place": "Calle 11 (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.420103,
-      "lng": -66.326259
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 05:59:27",
-      "place": "Calle 11 (Residential), Vega Alta, Puerto Rico, 00692",
-      "speed": 0.0,
-      "lat": 18.420103,
-      "lng": -66.326259
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 05:59:29",
-      "place": "Avenida Lagos de Plata (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 1.1,
-      "lat": 18.451435,
-      "lng": -66.192286
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 05:59:30",
-      "place": "Avenida Lagos de Plata (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 1.1,
-      "lat": 18.451435,
-      "lng": -66.192286
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:59:48",
-      "place": "Calle D (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.964045,
-      "lng": -66.291961
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 05:59:49",
-      "place": "Calle D (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.964045,
-      "lng": -66.291961
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:01:00",
-      "place": "Calle D (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.964305,
-      "lng": -66.291884
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:01:01",
-      "place": "Calle D (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.964305,
-      "lng": -66.291884
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:02:33",
-      "place": "Calle Villasol (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.96448,
-      "lng": -66.292401
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:02:34",
-      "place": "Calle Villasol (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.96448,
-      "lng": -66.292401
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:02:42",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 8.1,
-      "lat": 18.41562,
-      "lng": -66.057606
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:02:43",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 8.1,
-      "lat": 18.41562,
-      "lng": -66.057606
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:03:25",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.4,
-      "lat": 18.415798,
-      "lng": -66.057553
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 06:03:26",
-      "place": "Urbanización Baldrich (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00918",
-      "speed": 0.4,
-      "lat": 18.415798,
-      "lng": -66.057553
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 06:04:41",
-      "place": "Avenida Juan \"Picolino\" Hernández Ferrer / Avenida Sabana Seca (Tertiary), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.437565,
-      "lng": -66.178931
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 06:04:42",
-      "place": "Avenida Juan \"Picolino\" Hernández Ferrer / Avenida Sabana Seca (Tertiary), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.437565,
-      "lng": -66.178931
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 06:06:18",
-      "place": "Avenida Juan \"Picolino\" Hernández Ferrer / Avenida Sabana Seca (Tertiary), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.437451,
-      "lng": -66.17304
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 06:06:19",
-      "place": "Avenida Juan \"Picolino\" Hernández Ferrer / Avenida Sabana Seca (Tertiary), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.0,
-      "lat": 18.437451,
-      "lng": -66.17304
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:07:10",
-      "place": "Calle J-E (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.967418,
-      "lng": -66.295514
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:07:11",
-      "place": "Calle J-E (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.0,
-      "lat": 17.967418,
-      "lng": -66.295514
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:08:12",
-      "place": "Calle J-E (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.3,
-      "lat": 17.967411,
-      "lng": -66.295443
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 06:08:13",
-      "place": "Calle J-E (Residential), Salinas, Puerto Rico, 00751",
-      "speed": 0.3,
-      "lat": 17.967411,
-      "lng": -66.295443
-    },
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
