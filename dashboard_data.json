@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T07:25:07-04:00",
+  "generatedAt": "2026-08-22T07:44:16-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -160,7 +160,7 @@
       "last_seen": "2026-08-21 16:08:10",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 41,
-      "stops": 246,
+      "stops": 244,
       "miles": 361.6,
       "speeding": 29,
       "inefficient_routes": 3,
@@ -188,7 +188,7 @@
       "last_seen": "2026-08-21 15:16:55",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 65,
-      "stops": 253,
+      "stops": 247,
       "miles": 528.5,
       "speeding": 40,
       "inefficient_routes": 8,
@@ -201,10 +201,10 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 14:53:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 72,
-      "stops": 818,
-      "miles": 612.0,
-      "speeding": 2,
+      "trips": 71,
+      "stops": 814,
+      "miles": 590.9,
+      "speeding": 1,
       "inefficient_routes": 19,
       "max_speed": 67.1
     },
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 16:10:05",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 90,
-      "stops": 569,
-      "miles": 660.0,
+      "trips": 89,
+      "stops": 567,
+      "miles": 655.3,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -230,7 +230,7 @@
       "last_seen": "2026-08-21 15:20:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 80,
-      "stops": 632,
+      "stops": 628,
       "miles": 511.6,
       "speeding": 1,
       "inefficient_routes": 20,
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 40,
-      "stops": 355,
+      "stops": 347,
       "miles": 213.6,
       "speeding": 0,
       "inefficient_routes": 7,
@@ -266,154 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-08-14 07:28:41",
-      "arrival": "2026-08-14 08:07:58",
-      "duration_min": 39.3,
-      "origin": "Calle 10 (Residential), Coamo, Puerto Rico, 00769",
-      "destination": "Aguilita (Residential, residential), Juana Diaz, Puerto Rico, 00795",
-      "origin_lat": 18.071908,
-      "origin_lng": -66.322971,
-      "destination_lat": 18.02634,
-      "destination_lng": -66.534253,
-      "miles": 21.14,
-      "straight_miles": 14.23,
-      "efficiency_ratio": 1.49,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.49x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 19.2 mi o menos; posible ahorro 1.9 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 1.93,
-      "route_points": [
-        [
-          18.071888,
-          -66.323075
-        ],
-        [
-          18.071908,
-          -66.322971
-        ],
-        [
-          18.071888,
-          -66.323075
-        ],
-        [
-          18.074083,
-          -66.342251
-        ],
-        [
-          18.053735,
-          -66.365543
-        ],
-        [
-          18.053735,
-          -66.365543
-        ],
-        [
-          18.022786,
-          -66.369873
-        ],
-        [
-          18.028993,
-          -66.423923
-        ],
-        [
-          18.042715,
-          -66.50438
-        ],
-        [
-          18.042601,
-          -66.510116
-        ],
-        [
-          18.042601,
-          -66.510116
-        ],
-        [
-          18.023423,
-          -66.531113
-        ],
-        [
-          18.025863,
-          -66.533466
-        ],
-        [
-          18.025863,
-          -66.533466
-        ],
-        [
-          18.025998,
-          -66.533429
-        ],
-        [
-          18.025998,
-          -66.533429
-        ],
-        [
-          18.02634,
-          -66.534255
-        ],
-        [
-          18.02634,
-          -66.534255
-        ],
-        [
-          18.02634,
-          -66.534253
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 07:31:38",
-      "arrival": "2026-08-14 07:49:15",
-      "duration_min": 17.6,
-      "origin": "Calle Jazmín (Calle E) (Residential), Dorado, Puerto Rico, 00646",
-      "destination": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "origin_lat": 18.403603,
-      "origin_lng": -66.300979,
-      "destination_lat": 18.442011,
-      "destination_lng": -66.285478,
-      "miles": 4.68,
-      "straight_miles": 2.84,
-      "efficiency_ratio": 1.65,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.65x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 3.8 mi o menos; posible ahorro 0.8 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.84,
-      "route_points": [
-        [
-          18.403603,
-          -66.300979
-        ],
-        [
-          18.403603,
-          -66.300979
-        ],
-        [
-          18.403603,
-          -66.300979
-        ],
-        [
-          18.413828,
-          -66.307626
-        ],
-        [
-          18.42165,
-          -66.304843
-        ],
-        [
-          18.440471,
-          -66.294573
-        ],
-        [
-          18.442011,
-          -66.285478
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
@@ -36201,240 +36053,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:24:31",
-      "place": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.353358,
-      "lng": -66.082318
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 07:24:32",
-      "place": "Carretera Caimito (Tertiary, PR-842), San Juan, Puerto Rico, 00926",
-      "speed": 0.0,
-      "lat": 18.353358,
-      "lng": -66.082318
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 07:27:07",
-      "place": "Residential, Bayamon, Puerto Rico, 00956",
-      "speed": 0.0,
-      "lat": 18.341761,
-      "lng": -66.170403
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 07:27:08",
-      "place": "Residential, Bayamon, Puerto Rico, 00956",
-      "speed": 0.0,
-      "lat": 18.341761,
-      "lng": -66.170403
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 07:28:26",
-      "place": "A-7 Calle 81, Calle 81, Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.410338,
-      "lng": -66.158133
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 07:28:27",
-      "place": "A-7 Calle 81, Calle 81, Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.410338,
-      "lng": -66.158133
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 07:28:41",
-      "place": "Calle 10 (Residential), Coamo, Puerto Rico, 00769",
-      "speed": 1.2,
-      "lat": 18.071888,
-      "lng": -66.323075
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 07:28:42",
-      "place": "Calle 10 (Residential), Coamo, Puerto Rico, 00769",
-      "speed": 1.2,
-      "lat": 18.071888,
-      "lng": -66.323075
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 07:30:29",
-      "place": "Residential, Bayamon, Puerto Rico, 00956",
-      "speed": 0.0,
-      "lat": 18.341751,
-      "lng": -66.170396
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 07:30:31",
-      "place": "Residential, Bayamon, Puerto Rico, 00956",
-      "speed": 0.0,
-      "lat": 18.341751,
-      "lng": -66.170396
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:31:21",
-      "place": "Avenida Pablo J. Aguilar (Tertiary, PR-130), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.4833,
-      "lng": -66.823021
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:31:22",
-      "place": "Avenida Pablo J. Aguilar (Tertiary, PR-130), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.4833,
-      "lng": -66.823021
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 07:31:26",
-      "place": "A-7 Calle 81, Calle 81, Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.410329,
-      "lng": -66.158133
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 07:31:27",
-      "place": "A-7 Calle 81, Calle 81, Bayamon, Puerto Rico, 00961",
-      "speed": 0.0,
-      "lat": 18.410329,
-      "lng": -66.158133
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 07:31:38",
-      "place": "Calle Jazmín (Calle E) (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.403603,
-      "lng": -66.300979
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 07:31:39",
-      "place": "Calle Jazmín (Calle E) (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.403603,
-      "lng": -66.300979
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:33:46",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.482373,
-      "lng": -66.82621
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:33:47",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.482373,
-      "lng": -66.82621
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:34:44",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.481858,
-      "lng": -66.82791
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:34:45",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.481858,
-      "lng": -66.82791
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:37:45",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.48186,
-      "lng": -66.82791
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 07:37:46",
-      "place": "Carretera Militar (Trunk, PR-2), Hatillo, Puerto Rico, 00659",
-      "speed": 0.0,
-      "lat": 18.48186,
-      "lng": -66.82791
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 07:39:02",
-      "place": "Desvío Sur de Coamo (Secondary, PR-238), Coamo, Puerto Rico, 00769",
-      "speed": 0.0,
-      "lat": 18.053735,
-      "lng": -66.365543
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 07:39:03",
-      "place": "Desvío Sur de Coamo (Secondary, PR-238), Coamo, Puerto Rico, 00769",
-      "speed": 0.0,
-      "lat": 18.053735,
-      "lng": -66.365543
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 07:39:08",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bayamon, Puerto Rico, 00961",
-      "speed": 0.2,
-      "lat": 18.420566,
-      "lng": -66.164111
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-14 07:39:09",
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bayamon, Puerto Rico, 00961",
-      "speed": 0.2,
-      "lat": 18.420566,
-      "lng": -66.164111
-    },
-    {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
       "time": "2026-08-14 07:43:44",
@@ -68608,16 +68226,6 @@
       "place": "Carril Expreso PR-22 (Motorway), Bayamon, Puerto Rico, 00961",
       "lat": 18.419285,
       "lng": -66.17395
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 07:49:55",
-      "speed": 65.6,
-      "over": 0.6,
-      "place": "Autopista Luis A. Ferré (Motorway, PR-52), Santa Isabel, Puerto Rico, 00757",
-      "lat": 18.028993,
-      "lng": -66.423923
     },
     {
       "vehicle": "RPS 933-089 11 EO",
