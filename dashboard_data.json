@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:55:06-04:00",
+  "generatedAt": "2026-08-22T09:27:11-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -79,11 +79,11 @@
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-22 08:51:07",
+      "time": "2026-08-22 09:24:07",
       "speed": 0.0,
       "ignition": "IGNITION ON",
-      "lat": 18.424785,
-      "lng": -66.475468,
+      "lat": 18.424655,
+      "lng": -66.475381,
       "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
@@ -160,7 +160,7 @@
       "last_seen": "2026-08-21 16:08:10",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 39,
-      "stops": 228,
+      "stops": 226,
       "miles": 354.3,
       "speeding": 29,
       "inefficient_routes": 3,
@@ -201,11 +201,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 14:53:37",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 70,
-      "stops": 798,
-      "miles": 570.6,
+      "trips": 69,
+      "stops": 788,
+      "miles": 556.5,
       "speeding": 1,
-      "inefficient_routes": 18,
+      "inefficient_routes": 17,
       "max_speed": 67.1
     },
     {
@@ -213,11 +213,11 @@
       "serial": "0470009727",
       "plate": "994-209",
       "current_status": "Detenido",
-      "last_seen": "2026-08-22 08:51:07",
+      "last_seen": "2026-08-22 09:24:07",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 88,
-      "stops": 567,
-      "miles": 652.8,
+      "trips": 87,
+      "stops": 555,
+      "miles": 649.0,
       "speeding": 53,
       "inefficient_routes": 17,
       "max_speed": 75.8
@@ -229,11 +229,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-21 15:20:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 78,
-      "stops": 612,
-      "miles": 498.1,
+      "trips": 77,
+      "stops": 608,
+      "miles": 490.1,
       "speeding": 1,
-      "inefficient_routes": 18,
+      "inefficient_routes": 17,
       "max_speed": 67.5
     },
     {
@@ -258,7 +258,7 @@
       "last_seen": "2026-08-20 15:32:08",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 39,
-      "stops": 333,
+      "stops": 331,
       "miles": 201.6,
       "speeding": 0,
       "inefficient_routes": 6,
@@ -266,208 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-14 08:58:09",
-      "arrival": "2026-08-14 09:26:05",
-      "duration_min": 27.9,
-      "origin": "Calle 21 (Residential), Dorado, Puerto Rico, 00646",
-      "destination": "Quintas de Dorado (Neighbourhood, residential, neighbourhood), Dorado, Puerto Rico, 00646",
-      "origin_lat": 18.450106,
-      "origin_lng": -66.307183,
-      "destination_lat": 18.466045,
-      "destination_lng": -66.2779,
-      "miles": 3.82,
-      "straight_miles": 2.21,
-      "efficiency_ratio": 1.73,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.73x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 3.0 mi o menos; posible ahorro 0.8 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.83,
-      "route_points": [
-        [
-          18.450106,
-          -66.307183
-        ],
-        [
-          18.450106,
-          -66.307183
-        ],
-        [
-          18.450164,
-          -66.307168
-        ],
-        [
-          18.450164,
-          -66.307168
-        ],
-        [
-          18.4502,
-          -66.307101
-        ],
-        [
-          18.449466,
-          -66.300456
-        ],
-        [
-          18.449466,
-          -66.300456
-        ],
-        [
-          18.45188,
-          -66.293616
-        ],
-        [
-          18.45188,
-          -66.293616
-        ],
-        [
-          18.46653,
-          -66.276913
-        ],
-        [
-          18.465661,
-          -66.275306
-        ],
-        [
-          18.465661,
-          -66.275306
-        ],
-        [
-          18.466051,
-          -66.277815
-        ],
-        [
-          18.466051,
-          -66.277815
-        ],
-        [
-          18.466045,
-          -66.2779
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-14 09:06:31",
-      "arrival": "2026-08-14 09:30:09",
-      "duration_min": 23.6,
-      "origin": "Calle Topacio (Residential), Toa Alta, Puerto Rico, 00953",
-      "destination": "Residential, Toa Alta, Puerto Rico, 00953",
-      "origin_lat": 18.389243,
-      "origin_lng": -66.205463,
-      "destination_lat": 18.360456,
-      "destination_lng": -66.263843,
-      "miles": 8.06,
-      "straight_miles": 4.31,
-      "efficiency_ratio": 1.87,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.87x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 5.8 mi o menos; ahorro estimado 2.2 mi.",
-      "potential_saved_miles": 2.23,
-      "route_points": [
-        [
-          18.389243,
-          -66.205463
-        ],
-        [
-          18.391395,
-          -66.21396
-        ],
-        [
-          18.366538,
-          -66.224689
-        ],
-        [
-          18.376505,
-          -66.245628
-        ],
-        [
-          18.36326,
-          -66.261353
-        ],
-        [
-          18.360456,
-          -66.263843
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "departure": "2026-08-14 09:10:31",
-      "arrival": "2026-08-14 09:45:05",
-      "duration_min": 34.6,
-      "origin": "Aguilita (Residential, residential), Juana Diaz, Puerto Rico, 00795",
-      "destination": "Residential, Villalba, Puerto Rico, 00766",
-      "origin_lat": 18.030338,
-      "origin_lng": -66.53399,
-      "destination_lat": 18.093848,
-      "destination_lng": -66.47266,
-      "miles": 14.06,
-      "straight_miles": 5.96,
-      "efficiency_ratio": 2.36,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 2.36x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 8.0 mi o menos; ahorro estimado 6.0 mi.",
-      "potential_saved_miles": 6.02,
-      "route_points": [
-        [
-          18.030338,
-          -66.53399
-        ],
-        [
-          18.030338,
-          -66.53399
-        ],
-        [
-          18.030338,
-          -66.53399
-        ],
-        [
-          18.040561,
-          -66.548871
-        ],
-        [
-          18.040565,
-          -66.548873
-        ],
-        [
-          18.040565,
-          -66.548873
-        ],
-        [
-          18.053003,
-          -66.530128
-        ],
-        [
-          18.052388,
-          -66.509591
-        ],
-        [
-          18.052388,
-          -66.509591
-        ],
-        [
-          18.077843,
-          -66.497968
-        ],
-        [
-          18.108916,
-          -66.503721
-        ],
-        [
-          18.103648,
-          -66.490625
-        ],
-        [
-          18.093848,
-          -66.47266
-        ]
-      ]
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
@@ -35178,276 +34976,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 08:53:55",
-      "place": "Calle D1 (Tertiary, PR-5509), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.023363,
-      "lng": -66.53103
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 08:53:56",
-      "place": "Calle D1 (Tertiary, PR-5509), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.023363,
-      "lng": -66.53103
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 08:57:31",
-      "place": "Aguilita (Residential, residential), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.028163,
-      "lng": -66.538521
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 08:57:32",
-      "place": "Aguilita (Residential, residential), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.028163,
-      "lng": -66.538521
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 08:58:08",
-      "place": "Calle 21 (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.450106,
-      "lng": -66.307183
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 08:58:10",
-      "place": "Calle 21 (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.450106,
-      "lng": -66.307183
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 08:58:24",
-      "place": "Avenida Montecasino (Tertiary), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.390146,
-      "lng": -66.206141
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 08:58:25",
-      "place": "Avenida Montecasino (Tertiary), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.390146,
-      "lng": -66.206141
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 08:58:46",
-      "place": "Aguilita (Residential, residential), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.02809,
-      "lng": -66.538548
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 08:58:47",
-      "place": "Aguilita (Residential, residential), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.02809,
-      "lng": -66.538548
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 08:59:59",
-      "place": "Calle Topacio (Residential), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.389245,
-      "lng": -66.205465
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-14 09:00:00",
-      "place": "Calle Topacio (Residential), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.389245,
-      "lng": -66.205465
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:01:09",
-      "place": "Calle Principal (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.450164,
-      "lng": -66.307168
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:01:10",
-      "place": "Calle Principal (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.450164,
-      "lng": -66.307168
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 09:01:17",
-      "place": "Urbanización Santa Rosa (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
-      "speed": 0.0,
-      "lat": 18.39039,
-      "lng": -66.139596
-    },
-    {
-      "vehicle": "RPS 933-089 11 EO",
-      "serial": "0470009731",
-      "time": "2026-08-14 09:01:19",
-      "place": "Urbanización Santa Rosa (Neighbourhood, residential, neighbourhood), Bayamon, Puerto Rico, 00959",
-      "speed": 0.0,
-      "lat": 18.39039,
-      "lng": -66.139596
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:09:51",
-      "place": "Calle Principal (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.449466,
-      "lng": -66.300456
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:09:52",
-      "place": "Calle Principal (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.449466,
-      "lng": -66.300456
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 09:10:31",
-      "place": "Aguilita (Residential, residential), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.030338,
-      "lng": -66.53399
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 09:10:32",
-      "place": "Aguilita (Residential, residential), Juana Diaz, Puerto Rico, 00795",
-      "speed": 0.0,
-      "lat": 18.030338,
-      "lng": -66.53399
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 09:10:39",
-      "place": "Camino Carmen Nieves (Residential), Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.357681,
-      "lng": -66.88753
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-14 09:10:40",
-      "place": "Camino Carmen Nieves (Residential), Lares, Puerto Rico, 00669",
-      "speed": 0.0,
-      "lat": 18.357681,
-      "lng": -66.88753
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:13:03",
-      "place": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.45188,
-      "lng": -66.293616
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:13:04",
-      "place": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.45188,
-      "lng": -66.293616
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 09:16:25",
-      "place": "Plaza San Cristóbal (Retail, retail), Avenida Los Laureles, Ponce, Puerto Rico, 00780",
-      "speed": 0.0,
-      "lat": 18.040565,
-      "lng": -66.548873
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-14 09:16:26",
-      "place": "Plaza San Cristóbal (Retail, retail), Avenida Los Laureles, Ponce, Puerto Rico, 00780",
-      "speed": 0.0,
-      "lat": 18.040565,
-      "lng": -66.548873
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:18:57",
-      "place": "Boulevard Nogal (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.465661,
-      "lng": -66.275306
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:18:58",
-      "place": "Boulevard Nogal (Residential), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.465661,
-      "lng": -66.275306
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:24:42",
-      "place": "Quintas de Dorado (Neighbourhood, residential, neighbourhood), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.466051,
-      "lng": -66.277815
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-14 09:24:43",
-      "place": "Quintas de Dorado (Neighbourhood, residential, neighbourhood), Dorado, Puerto Rico, 00646",
-      "speed": 0.0,
-      "lat": 18.466051,
-      "lng": -66.277815
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
