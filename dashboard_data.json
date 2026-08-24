@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T16:49:26-04:00",
+  "generatedAt": "2026-08-24T17:16:06-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-24 16:45:51",
-      "speed": 28.0,
-      "ignition": "",
-      "lat": 18.4802733,
-      "lng": -66.43104,
-      "place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00674"
+      "time": "2026-08-24 16:49:23",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.4827499,
+      "lng": -66.4287966,
+      "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -142,12 +142,12 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-24 16:45:51",
-      "current_place": "Avenida Sol (Tertiary, PR-686), Vega Baja, Puerto Rico, 00674",
-      "trips": 55,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-24 16:49:23",
+      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "trips": 56,
       "stops": 17,
-      "miles": 0.2,
+      "miles": 0.3,
       "speeding": 11,
       "inefficient_routes": 0,
       "max_speed": 72.1
@@ -39729,6 +39729,68 @@
         [
           18.4355283,
           -66.1193083
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-24 16:04:36",
+      "arrival": "2026-08-24 16:49:23",
+      "duration_min": 44.8,
+      "origin": "Guaynabo, Puerto Rico, 00965",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.4355283,
+      "origin_lng": -66.1193083,
+      "destination_lat": 18.4827499,
+      "destination_lng": -66.4287966,
+      "miles": 0.02,
+      "straight_miles": 20.54,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4355283,
+          -66.1193083
+        ],
+        [
+          18.4259716,
+          -66.1122733
+        ],
+        [
+          18.4225866,
+          -66.1505066
+        ],
+        [
+          18.4116466,
+          -66.22116
+        ],
+        [
+          18.4246983,
+          -66.2753533
+        ],
+        [
+          18.4308066,
+          -66.3452249
+        ],
+        [
+          18.43892,
+          -66.3955066
+        ],
+        [
+          18.4446166,
+          -66.4167049
+        ],
+        [
+          18.4802733,
+          -66.43104
+        ],
+        [
+          18.4827499,
+          -66.4287966
         ]
       ]
     }
