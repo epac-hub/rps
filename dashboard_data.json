@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:46:17-04:00",
+  "generatedAt": "2026-08-24T16:12:24-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-24 15:23:18",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.4355283,
-      "lng": -66.1193083,
-      "place": "Guaynabo, Puerto Rico, 00965"
+      "time": "2026-08-24 16:10:08",
+      "speed": 23.0,
+      "ignition": "",
+      "lat": 18.4259716,
+      "lng": -66.1122733,
+      "place": "Avenida El Caño (Motorway, Carretera 165, PR-165), Guaynabo, Puerto Rico, 00965"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-24 15:44:24",
+      "time": "2026-08-24 15:59:07",
       "speed": 0.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.099855,
-      "lng": -65.900278,
+      "ignition": "IGNITION OFF",
+      "lat": 18.099378,
+      "lng": -65.899413,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-24 15:44:14",
-      "speed": 0.0,
+      "time": "2026-08-24 16:10:43",
+      "speed": 0.3,
       "ignition": "IGNITION ON",
-      "lat": 18.4397,
-      "lng": -66.445613,
-      "place": "Carretera Militar (Secondary, PR-2), Vega Baja, Puerto Rico, 00693"
+      "lat": 18.440416,
+      "lng": -66.457089,
+      "place": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -91,11 +91,11 @@
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-24 15:43:59",
+      "time": "2026-08-24 15:46:31",
       "speed": 0.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.424463,
-      "lng": -66.475523,
+      "ignition": "IGNITION OFF",
+      "lat": 18.424465,
+      "lng": -66.475526,
       "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
@@ -142,9 +142,9 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-24 15:23:18",
-      "current_place": "Guaynabo, Puerto Rico, 00965",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-24 16:10:08",
+      "current_place": "Avenida El Caño (Motorway, Carretera 165, PR-165), Guaynabo, Puerto Rico, 00965",
       "trips": 55,
       "stops": 17,
       "miles": 0.2,
@@ -171,13 +171,13 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-08-24 15:44:24",
+      "last_seen": "2026-08-24 15:59:07",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 86,
-      "stops": 302,
-      "miles": 957.0,
+      "trips": 87,
+      "stops": 308,
+      "miles": 970.2,
       "speeding": 14,
-      "inefficient_routes": 9,
+      "inefficient_routes": 10,
       "max_speed": 71.2
     },
     {
@@ -185,11 +185,11 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Detenido",
-      "last_seen": "2026-08-24 15:44:14",
-      "current_place": "Carretera Militar (Secondary, PR-2), Vega Baja, Puerto Rico, 00693",
-      "trips": 71,
+      "last_seen": "2026-08-24 16:10:43",
+      "current_place": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "trips": 72,
       "stops": 257,
-      "miles": 502.4,
+      "miles": 516.0,
       "speeding": 42,
       "inefficient_routes": 9,
       "max_speed": 74.6
@@ -227,9 +227,9 @@
       "serial": "0470009726",
       "plate": "996-332",
       "current_status": "Detenido",
-      "last_seen": "2026-08-24 15:43:59",
+      "last_seen": "2026-08-24 15:46:31",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 89,
+      "trips": 90,
       "stops": 756,
       "miles": 581.5,
       "speeding": 1,
@@ -39019,6 +39019,64 @@
       ]
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-24 11:05:43",
+      "arrival": "2026-08-24 11:47:02",
+      "duration_min": 41.3,
+      "origin": "Carretera Higuillar (Tertiary, PR-696), Dorado, Puerto Rico, 00646",
+      "destination": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "origin_lat": 18.441975,
+      "origin_lng": -66.285496,
+      "destination_lat": 18.440175,
+      "destination_lng": -66.456738,
+      "miles": 13.63,
+      "straight_miles": 11.22,
+      "efficiency_ratio": 1.21,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.21x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.441975,
+          -66.285496
+        ],
+        [
+          18.42701,
+          -66.301298
+        ],
+        [
+          18.427,
+          -66.301278
+        ],
+        [
+          18.426995,
+          -66.301303
+        ],
+        [
+          18.424063,
+          -66.326338
+        ],
+        [
+          18.427875,
+          -66.372636
+        ],
+        [
+          18.44,
+          -66.421735
+        ],
+        [
+          18.440543,
+          -66.434143
+        ],
+        [
+          18.440175,
+          -66.456738
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-24 11:06:43",
@@ -39265,6 +39323,92 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-24 11:18:15",
+      "arrival": "2026-08-24 11:58:56",
+      "duration_min": 40.7,
+      "origin": "Plaza Palma Real (Retail, retail), Carretera Ceiba - Humacao, Humacao, Puerto Rico, 00791",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.143976,
+      "origin_lng": -65.811868,
+      "destination_lat": 18.099378,
+      "destination_lng": -65.899413,
+      "miles": 13.27,
+      "straight_miles": 6.52,
+      "efficiency_ratio": 2.04,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 2.04x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 8.8 mi o menos; ahorro estimado 4.5 mi.",
+      "potential_saved_miles": 4.47,
+      "route_points": [
+        [
+          18.143976,
+          -65.811868
+        ],
+        [
+          18.143976,
+          -65.811868
+        ],
+        [
+          18.120975,
+          -65.820593
+        ],
+        [
+          18.084691,
+          -65.845488
+        ],
+        [
+          18.07469,
+          -65.874653
+        ],
+        [
+          18.098505,
+          -65.883785
+        ],
+        [
+          18.099855,
+          -65.900278
+        ],
+        [
+          18.099855,
+          -65.900278
+        ],
+        [
+          18.099858,
+          -65.900268
+        ],
+        [
+          18.099858,
+          -65.900268
+        ],
+        [
+          18.099911,
+          -65.900265
+        ],
+        [
+          18.099911,
+          -65.900265
+        ],
+        [
+          18.099861,
+          -65.90022
+        ],
+        [
+          18.099378,
+          -65.899413
+        ],
+        [
+          18.099378,
+          -65.899413
+        ],
+        [
+          18.099378,
+          -65.899413
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "departure": "2026-08-24 11:26:04",
@@ -39341,6 +39485,44 @@
         [
           18.424423,
           -66.475568
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "departure": "2026-08-24 11:42:45",
+      "arrival": "2026-08-24 11:46:20",
+      "duration_min": 3.6,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.424773,
+      "origin_lng": -66.475459,
+      "destination_lat": 18.424465,
+      "destination_lng": -66.475526,
+      "miles": 0.04,
+      "straight_miles": 0.02,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424773,
+          -66.475459
+        ],
+        [
+          18.424463,
+          -66.475523
+        ],
+        [
+          18.424463,
+          -66.475523
+        ],
+        [
+          18.424465,
+          -66.475526
         ]
       ]
     },
@@ -73450,6 +73632,60 @@
       "speed": 0.0,
       "lat": 18.099855,
       "lng": -65.900278
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-24 11:47:13",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099858,
+      "lng": -65.900268
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-24 11:47:15",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099858,
+      "lng": -65.900268
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-24 11:52:37",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099911,
+      "lng": -65.900265
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-24 11:52:39",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099911,
+      "lng": -65.900265
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-24 11:58:53",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099378,
+      "lng": -65.899413
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-24 11:58:55",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099378,
+      "lng": -65.899413
     },
     {
       "vehicle": "RPS 1038729 - LV",
