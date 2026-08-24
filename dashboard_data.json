@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:01:58-04:00",
+  "generatedAt": "2026-08-24T03:15:24-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-23 21:32:29",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 64,
-      "stops": 241,
-      "miles": 468.5,
+      "trips": 63,
+      "stops": 239,
+      "miles": 464.4,
       "speeding": 40,
       "inefficient_routes": 7,
       "max_speed": 74.6
@@ -266,48 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-16 02:13:33",
-      "arrival": "2026-08-16 02:22:31",
-      "duration_min": 9.0,
-      "origin": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "destination": "Residential, Camuy, Puerto Rico, 00627",
-      "origin_lat": 18.438326,
-      "origin_lng": -66.929443,
-      "destination_lat": 18.450408,
-      "destination_lng": -66.884523,
-      "miles": 4.11,
-      "straight_miles": 3.06,
-      "efficiency_ratio": 1.34,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.34x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.438326,
-          -66.929443
-        ],
-        [
-          18.449428,
-          -66.897413
-        ],
-        [
-          18.450408,
-          -66.884523
-        ],
-        [
-          18.450408,
-          -66.884523
-        ],
-        [
-          18.450408,
-          -66.884523
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -33812,24 +33770,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-16 02:22:29",
-      "place": "Residential, Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.450408,
-      "lng": -66.884523
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-16 02:22:30",
-      "place": "Residential, Camuy, Puerto Rico, 00627",
-      "speed": 0.0,
-      "lat": 18.450408,
-      "lng": -66.884523
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
