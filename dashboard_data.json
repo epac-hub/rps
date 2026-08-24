@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T01:24:32-04:00",
+  "generatedAt": "2026-08-24T02:01:58-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,11 +187,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-23 21:32:29",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 65,
-      "stops": 245,
-      "miles": 471.8,
+      "trips": 64,
+      "stops": 241,
+      "miles": 468.5,
       "speeding": 40,
-      "inefficient_routes": 8,
+      "inefficient_routes": 7,
       "max_speed": 74.6
     },
     {
@@ -266,52 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-16 01:45:12",
-      "arrival": "2026-08-16 02:02:29",
-      "duration_min": 17.3,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.412011,
-      "origin_lng": -66.931658,
-      "destination_lat": 18.438326,
-      "destination_lng": -66.929443,
-      "miles": 3.33,
-      "straight_miles": 1.82,
-      "efficiency_ratio": 1.82,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.82x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 2.5 mi o menos; ahorro estimado 0.9 mi.",
-      "potential_saved_miles": 0.86,
-      "route_points": [
-        [
-          18.412011,
-          -66.931658
-        ],
-        [
-          18.412011,
-          -66.931658
-        ],
-        [
-          18.411538,
-          -66.929791
-        ],
-        [
-          18.411538,
-          -66.929791
-        ],
-        [
-          18.415725,
-          -66.928141
-        ],
-        [
-          18.438326,
-          -66.929443
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -33858,42 +33812,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-16 01:45:11",
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.412011,
-      "lng": -66.931658
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-16 01:45:12",
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.412011,
-      "lng": -66.931658
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-16 01:53:27",
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.411538,
-      "lng": -66.929791
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-16 01:53:29",
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.411538,
-      "lng": -66.929791
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
