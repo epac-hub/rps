@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:25:02-04:00",
+  "generatedAt": "2026-08-25T15:55:33-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,11 +19,11 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-25 15:22:07",
-      "speed": 0.0,
+      "time": "2026-08-25 15:53:20",
+      "speed": 50.3,
       "ignition": "",
-      "lat": 18.4195416,
-      "lng": -66.265905,
+      "lat": 18.4251333,
+      "lng": -66.2758516,
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646"
     },
     {
@@ -31,11 +31,11 @@
       "serial": "0470009731",
       "plate": "933-089",
       "description": "OFICINADPTO PRODUCCION",
-      "time": "2026-08-25 15:21:44",
+      "time": "2026-08-25 15:29:24",
       "speed": 0.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.424358,
-      "lng": -66.47559,
+      "ignition": "IGNITION OFF",
+      "lat": 18.42436,
+      "lng": -66.475586,
       "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
     },
     {
@@ -43,24 +43,24 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-25 15:21:38",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.045175,
-      "lng": -65.8707,
-      "place": "Avenida Europa (Residential), Yabucoa, Puerto Rico, 00767"
+      "time": "2026-08-25 15:53:43",
+      "speed": 22.9,
+      "ignition": "IGNITION ON",
+      "lat": 18.10092,
+      "lng": -65.893981,
+      "place": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-25 15:23:30",
-      "speed": 27.7,
-      "ignition": "IGNITION ON",
-      "lat": 18.473541,
-      "lng": -66.7153,
-      "place": "Avenida Víctor Rojas (Tertiary, PR-680), Arecibo, Puerto Rico, 00612"
+      "time": "2026-08-25 15:50:20",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.485206,
+      "lng": -66.556791,
+      "place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -142,8 +142,8 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-25 15:22:07",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-25 15:53:20",
       "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
       "trips": 57,
       "stops": 16,
@@ -157,7 +157,7 @@
       "serial": "0470009731",
       "plate": "933-089",
       "current_status": "Detenido",
-      "last_seen": "2026-08-25 15:21:44",
+      "last_seen": "2026-08-25 15:29:24",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
       "trips": 41,
       "stops": 284,
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-25 15:21:38",
-      "current_place": "Avenida Europa (Residential), Yabucoa, Puerto Rico, 00767",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-25 15:53:43",
+      "current_place": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767",
       "trips": 87,
-      "stops": 324,
+      "stops": 326,
       "miles": 968.6,
       "speeding": 13,
       "inefficient_routes": 9,
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-25 15:23:30",
-      "current_place": "Avenida Víctor Rojas (Tertiary, PR-680), Arecibo, Puerto Rico, 00612",
-      "trips": 73,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-25 15:50:20",
+      "current_place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "trips": 74,
       "stops": 237,
-      "miles": 447.6,
+      "miles": 462.4,
       "speeding": 12,
       "inefficient_routes": 8,
       "max_speed": 70.8
@@ -266,48 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-08-17 15:52:28",
-      "arrival": "2026-08-17 16:12:32",
-      "duration_min": 20.1,
-      "origin": "McDonald's (Fast_food), Vega Baja, Puerto Rico, 00693",
-      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
-      "origin_lat": 18.4447516,
-      "origin_lng": -66.37839,
-      "destination_lat": 18.4827499,
-      "destination_lng": -66.4288199,
-      "miles": 0.0,
-      "straight_miles": 4.22,
-      "efficiency_ratio": 0.0,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4447516,
-          -66.37839
-        ],
-        [
-          18.4517066,
-          -66.3857533
-        ],
-        [
-          18.4803516,
-          -66.3997716
-        ],
-        [
-          18.4818566,
-          -66.422405
-        ],
-        [
-          18.4827499,
-          -66.4288199
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -38377,6 +38335,72 @@
       ]
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-25 11:06:30",
+      "arrival": "2026-08-25 11:50:12",
+      "duration_min": 43.7,
+      "origin": "Avenida Las Canelas (Residential), Arecibo, Puerto Rico, 00612",
+      "destination": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "origin_lat": 18.473955,
+      "origin_lng": -66.75886,
+      "destination_lat": 18.485206,
+      "destination_lng": -66.556791,
+      "miles": 14.81,
+      "straight_miles": 13.26,
+      "efficiency_ratio": 1.12,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.12x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.473955,
+          -66.75886
+        ],
+        [
+          18.473955,
+          -66.75886
+        ],
+        [
+          18.477535,
+          -66.757291
+        ],
+        [
+          18.47226,
+          -66.739246
+        ],
+        [
+          18.475381,
+          -66.721533
+        ],
+        [
+          18.479143,
+          -66.691051
+        ],
+        [
+          18.4877,
+          -66.65899
+        ],
+        [
+          18.49141,
+          -66.621493
+        ],
+        [
+          18.48445,
+          -66.589465
+        ],
+        [
+          18.487793,
+          -66.556565
+        ],
+        [
+          18.485206,
+          -66.556791
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "departure": "2026-08-25 11:19:06",
@@ -38533,6 +38557,52 @@
         [
           18.4541533,
           -66.1859733
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-25 14:59:43",
+      "arrival": "2026-08-25 15:25:32",
+      "duration_min": 25.8,
+      "origin": "Paseo Colina (Residential), Toa Baja, Puerto Rico, 00949",
+      "destination": "Doramar Plaza (Retail, retail), Dorado, Puerto Rico, 00646",
+      "origin_lat": 18.4541733,
+      "origin_lng": -66.1859883,
+      "destination_lat": 18.4217166,
+      "destination_lng": -66.266315,
+      "miles": 0.01,
+      "straight_miles": 5.72,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4541733,
+          -66.1859883
+        ],
+        [
+          18.4642033,
+          -66.1927066
+        ],
+        [
+          18.4698033,
+          -66.2480366
+        ],
+        [
+          18.4289516,
+          -66.2512083
+        ],
+        [
+          18.4194416,
+          -66.2646616
+        ],
+        [
+          18.4217166,
+          -66.266315
         ]
       ]
     }
@@ -71576,6 +71646,24 @@
       "speed": 0.0,
       "lat": 18.424358,
       "lng": -66.47559
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-25 11:40:31",
+      "place": "Avenida Europa (Residential), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.045175,
+      "lng": -65.8707
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-25 11:40:33",
+      "place": "Avenida Europa (Residential), Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.045175,
+      "lng": -65.8707
     },
     {
       "vehicle": "RPS 1038729 - LV",
