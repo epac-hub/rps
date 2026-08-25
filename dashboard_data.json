@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T16:52:14-04:00",
+  "generatedAt": "2026-08-25T17:15:29-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-25 16:50:30",
-      "speed": 24.8,
-      "ignition": "IGNITION ON",
-      "lat": 18.446538,
-      "lng": -66.538941,
-      "place": "Carretera a Barceloneta (Tertiary, PR-140), Barceloneta, Puerto Rico, 00617"
+      "time": "2026-08-25 17:10:19",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418643,
+      "lng": -66.462033,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-25 16:50:30",
-      "current_place": "Carretera a Barceloneta (Tertiary, PR-140), Barceloneta, Puerto Rico, 00617",
-      "trips": 75,
-      "stops": 245,
-      "miles": 462.4,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-25 17:10:19",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 76,
+      "stops": 249,
+      "miles": 473.7,
       "speeding": 12,
       "inefficient_routes": 8,
       "max_speed": 70.8
@@ -38623,6 +38623,72 @@
       ]
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-25 12:40:04",
+      "arrival": "2026-08-25 13:10:10",
+      "duration_min": 30.1,
+      "origin": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.485227,
+      "origin_lng": -66.556813,
+      "destination_lat": 18.418643,
+      "destination_lng": -66.462033,
+      "miles": 11.31,
+      "straight_miles": 7.73,
+      "efficiency_ratio": 1.46,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.46x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 10.4 mi o menos; posible ahorro 0.9 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.87,
+      "route_points": [
+        [
+          18.485227,
+          -66.556813
+        ],
+        [
+          18.485227,
+          -66.556813
+        ],
+        [
+          18.46336,
+          -66.546491
+        ],
+        [
+          18.443215,
+          -66.541198
+        ],
+        [
+          18.44082,
+          -66.478833
+        ],
+        [
+          18.435336,
+          -66.46695
+        ],
+        [
+          18.43549,
+          -66.465815
+        ],
+        [
+          18.43549,
+          -66.465815
+        ],
+        [
+          18.418608,
+          -66.462045
+        ],
+        [
+          18.418608,
+          -66.462045
+        ],
+        [
+          18.418643,
+          -66.462033
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-25 12:46:11",
@@ -71887,6 +71953,42 @@
       "speed": 0.0,
       "lat": 18.485227,
       "lng": -66.556813
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 13:02:56",
+      "place": "Carretera Leisha María Martínez Pagán (Tertiary, PR-686), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.43549,
+      "lng": -66.465815
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 13:02:58",
+      "place": "Carretera Leisha María Martínez Pagán (Tertiary, PR-686), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.43549,
+      "lng": -66.465815
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 13:08:28",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418608,
+      "lng": -66.462045
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 13:08:30",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418608,
+      "lng": -66.462045
     }
   ],
   "speeding": [
