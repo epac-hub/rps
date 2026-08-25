@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:41:06-04:00",
+  "generatedAt": "2026-08-25T08:04:08-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,9 +19,9 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-24 16:49:23",
+      "time": "2026-08-25 08:02:33",
       "speed": 0.0,
-      "ignition": "IGNITION OFF",
+      "ignition": "IGNITION ON",
       "lat": 18.4827499,
       "lng": -66.4287966,
       "place": "Residential, Vega Baja, Puerto Rico, 00693"
@@ -55,60 +55,60 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-24 23:46:49",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.418613,
-      "lng": -66.462036,
-      "place": "Residential, Manati, Puerto Rico, 00674"
+      "time": "2026-08-25 08:02:49",
+      "speed": 8.6,
+      "ignition": "IGNITION ON",
+      "lat": 18.424483,
+      "lng": -66.47454,
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "plate": "994-204",
       "description": "RAINER RAMOSENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-25 07:39:39",
-      "speed": 9.4,
+      "time": "2026-08-25 08:02:25",
+      "speed": 0.0,
       "ignition": "IGNITION ON",
-      "lat": 18.426868,
-      "lng": -66.331426,
-      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692"
+      "lat": 18.419672,
+      "lng": -66.270406,
+      "place": "Carretera Delia Santana Nieves (Tertiary, PR-659), Dorado, Puerto Rico, 00646"
     },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
       "description": "MILTON DEL VALLE ENTREGAS ALHOGARDPTO PRODUCCION",
-      "time": "2026-08-25 07:39:32",
-      "speed": 55.3,
-      "ignition": "IGNITION ON",
-      "lat": 18.438451,
-      "lng": -66.636008,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612"
+      "time": "2026-08-25 07:55:49",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.43679,
+      "lng": -66.672251,
+      "place": "Carretera Palo Blanco (Tertiary, PR-658), Arecibo, Puerto Rico, 00616"
     },
     {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "plate": "996-332",
       "description": "EMMANUEL PADILLAENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-25 07:39:39",
-      "speed": 35.2,
+      "time": "2026-08-25 08:02:03",
+      "speed": 40.6,
       "ignition": "IGNITION ON",
-      "lat": 18.427461,
-      "lng": -66.364136,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693"
+      "lat": 18.430758,
+      "lng": -66.25105,
+      "place": "Ruta del Encanto (Secondary, PR-165), Toa Baja, Puerto Rico, 00949"
     },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "plate": "IRK-578",
       "description": "ASTRID MARTINEZENTREGA AL HOGARDPTO PRODUCCION",
-      "time": "2026-08-25 07:35:06",
-      "speed": 29.4,
+      "time": "2026-08-25 08:02:29",
+      "speed": 51.9,
       "ignition": "IGNITION ON",
-      "lat": 18.441408,
-      "lng": -66.413833,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693"
+      "lat": 18.418533,
+      "lng": -66.23837,
+      "place": "Carril Expreso PR-22 (Motorway), Toa Baja, Puerto Rico, 00949"
     },
     {
       "vehicle": "RPS-985-742-18 ER",
@@ -143,7 +143,7 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "current_status": "Detenido",
-      "last_seen": "2026-08-24 16:49:23",
+      "last_seen": "2026-08-25 08:02:33",
       "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
       "trips": 56,
       "stops": 17,
@@ -184,11 +184,11 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Detenido",
-      "last_seen": "2026-08-24 23:46:49",
-      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "current_status": "Moviendo",
+      "last_seen": "2026-08-25 08:02:49",
+      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
       "trips": 67,
-      "stops": 221,
+      "stops": 219,
       "miles": 471.5,
       "speeding": 41,
       "inefficient_routes": 7,
@@ -198,9 +198,9 @@
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "plate": "994-204",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-25 07:39:39",
-      "current_place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
+      "current_status": "Detenido",
+      "last_seen": "2026-08-25 08:02:25",
+      "current_place": "Carretera Delia Santana Nieves (Tertiary, PR-659), Dorado, Puerto Rico, 00646",
       "trips": 74,
       "stops": 824,
       "miles": 563.8,
@@ -212,12 +212,12 @@
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "plate": "994-209",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-25 07:39:32",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612",
-      "trips": 73,
-      "stops": 502,
-      "miles": 568.9,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-25 07:55:49",
+      "current_place": "Carretera Palo Blanco (Tertiary, PR-658), Arecibo, Puerto Rico, 00616",
+      "trips": 74,
+      "stops": 504,
+      "miles": 587.4,
       "speeding": 53,
       "inefficient_routes": 16,
       "max_speed": 75.8
@@ -227,10 +227,10 @@
       "serial": "0470009726",
       "plate": "996-332",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-25 07:39:39",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "last_seen": "2026-08-25 08:02:03",
+      "current_place": "Ruta del Encanto (Secondary, PR-165), Toa Baja, Puerto Rico, 00949",
       "trips": 80,
-      "stops": 711,
+      "stops": 709,
       "miles": 517.3,
       "speeding": 1,
       "inefficient_routes": 21,
@@ -241,8 +241,8 @@
       "serial": "0470009725",
       "plate": "IRK-578",
       "current_status": "Moviendo",
-      "last_seen": "2026-08-25 07:35:06",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "last_seen": "2026-08-25 08:02:29",
+      "current_place": "Carril Expreso PR-22 (Motorway), Toa Baja, Puerto Rico, 00949",
       "trips": 42,
       "stops": 274,
       "miles": 466.1,
@@ -257,121 +257,15 @@
       "current_status": "Detenido",
       "last_seen": "2026-08-24 15:44:15",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 40,
-      "stops": 376,
-      "miles": 245.2,
+      "trips": 39,
+      "stops": 368,
+      "miles": 240.1,
       "speeding": 0,
       "inefficient_routes": 10,
       "max_speed": 0
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "departure": "2026-08-17 07:53:08",
-      "arrival": "2026-08-17 08:32:05",
-      "duration_min": 39.0,
-      "origin": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "destination": "Calle Rosa (Residential), Toa Alta, Puerto Rico, 00953",
-      "origin_lat": 18.386563,
-      "origin_lng": -66.251549,
-      "destination_lat": 18.344361,
-      "destination_lng": -66.281733,
-      "miles": 5.16,
-      "straight_miles": 3.52,
-      "efficiency_ratio": 1.47,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 4.8 mi o menos; posible ahorro 0.4 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.41,
-      "route_points": [
-        [
-          18.386563,
-          -66.251549
-        ],
-        [
-          18.386563,
-          -66.251549
-        ],
-        [
-          18.386563,
-          -66.251549
-        ],
-        [
-          18.386563,
-          -66.251548
-        ],
-        [
-          18.386563,
-          -66.251548
-        ],
-        [
-          18.386546,
-          -66.25155
-        ],
-        [
-          18.386546,
-          -66.25155
-        ],
-        [
-          18.385528,
-          -66.252776
-        ],
-        [
-          18.385528,
-          -66.252776
-        ],
-        [
-          18.385541,
-          -66.252768
-        ],
-        [
-          18.385541,
-          -66.252768
-        ],
-        [
-          18.385541,
-          -66.252768
-        ],
-        [
-          18.385541,
-          -66.252768
-        ],
-        [
-          18.37825,
-          -66.255661
-        ],
-        [
-          18.355933,
-          -66.269113
-        ],
-        [
-          18.345825,
-          -66.285676
-        ],
-        [
-          18.345876,
-          -66.285971
-        ],
-        [
-          18.345876,
-          -66.285971
-        ],
-        [
-          18.344365,
-          -66.281726
-        ],
-        [
-          18.344365,
-          -66.281726
-        ],
-        [
-          18.344361,
-          -66.281733
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -36315,369 +36209,99 @@
           -66.475548
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "departure": "2026-08-25 03:20:24",
+      "arrival": "2026-08-25 03:55:38",
+      "duration_min": 35.2,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Carretera Palo Blanco (Tertiary, PR-658), Arecibo, Puerto Rico, 00616",
+      "origin_lat": 18.42474,
+      "origin_lng": -66.475506,
+      "destination_lat": 18.43679,
+      "destination_lng": -66.672251,
+      "miles": 18.45,
+      "straight_miles": 12.92,
+      "efficiency_ratio": 1.43,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.43x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 17.4 mi o menos; posible ahorro 1.0 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 1.0,
+      "route_points": [
+        [
+          18.42474,
+          -66.475506
+        ],
+        [
+          18.42474,
+          -66.475506
+        ],
+        [
+          18.431726,
+          -66.475153
+        ],
+        [
+          18.431726,
+          -66.475153
+        ],
+        [
+          18.432595,
+          -66.475518
+        ],
+        [
+          18.432595,
+          -66.475518
+        ],
+        [
+          18.442373,
+          -66.511993
+        ],
+        [
+          18.437988,
+          -66.584041
+        ],
+        [
+          18.439438,
+          -66.654938
+        ],
+        [
+          18.43295,
+          -66.681851
+        ],
+        [
+          18.434168,
+          -66.677213
+        ],
+        [
+          18.434168,
+          -66.677213
+        ],
+        [
+          18.43747,
+          -66.679463
+        ],
+        [
+          18.43747,
+          -66.679463
+        ],
+        [
+          18.436746,
+          -66.672258
+        ],
+        [
+          18.436746,
+          -66.672258
+        ],
+        [
+          18.43679,
+          -66.672251
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-17 07:40:32",
-      "place": "Calle Félix Lamela (Tertiary, PR-485), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.473803,
-      "lng": -66.935273
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-17 07:40:33",
-      "place": "Calle Félix Lamela (Tertiary, PR-485), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.473803,
-      "lng": -66.935273
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:40:35",
-      "place": "Carretera Don Justiniano \"Justo\" Torres Jiménez (Tertiary, PR-662), Arecibo, Puerto Rico, 00616",
-      "speed": 0.0,
-      "lat": 18.447156,
-      "lng": -66.68029
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:40:36",
-      "place": "Carretera Don Justiniano \"Justo\" Torres Jiménez (Tertiary, PR-662), Arecibo, Puerto Rico, 00616",
-      "speed": 0.0,
-      "lat": 18.447156,
-      "lng": -66.68029
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:42:11",
-      "place": "McDonald's (Fast_food), Arecibo, Puerto Rico, 00612",
-      "speed": 0.8,
-      "lat": 18.447165,
-      "lng": -66.679885
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:42:12",
-      "place": "McDonald's (Fast_food), Arecibo, Puerto Rico, 00612",
-      "speed": 0.8,
-      "lat": 18.447165,
-      "lng": -66.679885
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:43:17",
-      "place": "McDonald's (Fast_food), Arecibo, Puerto Rico, 00612",
-      "speed": 0.1,
-      "lat": 18.447171,
-      "lng": -66.679779
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:43:18",
-      "place": "McDonald's (Fast_food), Arecibo, Puerto Rico, 00612",
-      "speed": 0.1,
-      "lat": 18.447171,
-      "lng": -66.679779
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:44:11",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.30175,
-      "lng": -66.25211
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:44:13",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.30175,
-      "lng": -66.25211
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-17 07:44:39",
-      "place": "Calle 1 (Residential), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.47035,
-      "lng": -66.930629
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-17 07:44:40",
-      "place": "Calle 1 (Residential), Quebradillas, Puerto Rico, 00678",
-      "speed": 0.0,
-      "lat": 18.47035,
-      "lng": -66.930629
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-17 07:44:40",
-      "place": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.386563,
-      "lng": -66.251549
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-17 07:44:41",
-      "place": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.386563,
-      "lng": -66.251549
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-17 07:45:06",
-      "place": "Calle Princesa Margarita (Residential), Guaynabo, Puerto Rico, 00969",
-      "speed": 0.0,
-      "lat": 18.363113,
-      "lng": -66.125766
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-17 07:45:08",
-      "place": "Calle Princesa Margarita (Residential), Guaynabo, Puerto Rico, 00969",
-      "speed": 0.0,
-      "lat": 18.363113,
-      "lng": -66.125766
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-17 07:45:14",
-      "place": "B-3 Calle Princesa Margarita, Calle Princesa Margarita, Guaynabo, Puerto Rico, 00969",
-      "speed": 1.1,
-      "lat": 18.363138,
-      "lng": -66.125791
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-17 07:45:15",
-      "place": "B-3 Calle Princesa Margarita, Calle Princesa Margarita, Guaynabo, Puerto Rico, 00969",
-      "speed": 1.1,
-      "lat": 18.363138,
-      "lng": -66.125791
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:45:18",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.303346,
-      "lng": -66.2479
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:45:19",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.303346,
-      "lng": -66.2479
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:46:40",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.5,
-      "lat": 18.302985,
-      "lng": -66.246563
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:46:42",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.5,
-      "lat": 18.302985,
-      "lng": -66.246563
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:48:12",
-      "place": "Unclassified, Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.444593,
-      "lng": -66.65042
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:48:13",
-      "place": "Unclassified, Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.444593,
-      "lng": -66.65042
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-17 07:48:14",
-      "place": "Calle Princesa Margarita (Residential), Guaynabo, Puerto Rico, 00969",
-      "speed": 0.0,
-      "lat": 18.363117,
-      "lng": -66.12578
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-17 07:48:15",
-      "place": "Calle Princesa Margarita (Residential), Guaynabo, Puerto Rico, 00969",
-      "speed": 0.0,
-      "lat": 18.363117,
-      "lng": -66.12578
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:49:40",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.303066,
-      "lng": -66.246624
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:49:42",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.303066,
-      "lng": -66.246624
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:51:12",
-      "place": "Unclassified, Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.444594,
-      "lng": -66.650424
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:51:13",
-      "place": "Unclassified, Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.444594,
-      "lng": -66.650424
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-17 07:53:08",
-      "place": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.386563,
-      "lng": -66.251549
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-17 07:53:09",
-      "place": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.386563,
-      "lng": -66.251549
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:55:40",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.303066,
-      "lng": -66.246624
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "time": "2026-08-17 07:55:42",
-      "place": "Desvío Mariano Cotto (Trunk, PR-5;PR-147), Naranjito, Puerto Rico, 00719",
-      "speed": 0.0,
-      "lat": 18.303066,
-      "lng": -66.246624
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-17 07:56:08",
-      "place": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.386563,
-      "lng": -66.251548
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-17 07:56:09",
-      "place": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.386563,
-      "lng": -66.251548
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:57:12",
-      "place": "Unclassified, Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.444594,
-      "lng": -66.650424
-    },
-    {
-      "vehicle": "RPS 994-204 20 RR",
-      "serial": "0470009744",
-      "time": "2026-08-17 07:57:13",
-      "place": "Unclassified, Arecibo, Puerto Rico, 00612",
-      "speed": 0.0,
-      "lat": 18.444594,
-      "lng": -66.650424
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-17 08:02:08",
-      "place": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.386546,
-      "lng": -66.25155
-    },
-    {
-      "vehicle": "RPS-985-742-18 ER",
-      "serial": "0470009732",
-      "time": "2026-08-17 08:02:09",
-      "place": "Calle Luis Muñoz Rivera (Tertiary, PR-165R), Toa Alta, Puerto Rico, 00953",
-      "speed": 0.0,
-      "lat": 18.386546,
-      "lng": -66.25155
-    },
     {
       "vehicle": "RPS-985-742-18 ER",
       "serial": "0470009732",
@@ -67574,6 +67198,276 @@
       "speed": 0.2,
       "lat": 18.426773,
       "lng": -66.331306
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:40:26",
+      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
+      "speed": 0.0,
+      "lat": 18.42641,
+      "lng": -66.330896
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:40:28",
+      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
+      "speed": 0.0,
+      "lat": 18.42641,
+      "lng": -66.330896
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:40:44",
+      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
+      "speed": 0.2,
+      "lat": 18.426311,
+      "lng": -66.330781
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:40:46",
+      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
+      "speed": 0.2,
+      "lat": 18.426311,
+      "lng": -66.330781
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:40:55",
+      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
+      "speed": 0.1,
+      "lat": 18.42628,
+      "lng": -66.330738
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:40:57",
+      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
+      "speed": 0.1,
+      "lat": 18.42628,
+      "lng": -66.330738
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-25 03:48:19",
+      "place": "Carretera Bajadero (Tertiary, PR-656), Arecibo, Puerto Rico, 00616",
+      "speed": 0.0,
+      "lat": 18.434168,
+      "lng": -66.677213
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-25 03:48:21",
+      "place": "Carretera Bajadero (Tertiary, PR-656), Arecibo, Puerto Rico, 00616",
+      "speed": 0.0,
+      "lat": 18.434168,
+      "lng": -66.677213
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:50:22",
+      "place": "Carretera Delia Santana Nieves (Tertiary, PR-659), Dorado, Puerto Rico, 00646",
+      "speed": 0.0,
+      "lat": 18.419673,
+      "lng": -66.270408
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:50:24",
+      "place": "Carretera Delia Santana Nieves (Tertiary, PR-659), Dorado, Puerto Rico, 00646",
+      "speed": 0.0,
+      "lat": 18.419673,
+      "lng": -66.270408
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-25 03:51:01",
+      "place": "Calle 13 (Residential), Arecibo, Puerto Rico, 00616",
+      "speed": 1.3,
+      "lat": 18.43747,
+      "lng": -66.679463
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-25 03:51:03",
+      "place": "Calle 13 (Residential), Arecibo, Puerto Rico, 00616",
+      "speed": 1.3,
+      "lat": 18.43747,
+      "lng": -66.679463
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:53:23",
+      "place": "Carretera Delia Santana Nieves (Tertiary, PR-659), Dorado, Puerto Rico, 00646",
+      "speed": 0.0,
+      "lat": 18.419672,
+      "lng": -66.270406
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:53:24",
+      "place": "Carretera Delia Santana Nieves (Tertiary, PR-659), Dorado, Puerto Rico, 00646",
+      "speed": 0.0,
+      "lat": 18.419672,
+      "lng": -66.270406
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-25 03:54:22",
+      "place": "Carretera Palo Blanco (Tertiary, PR-658), Arecibo, Puerto Rico, 00616",
+      "speed": 0.2,
+      "lat": 18.436746,
+      "lng": -66.672258
+    },
+    {
+      "vehicle": "RPS 994-209 19 MD",
+      "serial": "0470009727",
+      "time": "2026-08-25 03:54:24",
+      "place": "Carretera Palo Blanco (Tertiary, PR-658), Arecibo, Puerto Rico, 00616",
+      "speed": 0.2,
+      "lat": 18.436746,
+      "lng": -66.672258
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 03:56:42",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418613,
+      "lng": -66.462036
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 03:56:43",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418613,
+      "lng": -66.462036
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-25 03:58:02",
+      "place": "Ruta del Encanto (Trunk, PR-165), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.0,
+      "lat": 18.41701,
+      "lng": -66.252813
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-25 03:58:03",
+      "place": "Ruta del Encanto (Trunk, PR-165), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.0,
+      "lat": 18.41701,
+      "lng": -66.252813
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-25 03:58:48",
+      "place": "Ruta del Encanto (Trunk, PR-165), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.2,
+      "lat": 18.41685,
+      "lng": -66.252333
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-25 03:58:50",
+      "place": "Ruta del Encanto (Trunk, PR-165), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.2,
+      "lat": 18.41685,
+      "lng": -66.252333
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-25 03:59:02",
+      "place": "Ruta del Encanto (Trunk, PR-165), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.1,
+      "lat": 18.41683,
+      "lng": -66.252241
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-25 03:59:04",
+      "place": "Ruta del Encanto (Trunk, PR-165), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.1,
+      "lat": 18.41683,
+      "lng": -66.252241
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:59:23",
+      "place": "Carretera Delia Santana Nieves (Tertiary, PR-659), Dorado, Puerto Rico, 00646",
+      "speed": 0.0,
+      "lat": 18.419672,
+      "lng": -66.270406
+    },
+    {
+      "vehicle": "RPS 994-204 20 RR",
+      "serial": "0470009744",
+      "time": "2026-08-25 03:59:25",
+      "place": "Carretera Delia Santana Nieves (Tertiary, PR-659), Dorado, Puerto Rico, 00646",
+      "speed": 0.0,
+      "lat": 18.419672,
+      "lng": -66.270406
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-25 04:00:48",
+      "place": "Ruta del Encanto (Trunk, PR-165), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.0,
+      "lat": 18.42216,
+      "lng": -66.251428
+    },
+    {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "time": "2026-08-25 04:00:50",
+      "place": "Ruta del Encanto (Trunk, PR-165), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.0,
+      "lat": 18.42216,
+      "lng": -66.251428
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 04:02:07",
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.424491,
+      "lng": -66.474493
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 04:02:09",
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.424491,
+      "lng": -66.474493
     }
   ],
   "speeding": [
