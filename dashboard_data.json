@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:15:29-04:00",
+  "generatedAt": "2026-08-25T17:47:30-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-25 15:57:06",
+      "time": "2026-08-25 17:15:31",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
       "lat": 18.099395,
-      "lng": -65.899415,
+      "lng": -65.899414,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -171,10 +171,10 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-08-25 15:57:06",
+      "last_seen": "2026-08-25 17:15:31",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 88,
-      "stops": 326,
+      "trips": 89,
+      "stops": 328,
       "miles": 975.1,
       "speeding": 13,
       "inefficient_routes": 9,
@@ -38719,6 +38719,40 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-25 13:15:06",
+      "arrival": "2026-08-25 13:15:20",
+      "duration_min": 0.2,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099395,
+      "origin_lng": -65.899415,
+      "destination_lat": 18.099395,
+      "destination_lng": -65.899414,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.099395,
+          -65.899415
+        ],
+        [
+          18.099395,
+          -65.899415
+        ],
+        [
+          18.099395,
+          -65.899414
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-25 14:59:43",
@@ -71989,6 +72023,24 @@
       "speed": 0.0,
       "lat": 18.418608,
       "lng": -66.462045
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-25 13:15:05",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099395,
+      "lng": -65.899415
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-25 13:15:07",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099395,
+      "lng": -65.899415
     }
   ],
   "speeding": [
