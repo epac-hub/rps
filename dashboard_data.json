@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:55:33-04:00",
+  "generatedAt": "2026-08-25T16:21:34-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-08-25 15:53:20",
-      "speed": 50.3,
-      "ignition": "",
-      "lat": 18.4251333,
-      "lng": -66.2758516,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646"
+      "time": "2026-08-25 16:17:31",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.4827266,
+      "lng": -66.4288283,
+      "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -43,23 +43,23 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-25 15:53:43",
-      "speed": 22.9,
-      "ignition": "IGNITION ON",
-      "lat": 18.10092,
-      "lng": -65.893981,
-      "place": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767"
+      "time": "2026-08-25 15:57:06",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.099395,
+      "lng": -65.899415,
+      "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-25 15:50:20",
+      "time": "2026-08-25 16:12:09",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.485206,
-      "lng": -66.556791,
+      "lat": 18.485227,
+      "lng": -66.556813,
       "place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617"
     },
     {
@@ -142,10 +142,10 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-25 15:53:20",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
-      "trips": 57,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-25 16:17:31",
+      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "trips": 58,
       "stops": 16,
       "miles": 0.2,
       "speeding": 5,
@@ -170,12 +170,12 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-25 15:53:43",
-      "current_place": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767",
-      "trips": 87,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-25 15:57:06",
+      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "trips": 88,
       "stops": 326,
-      "miles": 968.6,
+      "miles": 975.1,
       "speeding": 13,
       "inefficient_routes": 9,
       "max_speed": 71.2
@@ -185,10 +185,10 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Detenido",
-      "last_seen": "2026-08-25 15:50:20",
+      "last_seen": "2026-08-25 16:12:09",
       "current_place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
-      "trips": 74,
-      "stops": 237,
+      "trips": 75,
+      "stops": 243,
       "miles": 462.4,
       "speeding": 12,
       "inefficient_routes": 8,
@@ -38481,6 +38481,98 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-25 11:40:32",
+      "arrival": "2026-08-25 11:57:02",
+      "duration_min": 16.5,
+      "origin": "Avenida Europa (Residential), Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.045175,
+      "origin_lng": -65.8707,
+      "destination_lat": 18.099395,
+      "destination_lng": -65.899415,
+      "miles": 6.51,
+      "straight_miles": 4.19,
+      "efficiency_ratio": 1.55,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.55x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 5.7 mi o menos; posible ahorro 0.9 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.85,
+      "route_points": [
+        [
+          18.045175,
+          -65.8707
+        ],
+        [
+          18.045175,
+          -65.8707
+        ],
+        [
+          18.078546,
+          -65.874408
+        ],
+        [
+          18.09804,
+          -65.878085
+        ],
+        [
+          18.099395,
+          -65.899415
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-25 12:02:45",
+      "arrival": "2026-08-25 12:11:58",
+      "duration_min": 9.2,
+      "origin": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "destination": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "origin_lat": 18.485206,
+      "origin_lng": -66.556791,
+      "destination_lat": 18.485227,
+      "destination_lng": -66.556813,
+      "miles": 0.01,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.485228,
+          -66.556868
+        ],
+        [
+          18.485206,
+          -66.556791
+        ],
+        [
+          18.485227,
+          -66.556813
+        ],
+        [
+          18.485227,
+          -66.556813
+        ],
+        [
+          18.485227,
+          -66.556813
+        ],
+        [
+          18.485227,
+          -66.556813
+        ],
+        [
+          18.485227,
+          -66.556813
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-25 12:14:28",
@@ -38603,6 +38695,56 @@
         [
           18.4217166,
           -66.266315
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-08-25 15:49:45",
+      "arrival": "2026-08-25 16:17:31",
+      "duration_min": 27.8,
+      "origin": "Doramar Plaza (Retail, retail), Dorado, Puerto Rico, 00646",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.4217166,
+      "origin_lng": -66.266315,
+      "destination_lat": 18.4827266,
+      "destination_lng": -66.4288283,
+      "miles": 0.01,
+      "straight_miles": 11.46,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4217166,
+          -66.266315
+        ],
+        [
+          18.425075,
+          -66.302925
+        ],
+        [
+          18.4280216,
+          -66.3504266
+        ],
+        [
+          18.4397566,
+          -66.3986216
+        ],
+        [
+          18.4454083,
+          -66.4167966
+        ],
+        [
+          18.4806766,
+          -66.4302166
+        ],
+        [
+          18.4827266,
+          -66.4288283
         ]
       ]
     }
@@ -71664,6 +71806,60 @@
       "speed": 0.0,
       "lat": 18.045175,
       "lng": -65.8707
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 12:02:43",
+      "place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "speed": 0.3,
+      "lat": 18.485228,
+      "lng": -66.556868
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 12:02:45",
+      "place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "speed": 0.3,
+      "lat": 18.485228,
+      "lng": -66.556868
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 12:05:44",
+      "place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "speed": 0.0,
+      "lat": 18.485227,
+      "lng": -66.556813
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 12:05:46",
+      "place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "speed": 0.0,
+      "lat": 18.485227,
+      "lng": -66.556813
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 12:11:43",
+      "place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "speed": 0.0,
+      "lat": 18.485227,
+      "lng": -66.556813
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-25 12:11:45",
+      "place": "Calle Manglar (Residential), Barceloneta, Puerto Rico, 00617",
+      "speed": 0.0,
+      "lat": 18.485227,
+      "lng": -66.556813
     },
     {
       "vehicle": "RPS 1038729 - LV",
