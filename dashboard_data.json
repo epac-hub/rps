@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T16:59:58-04:00",
+  "generatedAt": "2026-08-31T20:30:39-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,24 +43,24 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-08-31 16:07:29",
+      "time": "2026-08-31 17:57:52",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.099098,
-      "lng": -65.882441,
-      "place": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767"
+      "lat": 18.099386,
+      "lng": -65.899458,
+      "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-08-31 16:56:23",
-      "speed": 19.6,
-      "ignition": "IGNITION ON",
-      "lat": 18.421015,
-      "lng": -66.571555,
-      "place": "Carretera Benito de Jesús Negrón (Secondary, PR-140), Barceloneta, Puerto Rico, 00617"
+      "time": "2026-08-31 17:40:24",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418563,
+      "lng": -66.462019,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -171,11 +171,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-08-31 16:07:29",
-      "current_place": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767",
-      "trips": 67,
-      "stops": 290,
-      "miles": 943.6,
+      "last_seen": "2026-08-31 17:57:52",
+      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "trips": 68,
+      "stops": 292,
+      "miles": 945.1,
       "speeding": 3,
       "inefficient_routes": 11,
       "max_speed": 69.3
@@ -184,14 +184,14 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-08-31 16:56:23",
-      "current_place": "Carretera Benito de Jesús Negrón (Secondary, PR-140), Barceloneta, Puerto Rico, 00617",
-      "trips": 72,
-      "stops": 162,
-      "miles": 471.9,
+      "current_status": "Detenido",
+      "last_seen": "2026-08-31 17:40:24",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 73,
+      "stops": 164,
+      "miles": 488.1,
       "speeding": 3,
-      "inefficient_routes": 14,
+      "inefficient_routes": 15,
       "max_speed": 67.8
     },
     {
@@ -266,36 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-23 17:29:27",
-      "arrival": "2026-08-23 17:32:20",
-      "duration_min": 2.9,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.418566,
-      "origin_lng": -66.46202,
-      "destination_lat": 18.41856,
-      "destination_lng": -66.462046,
-      "miles": 0.01,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.418566,
-          -66.46202
-        ],
-        [
-          18.41856,
-          -66.462046
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -27325,6 +27295,40 @@
       ]
     },
     {
+      "vehicle": "RPS 996-332 21 EP",
+      "serial": "0470009726",
+      "departure": "2026-08-28 08:18:38",
+      "arrival": "2026-08-28 08:22:03",
+      "duration_min": 3.4,
+      "origin": "Popeyes (Commercial), Avenida Ana G. Méndez, San Juan, Puerto Rico, 00926",
+      "destination": "Calle Amazona (Residential), San Juan, Puerto Rico, 00926",
+      "origin_lat": 18.379638,
+      "origin_lng": -66.054831,
+      "destination_lat": 18.383811,
+      "destination_lng": -66.059898,
+      "miles": 0.56,
+      "straight_miles": 0.44,
+      "efficiency_ratio": 1.28,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.28x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.379638,
+          -66.054831
+        ],
+        [
+          18.379638,
+          -66.054831
+        ],
+        [
+          18.383811,
+          -66.059898
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "departure": "2026-08-28 08:18:38",
@@ -27375,40 +27379,6 @@
         [
           18.358255,
           -66.214325
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 996-332 21 EP",
-      "serial": "0470009726",
-      "departure": "2026-08-28 08:18:38",
-      "arrival": "2026-08-28 08:22:03",
-      "duration_min": 3.4,
-      "origin": "Popeyes (Commercial), Avenida Ana G. Méndez, San Juan, Puerto Rico, 00926",
-      "destination": "Calle Amazona (Residential), San Juan, Puerto Rico, 00926",
-      "origin_lat": 18.379638,
-      "origin_lng": -66.054831,
-      "destination_lat": 18.383811,
-      "destination_lng": -66.059898,
-      "miles": 0.56,
-      "straight_miles": 0.44,
-      "efficiency_ratio": 1.28,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.28x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.379638,
-          -66.054831
-        ],
-        [
-          18.379638,
-          -66.054831
-        ],
-        [
-          18.383811,
-          -66.059898
         ]
       ]
     },
@@ -31563,40 +31533,6 @@
       ]
     },
     {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-31 04:03:58",
-      "arrival": "2026-08-31 04:11:10",
-      "duration_min": 7.2,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.418576,
-      "origin_lng": -66.461988,
-      "destination_lat": 18.424393,
-      "destination_lng": -66.475489,
-      "miles": 1.41,
-      "straight_miles": 0.97,
-      "efficiency_ratio": 1.45,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.45x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 1.3 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.1,
-      "route_points": [
-        [
-          18.418576,
-          -66.461988
-        ],
-        [
-          18.4259,
-          -66.465141
-        ],
-        [
-          18.424393,
-          -66.475489
-        ]
-      ]
-    },
-    {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "departure": "2026-08-31 04:03:58",
@@ -31647,6 +31583,40 @@
         [
           18.426686,
           -66.133161
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-31 04:03:58",
+      "arrival": "2026-08-31 04:11:10",
+      "duration_min": 7.2,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "origin_lat": 18.418576,
+      "origin_lng": -66.461988,
+      "destination_lat": 18.424393,
+      "destination_lng": -66.475489,
+      "miles": 1.41,
+      "straight_miles": 0.97,
+      "efficiency_ratio": 1.45,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.45x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 1.3 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.1,
+      "route_points": [
+        [
+          18.418576,
+          -66.461988
+        ],
+        [
+          18.4259,
+          -66.465141
+        ],
+        [
+          18.424393,
+          -66.475489
         ]
       ]
     },
@@ -36673,6 +36643,106 @@
       ]
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-31 12:40:50",
+      "arrival": "2026-08-31 13:02:06",
+      "duration_min": 21.3,
+      "origin": "Calle David López (Residential), Florida, Puerto Rico, 00650",
+      "destination": "Walmart Supercenter (Supermarket), Carretera Militar, Barceloneta, Puerto Rico, 00617",
+      "origin_lat": 18.361823,
+      "origin_lng": -66.560266,
+      "destination_lat": 18.431073,
+      "destination_lng": -66.551156,
+      "miles": 8.77,
+      "straight_miles": 4.82,
+      "efficiency_ratio": 1.82,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 1.82x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 6.5 mi o menos; ahorro estimado 2.3 mi.",
+      "potential_saved_miles": 2.26,
+      "route_points": [
+        [
+          18.361823,
+          -66.560266
+        ],
+        [
+          18.361823,
+          -66.560266
+        ],
+        [
+          18.373293,
+          -66.557421
+        ],
+        [
+          18.39009,
+          -66.57754
+        ],
+        [
+          18.429415,
+          -66.56686
+        ],
+        [
+          18.431073,
+          -66.551156
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-08-31 13:16:22",
+      "arrival": "2026-08-31 13:40:13",
+      "duration_min": 23.9,
+      "origin": "Walmart Supercenter (Supermarket), Carretera Militar, Barceloneta, Puerto Rico, 00617",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.431073,
+      "origin_lng": -66.551156,
+      "destination_lat": 18.418563,
+      "destination_lng": -66.462019,
+      "miles": 7.44,
+      "straight_miles": 5.91,
+      "efficiency_ratio": 1.26,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.26x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.431073,
+          -66.551156
+        ],
+        [
+          18.431073,
+          -66.551156
+        ],
+        [
+          18.43556,
+          -66.540983
+        ],
+        [
+          18.429375,
+          -66.494045
+        ],
+        [
+          18.432578,
+          -66.475674
+        ],
+        [
+          18.432578,
+          -66.475674
+        ],
+        [
+          18.425203,
+          -66.462633
+        ],
+        [
+          18.418563,
+          -66.462019
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-08-31 13:51:34",
@@ -36821,27 +36891,47 @@
           -66.42884
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-08-31 13:52:49",
+      "arrival": "2026-08-31 13:57:43",
+      "duration_min": 4.9,
+      "origin": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099098,
+      "origin_lng": -65.882441,
+      "destination_lat": 18.099386,
+      "destination_lng": -65.899458,
+      "miles": 1.54,
+      "straight_miles": 1.12,
+      "efficiency_ratio": 1.38,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.38x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 1.5 mi o menos; posible ahorro 0.0 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.03,
+      "route_points": [
+        [
+          18.099098,
+          -65.882441
+        ],
+        [
+          18.09938,
+          -65.899458
+        ],
+        [
+          18.09938,
+          -65.899458
+        ],
+        [
+          18.099386,
+          -65.899458
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-23 17:00:52",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418566,
-      "lng": -66.46202
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-23 17:00:54",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418566,
-      "lng": -66.46202
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -69972,6 +70062,42 @@
       "lng": -66.560266
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-31 13:16:21",
+      "place": "Walmart Supercenter (Supermarket), Carretera Militar, Barceloneta, Puerto Rico, 00617",
+      "speed": 0.0,
+      "lat": 18.431073,
+      "lng": -66.551156
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-31 13:16:23",
+      "place": "Walmart Supercenter (Supermarket), Carretera Militar, Barceloneta, Puerto Rico, 00617",
+      "speed": 0.0,
+      "lat": 18.431073,
+      "lng": -66.551156
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-31 13:31:26",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.432578,
+      "lng": -66.475674
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-08-31 13:31:28",
+      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.432578,
+      "lng": -66.475674
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "time": "2026-08-31 13:54:36",
@@ -69979,6 +70105,24 @@
       "speed": 0.0,
       "lat": 17.988325,
       "lng": -66.0491433
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-31 13:57:36",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.09938,
+      "lng": -65.899458
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-08-31 13:57:38",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.09938,
+      "lng": -65.899458
     }
   ],
   "speeding": [
