@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:25:00-04:00",
+  "generatedAt": "2026-09-02T18:45:41-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,24 +7,24 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-02 16:23:19",
-      "speed": 2.5,
+      "time": "2026-09-02 16:27:01",
+      "speed": 0.0,
       "ignition": "",
-      "lat": 18.4450166,
-      "lng": -66.9293899,
-      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678"
+      "lat": 18.43484,
+      "lng": -66.9268866,
+      "place": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-09-02 16:20:52",
+      "time": "2026-09-02 17:30:26",
       "speed": 0.0,
-      "ignition": "",
-      "lat": 18.4123566,
-      "lng": -66.020515,
-      "place": "Urbanización Las Virtudes (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924"
+      "ignition": "IGNITION OFF",
+      "lat": 18.4827616,
+      "lng": -66.4288366,
+      "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-02 16:08:12",
+      "time": "2026-09-02 18:15:55",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.435913,
-      "lng": -66.179138,
-      "place": "Calle Lago Cerrillos (Residential), Toa Baja, Puerto Rico, 00949"
+      "lat": 18.4186,
+      "lng": -66.461983,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -128,10 +128,10 @@
       "vehicle": "RPS 1035617 - DV",
       "serial": "866846053686225",
       "plate": "1035617",
-      "current_status": "Moviendo",
-      "last_seen": "2026-09-02 16:23:19",
-      "current_place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "trips": 18,
+      "current_status": "Detenido",
+      "last_seen": "2026-09-02 16:27:01",
+      "current_place": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
+      "trips": 19,
       "stops": 1,
       "miles": 0,
       "speeding": 0,
@@ -143,10 +143,10 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "current_status": "Detenido",
-      "last_seen": "2026-09-02 16:20:52",
-      "current_place": "Urbanización Las Virtudes (Neighbourhood, residential, neighbourhood), San Juan, Puerto Rico, 00924",
-      "trips": 30,
-      "stops": 24,
+      "last_seen": "2026-09-02 17:30:26",
+      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "trips": 31,
+      "stops": 25,
       "miles": 0.2,
       "speeding": 9,
       "inefficient_routes": 0,
@@ -185,11 +185,11 @@
       "serial": "0470009728",
       "plate": "933-091",
       "current_status": "Detenido",
-      "last_seen": "2026-09-02 16:08:12",
-      "current_place": "Calle Lago Cerrillos (Residential), Toa Baja, Puerto Rico, 00949",
-      "trips": 70,
-      "stops": 79,
-      "miles": 531.5,
+      "last_seen": "2026-09-02 18:15:55",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 72,
+      "stops": 81,
+      "miles": 559.4,
       "speeding": 1,
       "inefficient_routes": 19,
       "max_speed": 71.3
@@ -33851,6 +33851,258 @@
           -66.179138
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-02 16:03:17",
+      "arrival": "2026-09-02 16:25:53",
+      "duration_min": 22.6,
+      "origin": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
+      "destination": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4347849,
+      "origin_lng": -66.9268199,
+      "destination_lat": 18.43484,
+      "destination_lng": -66.9268866,
+      "miles": 0,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4347849,
+          -66.9268199
+        ],
+        [
+          18.4448733,
+          -66.9138766
+        ],
+        [
+          18.46708,
+          -66.88494
+        ],
+        [
+          18.458935,
+          -66.92014
+        ],
+        [
+          18.43864,
+          -66.9296366
+        ],
+        [
+          18.43484,
+          -66.9268866
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-09-02 16:08:39",
+      "arrival": "2026-09-02 17:30:26",
+      "duration_min": 81.8,
+      "origin": "Residential, San Juan, Puerto Rico, 00924",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.3950083,
+      "origin_lng": -66.0150599,
+      "destination_lat": 18.4827616,
+      "destination_lng": -66.4288366,
+      "miles": 0.02,
+      "straight_miles": 27.79,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.3950083,
+          -66.0150599
+        ],
+        [
+          18.3987983,
+          -66.0139216
+        ],
+        [
+          18.4079433,
+          -66.020325
+        ],
+        [
+          18.4212333,
+          -66.0256883
+        ],
+        [
+          18.4474299,
+          -66.0517866
+        ],
+        [
+          18.44309,
+          -66.070305
+        ],
+        [
+          18.4240133,
+          -66.0799766
+        ],
+        [
+          18.4183066,
+          -66.0992649
+        ],
+        [
+          18.4227533,
+          -66.1275033
+        ],
+        [
+          18.421085,
+          -66.1622783
+        ],
+        [
+          18.4165149,
+          -66.2326433
+        ],
+        [
+          18.4265166,
+          -66.2961316
+        ],
+        [
+          18.4277733,
+          -66.3586316
+        ],
+        [
+          18.4400916,
+          -66.422565
+        ],
+        [
+          18.45306,
+          -66.4203649
+        ],
+        [
+          18.482515,
+          -66.4296916
+        ],
+        [
+          18.4827616,
+          -66.4288366
+        ],
+        [
+          18.4827616,
+          -66.4288366
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-02 17:03:16",
+      "arrival": "2026-09-02 17:50:12",
+      "duration_min": 46.9,
+      "origin": "Calle del Carmen (Residential), Toa Baja, Puerto Rico, 00949",
+      "destination": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "origin_lat": 18.460728,
+      "origin_lng": -66.144466,
+      "destination_lat": 18.43994,
+      "destination_lng": -66.456743,
+      "miles": 25.82,
+      "straight_miles": 20.52,
+      "efficiency_ratio": 1.26,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.26x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.460728,
+          -66.144466
+        ],
+        [
+          18.460728,
+          -66.144466
+        ],
+        [
+          18.451776,
+          -66.15949
+        ],
+        [
+          18.454675,
+          -66.179331
+        ],
+        [
+          18.467163,
+          -66.23133
+        ],
+        [
+          18.439461,
+          -66.250879
+        ],
+        [
+          18.419413,
+          -66.264413
+        ],
+        [
+          18.42414,
+          -66.326456
+        ],
+        [
+          18.439188,
+          -66.396275
+        ],
+        [
+          18.440685,
+          -66.43385
+        ],
+        [
+          18.43994,
+          -66.456743
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-02 18:03:55",
+      "arrival": "2026-09-02 18:15:46",
+      "duration_min": 11.8,
+      "origin": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.439938,
+      "origin_lng": -66.456743,
+      "destination_lat": 18.4186,
+      "destination_lng": -66.461983,
+      "miles": 2.01,
+      "straight_miles": 1.51,
+      "efficiency_ratio": 1.33,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.33x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.439938,
+          -66.456743
+        ],
+        [
+          18.439938,
+          -66.456743
+        ],
+        [
+          18.439938,
+          -66.456743
+        ],
+        [
+          18.435848,
+          -66.465453
+        ],
+        [
+          18.420736,
+          -66.463105
+        ],
+        [
+          18.4186,
+          -66.461983
+        ]
+      ]
     }
   ],
   "stops": [
@@ -53644,6 +53896,33 @@
       "speed": 0.0,
       "lat": 18.424473,
       "lng": -66.475513
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-02 16:26:30",
+      "place": "Calle Lago Cerrillos (Residential), Toa Baja, Puerto Rico, 00949",
+      "speed": 1.7,
+      "lat": 18.435943,
+      "lng": -66.179201
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-09-02 17:29:45",
+      "place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.4827616,
+      "lng": -66.4288366
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-02 18:03:58",
+      "place": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.439938,
+      "lng": -66.456743
     }
   ],
   "speeding": [
