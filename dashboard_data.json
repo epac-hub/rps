@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T17:37:54-04:00",
+  "generatedAt": "2026-09-05T19:16:59-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-09-04 12:12:20",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 57,
-      "stops": 45,
-      "miles": 421.0,
+      "trips": 56,
+      "stops": 44,
+      "miles": 400.5,
       "speeding": 1,
       "inefficient_routes": 14,
       "max_speed": 71.3
@@ -266,80 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-28 18:06:38",
-      "arrival": "2026-08-28 18:58:04",
-      "duration_min": 51.4,
-      "origin": "Calle General Aranda (Residential), Toa Baja, Puerto Rico, 00949",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.402175,
-      "origin_lng": -66.200435,
-      "destination_lat": 18.418576,
-      "destination_lng": -66.461986,
-      "miles": 20.46,
-      "straight_miles": 17.18,
-      "efficiency_ratio": 1.19,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.19x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.402175,
-          -66.200435
-        ],
-        [
-          18.402175,
-          -66.200435
-        ],
-        [
-          18.402061,
-          -66.200221
-        ],
-        [
-          18.404433,
-          -66.207211
-        ],
-        [
-          18.405176,
-          -66.22486
-        ],
-        [
-          18.418828,
-          -66.253216
-        ],
-        [
-          18.41955,
-          -66.26666
-        ],
-        [
-          18.426693,
-          -66.279673
-        ],
-        [
-          18.431858,
-          -66.342124
-        ],
-        [
-          18.441291,
-          -66.404436
-        ],
-        [
-          18.429881,
-          -66.439184
-        ],
-        [
-          18.420803,
-          -66.4631
-        ],
-        [
-          18.418576,
-          -66.461986
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
@@ -27768,15 +27694,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-28 18:06:41",
-      "place": "Calle General Aranda (Residential), Toa Baja, Puerto Rico, 00949",
-      "speed": 0.2,
-      "lat": 18.402061,
-      "lng": -66.200221
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
