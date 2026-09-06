@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T09:11:31-04:00",
+  "generatedAt": "2026-09-06T12:17:44-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -215,9 +215,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-09-04 15:53:42",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 57,
-      "stops": 157,
-      "miles": 358.7,
+      "trips": 54,
+      "stops": 153,
+      "miles": 358.6,
       "speeding": 2,
       "inefficient_routes": 12,
       "max_speed": 66.8
@@ -266,116 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-29 10:20:25",
-      "arrival": "2026-08-29 10:25:01",
-      "duration_min": 4.6,
-      "origin": "Track, Manati, Puerto Rico, 00674",
-      "destination": "Track, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.385862,
-      "origin_lng": -66.479624,
-      "destination_lat": 18.385817,
-      "destination_lng": -66.479581,
-      "miles": 0.01,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.385862,
-          -66.479624
-        ],
-        [
-          18.385862,
-          -66.479624
-        ],
-        [
-          18.385862,
-          -66.479624
-        ],
-        [
-          18.38583,
-          -66.47959
-        ],
-        [
-          18.385817,
-          -66.479581
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-29 10:26:00",
-      "arrival": "2026-08-29 10:28:11",
-      "duration_min": 2.2,
-      "origin": "Track, Manati, Puerto Rico, 00674",
-      "destination": "Calle Urayoán (Residential), Manati, Puerto Rico, 00674",
-      "origin_lat": 18.385817,
-      "origin_lng": -66.479581,
-      "destination_lat": 18.385695,
-      "destination_lng": -66.479771,
-      "miles": 0.04,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.385817,
-          -66.479581
-        ],
-        [
-          18.385817,
-          -66.479581
-        ],
-        [
-          18.385696,
-          -66.479775
-        ],
-        [
-          18.385695,
-          -66.479771
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "departure": "2026-08-29 10:28:56",
-      "arrival": "2026-08-29 10:29:54",
-      "duration_min": 1.0,
-      "origin": "Calle Urayoán (Residential), Manati, Puerto Rico, 00674",
-      "destination": "Track, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.385695,
-      "origin_lng": -66.479771,
-      "destination_lat": 18.385575,
-      "destination_lng": -66.479595,
-      "miles": 0.04,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.385695,
-          -66.479771
-        ],
-        [
-          18.385575,
-          -66.479595
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1035617 - DV",
       "serial": "866846053686225",
@@ -27618,42 +27508,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-29 10:20:28",
-      "place": "Track, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.385862,
-      "lng": -66.479624
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-29 10:23:30",
-      "place": "Track, Manati, Puerto Rico, 00674",
-      "speed": 0.2,
-      "lat": 18.38583,
-      "lng": -66.47959
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-29 10:26:03",
-      "place": "Track, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.385817,
-      "lng": -66.479581
-    },
-    {
-      "vehicle": "RPS 994-209 19 MD",
-      "serial": "0470009727",
-      "time": "2026-08-29 10:28:04",
-      "place": "Calle Urayoán (Residential), Manati, Puerto Rico, 00674",
-      "speed": 0.1,
-      "lat": 18.385696,
-      "lng": -66.479775
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
