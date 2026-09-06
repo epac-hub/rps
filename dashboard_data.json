@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T14:24:52-04:00",
+  "generatedAt": "2026-09-06T16:36:49-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -131,7 +131,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-09-03 11:35:17",
       "current_place": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
-      "trips": 15,
+      "trips": 11,
       "stops": 1,
       "miles": 0,
       "speeding": 0,
@@ -266,130 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-08-29 14:33:19",
-      "arrival": "2026-08-29 14:50:20",
-      "duration_min": 17.0,
-      "origin": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
-      "destination": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.4346116,
-      "origin_lng": -66.92689,
-      "destination_lat": 18.434725,
-      "destination_lng": -66.9269066,
-      "miles": 0,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4346116,
-          -66.92689
-        ],
-        [
-          18.434725,
-          -66.9269066
-        ],
-        [
-          18.434725,
-          -66.9269066
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-08-29 14:50:21",
-      "arrival": "2026-08-29 14:52:11",
-      "duration_min": 1.8,
-      "origin": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
-      "destination": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.434725,
-      "origin_lng": -66.9269066,
-      "destination_lat": 18.4347749,
-      "destination_lng": -66.926835,
-      "miles": 0,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.434725,
-          -66.9269066
-        ],
-        [
-          18.4347749,
-          -66.926835
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-08-29 15:13:44",
-      "arrival": "2026-08-29 15:18:29",
-      "duration_min": 4.8,
-      "origin": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
-      "destination": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.4347749,
-      "origin_lng": -66.926835,
-      "destination_lat": 18.4568066,
-      "destination_lng": -66.9345033,
-      "miles": 0,
-      "straight_miles": 1.6,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4347749,
-          -66.926835
-        ],
-        [
-          18.4568066,
-          -66.9345033
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-08-29 15:20:17",
-      "arrival": "2026-08-29 15:24:18",
-      "duration_min": 4.0,
-      "origin": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "destination": "Calle Rubén Vega (Residential), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.4568066,
-      "origin_lng": -66.9345033,
-      "destination_lat": 18.4347333,
-      "destination_lng": -66.9269683,
-      "miles": 0,
-      "straight_miles": 1.6,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4568066,
-          -66.9345033
-        ],
-        [
-          18.4347333,
-          -66.9269683
-        ]
-      ]
-    },
     {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
