@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T16:05:25-04:00",
+  "generatedAt": "2026-09-08T18:36:18-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-09-08 16:04:12",
-      "speed": 11.6,
-      "ignition": "IGNITION ON",
-      "lat": 18.099785,
-      "lng": -65.899666,
+      "time": "2026-09-08 16:05:36",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.099408,
+      "lng": -65.899384,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-08 16:04:20",
-      "speed": 7.8,
-      "ignition": "IGNITION ON",
-      "lat": 18.419256,
-      "lng": -66.19379,
-      "place": "PR-866 (Tertiary), Toa Baja, Puerto Rico, 00952"
+      "time": "2026-09-08 18:04:37",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418586,
+      "lng": -66.462008,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -170,28 +170,28 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Moviendo",
-      "last_seen": "2026-09-08 16:04:12",
+      "current_status": "Detenido",
+      "last_seen": "2026-09-08 16:05:36",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
       "trips": 21,
-      "stops": 67,
-      "miles": 357.4,
+      "stops": 66,
+      "miles": 392.2,
       "speeding": 4,
-      "inefficient_routes": 5,
+      "inefficient_routes": 6,
       "max_speed": 70.5
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-09-08 16:04:20",
-      "current_place": "PR-866 (Tertiary), Toa Baja, Puerto Rico, 00952",
+      "current_status": "Detenido",
+      "last_seen": "2026-09-08 18:04:37",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 58,
-      "stops": 65,
-      "miles": 382.0,
-      "speeding": 5,
-      "inefficient_routes": 12,
+      "stops": 67,
+      "miles": 391.0,
+      "speeding": 6,
+      "inefficient_routes": 11,
       "max_speed": 73.2
     },
     {
@@ -266,148 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-31 16:40:45",
-      "arrival": "2026-08-31 17:02:04",
-      "duration_min": 21.3,
-      "origin": "Calle David López (Residential), Florida, Puerto Rico, 00650",
-      "destination": "Walmart Supercenter (Supermarket), Carretera Militar, Barceloneta, Puerto Rico, 00617",
-      "origin_lat": 18.361823,
-      "origin_lng": -66.560266,
-      "destination_lat": 18.431073,
-      "destination_lng": -66.551156,
-      "miles": 8.77,
-      "straight_miles": 4.82,
-      "efficiency_ratio": 1.82,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.82x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 6.5 mi o menos; ahorro estimado 2.3 mi.",
-      "potential_saved_miles": 2.26,
-      "route_points": [
-        [
-          18.361823,
-          -66.560266
-        ],
-        [
-          18.361823,
-          -66.560266
-        ],
-        [
-          18.361823,
-          -66.560266
-        ],
-        [
-          18.373293,
-          -66.557421
-        ],
-        [
-          18.39009,
-          -66.57754
-        ],
-        [
-          18.429415,
-          -66.56686
-        ],
-        [
-          18.431073,
-          -66.551156
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-08-31 17:16:17",
-      "arrival": "2026-08-31 17:40:12",
-      "duration_min": 23.9,
-      "origin": "Walmart Supercenter (Supermarket), Carretera Militar, Barceloneta, Puerto Rico, 00617",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.431073,
-      "origin_lng": -66.551156,
-      "destination_lat": 18.418563,
-      "destination_lng": -66.462019,
-      "miles": 7.44,
-      "straight_miles": 5.91,
-      "efficiency_ratio": 1.26,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.26x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.431073,
-          -66.551156
-        ],
-        [
-          18.431073,
-          -66.551156
-        ],
-        [
-          18.431073,
-          -66.551156
-        ],
-        [
-          18.43556,
-          -66.540983
-        ],
-        [
-          18.429375,
-          -66.494045
-        ],
-        [
-          18.432578,
-          -66.475674
-        ],
-        [
-          18.425203,
-          -66.462633
-        ],
-        [
-          18.418563,
-          -66.462019
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-08-31 17:52:44",
-      "arrival": "2026-08-31 17:57:42",
-      "duration_min": 5.0,
-      "origin": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767",
-      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
-      "origin_lat": 18.099098,
-      "origin_lng": -65.882441,
-      "destination_lat": 18.099386,
-      "destination_lng": -65.899458,
-      "miles": 1.54,
-      "straight_miles": 1.12,
-      "efficiency_ratio": 1.38,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.38x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 1.5 mi o menos; posible ahorro 0.0 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 0.03,
-      "route_points": [
-        [
-          18.099098,
-          -65.882441
-        ],
-        [
-          18.099098,
-          -65.882441
-        ],
-        [
-          18.09938,
-          -65.899458
-        ],
-        [
-          18.099386,
-          -65.899458
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -26563,6 +26421,116 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-09-08 14:37:47",
+      "arrival": "2026-09-08 16:05:27",
+      "duration_min": 87.7,
+      "origin": "PR-7711 (Tertiary), Guayama, Puerto Rico, 00784",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 17.979803,
+      "origin_lng": -66.121861,
+      "destination_lat": 18.099408,
+      "destination_lng": -65.899384,
+      "miles": 36.27,
+      "straight_miles": 16.79,
+      "efficiency_ratio": 2.16,
+      "efficiency": "Ineficiente",
+      "why_inefficient": "Recorrio 2.16x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
+      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 22.7 mi o menos; ahorro estimado 13.6 mi.",
+      "potential_saved_miles": 13.6,
+      "route_points": [
+        [
+          17.979803,
+          -66.121861
+        ],
+        [
+          17.979803,
+          -66.121861
+        ],
+        [
+          17.974535,
+          -66.11058
+        ],
+        [
+          17.972938,
+          -66.101706
+        ],
+        [
+          17.971623,
+          -66.088318
+        ],
+        [
+          17.976038,
+          -66.064016
+        ],
+        [
+          17.974608,
+          -66.058724
+        ],
+        [
+          17.974458,
+          -66.056193
+        ],
+        [
+          17.984228,
+          -66.03035
+        ],
+        [
+          18.002066,
+          -66.013724
+        ],
+        [
+          17.979615,
+          -65.997744
+        ],
+        [
+          17.971845,
+          -65.95121
+        ],
+        [
+          17.984226,
+          -65.907933
+        ],
+        [
+          18.004026,
+          -65.882855
+        ],
+        [
+          18.018405,
+          -65.859926
+        ],
+        [
+          18.02981,
+          -65.83241
+        ],
+        [
+          18.044816,
+          -65.854865
+        ],
+        [
+          18.072616,
+          -65.873415
+        ],
+        [
+          18.101133,
+          -65.880813
+        ],
+        [
+          18.099785,
+          -65.899666
+        ],
+        [
+          18.099398,
+          -65.899384
+        ],
+        [
+          18.099408,
+          -65.899384
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 996-332 21 EP",
       "serial": "0470009726",
       "departure": "2026-09-08 14:58:00",
@@ -26935,54 +26903,153 @@
           -66.47555
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-08 15:54:40",
+      "arrival": "2026-09-08 16:18:52",
+      "duration_min": 24.2,
+      "origin": "Calle Lago Cerrillos (Residential), Toa Baja, Puerto Rico, 00949",
+      "destination": "Calle General Aranda (Residential), Toa Baja, Puerto Rico, 00949",
+      "origin_lat": 18.43591,
+      "origin_lng": -66.179151,
+      "destination_lat": 18.402175,
+      "destination_lng": -66.200443,
+      "miles": 4.09,
+      "straight_miles": 2.72,
+      "efficiency_ratio": 1.5,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.5x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 3.7 mi o menos; posible ahorro 0.4 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.42,
+      "route_points": [
+        [
+          18.43591,
+          -66.179151
+        ],
+        [
+          18.43591,
+          -66.179151
+        ],
+        [
+          18.435931,
+          -66.179109
+        ],
+        [
+          18.427126,
+          -66.185461
+        ],
+        [
+          18.419196,
+          -66.194835
+        ],
+        [
+          18.41634,
+          -66.198676
+        ],
+        [
+          18.40522,
+          -66.199893
+        ],
+        [
+          18.402175,
+          -66.200441
+        ],
+        [
+          18.402175,
+          -66.200443
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-08 17:09:01",
+      "arrival": "2026-09-08 18:04:28",
+      "duration_min": 55.5,
+      "origin": "Calle General Aranda (Residential), Toa Baja, Puerto Rico, 00949",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.402175,
+      "origin_lng": -66.200443,
+      "destination_lat": 18.418586,
+      "destination_lng": -66.462008,
+      "miles": 21.12,
+      "straight_miles": 17.18,
+      "efficiency_ratio": 1.23,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.23x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.402175,
+          -66.200443
+        ],
+        [
+          18.402175,
+          -66.200443
+        ],
+        [
+          18.402178,
+          -66.200418
+        ],
+        [
+          18.404428,
+          -66.20143
+        ],
+        [
+          18.404626,
+          -66.223331
+        ],
+        [
+          18.411404,
+          -66.244835
+        ],
+        [
+          18.419961,
+          -66.251565
+        ],
+        [
+          18.419075,
+          -66.260298
+        ],
+        [
+          18.421965,
+          -66.272316
+        ],
+        [
+          18.43172,
+          -66.342535
+        ],
+        [
+          18.441063,
+          -66.403581
+        ],
+        [
+          18.442175,
+          -66.438426
+        ],
+        [
+          18.42647,
+          -66.462773
+        ],
+        [
+          18.418585,
+          -66.462005
+        ],
+        [
+          18.418586,
+          -66.462008
+        ],
+        [
+          18.418586,
+          -66.462008
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-31 16:06:20",
-      "place": "PR-9905 (Tertiary), Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099099,
-      "lng": -65.882442
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-31 16:40:48",
-      "place": "Calle David López (Residential), Florida, Puerto Rico, 00650",
-      "speed": 0.0,
-      "lat": 18.361823,
-      "lng": -66.560266
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-31 17:16:20",
-      "place": "Walmart Supercenter (Supermarket), Carretera Militar, Barceloneta, Puerto Rico, 00617",
-      "speed": 0.0,
-      "lat": 18.431073,
-      "lng": -66.551156
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-08-31 17:31:24",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.432578,
-      "lng": -66.475674
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-08-31 17:57:35",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.09938,
-      "lng": -65.899458
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -42066,6 +42133,60 @@
       "speed": 0.1,
       "lat": 18.435931,
       "lng": -66.179109
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-08 16:05:04",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.3,
+      "lat": 18.099398,
+      "lng": -65.899384
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-08 16:18:41",
+      "place": "Calle General Aranda (Residential), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.0,
+      "lat": 18.402175,
+      "lng": -66.200441
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-08 17:09:13",
+      "place": "Calle General Aranda (Residential), Toa Baja, Puerto Rico, 00949",
+      "speed": 1.4,
+      "lat": 18.402178,
+      "lng": -66.200418
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-08 17:11:37",
+      "place": "Avenida Don Pelayo (Residential), Toa Baja, Puerto Rico, 00949",
+      "speed": 0.1,
+      "lat": 18.404428,
+      "lng": -66.20143
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-08 17:59:50",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418585,
+      "lng": -66.462005
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-08 18:02:50",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418586,
+      "lng": -66.462008
     }
   ],
   "speeding": [
@@ -42188,6 +42309,16 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "lat": 18.4384,
       "lng": -66.42582
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-08 17:50:58",
+      "speed": 71.1,
+      "over": 6.1,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
+      "lat": 18.442175,
+      "lng": -66.438426
     },
     {
       "vehicle": "RPS 933-089 11 EO",
