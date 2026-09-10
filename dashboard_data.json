@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T18:28:09-04:00",
+  "generatedAt": "2026-09-09T20:27:33-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -173,9 +173,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-09-09 14:35:12",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 22,
-      "stops": 62,
-      "miles": 363.4,
+      "trips": 21,
+      "stops": 61,
+      "miles": 363.3,
       "speeding": 4,
       "inefficient_routes": 4,
       "max_speed": 70.5
@@ -266,44 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-09-01 18:40:16",
-      "arrival": "2026-09-01 18:41:53",
-      "duration_min": 1.6,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
-      "origin_lat": 18.099368,
-      "origin_lng": -65.89937,
-      "destination_lat": 18.09943,
-      "destination_lng": -65.899398,
-      "miles": 0.06,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.099368,
-          -65.89937
-        ],
-        [
-          18.099368,
-          -65.89937
-        ],
-        [
-          18.099368,
-          -65.89937
-        ],
-        [
-          18.09943,
-          -65.899398
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
@@ -26894,15 +26856,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-01 18:40:19",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099368,
-      "lng": -65.89937
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
