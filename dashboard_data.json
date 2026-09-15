@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T01:32:04-04:00",
+  "generatedAt": "2026-09-15T06:24:26-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-09-14 14:10:33",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.099356,
-      "lng": -65.899421,
-      "place": "Residential, Yabucoa, Puerto Rico, 00767"
+      "time": "2026-09-15 06:22:33",
+      "speed": 43.8,
+      "ignition": "IGNITION ON",
+      "lat": 18.429835,
+      "lng": -66.439528,
+      "place": "Carretera 670 (Tertiary, PR-670), Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-09-14 14:10:33",
-      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "current_status": "Moviendo",
+      "last_seen": "2026-09-15 06:22:33",
+      "current_place": "Carretera 670 (Tertiary, PR-670), Vega Baja, Puerto Rico, 00693",
       "trips": 53,
-      "stops": 131,
+      "stops": 136,
       "miles": 815.2,
       "speeding": 10,
       "inefficient_routes": 7,
@@ -45759,6 +45759,51 @@
       "speed": 0.1,
       "lat": 18.41859,
       "lng": -66.462003
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-15 04:40:27",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099356,
+      "lng": -65.899421
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-15 04:43:27",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099356,
+      "lng": -65.899428
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-15 05:45:21",
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Catano, Puerto Rico, 00962",
+      "speed": 0.0,
+      "lat": 18.422666,
+      "lng": -66.151613
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-15 05:48:21",
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Catano, Puerto Rico, 00962",
+      "speed": 0.0,
+      "lat": 18.422667,
+      "lng": -66.151608
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-15 05:54:21",
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Catano, Puerto Rico, 00962",
+      "speed": 0.0,
+      "lat": 18.42268,
+      "lng": -66.151605
     }
   ],
   "speeding": [
