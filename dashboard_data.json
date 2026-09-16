@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:23:17-04:00",
+  "generatedAt": "2026-09-16T19:42:53-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-16 17:21:15",
-      "speed": 9.4,
-      "ignition": "IGNITION ON",
-      "lat": 18.473523,
-      "lng": -66.870205,
-      "place": "Carretera Militar (Trunk, PR-2), Camuy, Puerto Rico, 00627"
+      "time": "2026-09-16 18:57:05",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418601,
+      "lng": -66.462021,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,13 +184,13 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-09-16 17:21:15",
-      "current_place": "Carretera Militar (Trunk, PR-2), Camuy, Puerto Rico, 00627",
-      "trips": 70,
-      "stops": 104,
-      "miles": 536.2,
-      "speeding": 14,
+      "current_status": "Detenido",
+      "last_seen": "2026-09-16 18:57:05",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 73,
+      "stops": 105,
+      "miles": 571.0,
+      "speeding": 13,
       "inefficient_routes": 9,
       "max_speed": 72.9
     },
@@ -37361,27 +37361,175 @@
           -66.475518
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-16 17:13:07",
+      "arrival": "2026-09-16 17:24:29",
+      "duration_min": 11.4,
+      "origin": "Avenida Luis Muñoz Rivera (Tertiary, PR-119), Camuy, Puerto Rico, 00627",
+      "destination": "Carretera Miguel de Hernández Elías (Secondary, PR-119), Camuy, Puerto Rico, 00627",
+      "origin_lat": 18.482926,
+      "origin_lng": -66.851928,
+      "destination_lat": 18.46201,
+      "destination_lng": -66.870276,
+      "miles": 2.88,
+      "straight_miles": 1.88,
+      "efficiency_ratio": 1.53,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.53x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 2.5 mi o menos; posible ahorro 0.3 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.34,
+      "route_points": [
+        [
+          18.482926,
+          -66.851928
+        ],
+        [
+          18.482926,
+          -66.851928
+        ],
+        [
+          18.482926,
+          -66.851928
+        ],
+        [
+          18.474091,
+          -66.867753
+        ],
+        [
+          18.473533,
+          -66.870158
+        ],
+        [
+          18.46201,
+          -66.870276
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-16 17:52:08",
+      "arrival": "2026-09-16 18:39:09",
+      "duration_min": 47.0,
+      "origin": "Carretera Miguel de Hernández Elías (Secondary, PR-119), Camuy, Puerto Rico, 00627",
+      "destination": "Mall, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.46201,
+      "origin_lng": -66.870276,
+      "destination_lat": 18.431061,
+      "destination_lng": -66.489233,
+      "miles": 28.95,
+      "straight_miles": 25.07,
+      "efficiency_ratio": 1.15,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.15x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.46201,
+          -66.870276
+        ],
+        [
+          18.46201,
+          -66.870276
+        ],
+        [
+          18.46201,
+          -66.870276
+        ],
+        [
+          18.470275,
+          -66.843738
+        ],
+        [
+          18.476513,
+          -66.841775
+        ],
+        [
+          18.488141,
+          -66.810346
+        ],
+        [
+          18.469316,
+          -66.777564
+        ],
+        [
+          18.44894,
+          -66.710143
+        ],
+        [
+          18.441218,
+          -66.628841
+        ],
+        [
+          18.44249,
+          -66.557956
+        ],
+        [
+          18.427913,
+          -66.516521
+        ],
+        [
+          18.431061,
+          -66.489233
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-16 18:44:09",
+      "arrival": "2026-09-16 18:56:56",
+      "duration_min": 12.8,
+      "origin": "Mall, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.431061,
+      "origin_lng": -66.489233,
+      "destination_lat": 18.4186,
+      "destination_lng": -66.462021,
+      "miles": 2.9,
+      "straight_miles": 1.98,
+      "efficiency_ratio": 1.47,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 2.7 mi o menos; posible ahorro 0.2 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.23,
+      "route_points": [
+        [
+          18.431061,
+          -66.489233
+        ],
+        [
+          18.431061,
+          -66.489233
+        ],
+        [
+          18.431061,
+          -66.489233
+        ],
+        [
+          18.425801,
+          -66.474783
+        ],
+        [
+          18.420453,
+          -66.463168
+        ],
+        [
+          18.4186,
+          -66.462021
+        ],
+        [
+          18.4186,
+          -66.462021
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-09-08 17:59:50",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418585,
-      "lng": -66.462005
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-09-08 18:02:50",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418586,
-      "lng": -66.462008
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -56092,6 +56240,33 @@
       "speed": 0.1,
       "lat": 18.473533,
       "lng": -66.870158
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-16 17:52:11",
+      "place": "Carretera Miguel de Hernández Elías (Secondary, PR-119), Camuy, Puerto Rico, 00627",
+      "speed": 0.0,
+      "lat": 18.46201,
+      "lng": -66.870276
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-16 18:44:12",
+      "place": "Mall, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.431061,
+      "lng": -66.489233
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-09-16 18:56:33",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.4186,
+      "lng": -66.462021
     }
   ],
   "speeding": [
@@ -56304,16 +56479,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612",
       "lat": 18.458618,
       "lng": -66.771153
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-09-08 17:50:58",
-      "speed": 71.1,
-      "over": 6.1,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
-      "lat": 18.442175,
-      "lng": -66.438426
     },
     {
       "vehicle": "RPS 933-090 12 LR",
