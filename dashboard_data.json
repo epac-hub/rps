@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T01:20:15-04:00",
+  "generatedAt": "2026-09-18T05:55:00-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -173,10 +173,10 @@
       "current_status": "Detenido",
       "last_seen": "2026-09-17 15:38:10",
       "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "trips": 68,
-      "stops": 153,
-      "miles": 901.2,
-      "speeding": 8,
+      "trips": 67,
+      "stops": 151,
+      "miles": 836.5,
+      "speeding": 6,
       "inefficient_routes": 8,
       "max_speed": 71.1
     },
@@ -266,112 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-09-10 04:49:20",
-      "arrival": "2026-09-10 06:19:19",
-      "duration_min": 90.0,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.09937,
-      "origin_lng": -65.899418,
-      "destination_lat": 18.42438,
-      "destination_lng": -66.47557,
-      "miles": 64.67,
-      "straight_miles": 43.97,
-      "efficiency_ratio": 1.47,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 59.4 mi o menos; posible ahorro 5.3 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 5.31,
-      "route_points": [
-        [
-          18.09937,
-          -65.899418
-        ],
-        [
-          18.09937,
-          -65.899418
-        ],
-        [
-          18.09937,
-          -65.899418
-        ],
-        [
-          18.099386,
-          -65.899433
-        ],
-        [
-          18.106531,
-          -65.880866
-        ],
-        [
-          18.14463,
-          -65.861843
-        ],
-        [
-          18.183615,
-          -65.886141
-        ],
-        [
-          18.237786,
-          -65.928073
-        ],
-        [
-          18.244408,
-          -66.001499
-        ],
-        [
-          18.283673,
-          -66.035268
-        ],
-        [
-          18.334368,
-          -66.061488
-        ],
-        [
-          18.394883,
-          -66.070373
-        ],
-        [
-          18.420576,
-          -66.109711
-        ],
-        [
-          18.419636,
-          -66.185793
-        ],
-        [
-          18.418996,
-          -66.259153
-        ],
-        [
-          18.427063,
-          -66.331218
-        ],
-        [
-          18.441813,
-          -66.411991
-        ],
-        [
-          18.428641,
-          -66.447331
-        ],
-        [
-          18.430788,
-          -66.475081
-        ],
-        [
-          18.43127,
-          -66.475846
-        ],
-        [
-          18.42438,
-          -66.47557
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1035617 - DV",
       "serial": "866846053686225",
@@ -38015,24 +37909,6 @@
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
-      "time": "2026-09-10 04:49:23",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.09937,
-      "lng": -65.899418
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-10 04:52:23",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.1,
-      "lat": 18.099386,
-      "lng": -65.899433
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
       "time": "2026-09-10 06:57:59",
       "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
       "speed": 0.0,
@@ -57659,26 +57535,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
       "lat": 18.446626,
       "lng": -66.449533
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-10 05:56:32",
-      "speed": 65.3,
-      "over": 0.3,
-      "place": "Bosque Estatal de Vega Alta (Nature_reserve, forest), Vega Alta, Puerto Rico, 00692",
-      "lat": 18.427063,
-      "lng": -66.331218
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-10 05:46:23",
-      "speed": 65.2,
-      "over": 0.2,
-      "place": "Autopista José de Diego (Motorway, PR-22), Bayamon, Puerto Rico, 00961",
-      "lat": 18.419636,
-      "lng": -66.185793
     },
     {
       "vehicle": "RPS 1035617 - DV",
