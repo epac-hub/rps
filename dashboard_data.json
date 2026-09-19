@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:24:19-04:00",
+  "generatedAt": "2026-09-18T20:27:51-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,12 +19,12 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-09-18 18:22:21",
-      "speed": 70.2,
-      "ignition": "",
-      "lat": 18.4436199,
-      "lng": -66.5692266,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617"
+      "time": "2026-09-18 18:44:36",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.48276,
+      "lng": -66.4286949,
+      "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-089 11 EO",
@@ -142,13 +142,13 @@
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "plate": "1038729",
-      "current_status": "Moviendo",
-      "last_seen": "2026-09-18 18:22:21",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Barceloneta, Puerto Rico, 00617",
-      "trips": 36,
+      "current_status": "Detenido",
+      "last_seen": "2026-09-18 18:44:36",
+      "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
+      "trips": 37,
       "stops": 25,
       "miles": 0.2,
-      "speeding": 9,
+      "speeding": 10,
       "inefficient_routes": 0,
       "max_speed": 72.7
     },
@@ -37707,6 +37707,64 @@
           -66.462003
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-09-18 18:04:21",
+      "arrival": "2026-09-18 18:44:36",
+      "duration_min": 40.2,
+      "origin": "Calle 3 (Residential), Arecibo, Puerto Rico, 00612",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.4329816,
+      "origin_lng": -66.7436933,
+      "destination_lat": 18.48276,
+      "destination_lng": -66.4286949,
+      "miles": 0.02,
+      "straight_miles": 20.93,
+      "efficiency_ratio": 0.0,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 0.0x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4329816,
+          -66.7436933
+        ],
+        [
+          18.4392916,
+          -66.7245083
+        ],
+        [
+          18.4369683,
+          -66.6798566
+        ],
+        [
+          18.4362983,
+          -66.6018433
+        ],
+        [
+          18.4471333,
+          -66.5194266
+        ],
+        [
+          18.4453133,
+          -66.4432749
+        ],
+        [
+          18.4477033,
+          -66.4175433
+        ],
+        [
+          18.4805316,
+          -66.430605
+        ],
+        [
+          18.48276,
+          -66.4286949
+        ]
+      ]
     }
   ],
   "stops": [
@@ -56474,6 +56532,16 @@
       "place": "Puente Juan Ramírez Vélez (Bridge), Barceloneta, Puerto Rico, 00617",
       "lat": 18.4451116,
       "lng": -66.5303633
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "time": "2026-09-18 18:25:20",
+      "speed": 67.7,
+      "over": 2.7,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Manati, Puerto Rico, 00674",
+      "lat": 18.4471333,
+      "lng": -66.5194266
     },
     {
       "vehicle": "RPS 933-091 13 ME",
