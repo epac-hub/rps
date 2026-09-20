@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:57:37-04:00",
+  "generatedAt": "2026-09-20T13:20:13-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -145,7 +145,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-09-18 18:44:36",
       "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "trips": 26,
+      "trips": 24,
       "stops": 18,
       "miles": 0.1,
       "speeding": 10,
@@ -173,9 +173,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-09-19 07:58:49",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 55,
-      "stops": 132,
-      "miles": 680.2,
+      "trips": 54,
+      "stops": 130,
+      "miles": 680.1,
       "speeding": 2,
       "inefficient_routes": 9,
       "max_speed": 66.8
@@ -266,108 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-09-12 12:13:33",
-      "arrival": "2026-09-12 12:15:01",
-      "duration_min": 1.5,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
-      "origin_lat": 18.099404,
-      "origin_lng": -65.899451,
-      "destination_lat": 18.099391,
-      "destination_lng": -65.899286,
-      "miles": 0.07,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.099404,
-          -65.899451
-        ],
-        [
-          18.099404,
-          -65.899451
-        ],
-        [
-          18.099404,
-          -65.899451
-        ],
-        [
-          18.099404,
-          -65.899451
-        ],
-        [
-          18.099391,
-          -65.899286
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-09-12 12:28:53",
-      "arrival": "2026-09-12 12:29:07",
-      "duration_min": 0.2,
-      "origin": "Track, Manati, Puerto Rico, 00674",
-      "destination": "Track, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.38582,
-      "origin_lng": -66.4796183,
-      "destination_lat": 18.3859333,
-      "destination_lng": -66.47933,
-      "miles": 0.0,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.38582,
-          -66.4796183
-        ],
-        [
-          18.3859333,
-          -66.47933
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1038729 - LV",
-      "serial": "866846053691563",
-      "departure": "2026-09-12 12:44:00",
-      "arrival": "2026-09-12 12:46:54",
-      "duration_min": 2.9,
-      "origin": "Track, Manati, Puerto Rico, 00674",
-      "destination": "Calle Urayoán (Residential), Manati, Puerto Rico, 00674",
-      "origin_lat": 18.3857483,
-      "origin_lng": -66.4796949,
-      "destination_lat": 18.3856816,
-      "destination_lng": -66.4798149,
-      "miles": 0.0,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.3857483,
-          -66.4796949
-        ],
-        [
-          18.3856816,
-          -66.4798149
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -31138,24 +31036,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-12 12:13:36",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099404,
-      "lng": -65.899451
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-12 12:13:50",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099404,
-      "lng": -65.899451
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
