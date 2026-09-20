@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:20:13-04:00",
+  "generatedAt": "2026-09-20T15:33:50-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -19,11 +19,11 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "description": "PROTESISTA/ORTESISTADPTO PRODUCCION",
-      "time": "2026-09-18 18:44:36",
+      "time": "2026-09-20 14:55:33",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.48276,
-      "lng": -66.4286949,
+      "lat": 18.4827816,
+      "lng": -66.4287116,
       "place": "Residential, Vega Baja, Puerto Rico, 00693"
     },
     {
@@ -143,9 +143,9 @@
       "serial": "866846053691563",
       "plate": "1038729",
       "current_status": "Detenido",
-      "last_seen": "2026-09-18 18:44:36",
+      "last_seen": "2026-09-20 14:55:33",
       "current_place": "Residential, Vega Baja, Puerto Rico, 00693",
-      "trips": 24,
+      "trips": 26,
       "stops": 18,
       "miles": 0.1,
       "speeding": 10,
@@ -31031,6 +31031,66 @@
         [
           18.099395,
           -65.899461
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-09-20 14:27:22",
+      "arrival": "2026-09-20 14:28:48",
+      "duration_min": 1.4,
+      "origin": "Residential, Vega Baja, Puerto Rico, 00693",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.48276,
+      "origin_lng": -66.4286949,
+      "destination_lat": 18.48273,
+      "destination_lng": -66.4286783,
+      "miles": 0.0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.48276,
+          -66.4286949
+        ],
+        [
+          18.48273,
+          -66.4286783
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1038729 - LV",
+      "serial": "866846053691563",
+      "departure": "2026-09-20 14:54:46",
+      "arrival": "2026-09-20 14:55:33",
+      "duration_min": 0.8,
+      "origin": "Residential, Vega Baja, Puerto Rico, 00693",
+      "destination": "Residential, Vega Baja, Puerto Rico, 00693",
+      "origin_lat": 18.48273,
+      "origin_lng": -66.4286783,
+      "destination_lat": 18.4827816,
+      "destination_lng": -66.4287116,
+      "miles": 0.0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.48273,
+          -66.4286783
+        ],
+        [
+          18.4827816,
+          -66.4287116
         ]
       ]
     }
