@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T21:04:10-04:00",
+  "generatedAt": "2026-09-27T02:33:50-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,12 +7,12 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-26 20:59:03",
-      "speed": 0.0,
+      "time": "2026-09-26 22:53:34",
+      "speed": 16.8,
       "ignition": "",
-      "lat": 18.4555166,
-      "lng": -66.916645,
-      "place": "Camino El Arca de Noé (Residential), Quebradillas, Puerto Rico, 00678"
+      "lat": 18.41799,
+      "lng": -66.9270883,
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 1038729 - LV",
@@ -128,10 +128,10 @@
       "vehicle": "RPS 1035617 - DV",
       "serial": "866846053686225",
       "plate": "1035617",
-      "current_status": "Detenido",
-      "last_seen": "2026-09-26 20:59:03",
-      "current_place": "Camino El Arca de Noé (Residential), Quebradillas, Puerto Rico, 00678",
-      "trips": 67,
+      "current_status": "Moviendo",
+      "last_seen": "2026-09-26 22:53:34",
+      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "trips": 69,
       "stops": 2,
       "miles": 0,
       "speeding": 38,
@@ -30467,6 +30467,94 @@
         [
           18.44401,
           -66.919415
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:53:50",
+      "arrival": "2026-09-26 21:23:09",
+      "duration_min": 29.3,
+      "origin": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.44401,
+      "origin_lng": -66.919415,
+      "destination_lat": 18.4096116,
+      "destination_lng": -66.9356916,
+      "miles": 0,
+      "straight_miles": 2.61,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.44401,
+          -66.919415
+        ],
+        [
+          18.4555166,
+          -66.916645
+        ],
+        [
+          18.4554916,
+          -66.91673
+        ],
+        [
+          18.4447633,
+          -66.9294683
+        ],
+        [
+          18.4157166,
+          -66.928125
+        ],
+        [
+          18.4099966,
+          -66.9352633
+        ],
+        [
+          18.4096116,
+          -66.9356916
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 21:35:35",
+      "arrival": "2026-09-26 21:47:01",
+      "duration_min": 11.4,
+      "origin": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4096199,
+      "origin_lng": -66.9356933,
+      "destination_lat": 18.4433833,
+      "destination_lng": -66.940875,
+      "miles": 0,
+      "straight_miles": 2.36,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4096199,
+          -66.9356933
+        ],
+        [
+          18.4231766,
+          -66.925315
+        ],
+        [
+          18.4434283,
+          -66.9407866
+        ],
+        [
+          18.4433833,
+          -66.940875
         ]
       ]
     }
