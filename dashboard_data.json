@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T18:55:37-04:00",
+  "generatedAt": "2026-09-26T21:04:10-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,12 +7,12 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-25 16:47:33",
-      "speed": 26.7,
+      "time": "2026-09-26 20:59:03",
+      "speed": 0.0,
       "ignition": "",
-      "lat": 18.4172216,
-      "lng": -66.9270933,
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
+      "lat": 18.4555166,
+      "lng": -66.916645,
+      "place": "Camino El Arca de Noé (Residential), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 1038729 - LV",
@@ -128,10 +128,10 @@
       "vehicle": "RPS 1035617 - DV",
       "serial": "866846053686225",
       "plate": "1035617",
-      "current_status": "Moviendo",
-      "last_seen": "2026-09-25 16:47:33",
-      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 56,
+      "current_status": "Detenido",
+      "last_seen": "2026-09-26 20:59:03",
+      "current_place": "Camino El Arca de Noé (Residential), Quebradillas, Puerto Rico, 00678",
+      "trips": 67,
       "stops": 2,
       "miles": 0,
       "speeding": 38,
@@ -29461,6 +29461,48 @@
       ]
     },
     {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-25 16:30:16",
+      "arrival": "2026-09-25 16:49:35",
+      "duration_min": 19.3,
+      "origin": "Calle Panorámica (Unclassified), Quebradillas, Puerto Rico, 00678",
+      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.48658,
+      "origin_lng": -66.931345,
+      "destination_lat": 18.4120383,
+      "destination_lng": -66.9316983,
+      "miles": 0,
+      "straight_miles": 5.15,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.48658,
+          -66.931345
+        ],
+        [
+          18.4790516,
+          -66.9380933
+        ],
+        [
+          18.4622733,
+          -66.9365716
+        ],
+        [
+          18.4279683,
+          -66.9256183
+        ],
+        [
+          18.4120383,
+          -66.9316983
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
       "departure": "2026-09-25 16:55:35",
@@ -30089,6 +30131,342 @@
         [
           18.099391,
           -65.899416
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 18:40:02",
+      "arrival": "2026-09-26 18:47:28",
+      "duration_min": 7.4,
+      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "destination": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4120383,
+      "origin_lng": -66.9316983,
+      "destination_lat": 18.4096716,
+      "destination_lng": -66.935695,
+      "miles": 0,
+      "straight_miles": 0.31,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4120383,
+          -66.9316983
+        ],
+        [
+          18.410385,
+          -66.9319533
+        ],
+        [
+          18.4096716,
+          -66.935695
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 19:15:33",
+      "arrival": "2026-09-26 19:40:22",
+      "duration_min": 24.8,
+      "origin": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4096716,
+      "origin_lng": -66.935695,
+      "destination_lat": 18.4434466,
+      "destination_lng": -66.9409966,
+      "miles": 0,
+      "straight_miles": 2.36,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4096716,
+          -66.935695
+        ],
+        [
+          18.4098966,
+          -66.9352466
+        ],
+        [
+          18.4157716,
+          -66.9280733
+        ],
+        [
+          18.4367833,
+          -66.9294316
+        ],
+        [
+          18.4433216,
+          -66.9407783
+        ],
+        [
+          18.4434466,
+          -66.9409966
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:08:03",
+      "arrival": "2026-09-26 20:24:48",
+      "duration_min": 16.8,
+      "origin": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4434966,
+      "origin_lng": -66.9410133,
+      "destination_lat": 18.44346,
+      "destination_lng": -66.9409249,
+      "miles": 0,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4434966,
+          -66.9410133
+        ],
+        [
+          18.4561316,
+          -66.9493699
+        ],
+        [
+          18.4572966,
+          -66.9443283
+        ],
+        [
+          18.4432516,
+          -66.940895
+        ],
+        [
+          18.44346,
+          -66.9409249
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:45:04",
+      "arrival": "2026-09-26 20:51:51",
+      "duration_min": 6.8,
+      "origin": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.44346,
+      "origin_lng": -66.9409249,
+      "destination_lat": 18.44401,
+      "destination_lng": -66.919415,
+      "miles": 0,
+      "straight_miles": 1.41,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.44346,
+          -66.9409249
+        ],
+        [
+          18.44401,
+          -66.919415
+        ],
+        [
+          18.44401,
+          -66.919415
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:52:20",
+      "arrival": "2026-09-26 20:52:31",
+      "duration_min": 0.2,
+      "origin": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.44401,
+      "origin_lng": -66.919415,
+      "destination_lat": 18.44401,
+      "destination_lng": -66.919415,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.44401,
+          -66.919415
+        ],
+        [
+          18.44401,
+          -66.919415
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:52:33",
+      "arrival": "2026-09-26 20:52:58",
+      "duration_min": 0.4,
+      "origin": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.44401,
+      "origin_lng": -66.919415,
+      "destination_lat": 18.44401,
+      "destination_lng": -66.919415,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.44401,
+          -66.919415
+        ],
+        [
+          18.44401,
+          -66.919415
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:53:01",
+      "arrival": "2026-09-26 20:53:08",
+      "duration_min": 0.1,
+      "origin": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.44401,
+      "origin_lng": -66.919415,
+      "destination_lat": 18.44401,
+      "destination_lng": -66.919415,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.44401,
+          -66.919415
+        ],
+        [
+          18.44401,
+          -66.919415
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:53:09",
+      "arrival": "2026-09-26 20:53:13",
+      "duration_min": 0.1,
+      "origin": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.44401,
+      "origin_lng": -66.919415,
+      "destination_lat": 18.44401,
+      "destination_lng": -66.919415,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.44401,
+          -66.919415
+        ],
+        [
+          18.44401,
+          -66.919415
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:53:21",
+      "arrival": "2026-09-26 20:53:37",
+      "duration_min": 0.3,
+      "origin": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.44401,
+      "origin_lng": -66.919415,
+      "destination_lat": 18.44401,
+      "destination_lng": -66.919415,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.44401,
+          -66.919415
+        ],
+        [
+          18.44401,
+          -66.919415
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 20:53:41",
+      "arrival": "2026-09-26 20:53:48",
+      "duration_min": 0.1,
+      "origin": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-481 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.44401,
+      "origin_lng": -66.919415,
+      "destination_lat": 18.44401,
+      "destination_lng": -66.919415,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.44401,
+          -66.919415
+        ],
+        [
+          18.44401,
+          -66.919415
         ]
       ]
     }
