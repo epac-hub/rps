@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T16:08:44-04:00",
+  "generatedAt": "2026-09-27T19:01:19-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-09-27 12:20:23",
+      "time": "2026-09-27 18:13:05",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.099413,
-      "lng": -65.89933,
+      "lat": 18.099476,
+      "lng": -65.89941,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -171,9 +171,9 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-09-27 12:20:23",
+      "last_seen": "2026-09-27 18:13:05",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 52,
+      "trips": 53,
       "stops": 145,
       "miles": 732.5,
       "speeding": 6,
@@ -30377,6 +30377,40 @@
         [
           18.443625,
           -66.9408616
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-09-27 18:11:39",
+      "arrival": "2026-09-27 18:12:56",
+      "duration_min": 1.3,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099428,
+      "origin_lng": -65.899363,
+      "destination_lat": 18.099475,
+      "destination_lng": -65.89941,
+      "miles": 0.02,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.099428,
+          -65.899363
+        ],
+        [
+          18.099428,
+          -65.899363
+        ],
+        [
+          18.099475,
+          -65.89941
         ]
       ]
     }
