@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T08:24:36-04:00",
+  "generatedAt": "2026-09-27T13:07:59-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,12 +7,12 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-26 22:53:34",
-      "speed": 16.8,
+      "time": "2026-09-27 12:16:10",
+      "speed": 0.0,
       "ignition": "",
-      "lat": 18.41799,
-      "lng": -66.9270883,
-      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
+      "lat": 18.4438683,
+      "lng": -66.9406733,
+      "place": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 1038729 - LV",
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-09-26 08:00:45",
+      "time": "2026-09-27 12:20:23",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.099391,
-      "lng": -65.899416,
+      "lat": 18.099413,
+      "lng": -65.89933,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -128,10 +128,10 @@
       "vehicle": "RPS 1035617 - DV",
       "serial": "866846053686225",
       "plate": "1035617",
-      "current_status": "Moviendo",
-      "last_seen": "2026-09-26 22:53:34",
-      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 69,
+      "current_status": "Detenido",
+      "last_seen": "2026-09-27 12:16:10",
+      "current_place": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "trips": 72,
       "stops": 2,
       "miles": 0,
       "speeding": 38,
@@ -171,10 +171,10 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-09-26 08:00:45",
+      "last_seen": "2026-09-27 12:20:23",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 50,
-      "stops": 140,
+      "trips": 52,
+      "stops": 145,
       "miles": 732.5,
       "speeding": 6,
       "inefficient_routes": 6,
@@ -30117,6 +30117,204 @@
           -66.940875
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-26 22:45:07",
+      "arrival": "2026-09-26 22:58:21",
+      "duration_min": 13.2,
+      "origin": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4433833,
+      "origin_lng": -66.940875,
+      "destination_lat": 18.40966,
+      "destination_lng": -66.9356366,
+      "miles": 0,
+      "straight_miles": 2.36,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4433833,
+          -66.940875
+        ],
+        [
+          18.4306583,
+          -66.9270466
+        ],
+        [
+          18.4130333,
+          -66.9320266
+        ],
+        [
+          18.40966,
+          -66.9356366
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-09-27 10:14:19",
+      "arrival": "2026-09-27 10:15:21",
+      "duration_min": 1.0,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099389,
+      "origin_lng": -65.899421,
+      "destination_lat": 18.099505,
+      "destination_lng": -65.899373,
+      "miles": 0.01,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.099389,
+          -65.899421
+        ],
+        [
+          18.099389,
+          -65.899421
+        ],
+        [
+          18.099389,
+          -65.899421
+        ],
+        [
+          18.099389,
+          -65.899421
+        ],
+        [
+          18.099505,
+          -65.899373
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-27 11:18:45",
+      "arrival": "2026-09-27 11:23:40",
+      "duration_min": 4.9,
+      "origin": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
+      "destination": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.40966,
+      "origin_lng": -66.9356366,
+      "destination_lat": 18.4096366,
+      "destination_lng": -66.9356866,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.40966,
+          -66.9356366
+        ],
+        [
+          18.4096366,
+          -66.9356866
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-09-27 11:54:58",
+      "arrival": "2026-09-27 12:14:51",
+      "duration_min": 19.9,
+      "origin": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-480 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.409655,
+      "origin_lng": -66.9356633,
+      "destination_lat": 18.4438683,
+      "destination_lng": -66.9406733,
+      "miles": 0,
+      "straight_miles": 2.39,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.409655,
+          -66.9356633
+        ],
+        [
+          18.411485,
+          -66.9311649
+        ],
+        [
+          18.415325,
+          -66.9292866
+        ],
+        [
+          18.4411766,
+          -66.9299483
+        ],
+        [
+          18.4438683,
+          -66.9406733
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-09-27 12:08:53",
+      "arrival": "2026-09-27 12:20:14",
+      "duration_min": 11.3,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099515,
+      "origin_lng": -65.899381,
+      "destination_lat": 18.099411,
+      "destination_lng": -65.89933,
+      "miles": 0.03,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.099515,
+          -65.899381
+        ],
+        [
+          18.099515,
+          -65.899381
+        ],
+        [
+          18.099515,
+          -65.899381
+        ],
+        [
+          18.099431,
+          -65.899393
+        ],
+        [
+          18.099401,
+          -65.899395
+        ],
+        [
+          18.099411,
+          -65.89933
+        ]
+      ]
     }
   ],
   "stops": [
@@ -42719,6 +42917,51 @@
       "speed": 0.0,
       "lat": 18.099403,
       "lng": -65.899408
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-27 10:14:36",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099389,
+      "lng": -65.899421
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-27 10:14:42",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099389,
+      "lng": -65.899421
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-27 12:09:27",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.3,
+      "lat": 18.099515,
+      "lng": -65.899381
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-27 12:12:27",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099431,
+      "lng": -65.899393
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-09-27 12:18:27",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099401,
+      "lng": -65.899395
     }
   ],
   "speeding": [
