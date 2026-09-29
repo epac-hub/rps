@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T17:29:26-04:00",
+  "generatedAt": "2026-09-28T21:11:38-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-28 17:26:30",
-      "speed": 15.9,
-      "ignition": "IGNITION ON",
-      "lat": 18.424736,
-      "lng": -66.472274,
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
+      "time": "2026-09-28 20:49:43",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418563,
+      "lng": -66.462051,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-09-28 17:26:30",
-      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "current_status": "Detenido",
+      "last_seen": "2026-09-28 20:49:43",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
       "trips": 68,
-      "stops": 90,
-      "miles": 441.9,
+      "stops": 87,
+      "miles": 478.7,
       "speeding": 5,
       "inefficient_routes": 5,
       "max_speed": 73.5
@@ -266,86 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-09-20 19:54:37",
-      "arrival": "2026-09-20 19:58:29",
-      "duration_min": 3.9,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.418596,
-      "origin_lng": -66.46205,
-      "destination_lat": 18.41866,
-      "destination_lng": -66.462104,
-      "miles": 0.03,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.418596,
-          -66.46205
-        ],
-        [
-          18.418596,
-          -66.46205
-        ],
-        [
-          18.41866,
-          -66.462106
-        ],
-        [
-          18.41866,
-          -66.462104
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-09-20 20:31:39",
-      "arrival": "2026-09-20 20:34:11",
-      "duration_min": 2.5,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.418659,
-      "origin_lng": -66.462106,
-      "destination_lat": 18.41858,
-      "destination_lng": -66.462041,
-      "miles": 0.04,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.418659,
-          -66.462106
-        ],
-        [
-          18.418659,
-          -66.462106
-        ],
-        [
-          18.418659,
-          -66.462106
-        ],
-        [
-          18.418583,
-          -66.46204
-        ],
-        [
-          18.41858,
-          -66.462041
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
@@ -35525,6 +35445,88 @@
       ]
     },
     {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-28 16:32:11",
+      "arrival": "2026-09-28 17:31:39",
+      "duration_min": 59.5,
+      "origin": "Calle Escoriaza (Residential), Quebradillas, Puerto Rico, 00678",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.463613,
+      "origin_lng": -66.938685,
+      "destination_lat": 18.418561,
+      "destination_lng": -66.46205,
+      "miles": 36.83,
+      "straight_miles": 31.4,
+      "efficiency_ratio": 1.17,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.17x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.463613,
+          -66.938685
+        ],
+        [
+          18.463613,
+          -66.938685
+        ],
+        [
+          18.463613,
+          -66.938685
+        ],
+        [
+          18.45882,
+          -66.923808
+        ],
+        [
+          18.466583,
+          -66.885421
+        ],
+        [
+          18.477393,
+          -66.839296
+        ],
+        [
+          18.488283,
+          -66.805808
+        ],
+        [
+          18.462561,
+          -66.774906
+        ],
+        [
+          18.443946,
+          -66.704656
+        ],
+        [
+          18.43999,
+          -66.630245
+        ],
+        [
+          18.442503,
+          -66.559844
+        ],
+        [
+          18.440431,
+          -66.488198
+        ],
+        [
+          18.424736,
+          -66.472274
+        ],
+        [
+          18.41856,
+          -66.462048
+        ],
+        [
+          18.418561,
+          -66.46205
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
       "departure": "2026-09-28 16:37:44",
@@ -35573,36 +35575,43 @@
           -66.47546
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-09-28 20:49:07",
+      "arrival": "2026-09-28 20:49:34",
+      "duration_min": 0.5,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.418563,
+      "origin_lng": -66.462051,
+      "destination_lat": 18.418563,
+      "destination_lng": -66.462051,
+      "miles": 0,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.418563,
+          -66.462051
+        ],
+        [
+          18.418563,
+          -66.462051
+        ],
+        [
+          18.418563,
+          -66.462051
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-09-20 19:58:15",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.2,
-      "lat": 18.41866,
-      "lng": -66.462106
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-09-20 20:31:42",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418659,
-      "lng": -66.462106
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-09-20 20:33:08",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418583,
-      "lng": -66.46204
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
