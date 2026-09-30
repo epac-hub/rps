@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T18:48:02-04:00",
+  "generatedAt": "2026-09-29T21:41:14-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,7 +7,7 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-09-29 18:35:12",
+      "time": "2026-09-29 20:09:46",
       "speed": 0.0,
       "ignition": "",
       "lat": 18.4119533,
@@ -31,12 +31,12 @@
       "serial": "0470009731",
       "plate": "933-089",
       "description": "OFICINADPTO PRODUCCION",
-      "time": "2026-09-29 18:43:09",
+      "time": "2026-09-29 18:47:55",
       "speed": 0.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.432926,
-      "lng": -66.475446,
-      "place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674"
+      "ignition": "IGNITION OFF",
+      "lat": 18.42439,
+      "lng": -66.475539,
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693"
     },
     {
       "vehicle": "RPS 933-090 12 LR",
@@ -129,7 +129,7 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "current_status": "Detenido",
-      "last_seen": "2026-09-29 18:35:12",
+      "last_seen": "2026-09-29 20:09:46",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
       "trips": 78,
       "stops": 0,
@@ -157,11 +157,11 @@
       "serial": "0470009731",
       "plate": "933-089",
       "current_status": "Detenido",
-      "last_seen": "2026-09-29 18:43:09",
-      "current_place": "Carretera Militar (Secondary, PR-2), Manati, Puerto Rico, 00674",
-      "trips": 36,
-      "stops": 109,
-      "miles": 275.1,
+      "last_seen": "2026-09-29 18:47:55",
+      "current_place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "trips": 37,
+      "stops": 110,
+      "miles": 282.1,
       "speeding": 12,
       "inefficient_routes": 2,
       "max_speed": 73.4
@@ -187,8 +187,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-09-29 16:54:21",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 68,
-      "stops": 87,
+      "trips": 67,
+      "stops": 86,
       "miles": 501.5,
       "speeding": 6,
       "inefficient_routes": 6,
@@ -266,44 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-09-21 20:59:53",
-      "arrival": "2026-09-21 21:02:30",
-      "duration_min": 2.6,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.418553,
-      "origin_lng": -66.462013,
-      "destination_lat": 18.418553,
-      "destination_lng": -66.462013,
-      "miles": 0,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.418553,
-          -66.462013
-        ],
-        [
-          18.418553,
-          -66.462013
-        ],
-        [
-          18.418553,
-          -66.462013
-        ],
-        [
-          18.418553,
-          -66.462013
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -37183,18 +37145,67 @@
           -66.428685
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-089 11 EO",
+      "serial": "0470009731",
+      "departure": "2026-09-29 18:24:53",
+      "arrival": "2026-09-29 18:47:46",
+      "duration_min": 22.9,
+      "origin": "Residential, Vega Baja, Puerto Rico, 00693",
+      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "origin_lat": 18.482723,
+      "origin_lng": -66.428685,
+      "destination_lat": 18.42439,
+      "destination_lng": -66.475539,
+      "miles": 7.0,
+      "straight_miles": 5.07,
+      "efficiency_ratio": 1.38,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.38x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 6.8 mi o menos; posible ahorro 0.2 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.16,
+      "route_points": [
+        [
+          18.482723,
+          -66.428685
+        ],
+        [
+          18.482723,
+          -66.428685
+        ],
+        [
+          18.482646,
+          -66.428753
+        ],
+        [
+          18.46853,
+          -66.458155
+        ],
+        [
+          18.44929,
+          -66.466286
+        ],
+        [
+          18.43312,
+          -66.474791
+        ],
+        [
+          18.424566,
+          -66.474828
+        ],
+        [
+          18.42439,
+          -66.475539
+        ],
+        [
+          18.42439,
+          -66.475539
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-09-21 20:59:56",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418553,
-      "lng": -66.462013
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -53700,6 +53711,15 @@
       "speed": 0.0,
       "lat": 18.482646,
       "lng": -66.428753
+    },
+    {
+      "vehicle": "RPS 933-089 11 EO",
+      "serial": "0470009731",
+      "time": "2026-09-29 18:47:43",
+      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "speed": 0.0,
+      "lat": 18.42439,
+      "lng": -66.475539
     }
   ],
   "speeding": [
