@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T01:32:20-04:00",
+  "generatedAt": "2026-10-03T06:35:43-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -173,9 +173,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-02 16:20:41",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 59,
-      "stops": 173,
-      "miles": 950.4,
+      "trips": 58,
+      "stops": 163,
+      "miles": 885.7,
       "speeding": 3,
       "inefficient_routes": 6,
       "max_speed": 66.7
@@ -266,140 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-09-25 04:41:34",
-      "arrival": "2026-09-25 06:21:42",
-      "duration_min": 100.1,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.099348,
-      "origin_lng": -65.899353,
-      "destination_lat": 18.424376,
-      "destination_lng": -66.475595,
-      "miles": 64.7,
-      "straight_miles": 43.98,
-      "efficiency_ratio": 1.47,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 59.4 mi o menos; posible ahorro 5.3 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 5.33,
-      "route_points": [
-        [
-          18.099348,
-          -65.899353
-        ],
-        [
-          18.099348,
-          -65.899353
-        ],
-        [
-          18.099348,
-          -65.899353
-        ],
-        [
-          18.099348,
-          -65.899353
-        ],
-        [
-          18.100181,
-          -65.896046
-        ],
-        [
-          18.115081,
-          -65.877768
-        ],
-        [
-          18.14616,
-          -65.861271
-        ],
-        [
-          18.18607,
-          -65.8904
-        ],
-        [
-          18.246146,
-          -65.944064
-        ],
-        [
-          18.24956,
-          -66.018691
-        ],
-        [
-          18.304665,
-          -66.038211
-        ],
-        [
-          18.367781,
-          -66.069935
-        ],
-        [
-          18.420708,
-          -66.083115
-        ],
-        [
-          18.421858,
-          -66.156888
-        ],
-        [
-          18.415395,
-          -66.231188
-        ],
-        [
-          18.42479,
-          -66.303565
-        ],
-        [
-          18.433036,
-          -66.384476
-        ],
-        [
-          18.432476,
-          -66.43039
-        ],
-        [
-          18.425766,
-          -66.466055
-        ],
-        [
-          18.430868,
-          -66.475056
-        ],
-        [
-          18.431393,
-          -66.475809
-        ],
-        [
-          18.431365,
-          -66.47581
-        ],
-        [
-          18.431188,
-          -66.475763
-        ],
-        [
-          18.431138,
-          -66.47565
-        ],
-        [
-          18.431138,
-          -66.47555
-        ],
-        [
-          18.43127,
-          -66.475534
-        ],
-        [
-          18.424378,
-          -66.475595
-        ],
-        [
-          18.424376,
-          -66.475595
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1035617 - DV",
       "serial": "866846053686225",
@@ -34892,96 +34758,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 04:41:37",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099348,
-      "lng": -65.899353
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 04:44:37",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099348,
-      "lng": -65.899353
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 06:06:41",
-      "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.430868,
-      "lng": -66.475056
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 06:09:10",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.431393,
-      "lng": -66.475809
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 06:12:10",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.431365,
-      "lng": -66.47581
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 06:15:48",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.431188,
-      "lng": -66.475763
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 06:17:04",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.2,
-      "lat": 18.431138,
-      "lng": -66.47565
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 06:17:28",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.431138,
-      "lng": -66.47555
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 06:19:16",
-      "place": "Trigal Plaza (Retail, retail), Manati, Puerto Rico, 00674",
-      "speed": 0.1,
-      "lat": 18.43127,
-      "lng": -66.475534
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-25 06:21:40",
-      "place": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "speed": 0.2,
-      "lat": 18.424378,
-      "lng": -66.475595
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
