@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T11:51:43-04:00",
+  "generatedAt": "2026-10-04T14:50:51-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,11 +43,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-10-03 12:26:21",
+      "time": "2026-10-04 13:11:59",
       "speed": 0.0,
       "ignition": "IGNITION OFF",
-      "lat": 18.099271,
-      "lng": -65.899,
+      "lat": 18.099363,
+      "lng": -65.899288,
       "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
@@ -171,10 +171,10 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-10-03 12:26:21",
+      "last_seen": "2026-10-04 13:11:59",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 51,
-      "stops": 149,
+      "trips": 53,
+      "stops": 151,
       "miles": 805.8,
       "speeding": 2,
       "inefficient_routes": 6,
@@ -29261,6 +29261,82 @@
           -66.475518
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-10-04 12:00:31",
+      "arrival": "2026-10-04 12:03:24",
+      "duration_min": 2.9,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099427,
+      "origin_lng": -65.899438,
+      "destination_lat": 18.099373,
+      "destination_lng": -65.899431,
+      "miles": 0.01,
+      "straight_miles": 0.0,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.099427,
+          -65.899438
+        ],
+        [
+          18.099427,
+          -65.899438
+        ],
+        [
+          18.099427,
+          -65.899438
+        ],
+        [
+          18.099373,
+          -65.899431
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-10-04 13:11:16",
+      "arrival": "2026-10-04 13:11:50",
+      "duration_min": 0.6,
+      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.099373,
+      "origin_lng": -65.899431,
+      "destination_lat": 18.099363,
+      "destination_lng": -65.899288,
+      "miles": 0.06,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.099373,
+          -65.899431
+        ],
+        [
+          18.099373,
+          -65.899431
+        ],
+        [
+          18.099373,
+          -65.899431
+        ],
+        [
+          18.099363,
+          -65.899288
+        ]
+      ]
     }
   ],
   "stops": [
@@ -42925,6 +43001,24 @@
       "speed": 0.1,
       "lat": 18.424568,
       "lng": -66.475556
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-04 12:00:34",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099427,
+      "lng": -65.899438
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-04 13:11:19",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099373,
+      "lng": -65.899431
     }
   ],
   "speeding": [
