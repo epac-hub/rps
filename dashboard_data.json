@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T22:00:12-04:00",
+  "generatedAt": "2026-10-06T04:50:42-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-10-05 17:05:32",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.099474,
-      "lng": -65.899461,
-      "place": "Residential, Yabucoa, Puerto Rico, 00767"
+      "time": "2026-10-06 04:49:27",
+      "speed": 29.0,
+      "ignition": "IGNITION ON",
+      "lat": 18.104401,
+      "lng": -65.882016,
+      "place": "Residential, Yabucoa, Puerto Rico, 00791"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -170,11 +170,11 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-10-05 17:05:32",
-      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "current_status": "Moviendo",
+      "last_seen": "2026-10-06 04:49:27",
+      "current_place": "Residential, Yabucoa, Puerto Rico, 00791",
       "trips": 53,
-      "stops": 155,
+      "stops": 157,
       "miles": 805.8,
       "speeding": 2,
       "inefficient_routes": 6,
@@ -51415,6 +51415,24 @@
       "speed": 0.0,
       "lat": 18.433533,
       "lng": -66.394621
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-06 04:40:39",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099474,
+      "lng": -65.899461
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-06 04:43:39",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099474,
+      "lng": -65.899461
     }
   ],
   "speeding": [
