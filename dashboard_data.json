@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T20:03:12-04:00",
+  "generatedAt": "2026-10-07T01:46:21-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,7 +187,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-06 17:26:38",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 43,
+      "trips": 42,
       "stops": 75,
       "miles": 280.5,
       "speeding": 5,
@@ -266,40 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-09-28 20:49:07",
-      "arrival": "2026-09-28 20:49:34",
-      "duration_min": 0.5,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.418563,
-      "origin_lng": -66.462051,
-      "destination_lat": 18.418563,
-      "destination_lng": -66.462051,
-      "miles": 0,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.418563,
-          -66.462051
-        ],
-        [
-          18.418563,
-          -66.462051
-        ],
-        [
-          18.418563,
-          -66.462051
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
