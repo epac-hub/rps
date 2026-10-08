@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T22:48:22-04:00",
+  "generatedAt": "2026-10-08T05:33:57-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-10-07 17:55:52",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.099448,
-      "lng": -65.899428,
-      "place": "Residential, Yabucoa, Puerto Rico, 00767"
+      "time": "2026-10-08 05:32:12",
+      "speed": 55.3,
+      "ignition": "IGNITION ON",
+      "lat": 18.363781,
+      "lng": -66.06999,
+      "place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -170,12 +170,12 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-10-07 17:55:52",
-      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 65,
+      "current_status": "Moviendo",
+      "last_seen": "2026-10-08 05:32:12",
+      "current_place": "Autopista Luis A. Ferré (Motorway, PR-52), San Juan, Puerto Rico, 00926",
+      "trips": 64,
       "stops": 178,
-      "miles": 867.1,
+      "miles": 802.7,
       "speeding": 2,
       "inefficient_routes": 9,
       "max_speed": 65.9
@@ -266,120 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-09-30 04:44:39",
-      "arrival": "2026-09-30 06:14:34",
-      "duration_min": 89.9,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.099395,
-      "origin_lng": -65.899367,
-      "destination_lat": 18.424353,
-      "destination_lng": -66.475581,
-      "miles": 64.43,
-      "straight_miles": 43.97,
-      "efficiency_ratio": 1.47,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.47x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 59.4 mi o menos; posible ahorro 5.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 5.07,
-      "route_points": [
-        [
-          18.099395,
-          -65.899367
-        ],
-        [
-          18.099395,
-          -65.899367
-        ],
-        [
-          18.099395,
-          -65.899367
-        ],
-        [
-          18.099395,
-          -65.899367
-        ],
-        [
-          18.101576,
-          -65.882083
-        ],
-        [
-          18.129071,
-          -65.873433
-        ],
-        [
-          18.159156,
-          -65.864491
-        ],
-        [
-          18.20391,
-          -65.905303
-        ],
-        [
-          18.24929,
-          -65.958046
-        ],
-        [
-          18.256855,
-          -66.030431
-        ],
-        [
-          18.30807,
-          -66.034988
-        ],
-        [
-          18.363161,
-          -66.070025
-        ],
-        [
-          18.424403,
-          -66.07953
-        ],
-        [
-          18.42252,
-          -66.15187
-        ],
-        [
-          18.41262,
-          -66.226381
-        ],
-        [
-          18.425338,
-          -66.288748
-        ],
-        [
-          18.42773,
-          -66.361255
-        ],
-        [
-          18.438665,
-          -66.424063
-        ],
-        [
-          18.426358,
-          -66.46196
-        ],
-        [
-          18.429233,
-          -66.474774
-        ],
-        [
-          18.43085,
-          -66.475061
-        ],
-        [
-          18.424353,
-          -66.475581
-        ],
-        [
-          18.424353,
-          -66.475581
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 1038729 - LV",
       "serial": "866846053691563",
@@ -36011,24 +35897,6 @@
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
-      "time": "2026-09-30 04:44:42",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099395,
-      "lng": -65.899367
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-09-30 04:47:42",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099395,
-      "lng": -65.899367
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
       "time": "2026-09-30 06:10:06",
       "place": "Carretera Fernando \"Nando\" Otero Sánchez (Secondary, PR-149), Manati, Puerto Rico, 00674",
       "speed": 0.0,
@@ -53467,6 +53335,24 @@
       "speed": 0.0,
       "lat": 18.101078,
       "lng": -65.907333
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-08 04:44:59",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099448,
+      "lng": -65.899428
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-08 04:47:59",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099446,
+      "lng": -65.89942
     }
   ],
   "speeding": [
