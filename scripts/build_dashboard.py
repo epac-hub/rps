@@ -1,8 +1,10 @@
 import csv
 import datetime as dt
+import hashlib
 import html
 import json
 import math
+import os
 import pathlib
 
 
@@ -12,6 +14,17 @@ REPORTS = RAW / "reports"
 DASH = ROOT
 LOCAL_OFFSET_HOURS = -4
 SPEED_LIMIT = 65
+# SHA-256 of the access password used before DASHBOARD_PASSWORD existed. Only
+# applies when the secret is unset, so publishing never breaks the gate.
+LEGACY_PASSWORD_SHA256 = "9972f9dd38370707b10849c03d83b16562cbb27b342b3cd626604a4ac14b8018"
+
+
+def dashboard_password_hash():
+    password = os.environ.get("DASHBOARD_PASSWORD", "")
+    if not password:
+        print("WARNING: DASHBOARD_PASSWORD is not set; using the legacy access password.")
+        return LEGACY_PASSWORD_SHA256
+    return hashlib.sha256(password.encode("utf-8")).hexdigest()
 
 
 def parse_time(value):
@@ -299,6 +312,7 @@ def main():
         ],
     }
 
+    password_hash = dashboard_password_hash()
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     page = f"""<!doctype html>
 <html lang="es">
@@ -632,7 +646,11 @@ tr:hover td {{ background: #fff9e8; }}
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script id="fleetData" type="application/json">{payload}</script>
 <script>
-const DASHBOARD_PASSWORD = 'melvinmelvin';
+const DASHBOARD_PASSWORD_SHA256 = '{password_hash}';
+async function sha256Hex(text) {{
+  const bytes = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(bytes), b => b.toString(16).padStart(2, '0')).join('');
+}}
 function unlockDashboard() {{
   document.getElementById('authGate').style.display = 'none';
   document.body.style.overflow = '';
@@ -646,10 +664,10 @@ function logoutDashboard() {{
 }}
 document.body.style.overflow = 'hidden';
 if (sessionStorage.getItem('rpsFleetAuth') === 'ok') unlockDashboard();
-document.getElementById('authForm').addEventListener('submit', event => {{
+document.getElementById('authForm').addEventListener('submit', async event => {{
   event.preventDefault();
   const value = document.getElementById('authPassword').value;
-  if (value === DASHBOARD_PASSWORD) {{
+  if (await sha256Hex(value) === DASHBOARD_PASSWORD_SHA256) {{
     sessionStorage.setItem('rpsFleetAuth', 'ok');
     document.getElementById('authError').textContent = '';
     unlockDashboard();
