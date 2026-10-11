@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T21:18:46-04:00",
+  "generatedAt": "2026-10-11T03:20:14-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -131,7 +131,7 @@
       "current_status": "Moviendo",
       "last_seen": "2026-10-09 14:01:37",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 56,
+      "trips": 55,
       "stops": 0,
       "miles": 0,
       "speeding": 40,
@@ -266,36 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-10-02 23:49:02",
-      "arrival": "2026-10-02 23:49:26",
-      "duration_min": 0.4,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.4114383,
-      "origin_lng": -66.9309266,
-      "destination_lat": 18.4114383,
-      "destination_lng": -66.9309266,
-      "miles": 0,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4114383,
-          -66.9309266
-        ],
-        [
-          18.4114383,
-          -66.9309266
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
