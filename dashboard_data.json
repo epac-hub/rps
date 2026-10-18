@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:38:52-04:00",
+  "generatedAt": "2026-10-18T17:52:59-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-16 17:16:09",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 62,
-      "stops": 106,
-      "miles": 461.0,
+      "trips": 61,
+      "stops": 105,
+      "miles": 424.3,
       "speeding": 8,
       "inefficient_routes": 10,
       "max_speed": 72.9
@@ -266,92 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-10-10 17:02:43",
-      "arrival": "2026-10-10 18:03:52",
-      "duration_min": 61.1,
-      "origin": "Plaza Isabela (Retail, retail), Isabela, Puerto Rico, 00662",
-      "destination": "Calle 2 (Residential), Barceloneta, Puerto Rico, 00617",
-      "origin_lat": 18.468636,
-      "origin_lng": -67.023701,
-      "destination_lat": 18.432596,
-      "destination_lng": -66.542015,
-      "miles": 36.7,
-      "straight_miles": 31.67,
-      "efficiency_ratio": 1.16,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.16x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.468636,
-          -67.023701
-        ],
-        [
-          18.468636,
-          -67.023701
-        ],
-        [
-          18.468535,
-          -67.023875
-        ],
-        [
-          18.472858,
-          -67.002325
-        ],
-        [
-          18.486371,
-          -66.954516
-        ],
-        [
-          18.46456,
-          -66.927826
-        ],
-        [
-          18.468508,
-          -66.882201
-        ],
-        [
-          18.475883,
-          -66.844651
-        ],
-        [
-          18.48813,
-          -66.800349
-        ],
-        [
-          18.467011,
-          -66.777105
-        ],
-        [
-          18.442171,
-          -66.700743
-        ],
-        [
-          18.444813,
-          -66.617218
-        ],
-        [
-          18.441216,
-          -66.5457
-        ],
-        [
-          18.431916,
-          -66.542533
-        ],
-        [
-          18.432596,
-          -66.542015
-        ],
-        [
-          18.432596,
-          -66.542015
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -29330,15 +29244,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-10-10 17:02:46",
-      "place": "Plaza Isabela (Retail, retail), Isabela, Puerto Rico, 00662",
-      "speed": 0.4,
-      "lat": 18.468535,
-      "lng": -67.023875
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
