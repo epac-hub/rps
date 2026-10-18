@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T10:42:45-04:00",
+  "generatedAt": "2026-10-18T13:34:43-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,10 +187,10 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-16 17:16:09",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 65,
-      "stops": 109,
-      "miles": 500.6,
-      "speeding": 9,
+      "trips": 64,
+      "stops": 108,
+      "miles": 491.8,
+      "speeding": 8,
       "inefficient_routes": 10,
       "max_speed": 72.9
     },
@@ -266,52 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-10-10 11:51:33",
-      "arrival": "2026-10-10 12:06:23",
-      "duration_min": 14.8,
-      "origin": "Residential, San German, Puerto Rico, 00683",
-      "destination": "Mayagüez Mall (Retail, retail), Mayaguez, Puerto Rico, 00680",
-      "origin_lat": 18.097546,
-      "origin_lng": -67.037285,
-      "destination_lat": 18.153888,
-      "destination_lng": -67.141566,
-      "miles": 8.79,
-      "straight_miles": 7.88,
-      "efficiency_ratio": 1.12,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.12x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.097546,
-          -67.037285
-        ],
-        [
-          18.097546,
-          -67.037285
-        ],
-        [
-          18.097546,
-          -67.037285
-        ],
-        [
-          18.110731,
-          -67.068708
-        ],
-        [
-          18.139703,
-          -67.138156
-        ],
-        [
-          18.153888,
-          -67.141566
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -29503,15 +29457,6 @@
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
-      "time": "2026-10-10 11:51:36",
-      "place": "Residential, San German, Puerto Rico, 00683",
-      "speed": 0.0,
-      "lat": 18.097546,
-      "lng": -67.037285
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
       "time": "2026-10-10 14:34:21",
       "place": "Mayagüez Mall (Retail, retail), Mayaguez, Puerto Rico, 00680",
       "speed": 0.0,
@@ -42160,16 +42105,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612",
       "lat": 18.4530933,
       "lng": -66.72368
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-10-10 11:06:16",
-      "speed": 71.9,
-      "over": 6.9,
-      "place": "Expreso Roberto Sánchez Vilella (Motorway, Carretera 2, PR-2), Guanica, Puerto Rico, 00653",
-      "lat": 18.015531,
-      "lng": -66.910936
     },
     {
       "vehicle": "RPS 933-089 11 EO",
