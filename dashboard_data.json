@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T07:23:15-04:00",
+  "generatedAt": "2026-10-18T10:42:45-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,11 +7,11 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-10-17 14:55:54",
+      "time": "2026-10-18 10:36:59",
       "speed": 0.0,
-      "ignition": "",
-      "lat": 18.4252133,
-      "lng": -66.9267966,
+      "ignition": "IGNITION OFF",
+      "lat": 18.4251316,
+      "lng": -66.9268183,
       "place": "Track, Quebradillas, Puerto Rico, 00678"
     },
     {
@@ -129,7 +129,7 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "current_status": "Detenido",
-      "last_seen": "2026-10-17 14:55:54",
+      "last_seen": "2026-10-18 10:36:59",
       "current_place": "Track, Quebradillas, Puerto Rico, 00678",
       "trips": 56,
       "stops": 0,
@@ -187,11 +187,11 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-16 17:16:09",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 66,
-      "stops": 110,
-      "miles": 539.6,
-      "speeding": 10,
-      "inefficient_routes": 11,
+      "trips": 65,
+      "stops": 109,
+      "miles": 500.6,
+      "speeding": 9,
+      "inefficient_routes": 10,
       "max_speed": 72.9
     },
     {
@@ -266,92 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-10-10 08:42:57",
-      "arrival": "2026-10-10 09:51:03",
-      "duration_min": 68.1,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Antigua PR-10 (Trunk, PR-123), Adjuntas, Puerto Rico, 00601",
-      "origin_lat": 18.418616,
-      "origin_lng": -66.462046,
-      "destination_lat": 18.229473,
-      "destination_lng": -66.717228,
-      "miles": 39.03,
-      "straight_miles": 21.24,
-      "efficiency_ratio": 1.84,
-      "efficiency": "Ineficiente",
-      "why_inefficient": "Recorrio 1.84x la distancia directa; la ruta fue mucho mas larga que el trayecto esperado.",
-      "efficient_action": "Alternativa: reordenar paradas y comparar contra Google Routes antes del despacho. Para pasar a eficiente: 28.7 mi o menos; ahorro estimado 10.4 mi.",
-      "potential_saved_miles": 10.36,
-      "route_points": [
-        [
-          18.418616,
-          -66.462046
-        ],
-        [
-          18.418616,
-          -66.462046
-        ],
-        [
-          18.418616,
-          -66.462046
-        ],
-        [
-          18.426098,
-          -66.462706
-        ],
-        [
-          18.432528,
-          -66.476953
-        ],
-        [
-          18.432898,
-          -66.484466
-        ],
-        [
-          18.427866,
-          -66.510236
-        ],
-        [
-          18.437326,
-          -66.542708
-        ],
-        [
-          18.441155,
-          -66.577386
-        ],
-        [
-          18.439973,
-          -66.64758
-        ],
-        [
-          18.446693,
-          -66.71664
-        ],
-        [
-          18.389988,
-          -66.691966
-        ],
-        [
-          18.334445,
-          -66.677274
-        ],
-        [
-          18.299625,
-          -66.711773
-        ],
-        [
-          18.258028,
-          -66.725035
-        ],
-        [
-          18.229473,
-          -66.717228
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -29589,15 +29503,6 @@
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
-      "time": "2026-10-10 08:43:00",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418616,
-      "lng": -66.462046
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
       "time": "2026-10-10 11:51:36",
       "place": "Residential, San German, Puerto Rico, 00683",
       "speed": 0.0,
@@ -42965,16 +42870,6 @@
       "place": "Puente Juan Ramírez Vélez (Bridge), Barceloneta, Puerto Rico, 00617",
       "lat": 18.4453433,
       "lng": -66.5302133
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-10-10 10:58:12",
-      "speed": 66.4,
-      "over": 1.4,
-      "place": "Expreso Roberto Sánchez Vilella (Motorway, Carretera 2, PR-2), Guayanilla, Puerto Rico, 00656",
-      "lat": 18.03254,
-      "lng": -66.79536
     },
     {
       "vehicle": "RPS 933-090 12 LR",
