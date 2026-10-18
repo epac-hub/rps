@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:34:43-04:00",
+  "generatedAt": "2026-10-18T15:38:52-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,9 +187,9 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-16 17:16:09",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 64,
-      "stops": 108,
-      "miles": 491.8,
+      "trips": 62,
+      "stops": 106,
+      "miles": 461.0,
       "speeding": 8,
       "inefficient_routes": 10,
       "max_speed": 72.9
@@ -266,130 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-10-10 14:34:18",
-      "arrival": "2026-10-10 14:53:14",
-      "duration_min": 18.9,
-      "origin": "Mayagüez Mall (Retail, retail), Mayaguez, Puerto Rico, 00680",
-      "destination": "Total (Convenience), Mayaguez, Puerto Rico, 00682",
-      "origin_lat": 18.153888,
-      "origin_lng": -67.141566,
-      "destination_lat": 18.228238,
-      "destination_lng": -67.160816,
-      "miles": 6.01,
-      "straight_miles": 5.29,
-      "efficiency_ratio": 1.14,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.14x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.153888,
-          -67.141566
-        ],
-        [
-          18.153888,
-          -67.141566
-        ],
-        [
-          18.153888,
-          -67.141566
-        ],
-        [
-          18.168973,
-          -67.14958
-        ],
-        [
-          18.1954,
-          -67.149843
-        ],
-        [
-          18.227665,
-          -67.160303
-        ],
-        [
-          18.228238,
-          -67.160816
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-10-10 15:01:43",
-      "arrival": "2026-10-10 15:54:36",
-      "duration_min": 52.9,
-      "origin": "Total (Convenience), Mayaguez, Puerto Rico, 00682",
-      "destination": "Plaza Isabela (Retail, retail), Isabela, Puerto Rico, 00662",
-      "origin_lat": 18.228238,
-      "origin_lng": -67.160816,
-      "destination_lat": 18.468636,
-      "destination_lng": -67.023701,
-      "miles": 24.79,
-      "straight_miles": 18.89,
-      "efficiency_ratio": 1.31,
-      "efficiency": "Eficiente",
-      "why_inefficient": "Recorrio 1.31x la distancia directa; esta dentro del umbral operacional de 1.35x.",
-      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.228238,
-          -67.160816
-        ],
-        [
-          18.228238,
-          -67.160816
-        ],
-        [
-          18.228238,
-          -67.160816
-        ],
-        [
-          18.244915,
-          -67.1606
-        ],
-        [
-          18.293365,
-          -67.159308
-        ],
-        [
-          18.317376,
-          -67.146441
-        ],
-        [
-          18.361641,
-          -67.161266
-        ],
-        [
-          18.407801,
-          -67.152741
-        ],
-        [
-          18.443788,
-          -67.142761
-        ],
-        [
-          18.445686,
-          -67.113996
-        ],
-        [
-          18.457743,
-          -67.069588
-        ],
-        [
-          18.467126,
-          -67.035291
-        ],
-        [
-          18.468636,
-          -67.023701
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
@@ -29454,24 +29330,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-10-10 14:34:21",
-      "place": "Mayagüez Mall (Retail, retail), Mayaguez, Puerto Rico, 00680",
-      "speed": 0.0,
-      "lat": 18.153888,
-      "lng": -67.141566
-    },
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-10-10 15:01:46",
-      "place": "Total (Convenience), Mayaguez, Puerto Rico, 00682",
-      "speed": 0.0,
-      "lat": 18.228238,
-      "lng": -67.160816
-    },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
