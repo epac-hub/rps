@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T16:09:49-04:00",
+  "generatedAt": "2026-10-19T19:36:56-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-10-19 16:07:23",
-      "speed": 16.2,
-      "ignition": "IGNITION ON",
-      "lat": 18.117568,
-      "lng": -65.868185,
-      "place": "Camino Jurutungo (Tertiary, PR-9908), Humacao, Puerto Rico, 00791"
+      "time": "2026-10-19 16:33:26",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.099425,
+      "lng": -65.899391,
+      "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -170,12 +170,12 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Moviendo",
-      "last_seen": "2026-10-19 16:07:23",
-      "current_place": "Camino Jurutungo (Tertiary, PR-9908), Humacao, Puerto Rico, 00791",
-      "trips": 54,
-      "stops": 136,
-      "miles": 925.0,
+      "current_status": "Detenido",
+      "last_seen": "2026-10-19 16:33:26",
+      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "trips": 55,
+      "stops": 139,
+      "miles": 930.0,
       "speeding": 11,
       "inefficient_routes": 10,
       "max_speed": 72.4
@@ -33941,6 +33941,56 @@
           -66.462028
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-10-19 16:18:05",
+      "arrival": "2026-10-19 16:33:17",
+      "duration_min": 15.2,
+      "origin": "Camino Blas Cuadrado (Residential), Humacao, Puerto Rico, 00791",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.128635,
+      "origin_lng": -65.856845,
+      "destination_lat": 18.099425,
+      "destination_lng": -65.899391,
+      "miles": 4.96,
+      "straight_miles": 3.45,
+      "efficiency_ratio": 1.44,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.44x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 4.7 mi o menos; posible ahorro 0.3 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.31,
+      "route_points": [
+        [
+          18.128635,
+          -65.856845
+        ],
+        [
+          18.128635,
+          -65.856845
+        ],
+        [
+          18.128635,
+          -65.856845
+        ],
+        [
+          18.114033,
+          -65.873116
+        ],
+        [
+          18.098345,
+          -65.883484
+        ],
+        [
+          18.099426,
+          -65.89939
+        ],
+        [
+          18.099425,
+          -65.899391
+        ]
+      ]
     }
   ],
   "stops": [
@@ -48802,6 +48852,33 @@
       "speed": 0.1,
       "lat": 18.424438,
       "lng": -66.475611
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-19 16:11:02",
+      "place": "Camino Blas Cuadrado (Residential), Humacao, Puerto Rico, 00791",
+      "speed": 0.0,
+      "lat": 18.128635,
+      "lng": -65.856845
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-19 16:18:08",
+      "place": "Camino Blas Cuadrado (Residential), Humacao, Puerto Rico, 00791",
+      "speed": 0.0,
+      "lat": 18.128635,
+      "lng": -65.856845
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-10-19 16:33:09",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.4,
+      "lat": 18.099426,
+      "lng": -65.89939
     }
   ],
   "speeding": [
