@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:55:24-04:00",
+  "generatedAt": "2026-10-21T22:58:58-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -131,7 +131,7 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-21 14:16:32",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 51,
+      "trips": 50,
       "stops": 0,
       "miles": 0,
       "speeding": 64,
@@ -266,36 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-10-13 20:50:29",
-      "arrival": "2026-10-13 20:51:33",
-      "duration_min": 1.1,
-      "origin": "Calle El Llano (Residential), Quebradillas, Puerto Rico, 00678",
-      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.4113566,
-      "origin_lng": -66.9313116,
-      "destination_lat": 18.412015,
-      "destination_lng": -66.93149,
-      "miles": 0,
-      "straight_miles": 0.05,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4113566,
-          -66.9313116
-        ],
-        [
-          18.412015,
-          -66.93149
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
