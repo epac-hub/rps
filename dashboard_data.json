@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T17:51:45-04:00",
+  "generatedAt": "2026-10-22T20:14:13-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-10-22 17:49:48",
-      "speed": 24.3,
-      "ignition": "IGNITION ON",
-      "lat": 18.438263,
-      "lng": -66.423923,
-      "place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693"
+      "time": "2026-10-22 18:02:14",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418661,
+      "lng": -66.462008,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-10-22 17:49:48",
-      "current_place": "Carretera Ángel A. Laureano Martínez (Secondary, PR-137), Vega Baja, Puerto Rico, 00693",
-      "trips": 63,
-      "stops": 94,
-      "miles": 447.9,
+      "current_status": "Detenido",
+      "last_seen": "2026-10-22 18:02:14",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 64,
+      "stops": 95,
+      "miles": 461.1,
       "speeding": 8,
       "inefficient_routes": 8,
       "max_speed": 72.9
@@ -32765,6 +32765,68 @@
           -66.308401
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-10-22 17:27:14",
+      "arrival": "2026-10-22 18:02:05",
+      "duration_min": 34.9,
+      "origin": "Calle 10 (Residential), Vega Alta, Puerto Rico, 00692",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.409876,
+      "origin_lng": -66.308401,
+      "destination_lat": 18.418661,
+      "destination_lng": -66.462008,
+      "miles": 13.22,
+      "straight_miles": 10.09,
+      "efficiency_ratio": 1.31,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.31x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.409876,
+          -66.308401
+        ],
+        [
+          18.409876,
+          -66.308401
+        ],
+        [
+          18.409373,
+          -66.316831
+        ],
+        [
+          18.413015,
+          -66.31926
+        ],
+        [
+          18.424978,
+          -66.340696
+        ],
+        [
+          18.431563,
+          -66.382421
+        ],
+        [
+          18.432265,
+          -66.427063
+        ],
+        [
+          18.42627,
+          -66.462556
+        ],
+        [
+          18.418661,
+          -66.462008
+        ],
+        [
+          18.418661,
+          -66.462008
+        ]
+      ]
     }
   ],
   "stops": [
@@ -47347,6 +47409,15 @@
       "speed": 0.7,
       "lat": 18.413015,
       "lng": -66.31926
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-10-22 18:01:48",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418661,
+      "lng": -66.462008
     }
   ],
   "speeding": [
