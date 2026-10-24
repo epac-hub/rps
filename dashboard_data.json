@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T17:40:46-04:00",
+  "generatedAt": "2026-10-23T20:02:37-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,12 +7,12 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-10-23 17:38:36",
+      "time": "2026-10-23 18:27:39",
       "speed": 0.0,
       "ignition": "",
-      "lat": 18.4583566,
-      "lng": -66.920755,
-      "place": "Línea de Transmisión (Power Line, line), Quebradillas, Puerto Rico, 00678"
+      "lat": 18.4559316,
+      "lng": -66.9340483,
+      "place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 1038729 - LV",
@@ -129,9 +129,9 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "current_status": "Detenido",
-      "last_seen": "2026-10-23 17:38:36",
-      "current_place": "Línea de Transmisión (Power Line, line), Quebradillas, Puerto Rico, 00678",
-      "trips": 41,
+      "last_seen": "2026-10-23 18:27:39",
+      "current_place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
+      "trips": 42,
       "stops": 0,
       "miles": 0,
       "speeding": 51,
@@ -31869,6 +31869,40 @@
         [
           18.4583566,
           -66.920755
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-10-23 18:21:14",
+      "arrival": "2026-10-23 18:26:29",
+      "duration_min": 5.2,
+      "origin": "Línea de Transmisión (Power Line, line), Quebradillas, Puerto Rico, 00678",
+      "destination": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4583566,
+      "origin_lng": -66.920755,
+      "destination_lat": 18.4559316,
+      "destination_lng": -66.9340483,
+      "miles": 0,
+      "straight_miles": 0.89,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4583566,
+          -66.920755
+        ],
+        [
+          18.4559316,
+          -66.9340483
+        ],
+        [
+          18.4559316,
+          -66.9340483
         ]
       ]
     }
