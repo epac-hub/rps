@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T12:06:55-04:00",
+  "generatedAt": "2026-10-25T14:59:21-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -131,7 +131,7 @@
       "current_status": "Moviendo",
       "last_seen": "2026-10-23 21:10:39",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 32,
+      "trips": 31,
       "stops": 0,
       "miles": 0,
       "speeding": 39,
@@ -173,8 +173,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-23 16:50:11",
       "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 46,
-      "stops": 127,
+      "trips": 45,
+      "stops": 126,
       "miles": 785.5,
       "speeding": 3,
       "inefficient_routes": 4,
@@ -266,78 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-10-17 12:40:16",
-      "arrival": "2026-10-17 12:41:02",
-      "duration_min": 0.8,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
-      "origin_lat": 18.099423,
-      "origin_lng": -65.899461,
-      "destination_lat": 18.09938,
-      "destination_lng": -65.899203,
-      "miles": 0.04,
-      "straight_miles": 0.02,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.099423,
-          -65.899461
-        ],
-        [
-          18.099423,
-          -65.899461
-        ],
-        [
-          18.099423,
-          -65.899461
-        ],
-        [
-          18.09938,
-          -65.899203
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-10-17 14:46:07",
-      "arrival": "2026-10-17 14:54:36",
-      "duration_min": 8.5,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Track, Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.4118516,
-      "origin_lng": -66.931655,
-      "destination_lat": 18.4252133,
-      "destination_lng": -66.9267966,
-      "miles": 0,
-      "straight_miles": 0.98,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4118516,
-          -66.931655
-        ],
-        [
-          18.41957,
-          -66.9264449
-        ],
-        [
-          18.4252133,
-          -66.9267966
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -26528,15 +26456,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-10-17 12:40:19",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099423,
-      "lng": -65.899461
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
