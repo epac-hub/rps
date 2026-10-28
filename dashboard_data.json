@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T21:59:03-04:00",
+  "generatedAt": "2026-10-28T04:05:04-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,8 +187,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-10-27 17:45:17",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 51,
-      "stops": 58,
+      "trips": 50,
+      "stops": 57,
       "miles": 347.1,
       "speeding": 3,
       "inefficient_routes": 7,
@@ -266,44 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-10-19 22:55:43",
-      "arrival": "2026-10-19 22:57:07",
-      "duration_min": 1.4,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.418681,
-      "origin_lng": -66.462016,
-      "destination_lat": 18.418681,
-      "destination_lng": -66.462016,
-      "miles": 0,
-      "straight_miles": 0.0,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.418681,
-          -66.462016
-        ],
-        [
-          18.418681,
-          -66.462016
-        ],
-        [
-          18.418681,
-          -66.462016
-        ],
-        [
-          18.418681,
-          -66.462016
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -32124,15 +32086,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-10-19 22:55:46",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.0,
-      "lat": 18.418681,
-      "lng": -66.462016
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
