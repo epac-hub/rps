@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T21:13:57-04:00",
+  "generatedAt": "2026-11-03T03:57:40-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -187,8 +187,8 @@
       "current_status": "Detenido",
       "last_seen": "2026-11-02 17:06:14",
       "current_place": "Residential, Manati, Puerto Rico, 00674",
-      "trips": 49,
-      "stops": 70,
+      "trips": 48,
+      "stops": 69,
       "miles": 230.7,
       "speeding": 2,
       "inefficient_routes": 6,
@@ -266,44 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "departure": "2026-10-25 21:15:34",
-      "arrival": "2026-10-25 21:17:00",
-      "duration_min": 1.4,
-      "origin": "Residential, Manati, Puerto Rico, 00674",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.418646,
-      "origin_lng": -66.462148,
-      "destination_lat": 18.418641,
-      "destination_lng": -66.462048,
-      "miles": 0.03,
-      "straight_miles": 0.01,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.418646,
-          -66.462148
-        ],
-        [
-          18.418646,
-          -66.462148
-        ],
-        [
-          18.418648,
-          -66.462116
-        ],
-        [
-          18.418641,
-          -66.462048
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
@@ -33954,15 +33916,6 @@
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-091 13 ME",
-      "serial": "0470009728",
-      "time": "2026-10-25 21:15:37",
-      "place": "Residential, Manati, Puerto Rico, 00674",
-      "speed": 0.5,
-      "lat": 18.418648,
-      "lng": -66.462116
-    },
     {
       "vehicle": "RPS 994-204 20 RR",
       "serial": "0470009744",
