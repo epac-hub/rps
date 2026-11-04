@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T17:27:33-04:00",
+  "generatedAt": "2026-11-03T21:34:44-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,12 +7,12 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-11-03 17:25:54",
-      "speed": 56.5,
+      "time": "2026-11-03 18:52:56",
+      "speed": 32.9,
       "ignition": "",
-      "lat": 18.45217,
-      "lng": -66.7400116,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612"
+      "lat": 18.4237633,
+      "lng": -66.9252899,
+      "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
       "vehicle": "RPS 1038729 - LV",
@@ -129,12 +129,12 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "current_status": "Moviendo",
-      "last_seen": "2026-11-03 17:25:54",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612",
-      "trips": 67,
+      "last_seen": "2026-11-03 18:52:56",
+      "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "trips": 68,
       "stops": 1,
       "miles": 0,
-      "speeding": 33,
+      "speeding": 34,
       "inefficient_routes": 0,
       "max_speed": 72.7
     },
@@ -34537,6 +34537,88 @@
           -66.462021
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-11-03 16:58:28",
+      "arrival": "2026-11-03 18:01:35",
+      "duration_min": 63.1,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "1x 38kV (Power Line, PREPA, line, 38000), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.42434,
+      "origin_lng": -66.475335,
+      "destination_lat": 18.4355183,
+      "destination_lng": -66.930465,
+      "miles": 0,
+      "straight_miles": 29.84,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.42434,
+          -66.475335
+        ],
+        [
+          18.43084,
+          -66.4750516
+        ],
+        [
+          18.4403599,
+          -66.4888649
+        ],
+        [
+          18.44538,
+          -66.52999
+        ],
+        [
+          18.4415283,
+          -66.5431916
+        ],
+        [
+          18.4448816,
+          -66.6200133
+        ],
+        [
+          18.4417966,
+          -66.6988116
+        ],
+        [
+          18.4586416,
+          -66.7710916
+        ],
+        [
+          18.4882033,
+          -66.796745
+        ],
+        [
+          18.4872816,
+          -66.8132433
+        ],
+        [
+          18.4795466,
+          -66.8359466
+        ],
+        [
+          18.4736316,
+          -66.8699633
+        ],
+        [
+          18.459255,
+          -66.9016416
+        ],
+        [
+          18.443925,
+          -66.9206016
+        ],
+        [
+          18.4355183,
+          -66.930465
+        ]
+      ]
     }
   ],
   "stops": [
@@ -50448,6 +50530,16 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "lat": 18.4448483,
       "lng": -66.4422516
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "time": "2026-11-03 17:27:54",
+      "speed": 67.1,
+      "over": 2.1,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612",
+      "lat": 18.4586416,
+      "lng": -66.7710916
     },
     {
       "vehicle": "RPS 933-090 12 LR",
