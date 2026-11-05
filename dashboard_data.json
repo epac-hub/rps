@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T17:50:52-04:00",
+  "generatedAt": "2026-11-04T21:52:14-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,24 +43,24 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-11-04 17:49:14",
-      "speed": 2.0,
-      "ignition": "IGNITION ON",
-      "lat": 18.296163,
-      "lng": -66.055253,
-      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Caguas, Puerto Rico, 00725"
+      "time": "2026-11-04 19:29:39",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.099433,
+      "lng": -65.899445,
+      "place": "Residential, Yabucoa, Puerto Rico, 00767"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-11-04 17:49:14",
-      "speed": 12.7,
-      "ignition": "IGNITION ON",
-      "lat": 18.421451,
-      "lng": -66.463033,
-      "place": "Camino Polvorín (Residential), Manati, Puerto Rico, 00674"
+      "time": "2026-11-04 17:52:34",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418578,
+      "lng": -66.462001,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -131,7 +131,7 @@
       "current_status": "Moviendo",
       "last_seen": "2026-11-04 14:02:34",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 73,
+      "trips": 71,
       "stops": 0,
       "miles": 0,
       "speeding": 34,
@@ -171,11 +171,11 @@
       "serial": "0470009730",
       "plate": "933-090",
       "current_status": "Detenido",
-      "last_seen": "2026-11-04 17:49:14",
-      "current_place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Caguas, Puerto Rico, 00725",
-      "trips": 42,
-      "stops": 157,
-      "miles": 853.7,
+      "last_seen": "2026-11-04 19:29:39",
+      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "trips": 44,
+      "stops": 161,
+      "miles": 915.0,
       "speeding": 17,
       "inefficient_routes": 8,
       "max_speed": 71.8
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-11-04 17:49:14",
-      "current_place": "Camino Polvorín (Residential), Manati, Puerto Rico, 00674",
-      "trips": 45,
-      "stops": 87,
-      "miles": 164.6,
+      "current_status": "Detenido",
+      "last_seen": "2026-11-04 17:52:34",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 46,
+      "stops": 88,
+      "miles": 188.8,
       "speeding": 1,
       "inefficient_routes": 3,
       "max_speed": 71.1
@@ -266,86 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-10-27 18:10:03",
-      "arrival": "2026-10-27 18:38:56",
-      "duration_min": 28.9,
-      "origin": "Carretera Miguel de Hernández Elías (Secondary, PR-119), Camuy, Puerto Rico, 00627",
-      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.472765,
-      "origin_lng": -66.8520516,
-      "destination_lat": 18.4115,
-      "destination_lng": -66.9308566,
-      "miles": 0,
-      "straight_miles": 6.68,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.472765,
-          -66.8520516
-        ],
-        [
-          18.4771616,
-          -66.8529133
-        ],
-        [
-          18.4698583,
-          -66.8797099
-        ],
-        [
-          18.4470366,
-          -66.9025949
-        ],
-        [
-          18.4449566,
-          -66.929375
-        ],
-        [
-          18.41885,
-          -66.9274166
-        ],
-        [
-          18.4115,
-          -66.9308566
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-10-27 18:41:33",
-      "arrival": "2026-10-27 18:42:29",
-      "duration_min": 0.9,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.4115,
-      "origin_lng": -66.9308566,
-      "destination_lat": 18.4119483,
-      "destination_lng": -66.9315866,
-      "miles": 0,
-      "straight_miles": 0.06,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4115,
-          -66.9308566
-        ],
-        [
-          18.4119483,
-          -66.9315866
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -34849,6 +34769,244 @@
       ]
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-11-04 15:45:52",
+      "arrival": "2026-11-04 19:05:11",
+      "duration_min": 199.3,
+      "origin": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
+      "destination": "PR-9921 (Tertiary, PR-9921;PR-921R), Las Piedras, Puerto Rico, 00771",
+      "origin_lat": 18.424355,
+      "origin_lng": -66.475635,
+      "destination_lat": 18.15646,
+      "destination_lng": -65.862946,
+      "miles": 54.94,
+      "straight_miles": 44.25,
+      "efficiency_ratio": 1.24,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.24x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.424355,
+          -66.475635
+        ],
+        [
+          18.424355,
+          -66.475635
+        ],
+        [
+          18.424355,
+          -66.475635
+        ],
+        [
+          18.424355,
+          -66.47551
+        ],
+        [
+          18.425833,
+          -66.465003
+        ],
+        [
+          18.430438,
+          -66.435523
+        ],
+        [
+          18.432125,
+          -66.425006
+        ],
+        [
+          18.431958,
+          -66.422465
+        ],
+        [
+          18.43925,
+          -66.42135
+        ],
+        [
+          18.431603,
+          -66.33932
+        ],
+        [
+          18.418835,
+          -66.258676
+        ],
+        [
+          18.418958,
+          -66.176001
+        ],
+        [
+          18.416386,
+          -66.102008
+        ],
+        [
+          18.374683,
+          -66.108495
+        ],
+        [
+          18.319198,
+          -66.097055
+        ],
+        [
+          18.314241,
+          -66.090141
+        ],
+        [
+          18.309528,
+          -66.077076
+        ],
+        [
+          18.308661,
+          -66.075755
+        ],
+        [
+          18.307728,
+          -66.074524
+        ],
+        [
+          18.306821,
+          -66.073591
+        ],
+        [
+          18.306066,
+          -66.072688
+        ],
+        [
+          18.305535,
+          -66.071913
+        ],
+        [
+          18.304491,
+          -66.069428
+        ],
+        [
+          18.303858,
+          -66.067449
+        ],
+        [
+          18.30345,
+          -66.066506
+        ],
+        [
+          18.30282,
+          -66.065118
+        ],
+        [
+          18.301168,
+          -66.062461
+        ],
+        [
+          18.300583,
+          -66.061733
+        ],
+        [
+          18.299228,
+          -66.060216
+        ],
+        [
+          18.298361,
+          -66.059181
+        ],
+        [
+          18.298213,
+          -66.058968
+        ],
+        [
+          18.297995,
+          -66.058706
+        ],
+        [
+          18.297296,
+          -66.057618
+        ],
+        [
+          18.296665,
+          -66.056431
+        ],
+        [
+          18.296545,
+          -66.056181
+        ],
+        [
+          18.296285,
+          -66.055538
+        ],
+        [
+          18.296198,
+          -66.055316
+        ],
+        [
+          18.295026,
+          -66.052231
+        ],
+        [
+          18.294755,
+          -66.05182
+        ],
+        [
+          18.293041,
+          -66.049641
+        ],
+        [
+          18.292873,
+          -66.04943
+        ],
+        [
+          18.292101,
+          -66.048518
+        ],
+        [
+          18.291515,
+          -66.047788
+        ],
+        [
+          18.287926,
+          -66.044546
+        ],
+        [
+          18.282475,
+          -66.042734
+        ],
+        [
+          18.276726,
+          -66.041818
+        ],
+        [
+          18.271175,
+          -66.040671
+        ],
+        [
+          18.26,
+          -66.038333
+        ],
+        [
+          18.252655,
+          -66.025611
+        ],
+        [
+          18.247741,
+          -66.013203
+        ],
+        [
+          18.246445,
+          -65.994996
+        ],
+        [
+          18.24644,
+          -65.945151
+        ],
+        [
+          18.19366,
+          -65.89749
+        ],
+        [
+          18.15646,
+          -65.862946
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "departure": "2026-11-04 16:38:48",
@@ -34895,6 +35053,92 @@
         [
           18.424412,
           -66.475501
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-11-04 16:56:17",
+      "arrival": "2026-11-04 17:52:25",
+      "duration_min": 56.1,
+      "origin": "Avenida Las Canelas (Residential), Arecibo, Puerto Rico, 00612",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.473961,
+      "origin_lng": -66.758873,
+      "destination_lat": 18.418578,
+      "destination_lng": -66.462001,
+      "miles": 24.16,
+      "straight_miles": 19.83,
+      "efficiency_ratio": 1.22,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.22x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.473961,
+          -66.758873
+        ],
+        [
+          18.473961,
+          -66.758873
+        ],
+        [
+          18.473961,
+          -66.758873
+        ],
+        [
+          18.463001,
+          -66.757175
+        ],
+        [
+          18.459616,
+          -66.752103
+        ],
+        [
+          18.459615,
+          -66.7521
+        ],
+        [
+          18.459611,
+          -66.752083
+        ],
+        [
+          18.451628,
+          -66.747886
+        ],
+        [
+          18.43724,
+          -66.67764
+        ],
+        [
+          18.438173,
+          -66.60517
+        ],
+        [
+          18.444551,
+          -66.532751
+        ],
+        [
+          18.441645,
+          -66.510185
+        ],
+        [
+          18.433223,
+          -66.475823
+        ],
+        [
+          18.424275,
+          -66.462596
+        ],
+        [
+          18.418578,
+          -66.462003
+        ],
+        [
+          18.418578,
+          -66.462001
         ]
       ]
     },
@@ -34951,27 +35195,59 @@
           -66.428775
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "departure": "2026-11-04 19:14:06",
+      "arrival": "2026-11-04 19:29:30",
+      "duration_min": 15.4,
+      "origin": "PR-9921 (Tertiary, PR-9921;PR-921R), Las Piedras, Puerto Rico, 00771",
+      "destination": "Residential, Yabucoa, Puerto Rico, 00767",
+      "origin_lat": 18.156458,
+      "origin_lng": -65.862946,
+      "destination_lat": 18.099433,
+      "destination_lng": -65.899445,
+      "miles": 6.33,
+      "straight_miles": 4.61,
+      "efficiency_ratio": 1.37,
+      "efficiency": "Revisar",
+      "why_inefficient": "Recorrio 1.37x la distancia directa; supera el umbral eficiente de 1.35x.",
+      "efficient_action": "Para ser eficiente debe acercarse a 6.2 mi o menos; posible ahorro 0.1 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
+      "potential_saved_miles": 0.1,
+      "route_points": [
+        [
+          18.156458,
+          -65.862946
+        ],
+        [
+          18.156458,
+          -65.862946
+        ],
+        [
+          18.156458,
+          -65.862946
+        ],
+        [
+          18.128701,
+          -65.87398
+        ],
+        [
+          18.10556,
+          -65.881458
+        ],
+        [
+          18.099433,
+          -65.899445
+        ],
+        [
+          18.099433,
+          -65.899445
+        ]
+      ]
     }
   ],
   "stops": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-10-27 18:39:01",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.09942,
-      "lng": -65.899388
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-10-27 18:39:41",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.1,
-      "lat": 18.099393,
-      "lng": -65.899438
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
@@ -50883,6 +51159,69 @@
       "speed": 0.0,
       "lat": 18.296198,
       "lng": -66.055316
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-11-04 17:51:37",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418578,
+      "lng": -66.462003
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-04 17:57:45",
+      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Caguas, Puerto Rico, 00725",
+      "speed": 0.0,
+      "lat": 18.294755,
+      "lng": -66.05182
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-04 18:03:46",
+      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Caguas, Puerto Rico, 00725",
+      "speed": 1.3,
+      "lat": 18.292873,
+      "lng": -66.04943
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-04 18:07:05",
+      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Caguas, Puerto Rico, 00725",
+      "speed": 0.1,
+      "lat": 18.292101,
+      "lng": -66.048518
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-04 18:08:36",
+      "place": "Carretera Felipe \"La Voz\" Rodríguez (Trunk, PR-1), Caguas, Puerto Rico, 00725",
+      "speed": 0.0,
+      "lat": 18.291515,
+      "lng": -66.047788
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-04 19:14:09",
+      "place": "PR-9921 (Tertiary, PR-9921;PR-921R), Las Piedras, Puerto Rico, 00771",
+      "speed": 0.0,
+      "lat": 18.156458,
+      "lng": -65.862946
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-04 19:29:25",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.1,
+      "lat": 18.099433,
+      "lng": -65.899445
     }
   ],
   "speeding": [
