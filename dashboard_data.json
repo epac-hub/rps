@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T18:25:05-04:00",
+  "generatedAt": "2026-11-05T22:41:12-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -55,12 +55,12 @@
       "serial": "0470009728",
       "plate": "933-091",
       "description": "MIGUEL ECHEVARRIAPROTESISDPTO PRODUCCION",
-      "time": "2026-11-05 18:23:27",
-      "speed": 30.2,
-      "ignition": "IGNITION ON",
-      "lat": 18.423286,
-      "lng": -66.27374,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646"
+      "time": "2026-11-05 22:05:52",
+      "speed": 0.0,
+      "ignition": "IGNITION OFF",
+      "lat": 18.418668,
+      "lng": -66.462036,
+      "place": "Residential, Manati, Puerto Rico, 00674"
     },
     {
       "vehicle": "RPS 994-204 20 RR",
@@ -184,12 +184,12 @@
       "vehicle": "RPS 933-091 13 ME",
       "serial": "0470009728",
       "plate": "933-091",
-      "current_status": "Moviendo",
-      "last_seen": "2026-11-05 18:23:27",
-      "current_place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
-      "trips": 55,
-      "stops": 95,
-      "miles": 254.6,
+      "current_status": "Detenido",
+      "last_seen": "2026-11-05 22:05:52",
+      "current_place": "Residential, Manati, Puerto Rico, 00674",
+      "trips": 58,
+      "stops": 99,
+      "miles": 276.2,
       "speeding": 2,
       "inefficient_routes": 4,
       "max_speed": 72.9
@@ -34463,6 +34463,180 @@
           -66.188778
         ]
       ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-11-05 17:39:41",
+      "arrival": "2026-11-05 18:44:21",
+      "duration_min": 64.7,
+      "origin": "PR-867 (Tertiary), Sabana Seca, Puerto Rico, 00952",
+      "destination": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "origin_lat": 18.430931,
+      "origin_lng": -66.18878,
+      "destination_lat": 18.439935,
+      "destination_lng": -66.45675,
+      "miles": 19.49,
+      "straight_miles": 17.58,
+      "efficiency_ratio": 1.11,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.11x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.430931,
+          -66.18878
+        ],
+        [
+          18.430931,
+          -66.18878
+        ],
+        [
+          18.414676,
+          -66.209188
+        ],
+        [
+          18.412818,
+          -66.216003
+        ],
+        [
+          18.412501,
+          -66.225984
+        ],
+        [
+          18.418186,
+          -66.234683
+        ],
+        [
+          18.418123,
+          -66.246001
+        ],
+        [
+          18.418408,
+          -66.250299
+        ],
+        [
+          18.418766,
+          -66.256056
+        ],
+        [
+          18.419698,
+          -66.26793
+        ],
+        [
+          18.425858,
+          -66.300951
+        ],
+        [
+          18.427618,
+          -66.36359
+        ],
+        [
+          18.44175,
+          -66.424136
+        ],
+        [
+          18.438858,
+          -66.456491
+        ],
+        [
+          18.439935,
+          -66.456756
+        ],
+        [
+          18.439935,
+          -66.45675
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-11-05 19:04:20",
+      "arrival": "2026-11-05 19:16:40",
+      "duration_min": 12.3,
+      "origin": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.439935,
+      "origin_lng": -66.45675,
+      "destination_lat": 18.4186,
+      "destination_lng": -66.462,
+      "miles": 2.04,
+      "straight_miles": 1.51,
+      "efficiency_ratio": 1.35,
+      "efficiency": "Eficiente",
+      "why_inefficient": "Recorrio 1.35x la distancia directa; esta dentro del umbral operacional de 1.35x.",
+      "efficient_action": "Mantener patron actual; usar como referencia para rutas similares.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.439934,
+          -66.45675
+        ],
+        [
+          18.439935,
+          -66.45675
+        ],
+        [
+          18.439935,
+          -66.45675
+        ],
+        [
+          18.43261,
+          -66.464905
+        ],
+        [
+          18.419345,
+          -66.46225
+        ],
+        [
+          18.4186,
+          -66.462
+        ],
+        [
+          18.4186,
+          -66.462
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "departure": "2026-11-05 22:04:40",
+      "arrival": "2026-11-05 22:05:43",
+      "duration_min": 1.1,
+      "origin": "Residential, Manati, Puerto Rico, 00674",
+      "destination": "Residential, Manati, Puerto Rico, 00674",
+      "origin_lat": 18.418598,
+      "origin_lng": -66.461996,
+      "destination_lat": 18.418668,
+      "destination_lng": -66.462036,
+      "miles": 0.01,
+      "straight_miles": 0.01,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.418598,
+          -66.461996
+        ],
+        [
+          18.418598,
+          -66.461996
+        ],
+        [
+          18.418598,
+          -66.461996
+        ],
+        [
+          18.418668,
+          -66.462036
+        ]
+      ]
     }
   ],
   "stops": [
@@ -50044,6 +50218,42 @@
       "speed": 0.0,
       "lat": 18.424386,
       "lng": -66.475606
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-11-05 18:44:01",
+      "place": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.439935,
+      "lng": -66.456756
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-11-05 19:04:23",
+      "place": "Plaza Monte Real (Retail, retail), Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.439935,
+      "lng": -66.45675
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-11-05 19:16:20",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.4186,
+      "lng": -66.462
+    },
+    {
+      "vehicle": "RPS 933-091 13 ME",
+      "serial": "0470009728",
+      "time": "2026-11-05 22:04:43",
+      "place": "Residential, Manati, Puerto Rico, 00674",
+      "speed": 0.0,
+      "lat": 18.418598,
+      "lng": -66.461996
     }
   ],
   "speeding": [
