@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T18:03:50-04:00",
+  "generatedAt": "2026-11-06T21:49:56-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -131,7 +131,7 @@
       "current_status": "Moviendo",
       "last_seen": "2026-11-06 16:19:25",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 60,
+      "trips": 59,
       "stops": 0,
       "miles": 0,
       "speeding": 27,
@@ -266,52 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-10-29 18:30:19",
-      "arrival": "2026-10-29 18:54:12",
-      "duration_min": 23.9,
-      "origin": "Carretera Miguel de Hernández Elías (Secondary, PR-119), Camuy, Puerto Rico, 00627",
-      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "origin_lat": 18.4727966,
-      "origin_lng": -66.8519949,
-      "destination_lat": 18.4121016,
-      "destination_lng": -66.93165,
-      "miles": 0,
-      "straight_miles": 6.7,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.4727966,
-          -66.8519949
-        ],
-        [
-          18.4717483,
-          -66.8762066
-        ],
-        [
-          18.4578849,
-          -66.9101433
-        ],
-        [
-          18.44408,
-          -66.9230216
-        ],
-        [
-          18.41939,
-          -66.9261083
-        ],
-        [
-          18.4121016,
-          -66.93165
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
