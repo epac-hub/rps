@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:01:08-04:00",
+  "generatedAt": "2026-11-08T15:29:43-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -7,11 +7,11 @@
       "serial": "866846053686225",
       "plate": "1035617",
       "description": "DAVID VEGAPROTESISDPTO PRODUCCION",
-      "time": "2026-11-06 16:19:25",
-      "speed": 25.5,
+      "time": "2026-11-08 14:12:02",
+      "speed": 0.0,
       "ignition": "",
-      "lat": 18.4245183,
-      "lng": -66.9252616,
+      "lat": 18.4120616,
+      "lng": -66.9315849,
       "place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678"
     },
     {
@@ -128,10 +128,10 @@
       "vehicle": "RPS 1035617 - DV",
       "serial": "866846053686225",
       "plate": "1035617",
-      "current_status": "Moviendo",
-      "last_seen": "2026-11-06 16:19:25",
+      "current_status": "Detenido",
+      "last_seen": "2026-11-08 14:12:02",
       "current_place": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "trips": 50,
+      "trips": 54,
       "stops": 0,
       "miles": 0,
       "speeding": 19,
@@ -28117,6 +28117,60 @@
       ]
     },
     {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-11-06 15:44:07",
+      "arrival": "2026-11-06 16:28:41",
+      "duration_min": 44.6,
+      "origin": "Total (Convenience), Carretera Militar, Camuy, Puerto Rico, 00627",
+      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4725716,
+      "origin_lng": -66.8744966,
+      "destination_lat": 18.4117816,
+      "destination_lng": -66.9314583,
+      "miles": 0,
+      "straight_miles": 5.62,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4725716,
+          -66.8744966
+        ],
+        [
+          18.45896,
+          -66.90245
+        ],
+        [
+          18.4441749,
+          -66.9231883
+        ],
+        [
+          18.44472,
+          -66.9294083
+        ],
+        [
+          18.43517,
+          -66.9304833
+        ],
+        [
+          18.4245183,
+          -66.9252616
+        ],
+        [
+          18.41139,
+          -66.9310316
+        ],
+        [
+          18.4117816,
+          -66.9314583
+        ]
+      ]
+    },
+    {
       "vehicle": "RPS IRK-578 17 AM",
       "serial": "0470009725",
       "departure": "2026-11-06 15:47:20",
@@ -28391,6 +28445,36 @@
         [
           18.424713,
           -66.475565
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-11-06 16:55:23",
+      "arrival": "2026-11-06 16:56:12",
+      "duration_min": 0.8,
+      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4117816,
+      "origin_lng": -66.9314583,
+      "destination_lat": 18.4120933,
+      "destination_lng": -66.9316133,
+      "miles": 0,
+      "straight_miles": 0.02,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4117816,
+          -66.9314583
+        ],
+        [
+          18.4120933,
+          -66.9316133
         ]
       ]
     },
@@ -29017,6 +29101,94 @@
         [
           18.099525,
           -65.898928
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-11-08 13:20:25",
+      "arrival": "2026-11-08 13:31:28",
+      "duration_min": 11.1,
+      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "destination": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4120933,
+      "origin_lng": -66.9316133,
+      "destination_lat": 18.4336483,
+      "destination_lng": -66.9148816,
+      "miles": 0,
+      "straight_miles": 1.85,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4120933,
+          -66.9316133
+        ],
+        [
+          18.4357583,
+          -66.9294533
+        ],
+        [
+          18.43363,
+          -66.91489
+        ],
+        [
+          18.4336483,
+          -66.9148816
+        ]
+      ]
+    },
+    {
+      "vehicle": "RPS 1035617 - DV",
+      "serial": "866846053686225",
+      "departure": "2026-11-08 13:40:05",
+      "arrival": "2026-11-08 14:10:24",
+      "duration_min": 30.3,
+      "origin": "PR-478 (Tertiary), Quebradillas, Puerto Rico, 00678",
+      "destination": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
+      "origin_lat": 18.4336733,
+      "origin_lng": -66.9148533,
+      "destination_lat": 18.4120616,
+      "destination_lng": -66.9315849,
+      "miles": 0,
+      "straight_miles": 1.85,
+      "efficiency_ratio": null,
+      "efficiency": "Sin distancia suficiente",
+      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
+      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
+      "potential_saved_miles": 0,
+      "route_points": [
+        [
+          18.4336733,
+          -66.9148533
+        ],
+        [
+          18.4522383,
+          -66.92022
+        ],
+        [
+          18.4550683,
+          -66.91019
+        ],
+        [
+          18.4507916,
+          -66.9051783
+        ],
+        [
+          18.4439016,
+          -66.922275
+        ],
+        [
+          18.4205116,
+          -66.9258699
+        ],
+        [
+          18.4120616,
+          -66.9315849
         ]
       ]
     }
