@@ -31,10 +31,16 @@ Interactive SkyTrackIt dashboard for RPS Medical fleet operations.
 - Control-room strip with latest signal, refresh cadence, worst route ratio, top stop unit, and top speeding unit.
 - Auto-generated action plan for stopped vehicles, route inefficiency, speeding, and GPS signal gaps, with direct steps to reduce risk.
 - Route quality summary separating efficient, review, and inefficient trips. Route tables include cause, alternative action, and estimated miles that could be saved.
-- Browser password gate. Current access password: `melvinmelvin`.
-- Local auto-refresh scheduled every 5 minutes from the publishing machine.
+- Browser password gate. The password is never stored in this repository: it comes from the `DASHBOARD_PASSWORD` repository secret, and the page only embeds its SHA-256 hash.
+- Automatic refresh through GitHub Actions. The schedule requests a run every 5 minutes, but GitHub delays high-frequency scheduled workflows; in practice runs land every few hours.
 
 Open `index.html` directly or serve this repository with GitHub Pages.
+
+## Access Password
+
+Set the repository secret `DASHBOARD_PASSWORD` (Settings > Secrets and variables > Actions) to choose the access password. The next refresh run rebuilds the page with the new hash. If the secret is missing, the build falls back to the previous password and logs a warning.
+
+The gate only hides the page in the browser. The fleet data is embedded in `index.html` and published in `dashboard_data.json` and the CSV files, so anyone who can read this repository or its GitHub Pages site can read the data. Keep the repository private for real access control.
 
 ## Live Refresh
 
