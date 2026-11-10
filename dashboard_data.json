@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T23:00:27-04:00",
+  "generatedAt": "2026-11-10T06:59:09-04:00",
   "speedLimit": 65,
   "vehicles": [
     {
@@ -43,12 +43,12 @@
       "serial": "0470009730",
       "plate": "933-090",
       "description": "LUIS REYESPROTESISDPTO PRODUCCION",
-      "time": "2026-11-09 14:50:01",
-      "speed": 0.0,
-      "ignition": "IGNITION OFF",
-      "lat": 18.09941,
-      "lng": -65.899416,
-      "place": "Residential, Yabucoa, Puerto Rico, 00767"
+      "time": "2026-11-10 06:58:03",
+      "speed": 30.1,
+      "ignition": "IGNITION ON",
+      "lat": 18.289735,
+      "lng": -66.041815,
+      "place": "Autopista Luis A. Ferré (Motorway, PR-52), Caguas, Puerto Rico, 00725"
     },
     {
       "vehicle": "RPS 933-091 13 ME",
@@ -131,7 +131,7 @@
       "current_status": "Moviendo",
       "last_seen": "2026-11-09 13:11:34",
       "current_place": "Avenida Víctor M. Curbelo (Tertiary, PR-113), Quebradillas, Puerto Rico, 00678",
-      "trips": 62,
+      "trips": 61,
       "stops": 0,
       "miles": 0,
       "speeding": 21,
@@ -170,13 +170,13 @@
       "vehicle": "RPS 933-090 12 LR",
       "serial": "0470009730",
       "plate": "933-090",
-      "current_status": "Detenido",
-      "last_seen": "2026-11-09 14:50:01",
-      "current_place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "trips": 51,
-      "stops": 164,
-      "miles": 927.0,
-      "speeding": 6,
+      "current_status": "Moviendo",
+      "last_seen": "2026-11-10 06:58:03",
+      "current_place": "Autopista Luis A. Ferré (Motorway, PR-52), Caguas, Puerto Rico, 00725",
+      "trips": 50,
+      "stops": 166,
+      "miles": 863.5,
+      "speeding": 7,
       "inefficient_routes": 8,
       "max_speed": 71.7
     },
@@ -266,210 +266,6 @@
     }
   ],
   "trips": [
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "departure": "2026-11-02 06:06:41",
-      "arrival": "2026-11-02 07:58:42",
-      "duration_min": 112.0,
-      "origin": "Residential, Yabucoa, Puerto Rico, 00767",
-      "destination": "Carretera 670 (Tertiary, PR-670), Manati, Puerto Rico, 00693",
-      "origin_lat": 18.099332,
-      "origin_lng": -65.899308,
-      "destination_lat": 18.424392,
-      "destination_lng": -66.475515,
-      "miles": 63.57,
-      "straight_miles": 43.97,
-      "efficiency_ratio": 1.45,
-      "efficiency": "Revisar",
-      "why_inefficient": "Recorrio 1.45x la distancia directa; supera el umbral eficiente de 1.35x.",
-      "efficient_action": "Para ser eficiente debe acercarse a 59.4 mi o menos; posible ahorro 4.2 mi. Revisar trafico, secuencia de entregas y desvio autorizado.",
-      "potential_saved_miles": 4.2,
-      "route_points": [
-        [
-          18.099332,
-          -65.899308
-        ],
-        [
-          18.099332,
-          -65.899308
-        ],
-        [
-          18.099332,
-          -65.899308
-        ],
-        [
-          18.0983,
-          -65.890878
-        ],
-        [
-          18.119789,
-          -65.877161
-        ],
-        [
-          18.151583,
-          -65.861765
-        ],
-        [
-          18.196583,
-          -65.899718
-        ],
-        [
-          18.245563,
-          -65.942775
-        ],
-        [
-          18.249583,
-          -65.959488
-        ],
-        [
-          18.25016,
-          -65.964345
-        ],
-        [
-          18.249195,
-          -65.972271
-        ],
-        [
-          18.24928,
-          -65.981628
-        ],
-        [
-          18.247355,
-          -66.011723
-        ],
-        [
-          18.282931,
-          -66.03505
-        ],
-        [
-          18.319285,
-          -66.035465
-        ],
-        [
-          18.348255,
-          -66.070043
-        ],
-        [
-          18.39095,
-          -66.07136
-        ],
-        [
-          18.419433,
-          -66.086076
-        ],
-        [
-          18.42135,
-          -66.160466
-        ],
-        [
-          18.418246,
-          -66.243053
-        ],
-        [
-          18.425825,
-          -66.292289
-        ],
-        [
-          18.429535,
-          -66.378443
-        ],
-        [
-          18.432121,
-          -66.424658
-        ],
-        [
-          18.426588,
-          -66.46026
-        ],
-        [
-          18.424391,
-          -66.475518
-        ],
-        [
-          18.424392,
-          -66.475515
-        ]
-      ]
-    },
-    {
-      "vehicle": "RPS 1035617 - DV",
-      "serial": "866846053686225",
-      "departure": "2026-11-02 06:54:56",
-      "arrival": "2026-11-02 07:58:16",
-      "duration_min": 63.3,
-      "origin": "Carretera Principal Charcas (Tertiary, PR-437), Quebradillas, Puerto Rico, 00678",
-      "destination": "Residential, Manati, Puerto Rico, 00674",
-      "origin_lat": 18.41202,
-      "origin_lng": -66.9316016,
-      "destination_lat": 18.4247349,
-      "destination_lng": -66.4754566,
-      "miles": 0,
-      "straight_miles": 29.92,
-      "efficiency_ratio": null,
-      "efficiency": "Sin distancia suficiente",
-      "why_inefficient": "La salida y llegada estan demasiado cerca o falta odometro para evaluar eficiencia.",
-      "efficient_action": "Validar GPS/odometro; esta ruta no tiene distancia suficiente para comparacion operacional.",
-      "potential_saved_miles": 0,
-      "route_points": [
-        [
-          18.41202,
-          -66.9316016
-        ],
-        [
-          18.4227649,
-          -66.9254066
-        ],
-        [
-          18.443745,
-          -66.9188766
-        ],
-        [
-          18.4597333,
-          -66.8979283
-        ],
-        [
-          18.4743466,
-          -66.8655583
-        ],
-        [
-          18.4847716,
-          -66.8195483
-        ],
-        [
-          18.4880166,
-          -66.79429
-        ],
-        [
-          18.4528616,
-          -66.747
-        ],
-        [
-          18.436915,
-          -66.6804783
-        ],
-        [
-          18.4391916,
-          -66.6069016
-        ],
-        [
-          18.4441866,
-          -66.5339983
-        ],
-        [
-          18.4363449,
-          -66.4768966
-        ],
-        [
-          18.4332733,
-          -66.4758683
-        ],
-        [
-          18.4247349,
-          -66.4754566
-        ]
-      ]
-    },
     {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
@@ -34597,24 +34393,6 @@
   ],
   "stops": [
     {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-11-02 06:06:44",
-      "place": "Residential, Yabucoa, Puerto Rico, 00767",
-      "speed": 0.0,
-      "lat": 18.099332,
-      "lng": -65.899308
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-11-02 06:41:00",
-      "place": "Expreso Cruz Ortiz Stella (Motorway, PR-30), Gurabo, Puerto Rico, 00778",
-      "speed": 0.1,
-      "lat": 18.25016,
-      "lng": -65.964345
-    },
-    {
       "vehicle": "RPS 994-209 19 MD",
       "serial": "0470009727",
       "time": "2026-11-02 07:04:44",
@@ -50039,6 +49817,42 @@
       "speed": 0.0,
       "lat": 18.42438,
       "lng": -66.47553
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-10 06:00:26",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.09941,
+      "lng": -65.899416
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-10 06:03:26",
+      "place": "Residential, Yabucoa, Puerto Rico, 00767",
+      "speed": 0.0,
+      "lat": 18.099409,
+      "lng": -65.899418
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-10 06:37:22",
+      "place": "Expreso Cruz Ortiz Stella (Motorway, PR-30), Gurabo, Puerto Rico, 00778",
+      "speed": 0.2,
+      "lat": 18.250038,
+      "lng": -65.965298
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-10 06:38:04",
+      "place": "Expreso Cruz Ortiz Stella (Motorway, PR-30), Gurabo, Puerto Rico, 00778",
+      "speed": 0.1,
+      "lat": 18.249928,
+      "lng": -65.965733
     }
   ],
   "speeding": [
@@ -50363,6 +50177,16 @@
       "lng": -66.554973
     },
     {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-02 07:37:09",
+      "speed": 69.8,
+      "over": 4.8,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Dorado, Puerto Rico, 00646",
+      "lat": 18.425376,
+      "lng": -66.288471
+    },
+    {
       "vehicle": "RPS 933-089 11 EO",
       "serial": "0470009731",
       "time": "2026-11-03 09:24:55",
@@ -50431,16 +50255,6 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Arecibo, Puerto Rico, 00612",
       "lat": 18.4533083,
       "lng": -66.7526116
-    },
-    {
-      "vehicle": "RPS 933-090 12 LR",
-      "serial": "0470009730",
-      "time": "2026-11-02 07:28:49",
-      "speed": 67.3,
-      "over": 2.3,
-      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Bayamon, Puerto Rico, 00961",
-      "lat": 18.42135,
-      "lng": -66.160466
     },
     {
       "vehicle": "RPS 1038729 - LV",
@@ -50651,6 +50465,16 @@
       "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Vega Baja, Puerto Rico, 00693",
       "lat": 18.440578,
       "lng": -66.402251
+    },
+    {
+      "vehicle": "RPS 933-090 12 LR",
+      "serial": "0470009730",
+      "time": "2026-11-02 07:31:40",
+      "speed": 65.9,
+      "over": 0.9,
+      "place": "Autopista José de Diego (Motorway, Expreso José de Diego, PR-22), Toa Baja, Puerto Rico, 00949",
+      "lat": 18.415416,
+      "lng": -66.207448
     },
     {
       "vehicle": "RPS 1038729 - LV",
